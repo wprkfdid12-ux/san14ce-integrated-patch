@@ -1,0 +1,75 @@
+{
+  "sha256": "83e9ea7e3ace6c79a34e16436bf1bdbe1908a9616651033518cf84ce01d3ca47",
+  "functions": {
+    "logline": [
+      4096,
+      32
+    ],
+    "guard": [
+      4128,
+      109
+    ],
+    "active_duel": [
+      4240,
+      99
+    ],
+    "pace": [
+      4352,
+      392
+    ],
+    "present_clock": [
+      4752,
+      35
+    ],
+    "engine_fps": [
+      4800,
+      42
+    ],
+    "direction_update": [
+      4848,
+      46
+    ],
+    "release_setup": [
+      4896,
+      183
+    ],
+    "call_patch": [
+      5088,
+      170
+    ],
+    "fixed_patch": [
+      5264,
+      87
+    ],
+    "block_call": [
+      5360,
+      299
+    ],
+    "duel_update": [
+      5664,
+      163
+    ],
+    "SAN14_FPS120InfoV1": [
+      5840,
+      8
+    ],
+    "engine_step_bits": [
+      5856,
+      29
+    ],
+    "SAN14_ModInitV1": [
+      5888,
+      1866
+    ],
+    "DllMain": [
+      7760,
+      6
+    ],
+    "engine_step_bridge": [
+      7766,
+      177
+    ]
+  },
+  "unwind_entries": 17,
+  "imports": []
+}

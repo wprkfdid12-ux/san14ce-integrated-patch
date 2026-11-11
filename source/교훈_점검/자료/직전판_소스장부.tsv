@@ -1,0 +1,60 @@
+# 통합패치가 설치하는 DLL 전부의 소스 상태. 목표: "바이너리" 줄이 0 이 되는 것(사용자 11-10: 어떤 모드에도 "원소스가 없어서 못 했다"가 안 나오게).
+# 규칙: 새 DLL 을 넣으면 여기 줄부터. "바이너리" 줄은 늘릴 수 없음(점검 c04 가 막음). 소스로 바꾸면 상태를 "소스"로, 소스·빌드 칸을 채움.
+DLL	설치기번호	상태	소스	빌드	비고
+SAN14_Notice.dll	기본	소스	src/notice.cpp	build_all.sh	
+SAN14_SettingsHelpScenic.dll	기본(4)	소스	src/settings_help.cpp	build_all.sh	22번 유무에 따라 두 벌(-DSAN14_DOMESTIC_UI_BRIDGE)
+SAN14_CrashLog.dll	기본	소스	src/crash_log.c	build_all.sh	
+SAN14_Diag.dll	기본	소스	src/diag.cpp	build_all.sh	
+SAN14_ModSettings.dll	기본(1)	소스	src/mod_settings.cpp	build_all.sh	
+SAN14_ICGuard.dll	기본	소스	src/ic_guard.cpp	build_all.sh	통합편의를 감싸는 보강 — 통합편의 자립(4판) 때 같이 정리
+SAN14_AutoPersonnelRepair.dll	2	소스	src/auto_personnel_repair.cpp	build_all.sh	
+SAN14_AutoMerit.dll	2	소스	src/auto_merit.cpp	build_all.sh	
+SAN14_SceneSkip.dll	4	소스	src/scene_skip.cpp;src/scene_skip_b23.cpp	build_all.sh	
+SAN14_Traits9Check.dll	9·13	소스	src/traits9_check.cpp	build_all.sh	
+SAN14_MeritTraits.dll	13	소스	mt/src/merit_runtime.c;mt/src/merit_core.c;mt/src/gacha.c	mt/build_new.sh	
+SAN14_MeritResolver_CEKO.dll	13	소스	mt/merit_resolver.c	mt/build_new.sh	
+SAN14_Stats200New.dll	17	소스	src/stats200_new.cpp	build_all.sh	
+SAN14_PrisonerReturn.dll	21	소스	src/prisoner_return.cpp	build_all.sh	
+SAN14_DomesticTalent.dll	22	소스	src/domestic_talent.cpp	build_all.sh	
+SAN14_DomesticAI.dll	22	소스	src/domestic_ai.cpp	build_all.sh	
+SAN14_DomesticPlayer.dll	22	소스	src/domestic_player.cpp	build_all.sh	
+SAN14_Patch27.dll	1·25	소스	src/patch27.cpp;src/patch27_ui.cpp;src/officer_names.cpp;src/death_log.cpp;src/city_event_skip.cpp	build_all.sh	
+SAN14_ExecuteLock.dll	26	소스	src/execute_lock.cpp	build_all.sh	
+SAN14_StatusColor.dll	29	소스	src/status_color.cpp	build_all.sh	
+SAN14_ItemPicture.dll	30	소스	src/item_picture.cpp	build_all.sh	
+SAN14_HiredFace.dll	32	소스	src/hired_face.cpp	build_all.sh	
+SAN14_Range.dll	33	소스	src/range.cpp	build_all.sh	
+SAN14_RegionOfficer.dll	34	소스	src/region_officer.cpp	build_all.sh	
+SAN14_FPS120Late.dll	19	소스	src/fps120_late.cpp	build_all.sh	2026-11-10 P201: 19번 본체(바이너리)를 싣고, 통합편의 6번 검사 동안 일기토 호출 자리를 원래대로 두는 부품
+SAN14_FPS120.dll	19	바이너리			자립 2판: 옛 R8 소스(kits/FPS120_R8_옛소스, 롤백판 주소)를 새 판으로 옮겨 다시 짬. 그때 SAN14_FPS120Late.dll 을 합침
+SAN14_RelatedOfficersTab.dll	15	바이너리			자립 2판. 옛 판(1.0.1) 소스 있음(related_officers_rc24). 통합편의 확인 구간과 안 겹침(11-10 다시 확인)
+SAN14_RelatedOfficersResolver.dll	15	바이너리			자립 2판(15번과 한 묶음)
+SAN14_WheelRegion.dll	30	소스	kits/WheelRegion/src/wheel_region.c;kits/WheelRegion/dll/wr_dll.c;kits/WheelRegion/dll/wr_ic_wait.h	kits/WheelRegion/build.sh	2026-11-10 자립 1판: 키트 소스가 꾸러미 파일과 바이트까지 같음을 확인(2b16c325) → 통합편의 확인 뒤 설치를 소스에 넣음
+SAN14_DragGive.dll	30	바이너리			자립 2판: 키트(DragGive_Kit_v1.1) 빌드 결과가 꾸러미 파일과 다름 — 어느 판 소스인지부터 확인
+SAN14_DragLearn.dll	30	소스	kits/DragLearn/src/drag_learn.c	kits/DragLearn/build.sh	2026-11-10: 키트 소스 빌드 = 꾸러미 파일(7cc6e07b) 확인. 손대지 않음
+SAN14_FastMenu.dll	30	바이너리			자립 2판: 키트(FastMenu_Kit_v1.2) 빌드 결과가 꾸러미 파일과 다름 — 어느 판 소스인지부터 확인
+SAN14_CityCaps.dll	23	바이너리			자립 2판(자료 3칸)
+SAN14_SortiePresets.dll	16	바이너리			자립 2판
+SAN14_Resolver_PresetGroups_CEKO.dll	16	바이너리			자립 2판(16번과 한 묶음)
+SAN14_Population.dll	28	바이너리			자립 2판(ModCore 안 거침)
+SAN14_NoExecute.dll	26	바이너리			자립 2판(ModCore 안 거침)
+SAN14_RoninEscape.dll	26	바이너리			자립 2판(ModCore 안 거침)
+SAN14_AISearch.dll	26	바이너리			자립 2판(ModCore 안 거침)
+SAN14_Traits9.dll	9·13	바이너리			자립 3판(9번 본체 5자리)
+SAN14_Traits9_UI.dll	9·13	바이너리			자립 3판(9칸 화면 146칸)
+SAN14_Collab.dll	9	바이너리			자립 3판
+SAN14_TraitHover.dll	14	바이너리			자립 3판(개성·전법 설명 152칸)
+SAN14_ModPackBridge.dll	9·11·14·17	바이너리			자립 3판(옛 모음팩 싣는 다리 — 9·14번이 소스가 되면 없앰)
+SAN14_ModCore.dll	기본	바이너리			자립 4판. 기록 머리줄의 판 글자가 옛 값 그대로 찍히는 것도 그때 고침(L110)
+SAN14_Resolver_CEKO.dll	기본	바이너리			자립 4판(IP01 과 같은 파일)
+SAN14_Resolver_IP01.dll	기본	바이너리			자립 4판
+SAN14_ExtBridge.dll	기본	바이너리			자립 4판(26·27·28·30 확장 싣는 다리)
+SAN14_IntegratedConvenience.dll	기본(1~7)	바이너리			자립 5판: 기능 하나씩 우리 소스로(5·6번 먼저). 1판에서 2번 명승 자동 투자부터 옮김
+SAN14_DomesticCE.dll	22	바이너리			자립 6판(남은 것: AI 명령서 99장·저돌)
+SAN14_FogTrial.dll	27	바이너리			자립 6판(독립 미니맵)
+libcrypto-3-x64.dll	8	남의런타임			파이썬 런타임
+libffi-8.dll	8	남의런타임			파이썬 런타임
+python3.dll	8	남의런타임			파이썬 런타임
+python312.dll	8	남의런타임			파이썬 런타임
+vcruntime140_1.dll	8	남의런타임			MS 런타임
+vcruntime140.dll	8	남의런타임			MS 런타임

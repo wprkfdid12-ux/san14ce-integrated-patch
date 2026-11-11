@@ -1,0 +1,4 @@
+RC4-R13-PreviewReroll_Perf
+R12에서 이어 작업. 유비/마등의 사용자 확인 사항 유지.
+현재 근거 audit/r13_suite_run.json. R12 이전 audit는 역사자료.
+실게임 Windows/GPU/FPS 측정 미완료. 검증된 코드 개선을 FPS 회복 인증으로 표현하지 말 것.

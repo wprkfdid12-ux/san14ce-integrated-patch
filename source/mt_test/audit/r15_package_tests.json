@@ -1,0 +1,375 @@
+{
+  "version": "RC4-R15-RulerDomestic-AITurnPerf",
+  "scope": "R15 artifact gate. Static installer checks; no Windows installation claim.",
+  "passed": 91,
+  "tests": [
+    {
+      "name": "R15 version agreement",
+      "pass": true
+    },
+    {
+      "name": "installable build does not claim live-game verification",
+      "pass": true
+    },
+    {
+      "name": "exact eight payload files match SHA256 manifest",
+      "pass": true
+    },
+    {
+      "name": "R13 baseline: only main DLL and two metadata files change",
+      "pass": true
+    },
+    {
+      "name": "R13 upgrade recognizes SAN14Mods/manifests/MeritTraits.json",
+      "pass": true
+    },
+    {
+      "name": "R13 upgrade recognizes SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "R13 upgrade recognizes SAN14Mods/modules/MeritTraits.ini",
+      "pass": true
+    },
+    {
+      "name": "R14 baseline: only main DLL and two metadata files change",
+      "pass": true
+    },
+    {
+      "name": "R14 upgrade recognizes SAN14Mods/manifests/MeritTraits.json",
+      "pass": true
+    },
+    {
+      "name": "R14 upgrade recognizes SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "R14 upgrade recognizes SAN14Mods/modules/MeritTraits.ini",
+      "pass": true
+    },
+    {
+      "name": "source changes limited to domestic bonuses, cached calculations, guard and version",
+      "pass": true
+    },
+    {
+      "name": "unchanged original dependency/DB/state/UI: merit_resolver.c",
+      "pass": true
+    },
+    {
+      "name": "unchanged original dependency/DB/state/UI: merit_core.c",
+      "pass": true
+    },
+    {
+      "name": "unchanged original dependency/DB/state/UI: slot_store.inc",
+      "pass": true
+    },
+    {
+      "name": "unchanged original dependency/DB/state/UI: native_ui.inc",
+      "pass": true
+    },
+    {
+      "name": "unchanged original dependency/DB/state/UI: native_controls.inc",
+      "pass": true
+    },
+    {
+      "name": "unchanged original dependency/DB/state/UI: native_selection.inc",
+      "pass": true
+    },
+    {
+      "name": "unchanged original dependency/DB/state/UI: native_notice.inc",
+      "pass": true
+    },
+    {
+      "name": "unchanged original dependency/DB/state/UI: display_patch.inc",
+      "pass": true
+    },
+    {
+      "name": "unchanged original dependency/DB/state/UI: presets_x_adapter.inc",
+      "pass": true
+    },
+    {
+      "name": "unchanged original dependency/DB/state/UI: hover_x_adapter.inc",
+      "pass": true
+    },
+    {
+      "name": "unchanged original dependency/DB/state/UI: official_db.h",
+      "pass": true
+    },
+    {
+      "name": "unchanged original dependency/DB/state/UI: collab_db.h",
+      "pass": true
+    },
+    {
+      "name": "existing installer/backup/rollback/collector preserved: BackupSaves.ps1",
+      "pass": true
+    },
+    {
+      "name": "existing installer/backup/rollback/collector preserved: CaptureRuntime.ps1",
+      "pass": true
+    },
+    {
+      "name": "existing installer/backup/rollback/collector preserved: CollectLogs.ps1",
+      "pass": true
+    },
+    {
+      "name": "existing installer/backup/rollback/collector preserved: Diagnostics.Common.ps1",
+      "pass": true
+    },
+    {
+      "name": "existing installer/backup/rollback/collector preserved: INSTALL.cmd",
+      "pass": true
+    },
+    {
+      "name": "existing installer/backup/rollback/collector preserved: Install.ps1",
+      "pass": true
+    },
+    {
+      "name": "existing installer/backup/rollback/collector preserved: Installer.Common.ps1",
+      "pass": true
+    },
+    {
+      "name": "existing installer/backup/rollback/collector preserved: ROLLBACK.cmd",
+      "pass": true
+    },
+    {
+      "name": "existing installer/backup/rollback/collector preserved: Rollback.ps1",
+      "pass": true
+    },
+    {
+      "name": "existing installer/backup/rollback/collector preserved: UNINSTALL.cmd",
+      "pass": true
+    },
+    {
+      "name": "existing installer/backup/rollback/collector preserved: Uninstall.ps1",
+      "pass": true
+    },
+    {
+      "name": "existing installer/backup/rollback/collector preserved: 가챠로그추출.cmd",
+      "pass": true
+    },
+    {
+      "name": "existing installer/backup/rollback/collector preserved: 문제자료모으기.cmd",
+      "pass": true
+    },
+    {
+      "name": "existing installer/backup/rollback/collector preserved: 세이브백업.cmd",
+      "pass": true
+    },
+    {
+      "name": "existing installer/backup/rollback/collector preserved: 실게임자료수집.cmd",
+      "pass": true
+    },
+    {
+      "name": "deterministic main-only rebuild: SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "tested binary equals payload: SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "deterministic main-only rebuild: SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "tested binary equals payload: SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 PE: SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "no writable executable section: SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 PE: dxgi.dll",
+      "pass": true
+    },
+    {
+      "name": "no writable executable section: dxgi.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 PE: UI_Traits9_Hover.dll",
+      "pass": true
+    },
+    {
+      "name": "no writable executable section: UI_Traits9_Hover.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 PE: SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "no writable executable section: SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 PE: SAN14_ModCore.dll",
+      "pass": true
+    },
+    {
+      "name": "no writable executable section: SAN14_ModCore.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 PE: SAN14_Resolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "no writable executable section: SAN14_Resolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "optimizations add no imported OS functions",
+      "pass": true
+    },
+    {
+      "name": "public DLL export ABI unchanged",
+      "pass": true
+    },
+    {
+      "name": "R14 read-only observer ABI remains compatible",
+      "pass": true
+    },
+    {
+      "name": "release explicitly preserves AI rerolls and excludes bottom row tickets",
+      "pass": true
+    },
+    {
+      "name": "Windows script encoding and static syntax: Installer.Common.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows script encoding and static syntax: BackupSaves.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows script encoding and static syntax: Uninstall.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows script encoding and static syntax: CaptureUIPerformance.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows script encoding and static syntax: CollectLogs.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows script encoding and static syntax: Diagnostics.Common.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows script encoding and static syntax: Rollback.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows script encoding and static syntax: CaptureRuntime.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows script encoding and static syntax: Install.ps1",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launcher: ROLLBACK.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launcher: UI호출진단.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launcher: 실게임자료수집.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launcher: 문제자료모으기.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launcher: 가챠로그추출.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launcher: UNINSTALL.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launcher: 세이브백업.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launcher: INSTALL.cmd",
+      "pass": true
+    },
+    {
+      "name": "executed regression report: r6_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report: r7_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report: r9_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report: r11_compat_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report: cp03_stack_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report: r11_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report: r12_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report: r13_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report: r14_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report: r14_performance_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report: r15_domestic_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report: r15_gacha_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report: r15_performance_tests.json",
+      "pass": true
+    },
+    {
+      "name": "AI benchmark identifies exact final payload binary",
+      "pass": true
+    },
+    {
+      "name": "documentation reports all requested scopes and measurement limits",
+      "pass": true
+    }
+  ],
+  "dll_sha256": {
+    "SAN14_MeritTraits.dll": "8728e563e962e2728e14d4910455f2fe66c56163bc1e1ebca0f06989a7bdedc3",
+    "SAN14_MeritResolver_CEKO.dll": "73d48b3896beed61b95538478f2ce57fcf6583e8c60f0e241ffeaaf8ca46ecfc"
+  }
+}

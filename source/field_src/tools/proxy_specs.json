@@ -1,0 +1,319 @@
+[
+  {
+    "dll": "version",
+    "entries": [
+      {
+        "name": "GetFileVersionInfoA"
+      },
+      {
+        "name": "GetFileVersionInfoByHandle"
+      },
+      {
+        "name": "GetFileVersionInfoExA"
+      },
+      {
+        "name": "GetFileVersionInfoExW"
+      },
+      {
+        "name": "GetFileVersionInfoSizeA"
+      },
+      {
+        "name": "GetFileVersionInfoSizeExA"
+      },
+      {
+        "name": "GetFileVersionInfoSizeExW"
+      },
+      {
+        "name": "GetFileVersionInfoSizeW"
+      },
+      {
+        "name": "GetFileVersionInfoW"
+      },
+      {
+        "name": "VerFindFileA"
+      },
+      {
+        "name": "VerFindFileW"
+      },
+      {
+        "name": "VerInstallFileA"
+      },
+      {
+        "name": "VerInstallFileW"
+      },
+      {
+        "name": "VerLanguageNameA"
+      },
+      {
+        "name": "VerLanguageNameW"
+      },
+      {
+        "name": "VerQueryValueA"
+      },
+      {
+        "name": "VerQueryValueW"
+      }
+    ]
+  },
+  {
+    "dll": "dinput8",
+    "entries": [
+      {
+        "name": "DirectInput8Create"
+      },
+      {
+        "name": "DllCanUnloadNow"
+      },
+      {
+        "name": "DllGetClassObject"
+      },
+      {
+        "name": "DllRegisterServer"
+      },
+      {
+        "name": "DllUnregisterServer"
+      },
+      {
+        "name": "GetdfDIJoystick"
+      }
+    ]
+  },
+  {
+    "dll": "dxgi",
+    "entries": [
+      {
+        "name": "ApplyCompatResolutionQuirking"
+      },
+      {
+        "name": "CompatString"
+      },
+      {
+        "name": "CompatValue"
+      },
+      {
+        "name": "D3DKMTCloseAdapter"
+      },
+      {
+        "name": "D3DKMTDestroyAllocation"
+      },
+      {
+        "name": "D3DKMTDestroyContext"
+      },
+      {
+        "name": "D3DKMTDestroyDevice"
+      },
+      {
+        "name": "D3DKMTDestroySynchronizationObject"
+      },
+      {
+        "name": "D3DKMTQueryAdapterInfo"
+      },
+      {
+        "name": "D3DKMTSetDisplayPrivateDriverFormat"
+      },
+      {
+        "name": "D3DKMTSignalSynchronizationObject"
+      },
+      {
+        "name": "D3DKMTUnlock"
+      },
+      {
+        "name": "D3DKMTWaitForSynchronizationObject"
+      },
+      {
+        "name": "DXGIDumpJournal"
+      },
+      {
+        "name": "PIXBeginCapture"
+      },
+      {
+        "name": "PIXEndCapture"
+      },
+      {
+        "name": "PIXGetCaptureState"
+      },
+      {
+        "name": "DXGIRevertToSxS"
+      },
+      {
+        "name": "OpenAdapter10"
+      },
+      {
+        "name": "OpenAdapter10_2"
+      },
+      {
+        "name": "SetAppCompatStringPointer"
+      },
+      {
+        "name": "UpdateHMDEmulationStatus"
+      },
+      {
+        "name": "CreateDXGIFactory"
+      },
+      {
+        "name": "CreateDXGIFactory1"
+      },
+      {
+        "name": "CreateDXGIFactory2"
+      },
+      {
+        "name": "D3DKMTCreateAllocation"
+      },
+      {
+        "name": "D3DKMTCreateContext"
+      },
+      {
+        "name": "D3DKMTCreateDevice"
+      },
+      {
+        "name": "D3DKMTCreateSynchronizationObject"
+      },
+      {
+        "name": "D3DKMTEscape"
+      },
+      {
+        "name": "D3DKMTGetContextSchedulingPriority"
+      },
+      {
+        "name": "D3DKMTGetDeviceState"
+      },
+      {
+        "name": "D3DKMTGetDisplayModeList"
+      },
+      {
+        "name": "D3DKMTGetMultisampleMethodList"
+      },
+      {
+        "name": "D3DKMTGetRuntimeData"
+      },
+      {
+        "name": "D3DKMTGetSharedPrimaryHandle"
+      },
+      {
+        "name": "D3DKMTLock"
+      },
+      {
+        "name": "D3DKMTOpenAdapterFromHdc"
+      },
+      {
+        "name": "D3DKMTOpenResource"
+      },
+      {
+        "name": "D3DKMTPresent"
+      },
+      {
+        "name": "D3DKMTQueryAllocationResidency"
+      },
+      {
+        "name": "D3DKMTQueryResourceInfo"
+      },
+      {
+        "name": "D3DKMTRender"
+      },
+      {
+        "name": "D3DKMTSetAllocationPriority"
+      },
+      {
+        "name": "D3DKMTSetContextSchedulingPriority"
+      },
+      {
+        "name": "D3DKMTSetDisplayMode"
+      },
+      {
+        "name": "D3DKMTSetGammaRamp"
+      },
+      {
+        "name": "D3DKMTSetVidPnSourceOwner"
+      },
+      {
+        "name": "D3DKMTWaitForVerticalBlankEvent"
+      },
+      {
+        "name": "DXGID3D10CreateDevice"
+      },
+      {
+        "name": "DXGID3D10CreateLayeredDevice"
+      },
+      {
+        "name": "DXGID3D10ETWRundown"
+      },
+      {
+        "name": "DXGID3D10GetLayeredDeviceSize"
+      },
+      {
+        "name": "DXGID3D10RegisterLayers"
+      },
+      {
+        "name": "DXGIDeclareAdapterRemovalSupport"
+      },
+      {
+        "name": "DXGIGetDebugInterface1"
+      },
+      {
+        "name": "DXGIReportAdapterConfiguration"
+      }
+    ]
+  },
+  {
+    "dll": "d3d9",
+    "entries": [
+      {
+        "ordinal": 16
+      },
+      {
+        "name": "Direct3DShaderValidatorCreate9"
+      },
+      {
+        "name": "PSGPError"
+      },
+      {
+        "name": "PSGPSampleTexture"
+      },
+      {
+        "name": "D3DPERF_BeginEvent"
+      },
+      {
+        "name": "D3DPERF_EndEvent"
+      },
+      {
+        "name": "D3DPERF_GetStatus"
+      },
+      {
+        "name": "D3DPERF_QueryRepeatFrame"
+      },
+      {
+        "name": "D3DPERF_SetMarker"
+      },
+      {
+        "name": "D3DPERF_SetOptions"
+      },
+      {
+        "name": "D3DPERF_SetRegion"
+      },
+      {
+        "name": "DebugSetLevel"
+      },
+      {
+        "name": "DebugSetMute"
+      },
+      {
+        "name": "Direct3D9EnableMaximizedWindowedModeShim"
+      },
+      {
+        "name": "Direct3DCreate9"
+      },
+      {
+        "name": "Direct3DCreate9Ex"
+      },
+      {
+        "name": "Direct3DCreate9On12"
+      },
+      {
+        "name": "Direct3DCreate9On12Ex"
+      },
+      {
+        "name": "Direct3D9ForceOn12"
+      }
+    ]
+  }
+]

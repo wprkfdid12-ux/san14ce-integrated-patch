@@ -1,0 +1,1422 @@
+{
+  "checkpoint": "RC4_R6_NativeChoice_Installable_Candidate",
+  "base_code": "our latest delivered RC4-R5-SafeExit_Confirm source; incremental continuation; other chat code not imported",
+  "live_game_tested": false,
+  "user_video_reviewed": true,
+  "user_video_from": "different chat build; reference scenario only",
+  "back_warning": "explicit Yes discards unconfirmed results with no ticket refund; No retains result and tickets",
+  "dll_assertions": 418,
+  "package_static_assertions": 146,
+  "files": [
+    {
+      "path": "BackupSaves.ps1",
+      "size": 3775,
+      "sha256": "84a9a7f773dd907991bbe00a8eb930bb4e61c033af51ea6d1c53e2d1b644f44d"
+    },
+    {
+      "path": "CONTINUE_PROMPT_KO.txt",
+      "size": 6167,
+      "sha256": "3d4140c2d63b44e5bf3faa2745e579df49fa013fda7228ad3d052f5ecbceeed4"
+    },
+    {
+      "path": "CaptureRuntime.ps1",
+      "size": 8485,
+      "sha256": "2727e6df8065c4585363bcb91b6bdd7d1498292a99050e728a5bf71f583af368"
+    },
+    {
+      "path": "CollectLogs.ps1",
+      "size": 847,
+      "sha256": "2d4fdbe435c99a35a2853d2da9a56efa36e0d71cf62b82de7c70d83e55c3c18a"
+    },
+    {
+      "path": "Diagnostics.Common.ps1",
+      "size": 4629,
+      "sha256": "2af67f9806c4c7901d711df0bf363c3d6da0122bdb43130d2bcb71f07d63203d"
+    },
+    {
+      "path": "HANDOFF_STATUS.txt",
+      "size": 520,
+      "sha256": "194bf91e2a6954c4a44196a971e367233be25bb6f077e2d765679e404a1921bf"
+    },
+    {
+      "path": "INSTALL.cmd",
+      "size": 452,
+      "sha256": "5df01cc4561d1d9b379637b1c698995ebbb146fa2d4a2ed8626e16ca933d6cd9"
+    },
+    {
+      "path": "Install.ps1",
+      "size": 1310,
+      "sha256": "be45965c04a2103d57b4d5d74682f8b8ecb5d3a2021bbefac3c224a17d6ebd96"
+    },
+    {
+      "path": "Installer.Common.ps1",
+      "size": 24146,
+      "sha256": "810eb3d924fe8fd87522910dfe6a01fdada58a09d3b0a568529f96e769b51ecf"
+    },
+    {
+      "path": "LATEST_ISSUES_AND_REQUIREMENTS.md",
+      "size": 1495,
+      "sha256": "9905afd700952ed694afb8e41ba5ec3d4fa485e64ff621b3bd7b1d9877ab0b8c"
+    },
+    {
+      "path": "ROLLBACK.cmd",
+      "size": 453,
+      "sha256": "bf2309972ccb5a599134e829fac32bcaf5c44f1a73586a56d44cce4d5a40af6c"
+    },
+    {
+      "path": "Rollback.ps1",
+      "size": 1243,
+      "sha256": "d7253e0a723c78722fb5c3252e98195bb6a997a752d5cd66cfadc08560e4a561"
+    },
+    {
+      "path": "UNINSTALL.cmd",
+      "size": 454,
+      "sha256": "60ef1afd61dafefb9a71342843af690474ef3bc6a200454669d8f01904fb7755"
+    },
+    {
+      "path": "Uninstall.ps1",
+      "size": 1216,
+      "sha256": "f4b6ec218da3e5c54aefb851fd71f5404e6be30c0877704d0106c15be743b9d2"
+    },
+    {
+      "path": "analysis/hover_x_contract.md",
+      "size": 6914,
+      "sha256": "f05f6c1f8cec56ac1f4986205313e08e5cb3e76ec7c78a9d55def82f223c9d9c"
+    },
+    {
+      "path": "analysis/native_fragments_rc2.json",
+      "size": 527,
+      "sha256": "4e45ae6610db96900050a0c491d11350bcb089a367ed7d15587f2c204472edb5"
+    },
+    {
+      "path": "analysis/native_reward_layers.json",
+      "size": 1406,
+      "sha256": "eebd68172de9bd3413fefc7367d5fa7eae086b6acb13f73567e36490307adc5a"
+    },
+    {
+      "path": "analysis/native_row_identity.json",
+      "size": 1387,
+      "sha256": "4e727740608d6652fca0e31c9c9c0efeceba6815ea9b1d05b5aa11cb1bf78b0d"
+    },
+    {
+      "path": "analysis/peutil.py",
+      "size": 3394,
+      "sha256": "f8f503b214b4a0df6799e0897a82aa3f51a398a978fa3b5ab4875d00f7df414a"
+    },
+    {
+      "path": "analysis/presets_x_contract.md",
+      "size": 6074,
+      "sha256": "90858e72fb91697aff7329112f276ea2fffc678200f68e4244525d8bd7270a69"
+    },
+    {
+      "path": "analysis/r2_native_widget_basis.json",
+      "size": 1831,
+      "sha256": "5c25645cff424548a3f7e04df3944cafb7021eaafd6c5085aaf2ea2c6c3c20f9"
+    },
+    {
+      "path": "analysis/r2_row_cleanup.asm",
+      "size": 1578,
+      "sha256": "b2024b3b4c5d96af4e4267f8159bb7e6c463420cccb80dff6338453822130435"
+    },
+    {
+      "path": "analysis/r3_native_fade_only.asm",
+      "size": 2350,
+      "sha256": "a15d7846c9c0b719e1dbf865b9f890994388c4325cdb9254dad192f8ea3578c2"
+    },
+    {
+      "path": "analysis/r3_native_state_tick.asm",
+      "size": 2294,
+      "sha256": "ae1ccb4d615898387777044db041a924ca10c54c4487283b5990490564e38b71"
+    },
+    {
+      "path": "analysis/r5_exit_and_row_lifetime.md",
+      "size": 4220,
+      "sha256": "27c2470cca569f9c177d4967217d884d51ae3d6adf860c3e1a91f89d368724b6"
+    },
+    {
+      "path": "analysis/r6_fn_6be850.asm",
+      "size": 2350,
+      "sha256": "a15d7846c9c0b719e1dbf865b9f890994388c4325cdb9254dad192f8ea3578c2"
+    },
+    {
+      "path": "analysis/r6_fn_6d9127.asm",
+      "size": 6846,
+      "sha256": "d22c4ea6550b607b22648a87067cf04ffe0258580889bed54c90caa2224e7a3c"
+    },
+    {
+      "path": "analysis/r6_fn_781810.asm",
+      "size": 34295,
+      "sha256": "9f90087e680abcd25af223bffbaee1f9c72531eb61c882676715d9d2a45058c1"
+    },
+    {
+      "path": "analysis/r6_native_choice_findings.md",
+      "size": 3163,
+      "sha256": "13df14323e84af90b3956c6547f36759f814faeb220a94cd7d52c8d557b6946d"
+    },
+    {
+      "path": "analysis/r6_native_evidence.json",
+      "size": 2465,
+      "sha256": "f22164b2657fac5b6f49174704f29e6e8d81e1b4ab3d283230d2a6b7e4c3e3bd"
+    },
+    {
+      "path": "analysis/r6_range_770080.asm",
+      "size": 12406,
+      "sha256": "1148e9570e1213a3bfebbdaeb3487df7b3260ed8ff94293470edb0799942e3da"
+    },
+    {
+      "path": "analysis/r6_range_8a2c50.asm",
+      "size": 21465,
+      "sha256": "50d52c0de552c773045298c36f5a8931fdfd418dfec3e24ee3a14849fcf5f121"
+    },
+    {
+      "path": "analysis/user_video_log_review.md",
+      "size": 2843,
+      "sha256": "90a9fa67e781244bb8077a0755cec7427f6d7f04550678c24869147fcb051197"
+    },
+    {
+      "path": "audit/CP03_to_R1.diff",
+      "size": 484228,
+      "sha256": "6db16cbbf388284c2a0cbabd016aa127ee02d08670cfdbac1c3b05784c0f3e46"
+    },
+    {
+      "path": "audit/NATIVE_INTEGRATION_EVIDENCE.json",
+      "size": 749,
+      "sha256": "2eddedd2b3c23e6776ec76514e5f3a71204ea48281b9f00653879f58fe8aa4ff"
+    },
+    {
+      "path": "audit/R1_to_R2.diff",
+      "size": 88393,
+      "sha256": "d203cc92c67a95de8278e34b1082852d6b90d45fee32d449bf9a93d68d0d191f"
+    },
+    {
+      "path": "audit/R2_to_R3.diff",
+      "size": 129162,
+      "sha256": "3793e85b7463476ff9bbdfe3cec733521147f77da62158bf4acbf1fcd378b869"
+    },
+    {
+      "path": "audit/R3_to_R4.diff",
+      "size": 67974,
+      "sha256": "64a818caa1919bf2c3d4536eee3a4df239ad9eca003067c0102b4146395a6a22"
+    },
+    {
+      "path": "audit/R4_to_R5_SafeExit.diff",
+      "size": 131727,
+      "sha256": "1ef644168e3ca769a059339cb65a0dfa047d41413f7049b9b15c5118185457eb"
+    },
+    {
+      "path": "audit/R5_to_R6_NativeChoice.diff",
+      "size": 146398,
+      "sha256": "a528797c583822a0d7aabb0ad8a3f24f34975a35a6308fd92222894e6ef45f7c"
+    },
+    {
+      "path": "audit/README_R6.txt",
+      "size": 283,
+      "sha256": "a2dccb794f34881ea67eb09b1816768e0d15bde2a0c361bb7144fb240dd51155"
+    },
+    {
+      "path": "audit/cp03_g_distribution_stack.asm",
+      "size": 99099,
+      "sha256": "da257bd509c2c082a11ee1d68a28d2ca827228e9ffa5cce56001f7fde851ac21"
+    },
+    {
+      "path": "audit/cp03_record_event_stack.asm",
+      "size": 418342,
+      "sha256": "9e82a2f443b073da4dbc6e4451172aad509e9dc2dfbc85b15a72f7d62283800a"
+    },
+    {
+      "path": "audit/cp03_stack_tests.json",
+      "size": 775,
+      "sha256": "67e50329105082713f70b30001b0eda30c0ff2111e5456b0d5529844636edf5c"
+    },
+    {
+      "path": "audit/cp03_tests.json",
+      "size": 6992,
+      "sha256": "81b23764c3288bf40205b75893a5b1284e8a5a9fdd099d54df71150b261921a2"
+    },
+    {
+      "path": "audit/fresh_zip_reproduction.json",
+      "size": 608,
+      "sha256": "1120b5af66948bf7c6a5fa2563dafed33af9cfb580d30dc82ccf8113900c0e2f"
+    },
+    {
+      "path": "audit/native_integration_tests.json",
+      "size": 8251,
+      "sha256": "6cae34df7b83f5700b2243e6401d5c3ae59e887a01841ff377ded458077aea09"
+    },
+    {
+      "path": "audit/other_r5_recognition.json",
+      "size": 1108,
+      "sha256": "6c0c2c0ad326a8f5a58eaeb7d2125d6eccda26b5ed7e3398e6e7ad0fbeeb3beb"
+    },
+    {
+      "path": "audit/r1_core_tests.log",
+      "size": 2089,
+      "sha256": "669ade2db62a2632752c78dc03caa63ee32d93f34b72a56e92d477bcc6d60620"
+    },
+    {
+      "path": "audit/r1_native_tests.log",
+      "size": 5038,
+      "sha256": "744111e0392a3df606c8edb9ad01ed784b831950b4969af607b370fd006d638a"
+    },
+    {
+      "path": "audit/r1_package_tests.json",
+      "size": 9322,
+      "sha256": "af837d90782e9bd4f7a51c78d03a6744d10180683995176335ff704dde6169d1"
+    },
+    {
+      "path": "audit/r1_package_tests.log",
+      "size": 4825,
+      "sha256": "7e544ea75fdebf0a45de520bd52bfa794d932970107c4329f2e89950e88fc565"
+    },
+    {
+      "path": "audit/r1_regression_tests.log",
+      "size": 4287,
+      "sha256": "d7aee0e95d6ee7c17d90e8c0e6b1331f6cc3e05121d0d216d1e332fb6a00ded6"
+    },
+    {
+      "path": "audit/r1_release_baseline/MeritTraits.json",
+      "size": 12961,
+      "sha256": "ab5232b4e7792cd487949e4c81aaedf2df93a8629fa09bfcc13e3384c36f55a2"
+    },
+    {
+      "path": "audit/r1_release_baseline/fresh_zip_reproduction.json",
+      "size": 793,
+      "sha256": "51f643147a892aae62e3824f27a6ffbc18ade62a0ecda3d59f86fa5f1b945f22"
+    },
+    {
+      "path": "audit/r1_release_baseline/package.manifest.json",
+      "size": 2578,
+      "sha256": "bbf642d48a192b1fed23b38f1921e805ebf697daa86b1abbe18bfa3ae9022c57"
+    },
+    {
+      "path": "audit/r1_simulation.log",
+      "size": 462,
+      "sha256": "aee0ea276a52098ab56ebc3823b2be5aba45ae08b3b41854fdbc479e2e5ca277"
+    },
+    {
+      "path": "audit/r1_skip_tests.json",
+      "size": 363,
+      "sha256": "31c6e296881b1350c7c2595c22a8bce455dcf2c23073c5ec4596935aa0ea3d46"
+    },
+    {
+      "path": "audit/r1_stack_tests.log",
+      "size": 861,
+      "sha256": "a467772912b63a485ffbe2194312fc6816e9d8d3a2b507d92817403c31c1e8f8"
+    },
+    {
+      "path": "audit/r2_build.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "audit/r2_package_tests.json",
+      "size": 9991,
+      "sha256": "e4434c3bb1e0b7c8a0b08984ac0aa922b67c0c60ada2c3d4adc7d82e0d732f32"
+    },
+    {
+      "path": "audit/r2_package_tests.log",
+      "size": 5229,
+      "sha256": "4bdb96422e88420f80b9fc94088eb2013b1c60f69d25270291f497fba6def71f"
+    },
+    {
+      "path": "audit/r2_release_baseline/MeritTraits.json",
+      "size": 17392,
+      "sha256": "d5275285dc538d3b039769700627e96be6d4d76ea738d523d3116152379951db"
+    },
+    {
+      "path": "audit/r2_release_baseline/package.manifest.json",
+      "size": 3346,
+      "sha256": "6fa22fc57cfe941f9595a765326366350112a8d711bd17f20f40b25821189dea"
+    },
+    {
+      "path": "audit/r2_simulation.log",
+      "size": 462,
+      "sha256": "84d8fdc3c46ca75593f003a0a48f70d21489d355f72420558a20aa40d84f0d91"
+    },
+    {
+      "path": "audit/r2_skip_tests.json",
+      "size": 363,
+      "sha256": "31c6e296881b1350c7c2595c22a8bce455dcf2c23073c5ec4596935aa0ea3d46"
+    },
+    {
+      "path": "audit/r2_stack_debug.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "audit/r2_stack_tests.log",
+      "size": 654,
+      "sha256": "312a80203aaf7a654d929c5f32ca4685e45a56cd63502e1ce2942f6ba87673f5"
+    },
+    {
+      "path": "audit/r2_suite_run.json",
+      "size": 954,
+      "sha256": "fa59313cd49146f08fd84ca80f18811e0bf23423ac030c5c8a8e382f372d55cd"
+    },
+    {
+      "path": "audit/r2_test_cp03.log",
+      "size": 2654,
+      "sha256": "4d35bc01f41960b29105ff8bfdd81ceffcbbdfaca1b0e3db69c8d81bf18ac486"
+    },
+    {
+      "path": "audit/r2_test_native_integration.log",
+      "size": 4938,
+      "sha256": "0f32154e5e405607aee18c64853eae27dc5dc29889ee5890538cab2780e3cb71"
+    },
+    {
+      "path": "audit/r2_test_r1_skip.log",
+      "size": 150,
+      "sha256": "3093af3b4830914c4c66d3fc740d3df2b2f13a11622fbaa1a9c3bb0a6fbac47f"
+    },
+    {
+      "path": "audit/r2_test_r2.log",
+      "size": 4361,
+      "sha256": "dd2f2d685408d99323a8de6674e92ae80a31ba2981ace54980b95921e3f269e8"
+    },
+    {
+      "path": "audit/r2_test_r2_package.log",
+      "size": 1299,
+      "sha256": "cf2b2bdfcd9fb69351127501ab2de701d6e26abdfb6a63c8e1070a4c4dd976bc"
+    },
+    {
+      "path": "audit/r2_test_rc4.log",
+      "size": 1851,
+      "sha256": "063dc91f4bb160f0aeacfb2df81eba717202bf83e78d513621de9e18d4cce9a5"
+    },
+    {
+      "path": "audit/r2_test_stack_probe.log",
+      "size": 654,
+      "sha256": "312a80203aaf7a654d929c5f32ca4685e45a56cd63502e1ce2942f6ba87673f5"
+    },
+    {
+      "path": "audit/r2_tests.json",
+      "size": 7232,
+      "sha256": "d9d316a676f36f054cbe0026caeb2c0eb2bc0168e6650fc7361fc0c908602867"
+    },
+    {
+      "path": "audit/r2_tests.log",
+      "size": 4361,
+      "sha256": "dd2f2d685408d99323a8de6674e92ae80a31ba2981ace54980b95921e3f269e8"
+    },
+    {
+      "path": "audit/r2_user_ability_rule.json",
+      "size": 575,
+      "sha256": "4d9bb72009747393d14f8e577c705f0890074b692dbc81339a2ec97a47e40067"
+    },
+    {
+      "path": "audit/r3_package_tests.json",
+      "size": 11637,
+      "sha256": "956e854911408f68dfa2b4222da956654d8a9296a8f73dc43deb9dccdfb09f7d"
+    },
+    {
+      "path": "audit/r3_release_baseline/CONTINUE_PROMPT_KO.txt",
+      "size": 5923,
+      "sha256": "171d02665b7a4f45f1654581bd2358c5c8e9639ce3a013848e544d4e1e855b69"
+    },
+    {
+      "path": "audit/r3_release_baseline/MeritTraits.json",
+      "size": 20350,
+      "sha256": "f1530c5e1dbdb6875e247e91d713fe592efbb8b0c563be8b034511b5da49e989"
+    },
+    {
+      "path": "audit/r3_release_baseline/SHA256.json",
+      "size": 17805,
+      "sha256": "71a36c51e3cdb6c9640cf5a86ae4bb150e4f5e96522dd2094d0614e79d709759"
+    },
+    {
+      "path": "audit/r3_release_baseline/package.manifest.json",
+      "size": 4254,
+      "sha256": "a4a9f4c20e1897a0ee4a7dec4c605d6546deda5580a304bae87095cc8b89a375"
+    },
+    {
+      "path": "audit/r3_release_baseline/r3_package_tests.json",
+      "size": 11637,
+      "sha256": "956e854911408f68dfa2b4222da956654d8a9296a8f73dc43deb9dccdfb09f7d"
+    },
+    {
+      "path": "audit/r3_release_baseline/r3_suite_run.json",
+      "size": 1057,
+      "sha256": "9d460a8b5ff4d834fb22cef695d94cdad0f8859004d7dc072427c25fbfef4030"
+    },
+    {
+      "path": "audit/r3_release_baseline/검증결과.md",
+      "size": 6875,
+      "sha256": "a3a7fc4892f49d5080664778171cf9d535ed91008c4022e69fc8c9bb8cec90e3"
+    },
+    {
+      "path": "audit/r3_simulation.json",
+      "size": 19825,
+      "sha256": "836392e495cdcbc91b0eb676c6e069538e22d4771c8820a48dc6cd0d0e0cd0b9"
+    },
+    {
+      "path": "audit/r3_simulation.log",
+      "size": 554,
+      "sha256": "dafa2aaa8afc2fbc3d9b8fd124080074868b12e7066dc70d104dd2f0a92f7caa"
+    },
+    {
+      "path": "audit/r3_suite_run.json",
+      "size": 1057,
+      "sha256": "9d460a8b5ff4d834fb22cef695d94cdad0f8859004d7dc072427c25fbfef4030"
+    },
+    {
+      "path": "audit/r3_test_cp03.log",
+      "size": 4141,
+      "sha256": "96ff76a1a9fb9ede1531c7d2bce1a61ff0ebdf7b93faef6ce9e79ff5f0536d2f"
+    },
+    {
+      "path": "audit/r3_test_native_integration.log",
+      "size": 4938,
+      "sha256": "0f32154e5e405607aee18c64853eae27dc5dc29889ee5890538cab2780e3cb71"
+    },
+    {
+      "path": "audit/r3_test_r1_skip.log",
+      "size": 150,
+      "sha256": "3093af3b4830914c4c66d3fc740d3df2b2f13a11622fbaa1a9c3bb0a6fbac47f"
+    },
+    {
+      "path": "audit/r3_test_r2.log",
+      "size": 4361,
+      "sha256": "dd2f2d685408d99323a8de6674e92ae80a31ba2981ace54980b95921e3f269e8"
+    },
+    {
+      "path": "audit/r3_test_r3.log",
+      "size": 6316,
+      "sha256": "8983fd8202a05febe1bd4606f0a6f3c98e9352e8298eaf814e1ef2b1bd1053a9"
+    },
+    {
+      "path": "audit/r3_test_r3_package.log",
+      "size": 6171,
+      "sha256": "7083cd2b53291562c7725e0d1258be39788d6ac3337700fb6b5beb4ab715f3aa"
+    },
+    {
+      "path": "audit/r3_test_rc4.log",
+      "size": 1205,
+      "sha256": "b1922f0b9e748832ca730782c97a05bc549457587b8ca4e8000239e188fb39bb"
+    },
+    {
+      "path": "audit/r3_test_stack_probe.log",
+      "size": 654,
+      "sha256": "312a80203aaf7a654d929c5f32ca4685e45a56cd63502e1ce2942f6ba87673f5"
+    },
+    {
+      "path": "audit/r3_tests.json",
+      "size": 10010,
+      "sha256": "7ece4251691deee402e73e88378cfcf96f2b1877c5755ec28bc5d2fbfcac13b3"
+    },
+    {
+      "path": "audit/r4_package_tests.json",
+      "size": 13748,
+      "sha256": "1373791dca554e4e08e27750c888ff75a28514a37601f6cd9b257e70161b6204"
+    },
+    {
+      "path": "audit/r4_release_baseline/CONTINUE_PROMPT_KO.txt",
+      "size": 9094,
+      "sha256": "808b0d5f2140f9bbcbbe6a3934a0227bf61840acbf8a681459038e8b3d9f4045"
+    },
+    {
+      "path": "audit/r4_release_baseline/HANDOFF_STATUS.txt",
+      "size": 882,
+      "sha256": "0544809bd69e6a48b5ca0fa48be9de58bf844d82d93a4a4244d757fe5a6d3475"
+    },
+    {
+      "path": "audit/r4_release_baseline/LATEST_ISSUES_AND_REQUIREMENTS.md",
+      "size": 1503,
+      "sha256": "c08f2f08f5d8fffe5f36b771d96dbbc4a4eff27fd03db3d9e4cf243b03aa70c5"
+    },
+    {
+      "path": "audit/r4_release_baseline/MeritTraits.json",
+      "size": 21911,
+      "sha256": "f3eed85081fbe6cd9d2a745a2c5062815e70c53f143c233f042281fbd242ccac"
+    },
+    {
+      "path": "audit/r4_release_baseline/README_SOURCE.txt",
+      "size": 4331,
+      "sha256": "1f8e04543c3d6a9539c7a1911e0289e714709c19132f9fae9f83b5841bde9b6b"
+    },
+    {
+      "path": "audit/r4_release_baseline/SHA256.json",
+      "size": 21237,
+      "sha256": "58024f8a0a32a83ea08789c70ca608dab9ae548cd4cc6171d8a0a1a540da17b7"
+    },
+    {
+      "path": "audit/r4_release_baseline/package.manifest.json",
+      "size": 4606,
+      "sha256": "18123f87219c47a1068c7ecf4594d917ff599c6b8b656d3217b38557c8d3c468"
+    },
+    {
+      "path": "audit/r4_release_baseline/검증결과.md",
+      "size": 10390,
+      "sha256": "007ef2e225dbcb8c6e62c98f16279ee020fa71f96a595baec1928d286fb2c483"
+    },
+    {
+      "path": "audit/r4_release_baseline/먼저읽기.txt",
+      "size": 6235,
+      "sha256": "c6e1b91b7e760b3b145ecfaef3fc4239a43ca9f894a78dcc8a69b7cd944896ac"
+    },
+    {
+      "path": "audit/r4_release_baseline/변경내역.txt",
+      "size": 2628,
+      "sha256": "c014a2cc24f3d51cb072a56a41e7caf6787a9d49f1bcc884525e197fabe60686"
+    },
+    {
+      "path": "audit/r4_release_baseline/실게임확인.txt",
+      "size": 2439,
+      "sha256": "d4a93923331cb81912d02f80af17d8a63b1c402b1e2b1783377bae415e87eae9"
+    },
+    {
+      "path": "audit/r4_simulation.json",
+      "size": 19824,
+      "sha256": "709e9a771cbd1a95f8f7078d5da8e0791cbbf1b3b7b52e3c09ff5bc6b0559136"
+    },
+    {
+      "path": "audit/r4_suite_run.json",
+      "size": 1138,
+      "sha256": "d5b6f81a92811e1695e64b9550874a59824321227fa59ced7bc216bc20fe49dd"
+    },
+    {
+      "path": "audit/r4_test_cp03.log",
+      "size": 4141,
+      "sha256": "96ff76a1a9fb9ede1531c7d2bce1a61ff0ebdf7b93faef6ce9e79ff5f0536d2f"
+    },
+    {
+      "path": "audit/r4_test_native_integration.log",
+      "size": 4938,
+      "sha256": "0f32154e5e405607aee18c64853eae27dc5dc29889ee5890538cab2780e3cb71"
+    },
+    {
+      "path": "audit/r4_test_r1_skip.log",
+      "size": 150,
+      "sha256": "3093af3b4830914c4c66d3fc740d3df2b2f13a11622fbaa1a9c3bb0a6fbac47f"
+    },
+    {
+      "path": "audit/r4_test_r2.log",
+      "size": 4361,
+      "sha256": "dd2f2d685408d99323a8de6674e92ae80a31ba2981ace54980b95921e3f269e8"
+    },
+    {
+      "path": "audit/r4_test_r3.log",
+      "size": 6331,
+      "sha256": "9205f4abce153e67ea3917ccbf5e9a51169d1ff7eb144dfb765129b6040e72d4"
+    },
+    {
+      "path": "audit/r4_test_r4.log",
+      "size": 6093,
+      "sha256": "b25aad3c756c9a0a797d9a112fbe2e627c080289f238c116d526781d86f45281"
+    },
+    {
+      "path": "audit/r4_test_r4_package.log",
+      "size": 7402,
+      "sha256": "bbf3328132ea8804d0b2948c9e5803acb1e7a92c441dcf5472a3ce8d29a78c01"
+    },
+    {
+      "path": "audit/r4_test_rc4.log",
+      "size": 1205,
+      "sha256": "b1922f0b9e748832ca730782c97a05bc549457587b8ca4e8000239e188fb39bb"
+    },
+    {
+      "path": "audit/r4_test_stack_probe.log",
+      "size": 654,
+      "sha256": "312a80203aaf7a654d929c5f32ca4685e45a56cd63502e1ce2942f6ba87673f5"
+    },
+    {
+      "path": "audit/r4_tests.json",
+      "size": 9605,
+      "sha256": "e7b67991449ccf00fb7d389abb7935b4ace88d3ca95a91cd660306602f70d9c1"
+    },
+    {
+      "path": "audit/r5_package_tests.json",
+      "size": 15870,
+      "sha256": "672514febccfa1b45a11799a80e26b30eee91fc0433425e221962e0b363653bd"
+    },
+    {
+      "path": "audit/r5_release_baseline/CONTINUE_PROMPT_KO.txt",
+      "size": 6336,
+      "sha256": "8f999e9ab5594a92c2cd126ff82bc940c9d12b5e6cf097523dea0c77b09c6926"
+    },
+    {
+      "path": "audit/r5_release_baseline/HANDOFF_STATUS.txt",
+      "size": 804,
+      "sha256": "fe35650f79fd6fdc370c3f1f2ed7a58161fd337cb1edf51ce2dd212bd431af58"
+    },
+    {
+      "path": "audit/r5_release_baseline/LATEST_ISSUES_AND_REQUIREMENTS.md",
+      "size": 1672,
+      "sha256": "cae8b6b94cecfafa8b248a223e52bfa58d6201105c8c259e1f4576898d0e7111"
+    },
+    {
+      "path": "audit/r5_release_baseline/MeritTraits.json",
+      "size": 23981,
+      "sha256": "81ed4b4e066452951bc18de829cd49c6e7e9a5b8563b32d11e58e92af4e0eb31"
+    },
+    {
+      "path": "audit/r5_release_baseline/README_SOURCE.txt",
+      "size": 5507,
+      "sha256": "15888958229408a86ad41e756a0e6cf03a935331d729167a35aede5751fe360d"
+    },
+    {
+      "path": "audit/r5_release_baseline/SHA256.json",
+      "size": 25144,
+      "sha256": "c9e1f15d7392eae4b6370e081cf55bef5ec759aedf16d467185fb04d27d27fee"
+    },
+    {
+      "path": "audit/r5_release_baseline/package.manifest.json",
+      "size": 5348,
+      "sha256": "36a3ba5010660f16875d213306cd10346b27230161931dbf0734eb9c86a0855a"
+    },
+    {
+      "path": "audit/r5_release_baseline/r5_package_tests.json",
+      "size": 15870,
+      "sha256": "672514febccfa1b45a11799a80e26b30eee91fc0433425e221962e0b363653bd"
+    },
+    {
+      "path": "audit/r5_release_baseline/r5_suite_run.json",
+      "size": 1324,
+      "sha256": "afb34e383a11ca18e5dea8d76de1bf5b7876221cb8e690cec7084f87e7a2c38a"
+    },
+    {
+      "path": "audit/r5_release_baseline/검증결과.md",
+      "size": 6426,
+      "sha256": "e19634974845aa4933288f55c3889d66f51dd49bddc0011eac6e349de0c4b9cd"
+    },
+    {
+      "path": "audit/r5_release_baseline/먼저읽기.txt",
+      "size": 4815,
+      "sha256": "72fb4940778f893a093476904687107acfdf021ce2b281b2ad6a7dc3b1f65405"
+    },
+    {
+      "path": "audit/r5_release_baseline/변경내역.txt",
+      "size": 1793,
+      "sha256": "bde50dd080eeab0e337bdb41f71e07a8f8ddae6550028c72d4f98d43ef0e5ffd"
+    },
+    {
+      "path": "audit/r5_release_baseline/실게임확인.txt",
+      "size": 2672,
+      "sha256": "fa57489559537214eb7ce09e1727a8a667c97d485458a5de9c4320bf61b10592"
+    },
+    {
+      "path": "audit/r5_suite_run.json",
+      "size": 1324,
+      "sha256": "afb34e383a11ca18e5dea8d76de1bf5b7876221cb8e690cec7084f87e7a2c38a"
+    },
+    {
+      "path": "audit/r5_test_cp03.log",
+      "size": 4135,
+      "sha256": "1427f4ca09a069101d412650f20292616761afc7a76d1e141dae4f88f90a6a13"
+    },
+    {
+      "path": "audit/r5_test_native_integration.log",
+      "size": 3800,
+      "sha256": "e53332e53c1cb605397fe923add0e35271bace5084f703847f9191b8642e0f59"
+    },
+    {
+      "path": "audit/r5_test_r1_skip.log",
+      "size": 150,
+      "sha256": "3093af3b4830914c4c66d3fc740d3df2b2f13a11622fbaa1a9c3bb0a6fbac47f"
+    },
+    {
+      "path": "audit/r5_test_r2.log",
+      "size": 4375,
+      "sha256": "57d4269a0cd1f62dc85b9a3694de3ea6f6fecc4de673482ba10b21c795abe3f6"
+    },
+    {
+      "path": "audit/r5_test_r3.log",
+      "size": 6417,
+      "sha256": "38ae3f950dda635c1e341059c95864f9891c0c9a71929a3709133361dfb24a7c"
+    },
+    {
+      "path": "audit/r5_test_r4.log",
+      "size": 6093,
+      "sha256": "b25aad3c756c9a0a797d9a112fbe2e627c080289f238c116d526781d86f45281"
+    },
+    {
+      "path": "audit/r5_test_r5.log",
+      "size": 7189,
+      "sha256": "ad7c067c94b604f3347802a9523663d221845fee22fb6ddcb62885175859f74b"
+    },
+    {
+      "path": "audit/r5_test_r5_package.log",
+      "size": 8855,
+      "sha256": "057ac0a080a3ff795b5bc51d4790a85d069e6fdb98746824c7f00eddf91030bf"
+    },
+    {
+      "path": "audit/r5_test_r5_warning.log",
+      "size": 3897,
+      "sha256": "a81d26f5def02e402a269e22f7ea2eae0859bf81457ff9c012a2a76fdd5597b6"
+    },
+    {
+      "path": "audit/r5_test_rc4.log",
+      "size": 1205,
+      "sha256": "b1922f0b9e748832ca730782c97a05bc549457587b8ca4e8000239e188fb39bb"
+    },
+    {
+      "path": "audit/r5_test_stack_probe.log",
+      "size": 654,
+      "sha256": "312a80203aaf7a654d929c5f32ca4685e45a56cd63502e1ce2942f6ba87673f5"
+    },
+    {
+      "path": "audit/r5_tests.json",
+      "size": 11416,
+      "sha256": "4aa7015da3f76d9d82882813c4c835dfe28b1922bcc1f43248d35e99f84bfe65"
+    },
+    {
+      "path": "audit/r5_warning_tests.json",
+      "size": 6343,
+      "sha256": "e7b51c8e77223d511ea82102b212c2edc86cbf91abb66af0e709a3b68a6a001c"
+    },
+    {
+      "path": "audit/r6_compat_tests.json",
+      "size": 28942,
+      "sha256": "afd019c2c2df91fc188679b8a7da2d95db94944358024ed6f60a8e00da29d1d3"
+    },
+    {
+      "path": "audit/r6_package_tests.json",
+      "size": 15667,
+      "sha256": "8bb852368ccadad32f1ddd359e87159f00a4f44223f97ae43c83b58b7bfce854"
+    },
+    {
+      "path": "audit/r6_suite_run.json",
+      "size": 736,
+      "sha256": "c46ff26c95fe1768505709f7bae5a002ff371f4171294e3036e5453b1b88d448"
+    },
+    {
+      "path": "audit/r6_test_r6.log",
+      "size": 9666,
+      "sha256": "7f75ae2cfab22e6c271339b167b94fe71401947a130dfa01dec1342d4a365fe8"
+    },
+    {
+      "path": "audit/r6_test_r6_compat.log",
+      "size": 17378,
+      "sha256": "8758245d3fabc0bbf4c8087f283f24c50b882321025a9831e5e5003f8d81f48c"
+    },
+    {
+      "path": "audit/r6_test_r6_package.log",
+      "size": 8824,
+      "sha256": "22dc214c384ba3cd63e53c418e61fdc8ed6bf64ad43f7809a6b24fbfa4f756c2"
+    },
+    {
+      "path": "audit/r6_test_stack_probe.log",
+      "size": 654,
+      "sha256": "312a80203aaf7a654d929c5f32ca4685e45a56cd63502e1ce2942f6ba87673f5"
+    },
+    {
+      "path": "audit/r6_tests.json",
+      "size": 16168,
+      "sha256": "eb6f819cd8a9cfbbcef0a945efac9269a7fdfa18579201818e6f4a9a961f59d2"
+    },
+    {
+      "path": "audit/rc4_event_samples.json",
+      "size": 5752,
+      "sha256": "ca9d6266ef7a88bd16a0d13db4dda6ffa86cad585f465a0dade894d673badd75"
+    },
+    {
+      "path": "audit/rc4_simulation.json",
+      "size": 19733,
+      "sha256": "6c04681544cced97d38773a1ccc94b0a520e59cfcc678f723e97adc7fb43e1ef"
+    },
+    {
+      "path": "audit/rc4_tests.json",
+      "size": 2306,
+      "sha256": "a96c4a3a9768bc6eb2269ec7fe482f5bbc910bdb8d979e3156b66ccff2892b11"
+    },
+    {
+      "path": "audit/recognized_previous.json",
+      "size": 554,
+      "sha256": "e256d755fccf3833f9ead2b30a2fb1995375db274decaff84d4def356e1defbf"
+    },
+    {
+      "path": "audit/safeexit_simulation.json",
+      "size": 19844,
+      "sha256": "cf1f590a8319c22df6b52b2074508171f3ad4dc118c342863239e79048d28744"
+    },
+    {
+      "path": "audit/support_provenance.json",
+      "size": 895,
+      "sha256": "4cc003cdf1e4a789cef5aad50f5a3bc6b10368434d7ec1e31dd12413830fd539"
+    },
+    {
+      "path": "audit/개성분류표.json",
+      "size": 63500,
+      "sha256": "c7aecee866e516d34c4246ea3f34211e2b12f7eb3452c006231c93ee6eb7d7b7"
+    },
+    {
+      "path": "baseline/SAN14CE_MeritTraits_RC4_R1_Install.zip",
+      "size": 143282,
+      "sha256": "3773917134e9398444dae1f139cef0c18fe643644bf9cf9f196734ecccdb8926"
+    },
+    {
+      "path": "baseline/SAN14CE_MeritTraits_RC4_R1_검증결과.md",
+      "size": 4935,
+      "sha256": "7c2516c2950d746851712bfb67d778d21d5d51e9c27abe3afb49212cb5d96182"
+    },
+    {
+      "path": "data/SAN14CE_DB_요약.json",
+      "size": 844,
+      "sha256": "f0e1c54fe7fcc03a561daf9080e50ac12d9a26709d80d8fd854f494c06ea1aa4"
+    },
+    {
+      "path": "data/SAN14CE_개성마스터219_DB.json",
+      "size": 212682,
+      "sha256": "b020e9388c831f8c4ab11f2988901fafe6a1b6e318046b0c15d95f2f2cdc7df4"
+    },
+    {
+      "path": "data/SAN14CE_공식무장1000_DB.json",
+      "size": 1005786,
+      "sha256": "1bf2f6df48978b8c48ca32db2d0003ad80e6150858ed1cab9f8b75f556ca1f23"
+    },
+    {
+      "path": "data/SAN14CE_공식보너스88_DB.json",
+      "size": 100950,
+      "sha256": "739904aa292c1382515077e89efc66b6b785fe90181b0cf91241cbb4727d7c53"
+    },
+    {
+      "path": "data/SAN14CE_전법마스터169_이름.json",
+      "size": 19055,
+      "sha256": "e189137819dc3a23811977b935216054dd0fed2e4dd4ed77dbd8a7cacfeb2b20"
+    },
+    {
+      "path": "data/provenance.json",
+      "size": 600,
+      "sha256": "4aaf8852708b227c592ca8c7ec12f0afae777681e139030857caed8091d793c3"
+    },
+    {
+      "path": "package.manifest.json",
+      "size": 5560,
+      "sha256": "2484ef4125aa2292908b4a42fd8fbfac69fd2936471b17fbcbb1a482b0dfe18f"
+    },
+    {
+      "path": "payload/SAN14Mods/Core/SAN14_ModCore.dll",
+      "size": 10240,
+      "sha256": "f54c7d4848dacf0c2414b07c7573cdbac8bf3ca9b5aec84345d8f549b292fc67"
+    },
+    {
+      "path": "payload/SAN14Mods/MeritTraits/SAN14_MeritResolver_CEKO.dll",
+      "size": 5120,
+      "sha256": "eb887fbc822d736487ad8658dd13ec9063cc234e8160cb6bbf6cb86b91859ebd"
+    },
+    {
+      "path": "payload/SAN14Mods/MeritTraits/UI_Traits9_Hover.dll",
+      "size": 43008,
+      "sha256": "2926c3ef05abd004bf0e5d9f7113321568800a6cf4d60b7e7e0bf25367b0f164"
+    },
+    {
+      "path": "payload/SAN14Mods/manifests/MeritTraits.json",
+      "size": 26206,
+      "sha256": "652a6345e2865365dd81b6f6c623453312d3178f04f28b3fe1e4d6b29f3530a0"
+    },
+    {
+      "path": "payload/SAN14Mods/modules/MeritTraits.ini",
+      "size": 178,
+      "sha256": "1e567dce8fbaf43687297dc173b547208a1801cf1afabb51b76f983a07664300"
+    },
+    {
+      "path": "payload/SAN14Mods/resolvers/SAN14_Resolver_CEKO.dll",
+      "size": 84480,
+      "sha256": "a0b52ed963d0ae3b4b70c32ac4f04e9f22c1ad01739c7cb447802f8a74d57e51"
+    },
+    {
+      "path": "payload/SAN14_MeritTraits.dll",
+      "size": 250368,
+      "sha256": "a330c03ea52e80899a1441b724425ffd91dd31b66d5793944b4a448050619c76"
+    },
+    {
+      "path": "payload/dxgi.dll",
+      "size": 10240,
+      "sha256": "653aaaea26842224533ec31d590562712ede9785ed2fe418be2ae85fb5974c8f"
+    },
+    {
+      "path": "references/compatibility/sortie_rc25/SAN14_SortiePresets.dll",
+      "size": 100864,
+      "sha256": "617b4eaf0ce7633ab94c1a3fbeb4eff301a748e2ca3395fdbed7055c44fb75a4"
+    },
+    {
+      "path": "references/compatibility/sortie_rc25/preset_core.h",
+      "size": 2266,
+      "sha256": "d387aa896a63f48ff03abe55844e79e282d9fd66dc7577ecb0f5f23f638c516d"
+    },
+    {
+      "path": "references/compatibility/sortie_rc25/ui.h",
+      "size": 102005,
+      "sha256": "cb3e97ebb1b906d7ea5673329ad47983df9838e0d03f86abc981b93c3c17b544"
+    },
+    {
+      "path": "references/incoming_handoff/CONTINUE_PROMPT_KO.txt",
+      "size": 11310,
+      "sha256": "e94b149a1cab0f6658326fd87571369a125e5111796824bb1d8af9aff6c17625"
+    },
+    {
+      "path": "references/incoming_handoff/HANDOFF_STATUS.txt",
+      "size": 386,
+      "sha256": "83c1821001e05005a13d2eedb6cc0a2bf74e7d8707e1da3839aaf7c404ea17c9"
+    },
+    {
+      "path": "references/incoming_handoff/LATEST_ISSUES_AND_REQUIREMENTS.md",
+      "size": 1483,
+      "sha256": "0087745dacf78ff12d0c9218e4d3db94afc801387bb9bf7ba1085dc9bba4d8ae"
+    },
+    {
+      "path": "references/proposals/R5_SafeExit_추가수정지시서.txt",
+      "size": 1771,
+      "sha256": "9ee1ef6a3272443ca15e9fb03aa1896c9b28221f3200301e21c854112ccce402"
+    },
+    {
+      "path": "references/proposals/R6_NativeChoice_추가수정지시서.txt",
+      "size": 4913,
+      "sha256": "d7889b683420b384e290982cacddef005eb6623c6a5494baab0bfb996c4f8dee"
+    },
+    {
+      "path": "references/proposals/SAN14CE_MeritTraits_RC4_R2_추가수정지시서_꽝_X_열정버프.txt",
+      "size": 22691,
+      "sha256": "fb0f6fe0d6db23fede30cce56edd4f102f57861c4b7558aee16c13f4c6c6b7b3"
+    },
+    {
+      "path": "references/proposals/SAN14CE_논공_개성가챠_인터페이스_연출_최종제안서(4).txt",
+      "size": 14693,
+      "sha256": "09631ef137742d9d6f171c163ccee9b6452aa22218ac46a8e7155c604e59fb14"
+    },
+    {
+      "path": "references/proposals/SAN14CE_논공_개성가챠_최종_알고리즘_제안서(4).txt",
+      "size": 16197,
+      "sha256": "2367c40ce1ee566553cc5658f70b75fa6b37c4ff8cd90bddd8155bb268a85ed3"
+    },
+    {
+      "path": "references/proposals/SAN14CE_논공_개성가챠_최종_알고리즘_제안서_v2_로그포함(3).txt",
+      "size": 20519,
+      "sha256": "e49964dc94b57bcfc75f6921b8cade2490df77bb8ebf9176bc66ff7751a46485"
+    },
+    {
+      "path": "references/r2_handoff/CONTINUE_PROMPT_KO.txt",
+      "size": 3110,
+      "sha256": "59f260870b3d7602341f843151bd2172f3c253b1f0f6edcdd5f3c5ac15187a50"
+    },
+    {
+      "path": "references/r2_handoff/HANDOFF_STATUS.txt",
+      "size": 279,
+      "sha256": "98a56ccf9c8e35f5454b5839361b5537bc678dcc7ed0b1835c3362ad148482e4"
+    },
+    {
+      "path": "references/r2_handoff/검증결과.md",
+      "size": 4432,
+      "sha256": "ecbfc3960aeeddc76e197b967ff978719822fe0efd06195668cc73386a127e74"
+    },
+    {
+      "path": "references/screenshots/01_가챠후_순정대사_충돌_맥락.jpg",
+      "size": 292227,
+      "sha256": "c5d7fe079cab689ee6f0534184b88a4aacbef29f5a7705c1b5a74d9971ddd51a"
+    },
+    {
+      "path": "references/screenshots/02_UI_해금칸_및_별도버튼_요구.png",
+      "size": 1777076,
+      "sha256": "b9f7708ee64cc4dc06940af8df1848853e5ff928c3bbc1b1e0ce6b0790a45dba"
+    },
+    {
+      "path": "source/README_SOURCE.txt",
+      "size": 4492,
+      "sha256": "df82055d6709f7c7b531fab0e130307c031705003f8291769dda7e914761c506"
+    },
+    {
+      "path": "source/bcrypt.def",
+      "size": 43,
+      "sha256": "03e9cae185d3cf2892ddd89fbd6f09cdeac16b4a1e2aa6ac8c005dbeca786c84"
+    },
+    {
+      "path": "source/bridges.s",
+      "size": 1270,
+      "sha256": "b47951ef3e79e6f0ecc5963d69b52203e44f9989d06a9e9a1bac82cbe79dcac1"
+    },
+    {
+      "path": "source/build/SAN14_MeritResolver_CEKO.dll",
+      "size": 5120,
+      "sha256": "eb887fbc822d736487ad8658dd13ec9063cc234e8160cb6bbf6cb86b91859ebd"
+    },
+    {
+      "path": "source/build/SAN14_MeritTraits.dll",
+      "size": 250368,
+      "sha256": "a330c03ea52e80899a1441b724425ffd91dd31b66d5793944b4a448050619c76"
+    },
+    {
+      "path": "source/build.sh",
+      "size": 2192,
+      "sha256": "e6e71a9b497c5b61940bf92231d5d95628b9e9e0ae69c2432f8887c84905970d"
+    },
+    {
+      "path": "source/catalog.h",
+      "size": 8323,
+      "sha256": "cb56dba4ee63022bf61d3b1f590f255fd6610d2f21c2ce757fbc89dc08d884b5"
+    },
+    {
+      "path": "source/display_patch.inc",
+      "size": 1528,
+      "sha256": "cdb21eace76268f5fe9720d343de679896773a2f9019c5ba5154279e460c3b0a"
+    },
+    {
+      "path": "source/event_log.inc",
+      "size": 8658,
+      "sha256": "d436bb4866377fc4c140edae4645ab2f1c64d6f2f9dfd563b7aa4b5f391848e3"
+    },
+    {
+      "path": "source/gacha.c",
+      "size": 13904,
+      "sha256": "57e22e9a2c9df703e2ecb7e34a119f2f0c76a44fdc9b7162db52f728c2af73e0"
+    },
+    {
+      "path": "source/gacha.h",
+      "size": 2996,
+      "sha256": "0a5a102b667432bcfb5c89f7a20c71f36dacbcfcdf7c52ca1b0806f4e72c4c8a"
+    },
+    {
+      "path": "source/generate_db.py",
+      "size": 1550,
+      "sha256": "c2c8f81accdcce759effe8317d30250b0574176372a48cd154aab32c765c6bcc"
+    },
+    {
+      "path": "source/hover_x_adapter.inc",
+      "size": 8264,
+      "sha256": "a38921705b61b67c3f691fe1ed4b85c5666d4ef328de3b9ecd9942301fcac34d"
+    },
+    {
+      "path": "source/kernel32.def",
+      "size": 645,
+      "sha256": "fcc601e4e60d3c9d216d1c37d348206380c88e4df02f8b6094c40992a5586171"
+    },
+    {
+      "path": "source/merit_core.c",
+      "size": 4283,
+      "sha256": "3a536a88a437bb8467359fefe2694b170c27b757e434024a52ee9715c274214c"
+    },
+    {
+      "path": "source/merit_core.h",
+      "size": 1303,
+      "sha256": "cec4076a36936f2f93f0d82822a4b78e46c6159ca7f0ea64cd4bbc20402cc342"
+    },
+    {
+      "path": "source/merit_display_api.h",
+      "size": 1238,
+      "sha256": "e025d2843dbe4af21c73c96df6320a4707e26d1f7e448a8cbe701118eedb8191"
+    },
+    {
+      "path": "source/merit_resolver.c",
+      "size": 9292,
+      "sha256": "0bc9fe34b1077efd79addac6bfb06070ec60c9b4b0076d28011c43366c41d3b0"
+    },
+    {
+      "path": "source/merit_runtime.c",
+      "size": 43262,
+      "sha256": "52f14382aa7353341eb9d7debd46e63e99fa15ccec7efdc72e0ef0dbff070bb5"
+    },
+    {
+      "path": "source/native_controls.inc",
+      "size": 23274,
+      "sha256": "d3c48a726dc5beb7dc6897f8602ad8a80b031096dc44343aeabeb2645858e097"
+    },
+    {
+      "path": "source/native_selection.inc",
+      "size": 3877,
+      "sha256": "dddc0a09bc7c005f16b0a441f637157c38836cfb86183e5a1c6f67a526dc3617"
+    },
+    {
+      "path": "source/native_ui.inc",
+      "size": 13366,
+      "sha256": "ab12323cb12b02345652771d999534a0d5622f0124c2753a363d9495c4d37190"
+    },
+    {
+      "path": "source/observation.inc",
+      "size": 9145,
+      "sha256": "a22d4747bfc3ff6a59205c3222df4d69fb12e6d147ec8fc4ce968b040b781ecb"
+    },
+    {
+      "path": "source/official_db.h",
+      "size": 77230,
+      "sha256": "d66d0050a18a6394907bd2fe8b404dfdf91fb6b4e478be77e01312212c839553"
+    },
+    {
+      "path": "source/presets_x_adapter.inc",
+      "size": 5669,
+      "sha256": "63fb061a4a7c6712bb00d0168604dd24761b222a4e6f94641d2f03d49482e910"
+    },
+    {
+      "path": "source/resolver_abi.h",
+      "size": 2802,
+      "sha256": "ce5aae286f209240cb1ac1cd9bfe597b7c1dd5313c0f12684d22c27343341228"
+    },
+    {
+      "path": "source/runtime_flow.inc",
+      "size": 40244,
+      "sha256": "dcaf4c8fa319c93b1728562567e5713eea2ed8ce128679d7fdc0818aa19e8b34"
+    },
+    {
+      "path": "source/slot_store.inc",
+      "size": 11282,
+      "sha256": "28362ec1ab51385389daada862fb3d8cf3a57eeb7d6e8a07ce40591bc35f3e20"
+    },
+    {
+      "path": "source/stack_probe.s",
+      "size": 676,
+      "sha256": "6968c1978293ad35818dfb399d37e0c4c302e28688034c8bfc5b1780371e35fd"
+    },
+    {
+      "path": "source/user32.def",
+      "size": 101,
+      "sha256": "46ddfb9d78fb5b45709ce146c73b8b044519fe22a3f383b6f1dec1acf45c8308"
+    },
+    {
+      "path": "source/winapi.h",
+      "size": 2597,
+      "sha256": "3420fa74ca665c2eaed506c0d8da137208274971622239b7cf39d51b38381821"
+    },
+    {
+      "path": "tests/abi_shim.c",
+      "size": 11547,
+      "sha256": "80ff504160298526ee910c06275bb81703de431d2ea9e5c6fb6a3408c27cede8"
+    },
+    {
+      "path": "tests/grade_bridge.c",
+      "size": 115,
+      "sha256": "895887ee5247816d6585673d700f87ca7870a367842500940c8393a01978c2d0"
+    },
+    {
+      "path": "tests/native_layers_wrapper.s",
+      "size": 563,
+      "sha256": "988b6cbcaa3d8faab7801e8150eec3ccf8844375b191f00a00dd684344089a27"
+    },
+    {
+      "path": "tests/native_support.py",
+      "size": 4483,
+      "sha256": "87c06a68a6c441293a1781a5e7f9e7a204a24023e386a3c4ab7551b5e079f5e8"
+    },
+    {
+      "path": "tests/probe_bridge.s",
+      "size": 731,
+      "sha256": "e541fc2787d06249a0aaa7dfb23cc785a18c11536c6aaf1f365a9c45eb57dc12"
+    },
+    {
+      "path": "tests/r1_baseline/README.txt",
+      "size": 270,
+      "sha256": "261cab47c1a5c8f16a1f5e900014ee9005c7432d2aef8e5b823bdd2fcda6b22b"
+    },
+    {
+      "path": "tests/r1_baseline/test_cp03.py",
+      "size": 15835,
+      "sha256": "a3e576919c6ac40b5a133a794f118452c188fb55e322f7af3bc75d219e57f6b9"
+    },
+    {
+      "path": "tests/r1_baseline/test_native_integration.py",
+      "size": 18441,
+      "sha256": "86bacbb4f93786ae04af9f66c23a5376c09b2e6190ea7876af2b9b78dbe791a0"
+    },
+    {
+      "path": "tests/r1_baseline/test_r1_package.py",
+      "size": 7272,
+      "sha256": "e7b4e543a88076af4325a8d7aa7b8bf1dc124f01824f834dfb75d8da851ee506"
+    },
+    {
+      "path": "tests/r1_baseline/test_r1_skip.py",
+      "size": 784,
+      "sha256": "cf6cfe94009b5890b1b105ae1dae00dbb75c1679e56d84117b9c67700934a6f3"
+    },
+    {
+      "path": "tests/r1_baseline/test_rc4.py",
+      "size": 10011,
+      "sha256": "d6427447f36975c3092d72349a44bf697e5841e40f1c4ad6767ca5fb43d1db9a"
+    },
+    {
+      "path": "tests/r2_fixture.py",
+      "size": 5445,
+      "sha256": "adf086850e5c9b74f3aa1cff94d6fd161f112659a95ae84cf5694348c12ae9aa"
+    },
+    {
+      "path": "tests/r6_fixture.py",
+      "size": 4993,
+      "sha256": "e540ac4b9ed42b6d7c0230137cee647f48e3aede95a75108d3434949017d1c97"
+    },
+    {
+      "path": "tests/roll_bridge.c",
+      "size": 361,
+      "sha256": "ef5e6fc27680b68223e9c058e987b4ae6c0a29c1b636f481bd260c31e91cdc9f"
+    },
+    {
+      "path": "tests/run_r2.py",
+      "size": 1250,
+      "sha256": "c6533cb2b95ac5385dcd71f3ecdfedce7b4ea8a469392bd19cd854df00e9d151"
+    },
+    {
+      "path": "tests/run_r3.py",
+      "size": 1195,
+      "sha256": "272225b68b5f042e466b99c3fe2b78a4c3dd36b56e414aecf77689e2fb0c9061"
+    },
+    {
+      "path": "tests/run_r4.py",
+      "size": 1208,
+      "sha256": "0f9b4d17eaa914e8d5c92d68548e9e8d871003aa7ed19e312e0545dd3c576434"
+    },
+    {
+      "path": "tests/run_r5.py",
+      "size": 1295,
+      "sha256": "a16c183fea1c35cf8d6be61f579cb03efc1d54c3260cadeeedeb75bd7af0aefb"
+    },
+    {
+      "path": "tests/run_r6.py",
+      "size": 1183,
+      "sha256": "49a83988b28cd2310b3f7acd668867a2c5963861003fe452f37bc64a61bd75e3"
+    },
+    {
+      "path": "tests/simulate_rc4.py",
+      "size": 3085,
+      "sha256": "4d36317948360dd3f006b594178e2f8eccdc626c136d9cb493246aa22b8e3727"
+    },
+    {
+      "path": "tests/test_cp03.py",
+      "size": 15446,
+      "sha256": "507896447a774f654ba3a618db43522144491bd3285b70440500cbe7065180cd"
+    },
+    {
+      "path": "tests/test_native.py",
+      "size": 34999,
+      "sha256": "361dd137eb81aba509c4cb0a8ba7b875822da1485e5a8cc62ff4d6cb51d483a8"
+    },
+    {
+      "path": "tests/test_native_integration.py",
+      "size": 18399,
+      "sha256": "d19d6a88beb5737ecc3d9808f802231d2893326f884c299a069f6cc345201b7b"
+    },
+    {
+      "path": "tests/test_r1_package.py",
+      "size": 213,
+      "sha256": "4760f618eca8edf71b3f2dcae3f7dafa85074a3b4591de739e42a8cfe4a2c2d4"
+    },
+    {
+      "path": "tests/test_r1_skip.py",
+      "size": 773,
+      "sha256": "26b5ad8c23962831cb9f1f709c9d9cfe86c59e9f7e58d79c9d16e9689b67cb49"
+    },
+    {
+      "path": "tests/test_r2.py",
+      "size": 13057,
+      "sha256": "a984c83b8445d7979f6bd98679595f4974da52137e7a7d90d8c412f8c128465f"
+    },
+    {
+      "path": "tests/test_r2_package.py",
+      "size": 8166,
+      "sha256": "7107c9f85627959d365dec004dd91195cb5be693f2d77158062e1772a3ff7a27"
+    },
+    {
+      "path": "tests/test_r3.py",
+      "size": 24180,
+      "sha256": "88f6542602f8861ac6625bba32e9edba9c7a35c54e33561c1728d05b130e5490"
+    },
+    {
+      "path": "tests/test_r3_package.py",
+      "size": 10174,
+      "sha256": "27528242c549265d3e2de070bebdf789fc31c634aace886dc28fa8669df0f0b7"
+    },
+    {
+      "path": "tests/test_r4.py",
+      "size": 20532,
+      "sha256": "bbbb27f7bac239fb961e3bbc03b18f0f6df390a39f6a32426939c7ce5204d3e1"
+    },
+    {
+      "path": "tests/test_r4_package.py",
+      "size": 11953,
+      "sha256": "b152f8a7eefccb05fbf3015b40794966c79fb20434602022d61f1e7798426d35"
+    },
+    {
+      "path": "tests/test_r5.py",
+      "size": 15467,
+      "sha256": "79879dd6b4910e896e64a56e00b67642c715231c904489b3d5aa25ecf87b4d93"
+    },
+    {
+      "path": "tests/test_r5_package.py",
+      "size": 13715,
+      "sha256": "c4a691597e063429ccd0250116192eb9b517de2b0d8422c5ffe9a6583925e59d"
+    },
+    {
+      "path": "tests/test_r5_warning.py",
+      "size": 8276,
+      "sha256": "1183aa410312c36e59b1c8e12f977f0e56b1d66d2ea94a8c6f4a7ffe3f43fc2a"
+    },
+    {
+      "path": "tests/test_r6.py",
+      "size": 21990,
+      "sha256": "4c893edc433ca12a7022972490525181f7532862fdf401d54313e0c3daa6cf99"
+    },
+    {
+      "path": "tests/test_r6_compat.py",
+      "size": 1610,
+      "sha256": "f00eee2d6b24d7651a73b52ae1810746de0a72e6e143897e5e15f6671c8c91e5"
+    },
+    {
+      "path": "tests/test_r6_package.py",
+      "size": 13969,
+      "sha256": "858c9d215153b05c37972b14928fee69c94f9e2f59e099510116ccb421c34205"
+    },
+    {
+      "path": "tests/test_rc4.py",
+      "size": 7727,
+      "sha256": "4e3e46b824b1588b8a10746201b6063e05ab5b9274a5eb32d8776a5f9933c900"
+    },
+    {
+      "path": "tests/test_stack_probe.py",
+      "size": 2025,
+      "sha256": "539261aeb71166d2ef494ef10c80ec221bbe18c4469178659d6d2393dd34f3db"
+    },
+    {
+      "path": "tools/package_r3.py",
+      "size": 5159,
+      "sha256": "d47c6f99db6b7f8fad77a62ea4c48f0392a0505186cf9ad189933f76d7199050"
+    },
+    {
+      "path": "tools/package_r4.py",
+      "size": 5197,
+      "sha256": "dae138f904476b968e00159d7ff17d20355e021bf2064ebbb0b2d0c2b1d91297"
+    },
+    {
+      "path": "tools/package_r5.py",
+      "size": 6823,
+      "sha256": "5856139f255172ef56b4227fde1080649a9f1e0b93fd1f9e8bf60b9c74c6fd13"
+    },
+    {
+      "path": "tools/package_r6.py",
+      "size": 6967,
+      "sha256": "8138d16b74e72e7a64cd69b28caeb459c4d7947aa5382bb4067e037b19b88674"
+    },
+    {
+      "path": "가챠로그추출.cmd",
+      "size": 447,
+      "sha256": "782e8761bb1b9620274a4b9834d40996701fac956137c254d953c87afc953d79"
+    },
+    {
+      "path": "검증결과.md",
+      "size": 4751,
+      "sha256": "8f8503c2b02076e39ccce1c9e4e935bdf62a2b851ce665cb67f6a4f3a86f93c3"
+    },
+    {
+      "path": "먼저읽기.txt",
+      "size": 4189,
+      "sha256": "883f5c1338036a617a4736a44b62f4ad5b8bed7f988d4acbd845480efe54f164"
+    },
+    {
+      "path": "문제자료모으기.cmd",
+      "size": 456,
+      "sha256": "a5f8c80b1f2f15ec75ce998afb729cb34e2f584d5a89ec7e565216bf14f9fa64"
+    },
+    {
+      "path": "변경내역.txt",
+      "size": 1670,
+      "sha256": "2c72bfb2b5ab5288c297b6325dfd8c7448586f4822bb7d178daaa14f08c0c1e6"
+    },
+    {
+      "path": "세이브백업.cmd",
+      "size": 456,
+      "sha256": "db5c7c0185c71cffee03e15232a945669037793847a446ef1de0e6cfb9ba0f8a"
+    },
+    {
+      "path": "실게임자료수집.cmd",
+      "size": 450,
+      "sha256": "455792f7ee6da6a40b96d4dc12b2afc468c0d15debcdcf77a50c928c9feb2d11"
+    },
+    {
+      "path": "실게임확인.txt",
+      "size": 2610,
+      "sha256": "b3804d21b3f080245331b53989c3c902666ea824d401b49c012d70b04ee913ff"
+    }
+  ]
+}

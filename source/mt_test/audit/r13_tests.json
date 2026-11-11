@@ -1,0 +1,382 @@
+{
+  "scope": "R13 selected-only reroll on actual Win64 DLL / captured native click+commit.\nSynthetic OS/UI world endpoints; NOT live Windows or full game FPS certification.\n",
+  "passed": 94,
+  "tests": [
+    {
+      "name": "full native eligible/rank fingerprints accepted before hooks",
+      "pass": true
+    },
+    {
+      "name": "production installer constructs all 39 hooks and original-entry trampolines",
+      "pass": true
+    },
+    {
+      "name": "senior rank derived from three actual rank-table grants, not a hard-coded test capacity",
+      "pass": true
+    },
+    {
+      "name": "focus stage 1 preserves all three native selections without draw #1",
+      "pass": true
+    },
+    {
+      "name": "stage 1 reroll control enabled before final Decision #1",
+      "pass": true
+    },
+    {
+      "name": "one shared ticket spent for selected stage #1",
+      "pass": true
+    },
+    {
+      "name": "other two result/seed/roll ID/odds/reroll metadata unchanged #1",
+      "pass": true
+    },
+    {
+      "name": "later fixed trait results excluded before selected redraw #1",
+      "pass": true
+    },
+    {
+      "name": "exactly selected roll refreshed, original roll ID retained #1",
+      "pass": true
+    },
+    {
+      "name": "no native award or prefix truncation until Decision #1",
+      "pass": true
+    },
+    {
+      "name": "preview and persistent ticket ledgers valid #1",
+      "pass": true
+    },
+    {
+      "name": "focus stage 2 preserves all three native selections without draw #2",
+      "pass": true
+    },
+    {
+      "name": "stage 2 reroll control enabled before final Decision #2",
+      "pass": true
+    },
+    {
+      "name": "one shared ticket spent for selected stage #2",
+      "pass": true
+    },
+    {
+      "name": "other two result/seed/roll ID/odds/reroll metadata unchanged #2",
+      "pass": true
+    },
+    {
+      "name": "later fixed trait results excluded before selected redraw #2",
+      "pass": true
+    },
+    {
+      "name": "exactly selected roll refreshed, original roll ID retained #2",
+      "pass": true
+    },
+    {
+      "name": "no native award or prefix truncation until Decision #2",
+      "pass": true
+    },
+    {
+      "name": "preview and persistent ticket ledgers valid #2",
+      "pass": true
+    },
+    {
+      "name": "focus stage 3 preserves all three native selections without draw #3",
+      "pass": true
+    },
+    {
+      "name": "stage 3 reroll control enabled before final Decision #3",
+      "pass": true
+    },
+    {
+      "name": "one shared ticket spent for selected stage #3",
+      "pass": true
+    },
+    {
+      "name": "other two result/seed/roll ID/odds/reroll metadata unchanged #3",
+      "pass": true
+    },
+    {
+      "name": "exactly selected roll refreshed, original roll ID retained #3",
+      "pass": true
+    },
+    {
+      "name": "no native award or prefix truncation until Decision #3",
+      "pass": true
+    },
+    {
+      "name": "preview and persistent ticket ledgers valid #3",
+      "pass": true
+    },
+    {
+      "name": "focus stage 1 preserves all three native selections without draw #4",
+      "pass": true
+    },
+    {
+      "name": "stage 1 reroll control enabled before final Decision #4",
+      "pass": true
+    },
+    {
+      "name": "one shared ticket spent for selected stage #4",
+      "pass": true
+    },
+    {
+      "name": "other two result/seed/roll ID/odds/reroll metadata unchanged #4",
+      "pass": true
+    },
+    {
+      "name": "later fixed trait results excluded before selected redraw #4",
+      "pass": true
+    },
+    {
+      "name": "exactly selected roll refreshed, original roll ID retained #4",
+      "pass": true
+    },
+    {
+      "name": "no native award or prefix truncation until Decision #4",
+      "pass": true
+    },
+    {
+      "name": "preview and persistent ticket ledgers valid #4",
+      "pass": true
+    },
+    {
+      "name": "focus stage 2 preserves all three native selections without draw #5",
+      "pass": true
+    },
+    {
+      "name": "stage 2 reroll control enabled before final Decision #5",
+      "pass": true
+    },
+    {
+      "name": "one shared ticket spent for selected stage #5",
+      "pass": true
+    },
+    {
+      "name": "other two result/seed/roll ID/odds/reroll metadata unchanged #5",
+      "pass": true
+    },
+    {
+      "name": "later fixed trait results excluded before selected redraw #5",
+      "pass": true
+    },
+    {
+      "name": "exactly selected roll refreshed, original roll ID retained #5",
+      "pass": true
+    },
+    {
+      "name": "no native award or prefix truncation until Decision #5",
+      "pass": true
+    },
+    {
+      "name": "preview and persistent ticket ledgers valid #5",
+      "pass": true
+    },
+    {
+      "name": "sixth total reroll rejected without entropy or result mutation",
+      "pass": true
+    },
+    {
+      "name": "actual native Liu Bei commit keeps rank6 and total three rewards",
+      "pass": true
+    },
+    {
+      "name": "commit transfers reserved tickets into selected slots exactly once",
+      "pass": true
+    },
+    {
+      "name": "original close and command cost occur exactly once",
+      "pass": true
+    },
+    {
+      "name": "committed edited three-slot state saves without resetting ticket or outcomes",
+      "pass": true
+    },
+    {
+      "name": "all final selected results and five-ticket ledger restore byte-for-byte",
+      "pass": true
+    },
+    {
+      "name": "all committed stages pass persistent state validation",
+      "pass": true
+    },
+    {
+      "name": "finalized slots cannot be reopened through direct reroll entry",
+      "pass": true
+    },
+    {
+      "name": "full native eligible/rank fingerprints accepted before hooks",
+      "pass": true
+    },
+    {
+      "name": "production installer constructs all 39 hooks and original-entry trampolines",
+      "pass": true
+    },
+    {
+      "name": "senior rank derived from three actual rank-table grants, not a hard-coded test capacity",
+      "pass": true
+    },
+    {
+      "name": "fixture begins with first revealed MISS plus fixed later rewards",
+      "pass": true
+    },
+    {
+      "name": "earlier MISS reroll to trait removes only provisional X",
+      "pass": true
+    },
+    {
+      "name": "MISS-to-trait keeps both later actual draw snapshots",
+      "pass": true
+    },
+    {
+      "name": "MISS recomposition valid without native X leakage",
+      "pass": true
+    },
+    {
+      "name": "earlier trait can reroll back to MISS when replay remains feasible",
+      "pass": true
+    },
+    {
+      "name": "opposite MISS transition consumes one ticket and holds both later results",
+      "pass": true
+    },
+    {
+      "name": "cancel discards all provisional results/X but never refunds two rerolls",
+      "pass": true
+    },
+    {
+      "name": "cancelled earlier-slot ticket state persistable",
+      "pass": true
+    },
+    {
+      "name": "cancelled ticket reservations save with unchanged v3 wire format",
+      "pass": true
+    },
+    {
+      "name": "cancelled reroll count survives save/load without refund",
+      "pass": true
+    },
+    {
+      "name": "full native eligible/rank fingerprints accepted before hooks",
+      "pass": true
+    },
+    {
+      "name": "production installer constructs all 39 hooks and original-entry trampolines",
+      "pass": true
+    },
+    {
+      "name": "senior rank derived from three actual rank-table grants, not a hard-coded test capacity",
+      "pass": true
+    },
+    {
+      "name": "entropy failure leaves all revealed outcomes and ticket reservations unchanged",
+      "pass": true
+    },
+    {
+      "name": "stale persistent-ledger snapshot rejects edit before drawing",
+      "pass": true
+    },
+    {
+      "name": "metadata fault cannot be bypassed by selecting an earlier preview",
+      "pass": true
+    },
+    {
+      "name": "full-star early preview reroll spends only ticket, never immediately replaces native trait",
+      "pass": true
+    },
+    {
+      "name": "full-capacity early reroll holds later result and rarity metadata",
+      "pass": true
+    },
+    {
+      "name": "full-capacity recomposition is valid through final replacement preparation",
+      "pass": true
+    },
+    {
+      "name": "changed full-capacity result still requires original replacement consent",
+      "pass": true
+    },
+    {
+      "name": "replacement consent finalizes the recomposed batch only once",
+      "pass": true
+    },
+    {
+      "name": "full native eligible/rank fingerprints accepted before hooks",
+      "pass": true
+    },
+    {
+      "name": "production installer constructs all 39 hooks and original-entry trampolines",
+      "pass": true
+    },
+    {
+      "name": "senior rank derived from three actual rank-table grants, not a hard-coded test capacity",
+      "pass": true
+    },
+    {
+      "name": "AI first batch recognizes a just-succeeded ruler without prior candidate scan",
+      "pass": true
+    },
+    {
+      "name": "fresh ruler retains capacity3, fills final trait cell, then two domestic rewards",
+      "pass": true
+    },
+    {
+      "name": "editing officer A first slot does not touch officer B three revealed outcomes or five tickets",
+      "pass": true
+    },
+    {
+      "name": "editing officer B second slot leaves officer A unchanged",
+      "pass": true
+    },
+    {
+      "name": "two independently edited three-slot previews commit once through native batch",
+      "pass": true
+    },
+    {
+      "name": "five mixed-stage edits preserve held outcomes and commit valid ledger, deterministic set 0",
+      "pass": true
+    },
+    {
+      "name": "five mixed-stage edits preserve held outcomes and commit valid ledger, deterministic set 1",
+      "pass": true
+    },
+    {
+      "name": "five mixed-stage edits preserve held outcomes and commit valid ledger, deterministic set 2",
+      "pass": true
+    },
+    {
+      "name": "five mixed-stage edits preserve held outcomes and commit valid ledger, deterministic set 3",
+      "pass": true
+    },
+    {
+      "name": "five mixed-stage edits preserve held outcomes and commit valid ledger, deterministic set 4",
+      "pass": true
+    },
+    {
+      "name": "five mixed-stage edits preserve held outcomes and commit valid ledger, deterministic set 5",
+      "pass": true
+    },
+    {
+      "name": "five mixed-stage edits preserve held outcomes and commit valid ledger, deterministic set 6",
+      "pass": true
+    },
+    {
+      "name": "five mixed-stage edits preserve held outcomes and commit valid ledger, deterministic set 7",
+      "pass": true
+    },
+    {
+      "name": "five mixed-stage edits preserve held outcomes and commit valid ledger, deterministic set 8",
+      "pass": true
+    },
+    {
+      "name": "five mixed-stage edits preserve held outcomes and commit valid ledger, deterministic set 9",
+      "pass": true
+    },
+    {
+      "name": "five mixed-stage edits preserve held outcomes and commit valid ledger, deterministic set 10",
+      "pass": true
+    },
+    {
+      "name": "five mixed-stage edits preserve held outcomes and commit valid ledger, deterministic set 11",
+      "pass": true
+    }
+  ]
+}

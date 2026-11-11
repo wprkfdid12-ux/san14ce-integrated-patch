@@ -1,0 +1,1088 @@
+{
+  "scope": "Unaffected engine, original DB, save journal, Hover and RC25 contracts.\nHistorical R2-R5 UI/cancel and native-only pending-counter assertions are superseded by test_r6.py; do not run\nthose obsolete interaction assumptions as R6 release gates.\n",
+  "functions": {
+    "test_rc4": [
+      "engine",
+      "persistence",
+      "logs"
+    ],
+    "test_cp03": [
+      "engine_integrity",
+      "migration",
+      "save_atomicity",
+      "reentrant_guard_and_ai",
+      "initializer_atomicity",
+      "rolling_logs",
+      "log_number_encoding"
+    ],
+    "test_native_integration": [
+      "identities",
+      "slot_roundtrip",
+      "interrupted",
+      "copies_and_corruption",
+      "flush_guard"
+    ],
+    "test_r11_semantics": [
+      "semantic_file_damage_r11",
+      "live_targets_ai_r11"
+    ],
+    "test_r2": [
+      "grades"
+    ],
+    "test_r3": [
+      "engine_miss_passion",
+      "last_full_and_rerolls",
+      "information_labels",
+      "hover_patch_transaction"
+    ],
+    "test_r4": [
+      "actual_modcore_contract",
+      "dll_local_transaction_guards",
+      "persistent_cache_failure",
+      "api_lifetime_guards",
+      "red_traits_in_information",
+      "preset_binding_and_display",
+      "original_rc25_trait_loop",
+      "load_order_and_failures"
+    ]
+  },
+  "passed": 259,
+  "tests": [
+    {
+      "name": "official database distribution and draw execute in production Win64 PE",
+      "pass": true
+    },
+    {
+      "name": "pending result has no budget or heat consumption",
+      "pass": true
+    },
+    {
+      "name": "shared reroll persisted 1",
+      "pass": true
+    },
+    {
+      "name": "shared reroll persisted 2",
+      "pass": true
+    },
+    {
+      "name": "shared reroll persisted 3",
+      "pass": true
+    },
+    {
+      "name": "shared reroll persisted 4",
+      "pass": true
+    },
+    {
+      "name": "shared reroll persisted 5",
+      "pass": true
+    },
+    {
+      "name": "same result allowed; reroll has no probability/budget/heat bonus",
+      "pass": true
+    },
+    {
+      "name": "sixth reroll rejected without mutations",
+      "pass": true
+    },
+    {
+      "name": "final accept inserts actual trait",
+      "pass": true
+    },
+    {
+      "name": "accepted result consumes personal budget only once",
+      "pass": true
+    },
+    {
+      "name": "duplicate finalize rejected",
+      "pass": true
+    },
+    {
+      "name": "next stage shares exhausted reroll count",
+      "pass": true
+    },
+    {
+      "name": "red/hidden/uninstalled traits excluded",
+      "pass": true
+    },
+    {
+      "name": "custom officer remains a valid target without being added to teacher pool",
+      "pass": true
+    },
+    {
+      "name": "new sidecar uses separate version extension",
+      "pass": true
+    },
+    {
+      "name": "V3 wire format includes MISS/X/passion in formerly reserved padding",
+      "pass": true
+    },
+    {
+      "name": "pending result, seed, budget and used reroll restored exactly",
+      "pass": true
+    },
+    {
+      "name": "R40: corrupted sidecar -> fresh merit start, no module-wide fault",
+      "pass": true
+    },
+    {
+      "name": "only unlock and confirmation events queued",
+      "pass": true
+    },
+    {
+      "name": "log replay seed and Roll ID correlate finalization",
+      "pass": true
+    },
+    {
+      "name": "structured audit contains calculation basis and budget transition",
+      "pass": true
+    },
+    {
+      "name": "idle row ticks generate no log records",
+      "pass": true
+    },
+    {
+      "name": "fresh state passes semantic validation",
+      "pass": true
+    },
+    {
+      "name": "an already unlocked third chance can be chosen first",
+      "pass": true
+    },
+    {
+      "name": "reverse-order second pending roll rejected atomically",
+      "pass": true
+    },
+    {
+      "name": "single pending state passes validation",
+      "pass": true
+    },
+    {
+      "name": "semantic validator rejects NaN cost",
+      "pass": true
+    },
+    {
+      "name": "semantic validator rejects infinite weight",
+      "pass": true
+    },
+    {
+      "name": "semantic validator rejects negative fit",
+      "pass": true
+    },
+    {
+      "name": "semantic validator rejects uninitialized with payload",
+      "pass": true
+    },
+    {
+      "name": "semantic validator rejects reroll sum mismatch",
+      "pass": true
+    },
+    {
+      "name": "semantic validator rejects nonboolean star",
+      "pass": true
+    },
+    {
+      "name": "semantic validator rejects budget mismatch",
+      "pass": true
+    },
+    {
+      "name": "semantic validator rejects transcend without anomaly",
+      "pass": true
+    },
+    {
+      "name": "semantic validator rejects invalid original trait",
+      "pass": true
+    },
+    {
+      "name": "semantic validator rejects two pending results",
+      "pass": true
+    },
+    {
+      "name": "RC3 .mtdat reconstructs the accepted RC4 result",
+      "pass": true
+    },
+    {
+      "name": "legacy migration reconstructs coherent budget and zero rerolls",
+      "pass": true
+    },
+    {
+      "name": "legacy migrated original troop bonus remains removed",
+      "pass": true
+    },
+    {
+      "name": "migration does not reroll an already acquired result",
+      "pass": true
+    },
+    {
+      "name": "safe RC3 to RC4 migration creates separate file and preserves legacy bytes",
+      "pass": true
+    },
+    {
+      "name": "identical native and companion snapshots may be saved again",
+      "pass": true
+    },
+    {
+      "name": "R40: same-digest metadata collision never overwrites the old companion and never blocks the native save",
+      "pass": true
+    },
+    {
+      "name": "collision does not mutate current pending roll",
+      "pass": true
+    },
+    {
+      "name": "distinct native digest has independent companion snapshot",
+      "pass": true
+    },
+    {
+      "name": "R40: sidecar write failure never blocks the native save (companion skipped, logged)",
+      "pass": true
+    },
+    {
+      "name": "R40: sidecar flush failure never blocks the native save (companion skipped, logged)",
+      "pass": true
+    },
+    {
+      "name": "R40: sidecar rename failure never blocks the native save (companion skipped, logged)",
+      "pass": true
+    },
+    {
+      "name": "failed sidecar writes leave no temporary file",
+      "pass": true
+    },
+    {
+      "name": "failed save cannot change active-save diagnostic identity",
+      "pass": true
+    },
+    {
+      "name": "overlapping saves cannot replace in-flight snapshot",
+      "pass": true
+    },
+    {
+      "name": "native save end releases single-save guard",
+      "pass": true
+    },
+    {
+      "name": "failed native save preparation releases guard",
+      "pass": true
+    },
+    {
+      "name": "new scenario does not inherit prior save hash in logs",
+      "pass": true
+    },
+    {
+      "name": "reentrant save and reroll rejected inside locked draw",
+      "pass": true
+    },
+    {
+      "name": "finalization has balanced locks",
+      "pass": true
+    },
+    {
+      "name": "AI completes three lifetime chances with same production engine",
+      "pass": true
+    },
+    {
+      "name": "AI never exceeds shared five rerolls and persists coherent budget",
+      "pass": true
+    },
+    {
+      "name": "AI event records retain AI attribution",
+      "pass": true
+    },
+    {
+      "name": "second half of initial 64-bit RNG failure installs no hooks",
+      "pass": true
+    },
+    {
+      "name": "injected partial current patch batch fails initializer",
+      "pass": true
+    },
+    {
+      "name": "rollback includes partially applied current batch, not just earlier batch",
+      "pass": true
+    },
+    {
+      "name": "exact-build initialization tolerates unavailable optional logger",
+      "pass": true
+    },
+    {
+      "name": "high-resolution clock frequency cached once at initialization",
+      "pass": true
+    },
+    {
+      "name": "repeated successful initialization never patches again",
+      "pass": true
+    },
+    {
+      "name": "all four log paths have correct distinct suffixes",
+      "pass": true
+    },
+    {
+      "name": "full log rotates and appends to fresh file",
+      "pass": true
+    },
+    {
+      "name": "rolling log storage stays within four times two MiB",
+      "pass": true
+    },
+    {
+      "name": "failed rotation never appends past file cap",
+      "pass": true
+    },
+    {
+      "name": "failed log I/O is counted without gameplay failure",
+      "pass": true
+    },
+    {
+      "name": "full 128-event queue drops diagnostics rather than blocking gacha",
+      "pass": true
+    },
+    {
+      "name": "float rounding carry produces valid JSON numbers near integer boundaries",
+      "pass": true
+    },
+    {
+      "name": "event records identify current R17 build and log I/O failures",
+      "pass": true
+    },
+    {
+      "name": "native filename accepted length 5",
+      "pass": true
+    },
+    {
+      "name": "slot key includes complete exact filename and verified SteamID ABI",
+      "pass": true
+    },
+    {
+      "name": "native filename accepted length 27",
+      "pass": true
+    },
+    {
+      "name": "slot key includes complete exact filename and verified SteamID ABI",
+      "pass": true
+    },
+    {
+      "name": "native filename accepted length 1023",
+      "pass": true
+    },
+    {
+      "name": "slot key includes complete exact filename and verified SteamID ABI",
+      "pass": true
+    },
+    {
+      "name": "different Steam accounts cannot alias identical slot names",
+      "pass": true
+    },
+    {
+      "name": "missing native account identity fails closed",
+      "pass": true
+    },
+    {
+      "name": "overlong filename rejected without out-of-bounds hash",
+      "pass": true
+    },
+    {
+      "name": "native slot save commits actual sidecar journal",
+      "pass": true
+    },
+    {
+      "name": "reference is checksummed COMMITTED not mere staging",
+      "pass": true
+    },
+    {
+      "name": "reroll changes sidecar without altering native game bytes",
+      "pass": true
+    },
+    {
+      "name": "same native bytes with changed gacha state can overwrite SAME slot safely",
+      "pass": true
+    },
+    {
+      "name": "previous and current gacha generations retained",
+      "pass": true
+    },
+    {
+      "name": "same native bytes can be stored under DIFFERENT slot binding",
+      "pass": true
+    },
+    {
+      "name": "load original slot restores latest reroll state exactly",
+      "pass": true
+    },
+    {
+      "name": "loaded pending result can spend next shared reroll",
+      "pass": true
+    },
+    {
+      "name": "third state commits despite identical native bytes",
+      "pass": true
+    },
+    {
+      "name": "other slot keeps its independent historical gacha state",
+      "pass": true
+    },
+    {
+      "name": "newer slot returns its own later state, not most recent globally",
+      "pass": true
+    },
+    {
+      "name": "idempotent native save remains available",
+      "pass": true
+    },
+    {
+      "name": "idempotent native save remains available",
+      "pass": true
+    },
+    {
+      "name": "idempotent native save remains available",
+      "pass": true
+    },
+    {
+      "name": "idempotent native save remains available",
+      "pass": true
+    },
+    {
+      "name": "idempotent native save remains available",
+      "pass": true
+    },
+    {
+      "name": "idempotent native save remains available",
+      "pass": true
+    },
+    {
+      "name": "idempotent native save remains available",
+      "pass": true
+    },
+    {
+      "name": "idempotent native save remains available",
+      "pass": true
+    },
+    {
+      "name": "bounded two generations per slot and no successful-save temp debris",
+      "pass": true
+    },
+    {
+      "name": "native write failure is propagated, never reported saved",
+      "pass": true
+    },
+    {
+      "name": "R40: failed native write preserves INTENT and both recoverable states without a fault latch",
+      "pass": true
+    },
+    {
+      "name": "actual old native bytes recover the correct old gacha generation",
+      "pass": true
+    },
+    {
+      "name": "actual new native bytes recover the new generation after interrupted write",
+      "pass": true
+    },
+    {
+      "name": "R40: native save that really wrote is reported saved; journal stays INTENT",
+      "pass": true
+    },
+    {
+      "name": "native written/metadata uncertain leaves durable INTENT",
+      "pass": true
+    },
+    {
+      "name": "R40: identical-byte interrupted state loads the last committed generation",
+      "pass": true
+    },
+    {
+      "name": "R40: both snapshots kept (reference may be committed to the older generation)",
+      "pass": true
+    },
+    {
+      "name": "unique same-account copied/renamed native save binds exact companion state",
+      "pass": true
+    },
+    {
+      "name": "R40: ambiguous copy is not guessed: fresh merit start, no fault",
+      "pass": true
+    },
+    {
+      "name": "R40: corrupt interrupted snapshot -> fresh merit start, no fault",
+      "pass": true
+    },
+    {
+      "name": "failed snapshot validation does not commit a recovery reference",
+      "pass": true
+    },
+    {
+      "name": "missing save identity blocks before native flush can truncate the file",
+      "pass": true
+    },
+    {
+      "name": "verified save identity forwards original flush",
+      "pass": true
+    },
+    {
+      "name": "unrelated game streams remain untouched by save guard",
+      "pass": true
+    },
+    {
+      "name": "R40: R11 checksum-valid NaN cost -> that officer starts fresh, no module fault",
+      "pass": true
+    },
+    {
+      "name": "R40: R11 checksum-valid reroll mismatch -> that officer starts fresh, no module fault",
+      "pass": true
+    },
+    {
+      "name": "R40: R11 contradicting award bit -> that officer starts fresh, no module fault",
+      "pass": true
+    },
+    {
+      "name": "verified paid-count ledger restores pending stage after native status reset",
+      "pass": true
+    },
+    {
+      "name": "R40: pending stage without native unlock or verified ledger is not restored (that officer fresh), no module fault",
+      "pass": true
+    },
+    {
+      "name": "custom target is not an official teacher and has no invented star flag",
+      "pass": true
+    },
+    {
+      "name": "current custom unique tactic and valid parent read from native serializer layout",
+      "pass": true
+    },
+    {
+      "name": "removed tactic and invalid/self/zero parent do not retain stale official flags",
+      "pass": true
+    },
+    {
+      "name": "edited official officer without unique tactic is not automatically a star",
+      "pass": true
+    },
+    {
+      "name": "R11 candidate visitation returns native qualification but never auto-awards legacy upper flags",
+      "pass": true
+    },
+    {
+      "name": "repeat native AI visit never duplicates accepted/declined awards",
+      "pass": true
+    },
+    {
+      "name": "AI uses same shared five rerolls without fabricating native rank/flags",
+      "pass": true
+    },
+    {
+      "name": "AI rewards do not open officer gratitude dialogue",
+      "pass": true
+    },
+    {
+      "name": "AI mutation waits while native save snapshot is active",
+      "pass": true
+    },
+    {
+      "name": "six-level observation is deterministic and cannot alter RNG or draw weights",
+      "pass": true
+    },
+    {
+      "name": "evaluation threshold 0",
+      "pass": true
+    },
+    {
+      "name": "evaluation threshold 24.999",
+      "pass": true
+    },
+    {
+      "name": "evaluation threshold 25",
+      "pass": true
+    },
+    {
+      "name": "evaluation threshold 44.999",
+      "pass": true
+    },
+    {
+      "name": "evaluation threshold 45",
+      "pass": true
+    },
+    {
+      "name": "evaluation threshold 64.999",
+      "pass": true
+    },
+    {
+      "name": "evaluation threshold 65",
+      "pass": true
+    },
+    {
+      "name": "evaluation threshold 81.999",
+      "pass": true
+    },
+    {
+      "name": "evaluation threshold 82",
+      "pass": true
+    },
+    {
+      "name": "evaluation threshold 94.999",
+      "pass": true
+    },
+    {
+      "name": "evaluation threshold 95",
+      "pass": true
+    },
+    {
+      "name": "evaluation threshold 100",
+      "pass": true
+    },
+    {
+      "name": "poor-fit rarity cannot rise above 의외 without the value gate",
+      "pass": true
+    },
+    {
+      "name": "wire sizes preserved; v3 consumes reserved padding only",
+      "pass": true
+    },
+    {
+      "name": "MISS is separate outcome with no synthetic trait ID/candidate list",
+      "pass": true
+    },
+    {
+      "name": "preview MISS has no slot, ability, budget, heat or buff effects",
+      "pass": true
+    },
+    {
+      "name": "MISS excluded from all six assessment grades",
+      "pass": true
+    },
+    {
+      "name": "MISS cannot delete or decline-replace an existing trait",
+      "pass": true
+    },
+    {
+      "name": "accept MISS occupies exact empty physical slot only in metadata and grants passion",
+      "pass": true
+    },
+    {
+      "name": "X counts toward capacity without becoming an effect or corrupting state",
+      "pass": true
+    },
+    {
+      "name": "passion multiplies good-fit/gold weights without changing raw DB similarities",
+      "pass": true
+    },
+    {
+      "name": "passion suppresses MISS and remains through next chance reroll 0",
+      "pass": true
+    },
+    {
+      "name": "passion suppresses MISS and remains through next chance reroll 1",
+      "pass": true
+    },
+    {
+      "name": "passion suppresses MISS and remains through next chance reroll 2",
+      "pass": true
+    },
+    {
+      "name": "passion suppresses MISS and remains through next chance reroll 3",
+      "pass": true
+    },
+    {
+      "name": "passion suppresses MISS and remains through next chance reroll 4",
+      "pass": true
+    },
+    {
+      "name": "actual next trait acceptance consumes buff once, leaves X intact",
+      "pass": true
+    },
+    {
+      "name": "external real trait edit removes overlapping X; never relocates it",
+      "pass": true
+    },
+    {
+      "name": "third physical reward tile is MISS-free even when rolled first",
+      "pass": true
+    },
+    {
+      "name": "last chronological chance is MISS-free in reverse tile order",
+      "pass": true
+    },
+    {
+      "name": "real 9/9 MISS keeps every incumbent and gives only result-X plus buff",
+      "pass": true
+    },
+    {
+      "name": "rerolling away a preview MISS spends one coupon but grants no X or buff",
+      "pass": true
+    },
+    {
+      "name": "information panel calls existing renderer first and overlays X at physical slot",
+      "pass": true
+    },
+    {
+      "name": "nine information labels retain physical hover indices; old five labels hidden",
+      "pass": true
+    },
+    {
+      "name": "real information labels reuse game trait names, not a replacement description table",
+      "pass": true
+    },
+    {
+      "name": "unoccupied non-X information labels remain hidden",
+      "pass": true
+    },
+    {
+      "name": "non-X acquired information panel refreshes actual native physical traits",
+      "pass": true
+    },
+    {
+      "name": "information overlay native ABI callbacks complete without errors",
+      "pass": true
+    },
+    {
+      "name": "full exact-build initialization installs seven guarded Hover display sites; only game site uses Core",
+      "pass": true
+    },
+    {
+      "name": "six renderer call sites and one information-panel bridge are installed",
+      "pass": true
+    },
+    {
+      "name": "repeat initialization does not duplicate X bridges",
+      "pass": true
+    },
+    {
+      "name": "partial Hover bridge installation fails closed without gameplay activation",
+      "pass": true
+    },
+    {
+      "name": "partial X installation rolls back its own bytes and all new gameplay hooks",
+      "pass": true
+    },
+    {
+      "name": "rollback retains original shared Hover jump and releases unused X relay page",
+      "pass": true
+    },
+    {
+      "name": "actual supplied Core rejects DLL-local addresses without modifying them (R3 activation defect reproduced)",
+      "pass": true
+    },
+    {
+      "name": "actual Core still accepts verified game-image hooks",
+      "pass": true
+    },
+    {
+      "name": "actual Core conflict/byte ownership protections remain intact",
+      "pass": true
+    },
+    {
+      "name": "complete Merit initialization succeeds with actual shipped Core code and seven Hover bridges",
+      "pass": true
+    },
+    {
+      "name": "actual Core owns 5 trait slots + 35 Merit hooks + 1 Hover game site + isolated test hook; no DLL-local targets",
+      "pass": true
+    },
+    {
+      "name": "RC25 optional display calls coexist with real Core without changing its game-only registry",
+      "pass": true
+    },
+    {
+      "name": "shipped shared Core file stays byte-identical; its guard is not widened",
+      "pass": true
+    },
+    {
+      "name": "DLL-local transaction installs only prevalidated five-byte display calls",
+      "pass": true
+    },
+    {
+      "name": "DLL-local transaction restores repeated page protection in reverse order",
+      "pass": true
+    },
+    {
+      "name": "unknown module call bytes rejected before any protection/write",
+      "pass": true
+    },
+    {
+      "name": "overlapping display call targets rejected",
+      "pass": true
+    },
+    {
+      "name": "display call target outside verified DLL text/image rejected -0x5a7a000",
+      "pass": true
+    },
+    {
+      "name": "display call target outside verified DLL text/image rejected 0x500",
+      "pass": true
+    },
+    {
+      "name": "display call target outside verified DLL text/image rejected 0x3ffc",
+      "pass": true
+    },
+    {
+      "name": "page-opening failure writes no call and restores already-open page",
+      "pass": true
+    },
+    {
+      "name": "pre-write recheck preserves a concurrent external call edit",
+      "pass": true
+    },
+    {
+      "name": "required Hover cache failure refuses activation and restores written display bytes",
+      "pass": true
+    },
+    {
+      "name": "uncertain instruction cache retains required relay memory despite restored data bytes",
+      "pass": true
+    },
+    {
+      "name": "optional RC25 cache failure restores bytes without disabling gacha",
+      "pass": true
+    },
+    {
+      "name": "uncertain RC25 instruction cache never releases a potentially callable relay",
+      "pass": true
+    },
+    {
+      "name": "display API safely returns unavailable before mod initialization",
+      "pass": true
+    },
+    {
+      "name": "initialized display API returns actual native trait",
+      "pass": true
+    },
+    {
+      "name": "missing core safely disables public display API",
+      "pass": true
+    },
+    {
+      "name": "missing res safely disables public display API",
+      "pass": true
+    },
+    {
+      "name": "missing game safely disables public display API",
+      "pass": true
+    },
+    {
+      "name": "display API fallback for enabled",
+      "pass": true
+    },
+    {
+      "name": "display API fallback for metadata_ready",
+      "pass": true
+    },
+    {
+      "name": "display API fallback for metadata_fault",
+      "pass": true
+    },
+    {
+      "name": "invalid/missing officer or slot is rejected (6000, 0)",
+      "pass": true
+    },
+    {
+      "name": "invalid/missing officer or slot is rejected (4294967295, 0)",
+      "pass": true
+    },
+    {
+      "name": "invalid/missing officer or slot is rejected (596, 9)",
+      "pass": true
+    },
+    {
+      "name": "invalid/missing officer or slot is rejected (596, 4294967295)",
+      "pass": true
+    },
+    {
+      "name": "invalid/missing officer or slot is rejected (5999, 0)",
+      "pass": true
+    },
+    {
+      "name": "null trait output rejected; other supplied output cleared",
+      "pass": true
+    },
+    {
+      "name": "null X output rejected; other supplied output cleared",
+      "pass": true
+    },
+    {
+      "name": "no live database is a clean public API fallback",
+      "pass": true
+    },
+    {
+      "name": "red trait remains visible beside a committed X in officer information",
+      "pass": true
+    },
+    {
+      "name": "real red trait keeps native red color, not gacha eligibility color",
+      "pass": true
+    },
+    {
+      "name": "information X overlay does not rewrite officer stats or traits",
+      "pass": true
+    },
+    {
+      "name": "displaying red traits does not admit them to the blue/gold gacha pool",
+      "pass": true
+    },
+    {
+      "name": "empty/sentinel/out-of-range display IDs never become fake traits",
+      "pass": true
+    },
+    {
+      "name": "exact RC25 installs thirteen owned display calls without passing DLL addresses to game-only Core",
+      "pass": true
+    },
+    {
+      "name": "all refresh callers redirect while original refresh entry remains intact",
+      "pass": true
+    },
+    {
+      "name": "RC25 input routing and original tooltip code are not replaced",
+      "pass": true
+    },
+    {
+      "name": "real Win64 relay calls original refresh first then draws physical X cells 2 and 9",
+      "pass": true
+    },
+    {
+      "name": "original real-trait caption and tooltip ID remain authoritative",
+      "pass": true
+    },
+    {
+      "name": "X never receives a synthetic trait tooltip ID",
+      "pass": true
+    },
+    {
+      "name": "preset overlay changes neither officer data nor preset selection/book records",
+      "pass": true
+    },
+    {
+      "name": "switching selected preset officer clears previous officer X without mixing state",
+      "pass": true
+    },
+    {
+      "name": "external trait edit wins in presets and permanently removes only the overlapping X",
+      "pass": true
+    },
+    {
+      "name": "preset bridge never overwrites a nonzero native-rendered trait ID",
+      "pass": true
+    },
+    {
+      "name": "hidden/destroyed/invalid preset context rejects X overlay 0x33d40",
+      "pass": true
+    },
+    {
+      "name": "hidden/destroyed/invalid preset context rejects X overlay 0x34bb0",
+      "pass": true
+    },
+    {
+      "name": "hidden/destroyed/invalid preset context rejects X overlay 0x34ba4",
+      "pass": true
+    },
+    {
+      "name": "hidden/destroyed/invalid preset context rejects X overlay 0x35364",
+      "pass": true
+    },
+    {
+      "name": "stale/reparented preset label is not mutated",
+      "pass": true
+    },
+    {
+      "name": "active preset integration is idempotent and never rehashes/repatches modified call sites",
+      "pass": true
+    },
+    {
+      "name": "preset bridge Microsoft ABI and widget callbacks report no errors",
+      "pass": true
+    },
+    {
+      "name": "supplied RC25 refresh machine code executed without modifying its body",
+      "pass": true
+    },
+    {
+      "name": "actual RC25 loop retains real blue/red tooltip IDs and zero IDs for X",
+      "pass": true
+    },
+    {
+      "name": "actual RC25 loop retains native red caption/color beside X",
+      "pass": true
+    },
+    {
+      "name": "X overlay follows actual RC25 empty-slot hiding at both physical positions",
+      "pass": true
+    },
+    {
+      "name": "actual RC25 visibility/cache loop clears stale X after metadata change",
+      "pass": true
+    },
+    {
+      "name": "actual RC25 loop replaces displayed X with an externally added real trait and tooltip ID",
+      "pass": true
+    },
+    {
+      "name": "actual RC25 refresh plus Merit relay completes without ABI callback errors",
+      "pass": true
+    },
+    {
+      "name": "absent optional preset DLL leaves integration pending, gacha usable",
+      "pass": true
+    },
+    {
+      "name": "loaded but not initialized preset module remains retryable",
+      "pass": true
+    },
+    {
+      "name": "successful new-game boundary binds RC25 loaded after Merit registration",
+      "pass": true
+    },
+    {
+      "name": "successful native load boundary also binds late RC25 registration",
+      "pass": true
+    },
+    {
+      "name": "unsupported text preserved without writing any preset bytes",
+      "pass": true
+    },
+    {
+      "name": "optional text mismatch leaves gacha active and logs once",
+      "pass": true
+    },
+    {
+      "name": "unsupported game preserved without writing any preset bytes",
+      "pass": true
+    },
+    {
+      "name": "optional game mismatch leaves gacha active and logs once",
+      "pass": true
+    },
+    {
+      "name": "unsupported image preserved without writing any preset bytes",
+      "pass": true
+    },
+    {
+      "name": "optional image mismatch leaves gacha active and logs once",
+      "pass": true
+    },
+    {
+      "name": "unsupported callsite preserved without writing any preset bytes",
+      "pass": true
+    },
+    {
+      "name": "optional callsite mismatch leaves gacha active and logs once",
+      "pass": true
+    },
+    {
+      "name": "preset relay search has a hard query budget, no unbounded loading freeze",
+      "pass": true
+    },
+    {
+      "name": "optional post-write patch failure does not disable working gacha False",
+      "pass": true
+    },
+    {
+      "name": "partial preset patch rolls back owned bytes and frees unused relay",
+      "pass": true
+    },
+    {
+      "name": "optional post-write patch failure does not disable working gacha True",
+      "pass": true
+    },
+    {
+      "name": "failed rollback protection retains callable relay memory until process exit",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "scope": "Displayed game FPS read from selected frames; video files themselves are 30fps. Camera paths differ. Not a controlled paired benchmark.",
+  "uninstalled": {
+    "file": "미설치판(2).mp4",
+    "sha256": "f66887b22793b73dcabae360a2591e3f4723c7439baee79f43fce2f4d8e3ad4c",
+    "observed_game_fps": "59-60"
+  },
+  "installed": {
+    "file": "설치판(2).mp4",
+    "sha256": "e04dc3aa093045cac68c02dd157612c84f844efbaf7a3477fa90adf923b8a607",
+    "samples": [
+      {
+        "seconds": 0,
+        "game_fps": 60
+      },
+      {
+        "seconds": 2.5,
+        "game_fps": 44
+      },
+      {
+        "seconds": 3,
+        "game_fps": 44
+      },
+      {
+        "seconds": 3.5,
+        "game_fps": 43
+      },
+      {
+        "seconds": 4,
+        "game_fps": 43
+      }
+    ]
+  },
+  "user_reproduction": "왼쪽 메인 인터페이스가 생기고 사라질 때 프레임 드랍"
+}

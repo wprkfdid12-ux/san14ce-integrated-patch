@@ -1,0 +1,21 @@
+LIBRARY d3d9
+EXPORTS
+ ordinal_16=fl_forward_0 @16 NONAME
+ Direct3DShaderValidatorCreate9=fl_forward_1
+ PSGPError=fl_forward_2
+ PSGPSampleTexture=fl_forward_3
+ D3DPERF_BeginEvent=fl_forward_4
+ D3DPERF_EndEvent=fl_forward_5
+ D3DPERF_GetStatus=fl_forward_6
+ D3DPERF_QueryRepeatFrame=fl_forward_7
+ D3DPERF_SetMarker=fl_forward_8
+ D3DPERF_SetOptions=fl_forward_9
+ D3DPERF_SetRegion=fl_forward_10
+ DebugSetLevel=fl_forward_11
+ DebugSetMute=fl_forward_12
+ Direct3D9EnableMaximizedWindowedModeShim=fl_forward_13
+ Direct3DCreate9=fl_forward_14
+ Direct3DCreate9Ex=fl_forward_15
+ Direct3DCreate9On12=fl_forward_16
+ Direct3DCreate9On12Ex=fl_forward_17
+ Direct3D9ForceOn12=fl_forward_18

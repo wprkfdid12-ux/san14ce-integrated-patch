@@ -1,0 +1,243 @@
+구분	파일	줄	종류	내용	소스
+소스	src/patch_tester.cpp	75	db 뿌리 주소(exe+0x277df18)	inline U8*gm(){return at<U8*>(game,0x277df18);}	-
+소스	src/scene_skip_b23.cpp	2	exe 시간표(1.0.1)	//  게임 흐름(1.0.1 = 0x6a983c25, 근거는 notes_b23.md):	-
+소스	src/scene_skip_b23.cpp	2	판 번호 글자	//  게임 흐름(1.0.1 = 0x6a983c25, 근거는 notes_b23.md):	-
+소스	src/death_log.cpp	110	모듈 해시(바이트 배열)	603735d2afc39e26… = 지금 배포본 아님(옛 판 허용값)	-
+소스	src/death_log.cpp	112	모듈 해시(바이트 배열)	c2a8f62637951754… = 지금 배포본 아님(옛 판 허용값)	-
+소스	src/death_log.cpp	113	모듈 해시(바이트 배열)	4aae2ed2fed69d86… = 지금 배포본 아님(옛 판 허용값)	-
+소스	src/death_log.cpp	112	판 번호 글자	static const U8 fog16[]={0xc2,0xa8,0xf6,0x26,0x37,0x95,0x17,0x54,0x4e,0x8b,0x65,0xa6,0x3b,0x8e,0x54,0x03,0xe1,0x91,0x34,0xaf,0xa0,0x3f,0xae,0x2c,0xd5,0x69,0x35,	-
+소스	src/_table.txt	138	db 뿌리 주소(exe+0x277df18)	('prisoner_return.cpp', 55, '0x277df18', '0x277df18', '40/40 refs', 'code', 'inline U8*gm(){return at<U8*>(game,0x277df18);}')	-
+소스	src/_table.txt	166	db 뿌리 주소(exe+0x277df18)	('domestic_talent.cpp', 60, '0x277df18', '0x277df18', '40/40 refs', 'code', 'U8*db=at<U8*>(game,0x277df18);if(!db||!core->Readable(db,0x871f0))retu')	-
+소스	src/_table.txt	167	db 뿌리 주소(exe+0x277df18)	('domestic_talent.cpp', 60, '0x871f0', None, 'skip-context', 'code', 'U8*db=at<U8*>(game,0x277df18);if(!db||!core->Readable(db,0x871f0))retu')	-
+소스	src/_table.txt	168	db 뿌리 주소(exe+0x277df18)	('domestic_talent.cpp', 60, '0x871e8', None, 'skip-context', 'code', 'U8*db=at<U8*>(game,0x277df18);if(!db||!core->Readable(db,0x871f0))retu')	-
+소스	src/_table.txt	238	exe 크기(1.0.1)	('settings_help.cpp', 228, '0x29ff000', None, 'skip-context', 'code', 'if(!api||api->size<sizeof(S14_CoreAPI)||api->abi!=S14_ABI||!api->resol')	-
+소스	src/_table.txt	256	db 뿌리 주소(exe+0x277df18)	('patch_tester.cpp', 75, '0x277df18', '0x277df18', '40/40 refs', 'code', 'inline U8*gm(){return at<U8*>(game,0x277df18);}')	-
+소스	src/_table.txt	306	exe 크기(1.0.1)	('common.h', 11, '0x29ff000', None, 'skip-context', 'code', 'inline bool valid_api(const S14_CoreAPI*a){return a&&a->size>=sizeof(*')	-
+소스	src/scene_test_launcher.cpp	78	판 번호 글자	if(rc==2)finish(L"[오류] 지원하지 않는 게임 파일입니다(공식 1.0.1 한국어판만).",12);	-
+소스	src/status_color.cpp	27	db 뿌리 주소(exe+0x277df18)	if(id>0x1770)return nullptr;U8*db=*(U8**)(game+0x277df18);if(!db)return nullptr;	-
+소스	src/status_color.cpp	89	exe 크기(1.0.1)	U8*td=game+at<U32>(col,0xc);if((size_t)(td-game)>=0x29ff000||!core->Readable(td,0x10+128))return -1;	-
+소스	src/notice.cpp	8	모듈 해시(바이트 배열)	82feffd91398ea31… = 지금 배포본 아님(옛 판 허용값)	-
+소스	src/notice.cpp	9	exe 시간표(1.0.1)	const U32 kStamp101=0x6a983c25,kStampOld=0x6a6d9f72,kSize101=0x29ff000;	-
+소스	src/notice.cpp	9	exe 크기(1.0.1)	const U32 kStamp101=0x6a983c25,kStampOld=0x6a6d9f72,kSize101=0x29ff000;	-
+소스	src/notice.cpp	9	exe 시간표(옛 1.0.0)	const U32 kStamp101=0x6a983c25,kStampOld=0x6a6d9f72,kSize101=0x29ff000;	-
+소스	src/notice.cpp	25	판 번호 글자	// 0 = 지원판 1.0.1 그대로, 2 = 같은 판을 통째로 고친 실행 파일(신무장 1000명 등 exe 교체형), 3 = 1.0.1 이전, 4 = 다른 판(업데이트 등), 9 = 머리 못 읽음	-
+소스	src/notice.cpp	53	판 번호 글자	case 2:why=L"게임 실행 파일(SAN14CE_KO.exe)이 다른 패치로 통째로 바뀌어 있습니다(예: 신무장 1000명처럼 exe 를 바꾸는 패치).";fix=L"통합패치는 스팀 원본 1.0.1 실행 파일에서만 켜집니다. 스팀 [속성 → 설치된 파일 → 게임 파일 무결성 확인]	-
+소스	src/notice.cpp	54	판 번호 글자	case 3:why=L"게임 실행 파일이 1.0.1 이전 판(롤백판 등)입니다.";fix=L"스팀에서 게임 파일 무결성 확인(최신 1.0.1)을 한 뒤 실행해 주세요.";break;	-
+소스	src/ic_guard.cpp	182	db 뿌리 주소(exe+0x277df18)	dce_ticks++;U8*base=P-0x51510;U8*d=game?*(U8**)(game+0x277df18):nullptr;static U8*tab[501];bool ident=false;	-
+소스	src/common.h	26	모듈 해시(바이트 배열)	fa07cd5fdf5c26ab… = 지금 배포본 아님(옛 판 허용값)	-
+소스	src/common.h	27	모듈 해시(바이트 배열)	9c50b73bdfe13dbf… = 지금 배포본 아님(옛 판 허용값)	-
+소스	src/common.h	28	모듈 해시(바이트 배열)	13d16c04b6461997… = 지금 배포본 아님(옛 판 허용값)	-
+소스	src/common.h	29	모듈 해시(바이트 배열)	bb68be42a4db9b37… = 지금 배포본 아님(옛 판 허용값)	-
+소스	src/common.h	30	모듈 해시(바이트 배열)	ae365eab73195e23… = 지금 배포 SAN14_IntegratedConvenience.dll	-
+소스	src/common.h	11	exe 크기(1.0.1)	inline bool valid_api(const S14_CoreAPI*a){return a&&a->size>=sizeof(*a)&&a->abi==S14_ABI&&a->resolved&&a->resolved->image_size==0x29ff000&&a->Readable&&a->Inst	-
+소스	src/hired_face.cpp	3	exe 시간표(1.0.1)	//  공식 1.0.1 (0x6a983c25) 전용. 게임 코드 4곳(jmp 릴레이, ModCore 묶음 "SAN14CE.HiredFace", 전부 아니면 전무):	-
+소스	src/hired_face.cpp	3	판 번호 글자	//  공식 1.0.1 (0x6a983c25) 전용. 게임 코드 4곳(jmp 릴레이, ModCore 묶음 "SAN14CE.HiredFace", 전부 아니면 전무):	-
+소스	src/hired_face.cpp	17	db 뿌리 주소(exe+0x277df18)	U8*db=*(U8**)(game+0x277df18);if(!db)return nullptr;	-
+소스	src/hired_face.cpp	63	db 뿌리 주소(exe+0x277df18)	U8*db=*(U8**)(game+0x277df18);	-
+소스	src/domestic_ai.cpp	7	db 뿌리 주소(exe+0x277df18)	//  자료(게임 코드로 확인): db=*(exe+0x277df18) · world=*(db+0x871e8) · 연=world+0x34(i16) 월=+0x36(u8)	-
+소스	src/domestic_ai.cpp	20	db 뿌리 주소(exe+0x277df18)	static U8*db(){return *(U8**)(game+0x277df18);}	-
+소스	src/settings_help.cpp	73	모듈 해시(바이트 배열)	d3b0886a6c89afb5… = 지금 배포본 아님(옛 판 허용값)	-
+소스	src/settings_help.cpp	75	모듈 해시(바이트 배열)	0745f8a34b9e90df… = 지금 배포본 아님(옛 판 허용값)	-
+소스	src/settings_help.cpp	77	모듈 해시(바이트 배열)	fa07cd5fdf5c26ab… = 지금 배포본 아님(옛 판 허용값)	-
+소스	src/settings_help.cpp	79	모듈 해시(바이트 배열)	13d16c04b6461997… = 지금 배포본 아님(옛 판 허용값)	-
+소스	src/settings_help.cpp	81	모듈 해시(바이트 배열)	bb68be42a4db9b37… = 지금 배포본 아님(옛 판 허용값)	-
+소스	src/settings_help.cpp	83	모듈 해시(바이트 배열)	ae365eab73195e23… = 지금 배포 SAN14_IntegratedConvenience.dll	-
+소스	src/settings_help.cpp	78	판 번호 글자	// CE 1.0.1 port of the P1 build (data tables relocated only).	-
+소스	src/settings_help.cpp	234	exe 크기(1.0.1)	if(!api||api->size<sizeof(S14_CoreAPI)||api->abi!=S14_ABI||!api->resolved||api->resolved->image_size!=0x29ff000||!api->Readable||!api->InstallHooks)return 0;	-
+소스	src/region_officer.cpp	26	db 뿌리 주소(exe+0x277df18)	static U8*db(){return *(U8**)(game+0x277df18);}	-
+소스	src/scene_test.cpp	30	db 뿌리 주소(exe+0x277df18)	U8*rt=*(U8**)(game+0x277df18);if(!rt)return;U8*sc=*(U8**)(rt+0x871e8);int date=sc?*(int*)(sc+0x450):0;	-
+소스	src/scene_test.cpp	41	db 뿌리 주소(exe+0x277df18)	U8*root(){return *(U8**)(game+0x277df18);}	-
+소스	src/scene_test.cpp	348	exe 크기(1.0.1)	if(size!=0x29ff000){attached=0;return 2;}	-
+소스	src/domestic_talent.cpp	36	모듈 해시(바이트 배열)	a1cd31a724740344… = 지금 배포 SAN14_DomesticCE.dll	-
+소스	src/domestic_talent.cpp	99	모듈 해시(바이트 배열)	c2a8f62637951754… = 지금 배포본 아님(옛 판 허용값)	-
+소스	src/domestic_talent.cpp	100	모듈 해시(바이트 배열)	4aae2ed2fed69d86… = 지금 배포본 아님(옛 판 허용값)	-
+소스	src/domestic_talent.cpp	60	db 뿌리 주소(exe+0x277df18)	U8*db=at<U8*>(game,0x277df18);if(!db||!core->Readable(db,0x871f0))return;U8*world=at<U8*>(db,0x871e8);if(!world||!core->Readable(world,0x454))return;	-
+소스	src/domestic_talent.cpp	99	판 번호 글자	static const U8 fog16[]={0xc2,0xa8,0xf6,0x26,0x37,0x95,0x17,0x54,0x4e,0x8b,0x65,0xa6,0x3b,0x8e,0x54,0x03,0xe1,0x91,0x34,0xaf,0xa0,0x3f,0xae,0x2c,0xd5,0x69,0x35,	-
+소스	src/city_event_skip.cpp	2	exe 시간표(1.0.1)	//  - 이 파일의 게임 주소는 공식 1.0.1(0x6a983c25) 기준이다. srcport 번역 대상이 아니다(그대로 복사).	-
+소스	src/city_event_skip.cpp	2	판 번호 글자	//  - 이 파일의 게임 주소는 공식 1.0.1(0x6a983c25) 기준이다. srcport 번역 대상이 아니다(그대로 복사).	-
+소스	src/city_event_skip.cpp	56	db 뿌리 주소(exe+0x277df18)	U8 *root = *(U8 **)(G27 + 0x277df18);	-
+소스	src/scene_skip.cpp	41	db 뿌리 주소(exe+0x277df18)	U8*root=*(U8**)(game+0x277df18);if(!root)return;	-
+소스	src/scene_skip.cpp	99	db 뿌리 주소(exe+0x277df18)	U8*root=*(U8**)(game+0x277df18);if(!root)return -1;U8*sc=*(U8**)(root+0x871e8);if(!sc)return -1;	-
+소스	src/scene_skip.cpp	202	exe 크기(1.0.1)	static U32 rva_of(U64 a){U64 g=(U64)(UPTR)game;return (a>=g&&a<g+0x29ff000)?(U32)(a-g):0xffffffffu;}	-
+소스	src/patch27_ui.cpp	207	모듈 해시(바이트 배열)	a1cd31a724740344… = 지금 배포 SAN14_DomesticCE.dll	-
+소스	src/range.cpp	2	exe 시간표(1.0.1)	//  공식 1.0.1 (0x6a983c25) 전용. ModCore 묶음 "SAN14CE.Range" (14곳, 전부 아니면 전무).	-
+소스	src/range.cpp	2	판 번호 글자	//  공식 1.0.1 (0x6a983c25) 전용. ModCore 묶음 "SAN14CE.Range" (14곳, 전부 아니면 전무).	-
+소스	src/range.cpp	17	db 뿌리 주소(exe+0x277df18)	static U8*db(){U8*d=*(U8**)(game+0x277df18);return d;}	-
+소스	src/mod_settings.cpp	108	모듈 해시(바이트 배열)	a1cd31a724740344… = 지금 배포 SAN14_DomesticCE.dll	-
+소스	src/traits9_check.cpp	70	모듈 해시(바이트 배열)	49fb15b4e757d7a4… = 지금 배포 SAN14_Traits9_UI.dll	-
+소스	src/traits9_check.cpp	76	exe 크기(1.0.1)	out[0]=0;if(!rd(obj,8))return;U8*vt=*(U8**)obj;if(vt<game+0x1000||vt>=game+0x29ff000||!rd(vt-8,8))return;U8*col=*(U8**)(vt-8);if(col<game||col>=game+0x29ff000||	-
+소스	src/traits9_check.cpp	77	exe 크기(1.0.1)	U32 td=*(U32*)(col+12);U8*nm=game+td+16;if(td>=0x29ff000||!rd(nm,64))return;	-
+소스	src/traits9_check.cpp	153	db 뿌리 주소(exe+0x277df18)	Sleep(4000);for(int i=0;i<112&&!ui_patched;i++){bool data=game&&*(U8**)(game+0x277df18)!=nullptr;if(data||i>=32)patch_ui();if(!ui_patched)Sleep(500);}	-
+소스	src/prisoner_return.cpp	55	db 뿌리 주소(exe+0x277df18)	inline U8*gm(){return at<U8*>(game,0x277df18);}	-
+소스	installer101/Spec.cs	9	판 번호 글자	// 삼국지14 CE 통합패치 (공식 1.0.1 EXE 기준) — 기능 목록·분류·충돌 규칙·파일 목록(manifest)·설정 파일 생성 규칙	-
+소스	installer101/Spec.cs	14	판 번호 글자	// 지원 게임 EXE (디스크 파일, Steam 보호 포함) : CE 1.0.1 한국어	-
+소스	installer101/Spec.cs	15	원본 exe SHA256	public const string ExpectedGame="87ed4e46590e0939c9efcaef14fa0f892917604dfda86e0a4be319fccffa2d6a";	-
+소스	installer101/Spec.cs	36	판 번호 글자	new[]{"고유 무장 등록·모델 ID 확장(0~173)과 옛 통합본의 추가 3D 모델 149개(ID 25~173), 무장 연결 115명입니다.","무장 정보창의 조형 설정에서 무장마다 3D 모델을 고를 수 있고, 추가 모델 149개가 더 보입니다. 게임 0002 폴더 색인 3개는 1.	-
+소스	installer101/Spec.cs	37	판 번호 글자	new[]{"필드 부대 이미지를 일기토 3D 조형으로 바꿉니다(화면 밖 동작 갱신 중단 등 최적화 포함).","지도 위 부대가 2D 그림 대신 3D 조형으로 나옵니다. 1.0.1 EXE 기준으로 다시 빌드했습니다.","설치만 하면 켜집니다. 모드 설정 창 → 그래픽 탭에 최적화 스위치.	-
+소스	installer101/Spec.cs	38	판 번호 글자	new[]{"전장의 안개 1.6(1.0.1 대응판, 미니맵 포함)입니다.","안 보이는 지역은 안개로 가려지고, 시설은 영향 범위(공격 시설은 최대 사거리)만큼 시야를 가집니다. 미니맵이 함께 뜨며 압정 버튼으로 고정/이동(끌어서 옮김)합니다.","모드 설정 창 → 그래픽 탭 → '미니	-
+소스	installer101/Spec.cs	44	판 번호 글자	new[]{"경험치로 능력치가 거의 오르지 않게 하는 데이터 파일입니다.","전투·행동 경험치로 능력치가 오르는 폭이 크게 줄어듭니다.","모드 설정 창 → 밸런스 탭 → '경험치 성장 억제' 켬/끔(게임 재시작 후 적용).","게임 데이터 파일(0000/experience_data_e	-
+소스	installer101/Spec.cs	45	판 번호 글자	new[]{"최대 120프레임(모음팩 v1.7 FPS120, 1.0.1 대응판)입니다.","지도·전투 화면이 120프레임까지 나옵니다. 일기토는 원본 60프레임 타이밍을 유지합니다.","설치만 하면 켜집니다.","없음."},	-
+소스	installer101/Spec.cs	50	판 번호 글자	new[]{"관직·작위·방책 수여로 더해지는 능력치 보너스를 적용하지 않습니다(1.0.1 공용 데이터 파일 299개 항목 편집).","관직을 줘도 능력치가 안 오릅니다.","모드 설정 창 → 밸런스 탭 → '수여 능력치 미적용' 켬/끔(게임 재시작 후 적용).","게임 데이터 파일(00	-
+소스	installer101/Spec.cs	57	판 번호 글자	new[]{"CE 주메뉴·버튼 그래픽 v30 입니다(글꼴은 포함하지 않음).","지도 왼쪽 주메뉴와 버튼 그래픽이 바뀝니다. 화면 색인(ScreenLayout.rdb)의 레코드 9개만 바꾸고 그림은 새 컨테이너 파일에 넣습니다.","설치만 하면 켜집니다(파일 교체). 게임 안 스위치 없	-
+소스	installer101/Engine.cs	29	판 번호 글자	// R35 10번 추가 3D 모델(25~173): 0002 색인 3개는 게임 원본 파일 → 데이터 파일처럼(제거·복원은 항상 1.0.1 원본으로), 새 컨테이너·목록은 새 파일	-
+소스	installer101/Engine.cs	62	판 번호 글자	// 우리 레코드: 합본 색인 중 1.0.1 원본에 없거나 내용이 다른 것. replaced = 원본에도 있는 것의 원본 레코드	-
+소스	installer101/Engine.cs	98	판 번호 글자	if(h==Spec.OldGame)throw new IOException("게임이 아직 공식 1.0.1 패치 전 버전입니다. 이 설치기는 1.0.1 전용입니다. Steam에서 게임을 최신으로 업데이트한 뒤 다시 실행해 주세요. 게임 파일은 바꾸지 않았습니다.");	-
+소스	installer101/Engine.cs	99	판 번호 글자	if(h!=Spec.ExpectedGame)throw new IOException("지원하는 Steam 한국어 CE 1.0.1 게임 파일인지 확인할 수 없습니다(SAN14CE_KO.exe). 게임 파일은 바꾸지 않았습니다.");	-
+소스	installer101/Engine.cs	112	판 번호 글자	// 게임 데이터 파일: 제거·복원은 항상 1.0.1 원본으로 (R20 이하가 백업한 1.0.1 이전 원본은 되살리지 않음)	-
+소스	installer101/Engine.cs	251	판 번호 글자	// R35 10번 추가 모델 / R39 31번 주메뉴 그래픽: 색인이 1.0.1 원본/우리 합본/기록된 것이고 새 파일 자리가 비어 있을 때만 설치. 아니면 그 번호의 레코드 자료만 건너뛰고 나머지 설치는 계속(다른 모드 파일 보존)	-
+소스	installer101/Engine.cs	341	판 번호 글자	return WriteIni(d,"; SAN14CE 통합패치 "+Spec.Version+" (공식 1.0.1) — 이 파일은 설치기와 게임 안 모드 설정 창이 관리합니다.");	-
+소스	installer101/Engine.cs	497	판 번호 글자	// 실행 파일 종류: ""=지원판(스팀 1.0.1 원본), 그 밖은 설명. 게임 안 안내창(SAN14_Notice)과 같은 기준.	-
+소스	installer101/Engine.cs	501	판 번호 글자	string h=Files.HashFile(exePath);if(h==Spec.ExpectedGame)return "";if(h==Spec.OldGame)return "1.0.1 이전 실행 파일(스팀 업데이트 필요)";	-
+소스	installer101/Engine.cs	511	exe 시간표(1.0.1)	if(ts==0x6a983c25u)return sz==0x29ff000u&&!extra?"1.0.1 실행 파일이지만 내용이 바뀜(다른 패치가 고침)":"실행 파일이 다른 패치로 통째로 바뀜(예: 신무장 1000명 같은 exe 교체형)";	-
+소스	installer101/Engine.cs	511	판 번호 글자	if(ts==0x6a983c25u)return sz==0x29ff000u&&!extra?"1.0.1 실행 파일이지만 내용이 바뀜(다른 패치가 고침)":"실행 파일이 다른 패치로 통째로 바뀜(예: 신무장 1000명 같은 exe 교체형)";	-
+소스	installer101/Engine.cs	512	exe 시간표(옛 1.0.0)	if(ts==0x6a6d9f72u)return "1.0.1 이전 실행 파일(롤백판 등)";	-
+소스	installer101/Engine.cs	512	판 번호 글자	if(ts==0x6a6d9f72u)return "1.0.1 이전 실행 파일(롤백판 등)";	-
+소스	installer101/Engine.cs	526	판 번호 글자	case "3":return "1.0.1 이전 실행 파일";	-
+소스	installer101/Engine.cs	537	판 번호 글자	if(exeKind!="")return new[]{"게임 실행 파일이 지원판이 아님",exeKind+". 통합패치는 스팀 원본 1.0.1 실행 파일에서만 켜집니다. 스팀 [속성 → 설치된 파일 → 게임 파일 무결성 확인]으로 원본을 되돌린 뒤 실행하세요."};	-
+소스	installer101/App.cs	66	판 번호 글자	Text="삼국지14 CE 통합패치 "+Spec.Version+" (공식 1.0.1 전용)";	-
+소스	installer101/App.cs	185	판 번호 글자	summary.Text="현재 상태: "+(n==0?"설치된 항목 없음":n+"개 항목 설치됨")+(n>0?" · 게임 적용: 확인 "+okN+" / 일부 "+partN+" / 실패 "+failN:"")+" · 새 항목 "+(Spec.Count-Spec.FirstNew+1)+"개(26~	-
+소스	installer101/App.cs	193	판 번호 글자	if(exeKind!="")WriteLog("주의: "+exeKind+". 통합패치는 스팀 원본 1.0.1 실행 파일(SAN14CE_KO.exe)에서만 켜집니다. 스팀 [게임 파일 무결성 확인]으로 원본을 되돌리세요.");	-
+소스	installer101/App.cs	217	판 번호 글자	if(ErrorBox.Ask(this,"선택 제거",(all?"설치된 패치를 모두 제거하고 게임 데이터 파일을 1.0.1 원본으로 되돌립니다.\r\n":"다음 항목을 제거합니다: "+list+"\r\n")+(note!=""?"\r\n같이 바뀌는 것:\r\n"+note:"")+"\r\n사	-
+소스	installer101/App.cs	269	판 번호 글자	if(m.Contains("1.0.1 전용")||m.Contains("확인할 수 없습니다"))return "Steam 에서 게임을 최신(1.0.1)으로 업데이트한 뒤 다시 실행해 주세요.";	-
+소스	installer101/Tests.cs	118	판 번호 글자	Check(Engine.ModelIndexRels.All(r=>H(root,r)==M.Values["model_orig_"+Path.GetFileName(r)])&&H(root,"0002/MaterialEditor.rdb.bin3369")==""&&H(root,Engine.ModelCa	-
+소스	installer101/Tests.cs	194	판 번호 글자	Check(H(root,Engine.FixRel)==M.Values["fix_original"]&&H(root,Engine.ExpRel)==M.Values["exp_original"],"24/18 off: data restored to 1.0.1 originals");	-
+소스	installer101/Tests.cs	279	판 번호 글자	// 10번 끄기 → 색인 1.0.1 원본, 새 파일 삭제, 연결 파일은 사용자 자료라 유지	-
+소스	installer101/Tests.cs	455	판 번호 글자	if(path==Engine.FixRel){Put(root,path,File.ReadAllBytes(fixOrig));b=null;} // Steam 이 1.0.1 원본으로 바꿈	-
+소스	installer101/Tests.cs	479	판 번호 글자	Check(H(root,"SAN14_IntegratedConvenience.dll")==M.Entries.First(f=>f.Target=="SAN14_IntegratedConvenience.dll").Sha&&H(root,"SAN14Mods/resolvers/SAN14_Resolver	-
+소스	installer101/Tests.cs	484	판 번호 글자	var s2=e.Load();Check(s2.Version==7&&s2.Items.ContainsKey(Engine.FixRel)&&s2.Items[Engine.FixRel].Before==M.Values["fix_original"],"state v7, fixdata Before = 1	-
+소스	installer101/Tests.cs	524	exe 시간표(옛 1.0.0)	var h3=(byte[])hdr.Clone();BitConverter.GetBytes(0x6a6d9f72u).CopyTo(h3,pe+8);Check(Engine.ExeKindFromHeader(h3).Contains("이전"),"A22: old exe classified");	-
+소스	aiinst/new/진단.ps1	49	원본 exe SHA256	$taskExpected = '87ed4e46590e0939c9efcaef14fa0f892917604dfda86e0a4be319fccffa2d6a'	-
+소스	aiinst/new/진단.ps1	101	exe 시간표(1.0.1)	expected_runtime=@{machine='0x8664'; timestamp='0x6A983C25'; decoded_text_crc32='0x6C7F386E'; decoded_text_bytes=20179374}	-
+소스	aiinst/new/진단.ps1	122	exe 시간표(1.0.1)	$taskReport.supported_pe_build = $taskReport.exe_pe.machine -eq '0x8664' -and $taskReport.exe_pe.optional_magic -eq '0x020B' -and $taskReport.exe_pe.timestamp -	-
+소스	aiinst/new/진단.ps1	122	exe 크기(1.0.1)	$taskReport.supported_pe_build = $taskReport.exe_pe.machine -eq '0x8664' -and $taskReport.exe_pe.optional_magic -eq '0x020B' -and $taskReport.exe_pe.timestamp -	-
+소스	aiinst/new/관리.ps1	57	원본 exe SHA256	$taskOriginalHash = '87ed4e46590e0939c9efcaef14fa0f892917604dfda86e0a4be319fccffa2d6a'	-
+소스	aiinst/new/관리.ps1	83	exe 시간표(1.0.1)	if ($taskTimestamp -eq 0x6A6D9F72) { throw '롤백 게임 빌드(0x6A6D9F72)입니다. 현재 AI DLL은 0x6A983C25 빌드용입니다. 롤백판 함수 주소를 이식한 별도 DLL이 필요합니다.' }	-
+소스	aiinst/new/관리.ps1	83	exe 시간표(옛 1.0.0)	if ($taskTimestamp -eq 0x6A6D9F72) { throw '롤백 게임 빌드(0x6A6D9F72)입니다. 현재 AI DLL은 0x6A983C25 빌드용입니다. 롤백판 함수 주소를 이식한 별도 DLL이 필요합니다.' }	-
+소스	aiinst/new/관리.ps1	84	exe 시간표(1.0.1)	if ($taskTimestamp -ne 0x6A983C25) { throw ('지원 대상과 다른 게임 빌드입니다. 현재 0x{0:X8}, 지원 0x6A983C25.' -f $taskTimestamp) }	-
+소스	aiinst/new/관리.ps1	90	exe 크기(1.0.1)	# 2026-10-25 user: same build with only the Steam stub section (.bind, 0x29C5000..0x29FF000)	-
+소스	aiinst/new/관리.ps1	99	exe 크기(1.0.1)	if ($taskSections -ne 9) { throw ('지원 대상과 다른 이미지 크기입니다. 현재 0x{0:X8}, 지원 0x029FF000 (섹션 {1}개).' -f $taskImageSize,$taskSections) }	-
+소스	aiinst/new/관리.ps1	111	exe 크기(1.0.1)	elseif ($taskImageSize -ne 0x029FF000) { throw ('지원 대상과 다른 이미지 크기입니다. 현재 0x{0:X8}, 지원 0x029FF000.' -f $taskImageSize) }	-
+소스	field_src/native/game_guards.h	4	모듈 해시(바이트 배열)	87ed4e46590e0939… = 게임 원본 exe 해시	-
+소스	field_src/native/game_guards.h	84	모듈 해시(바이트 배열)	488b81c001000048… = 지금 배포본 아님(옛 판 허용값)	-
+소스	field_src/native/game_guards.h	92	모듈 해시(바이트 배열)	488b81c001000048… = 지금 배포본 아님(옛 판 허용값)	-
+소스	field_src/native/poc_contract.h	11	exe 크기(1.0.1)	FL_IMAGE_SIZE = 0x29ff000,	-
+소스	field_src/native/poc_contract.h	13	db 뿌리 주소(exe+0x277df18)	FL_DATA_MANAGER = 0x277df18,	-
+소스	field_src/native/poc_contract.h	82	판 번호 글자	FL_CAMERA_DISTANCE = 0xeb20, /* 1.0.1 (옛 0xe960) */	-
+소스	field_src/native/registry_bridge.h	22	모듈 해시(바이트 배열)	d3b0886a6c89afb5… = 지금 배포본 아님(옛 판 허용값)	-
+소스	field_src/native/registry_bridge.h	23	모듈 해시(바이트 배열)	0745f8a34b9e90df… = 지금 배포본 아님(옛 판 허용값)	-
+소스	field_src/native/registry_bridge.h	25	모듈 해시(바이트 배열)	fa07cd5fdf5c26ab… = 지금 배포본 아님(옛 판 허용값)	-
+소스	field_src/native/registry_bridge.h	27	모듈 해시(바이트 배열)	13d16c04b6461997… = 지금 배포본 아님(옛 판 허용값)	-
+소스	field_src/native/registry_bridge.h	29	모듈 해시(바이트 배열)	bb68be42a4db9b37… = 지금 배포본 아님(옛 판 허용값)	-
+소스	field_src/native/registry_bridge.h	31	모듈 해시(바이트 배열)	ae365eab73195e23… = 지금 배포 SAN14_IntegratedConvenience.dll	-
+소스	field_src/native/registry_bridge.h	26	판 번호 글자	// CE 1.0.1 port IC	-
+소스	field_src/native/dll_build.h	2	모듈 해시(바이트 배열)	ded37710dc06bf85… = 지금 배포본 아님(옛 판 허용값)	-
+소스	field_src/native/poc_loader.cpp	698	원본 exe SHA256	char meta[640]; snprintf(meta,sizeof meta,"{\"test\":\"FieldLeader3D_R24_registry_compat\",\"dll_sha256\":\"%s\",\"disk_game_sha256\":\"87ed4e46590e0939c9efcaef	-
+소스	field_src/native/tests/registry_bridge_probe.cpp	9	db 뿌리 주소(exe+0x277df18)	if(!fl_registry::collect(read,game,module,table,0x277df18,0x14680a0,s))return -1;	-
+소스	field_src/tools/verify_all_appearances.py	42	db 뿌리 주소(exe+0x277df18)	self.q(self.base+0x277df18,self.DATA); self.q(self.DATA+0x77b18,self.ITEMS)	-
+소스	field_src/tools/state_analysis.py	150	db 뿌리 주소(exe+0x277df18)	if self.get('data_manager_root')['address'] != self.base+0x277df18:	-
+소스	field_src/tools/build_field_poc.py	80	원본 exe SHA256	if sha(root/'inputs/SAN14CE_KO.exe')!='87ed4e46590e0939c9efcaef14fa0f892917604dfda86e0a4be319fccffa2d6a':	-
+소스	mt_test/source/merit_resolver.c	4	exe 크기(1.0.1)	sizeof(MeritResolver),MERIT_ABI,0x6a6d9f72,0x29ff000,6000,355,	-
+소스	mt_test/source/merit_resolver.c	4	exe 시간표(옛 1.0.0)	sizeof(MeritResolver),MERIT_ABI,0x6a6d9f72,0x29ff000,6000,355,	-
+소스	mt_test/source/merit_resolver.c	6	db 뿌리 주소(exe+0x277df18)	{0x277df18,0x158,0x10,0xec,0x118,0x1bc,0x1c2,0x1c3,0x15e,0x7dd18,0x10,0x178,0x180,0x1b8,0x8,0x180,0x4c8,0x85df0,0xbe,0x4915a1,0x1e8,0x218,0x14783e0},	-
+소스	build_tc/src/patch_tester.cpp	75	db 뿌리 주소(exe+0x277df18)	inline U8*gm(){return at<U8*>(game,0x277df18);}	-
+소스	build_tc/src/death_log.cpp	101	모듈 해시(바이트 배열)	603735d2afc39e26… = 지금 배포본 아님(옛 판 허용값)	-
+소스	build_tc/src/stats200_direct.cpp	36	exe 크기(1.0.1)	static int image_ok(const S14_CoreAPI *api,U8 *base){U32 pe;U8 *nt;if(!api->Readable(base,4096))return 0;if(base[0]!='M'||base[1]!='Z')return 0;pe=*(U32*)(base+	-
+소스	build_tc/src/stats200_direct.cpp	36	exe 시간표(옛 1.0.0)	static int image_ok(const S14_CoreAPI *api,U8 *base){U32 pe;U8 *nt;if(!api->Readable(base,4096))return 0;if(base[0]!='M'||base[1]!='Z')return 0;pe=*(U32*)(base+	-
+소스	build_tc/src/stats200_direct.cpp	108	exe 크기(1.0.1)	if(api->resolved->layout_abi!=S14_LAYOUT_ABI||api->resolved->image_size!=0x029ff000||!api->resolved->image)return 0;	-
+소스	build_tc/src/common.h	26	모듈 해시(바이트 배열)	fa07cd5fdf5c26ab… = 지금 배포본 아님(옛 판 허용값)	-
+소스	build_tc/src/common.h	27	모듈 해시(바이트 배열)	9c50b73bdfe13dbf… = 지금 배포본 아님(옛 판 허용값)	-
+소스	build_tc/src/common.h	11	exe 크기(1.0.1)	inline bool valid_api(const S14_CoreAPI*a){return a&&a->size>=sizeof(*a)&&a->abi==S14_ABI&&a->resolved&&a->resolved->image_size==0x29ff000&&a->Readable&&a->Inst	-
+소스	build_tc/src/settings_help.cpp	73	모듈 해시(바이트 배열)	d3b0886a6c89afb5… = 지금 배포본 아님(옛 판 허용값)	-
+소스	build_tc/src/settings_help.cpp	75	모듈 해시(바이트 배열)	0745f8a34b9e90df… = 지금 배포본 아님(옛 판 허용값)	-
+소스	build_tc/src/settings_help.cpp	77	모듈 해시(바이트 배열)	fa07cd5fdf5c26ab… = 지금 배포본 아님(옛 판 허용값)	-
+소스	build_tc/src/settings_help.cpp	228	exe 크기(1.0.1)	if(!api||api->size<sizeof(S14_CoreAPI)||api->abi!=S14_ABI||!api->resolved||api->resolved->image_size!=0x29ff000||!api->Readable||!api->InstallHooks)return 0;	-
+소스	build_tc/src/domestic_talent.cpp	36	모듈 해시(바이트 배열)	468536c0ebb82a8c… = 지금 배포본 아님(옛 판 허용값)	-
+소스	build_tc/src/domestic_talent.cpp	99	모듈 해시(바이트 배열)	b00e46497ed16d89… = 지금 배포본 아님(옛 판 허용값)	-
+소스	build_tc/src/domestic_talent.cpp	100	모듈 해시(바이트 배열)	603735d2afc39e26… = 지금 배포본 아님(옛 판 허용값)	-
+소스	build_tc/src/domestic_talent.cpp	60	db 뿌리 주소(exe+0x277df18)	U8*db=at<U8*>(game,0x277df18);if(!db||!core->Readable(db,0x871f0))return;U8*world=at<U8*>(db,0x871e8);if(!world||!core->Readable(world,0x454))return;	-
+소스	build_tc/src/city_event_skip.cpp	2	exe 시간표(1.0.1)	//  - 이 파일의 게임 주소는 공식 1.0.1(0x6a983c25) 기준이다. srcport 번역 대상이 아니다(그대로 복사).	-
+소스	build_tc/src/city_event_skip.cpp	2	판 번호 글자	//  - 이 파일의 게임 주소는 공식 1.0.1(0x6a983c25) 기준이다. srcport 번역 대상이 아니다(그대로 복사).	-
+소스	build_tc/src/city_event_skip.cpp	56	db 뿌리 주소(exe+0x277df18)	U8 *root = *(U8 **)(G27 + 0x277df18);	-
+소스	build_tc/src/patch27_ui.cpp	207	모듈 해시(바이트 배열)	468536c0ebb82a8c… = 지금 배포본 아님(옛 판 허용값)	-
+소스	build_tc/src/prisoner_return.cpp	55	db 뿌리 주소(exe+0x277df18)	inline U8*gm(){return at<U8*>(game,0x277df18);}	-
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f27/SAN14Mods/Minimap/SAN14_FogTrial.dll	-	exe 시간표(1.0.1)	1곳 (파일 위치 0x31a0c)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f27/SAN14Mods/Minimap/SAN14_FogTrial.dll	-	exe 크기(1.0.1)	8곳 (파일 위치 0x1a5a4,0x23850,0x24850,0x28484,0x29ba0,0x31a1a)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f27/SAN14Mods/Minimap/SAN14_FogTrial.dll	-	db 뿌리 주소 RVA	41곳 (파일 위치 0x550,0xe2a,0x1b75,0x23fb,0x2e3c,0x37fc)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f02/SAN14_AutoPersonnelRepair.dll	-	다른 모듈 해시(바이트)	SAN14_IntegratedConvenience.dll 의 해시가 박혀 있음	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f02/SAN14_AutoPersonnelRepair.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x861)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f23/SAN14_CityCaps.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x451)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f32/SAN14_HiredFace.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x105b)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f32/SAN14_HiredFace.dll	-	db 뿌리 주소 RVA	3곳 (파일 위치 0x854,0xc97,0xd0b)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f19/SAN14_FPS120.dll	-	exe 시간표(1.0.1)	1곳 (파일 위치 0x595)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f19/SAN14_FPS120.dll	-	exe 크기(1.0.1)	3곳 (파일 위치 0x51e,0x59f,0x1b00)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f15/SAN14Mods/resolvers/SAN14_RelatedOfficersResolver.dll	-	exe 시간표(1.0.1)	1곳 (파일 위치 0xfea)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f15/SAN14Mods/resolvers/SAN14_RelatedOfficersResolver.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0xf7d)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f30/SAN14_ItemPicture.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x50a)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f04/SAN14_SceneSkip.dll	-	exe 크기(1.0.1)	2곳 (파일 위치 0x22b7,0x32fa)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f04/SAN14_SceneSkip.dll	-	db 뿌리 주소 RVA	4곳 (파일 위치 0x42c,0x18ed,0x1ab1,0x1ff1)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f09/SAN14_Traits9_UI.dll	-	exe 시간표(1.0.1)	1곳 (파일 위치 0xe5a)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f09/SAN14_Traits9_UI.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0xe63)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f09/SAN14_Traits9_UI.dll	-	db 뿌리 주소 RVA	6곳 (파일 위치 0xae9,0x13da,0x14ab,0x23af,0x4dfc,0x5abc)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f09/SAN14_Traits9Check.dll	-	다른 모듈 해시(바이트)	SAN14_Traits9_UI.dll 의 해시가 박혀 있음	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f09/SAN14_Traits9Check.dll	-	exe 크기(1.0.1)	3곳 (파일 위치 0x2ebe,0x2f07,0x4b9a)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f09/SAN14_Traits9Check.dll	-	db 뿌리 주소 RVA	1곳 (파일 위치 0x3b6d)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f09/SAN14_Traits9.dll	-	exe 시간표(1.0.1)	1곳 (파일 위치 0x5bb)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f09/SAN14_Traits9.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x5c8)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f09/SAN14Mods/ModPack/SAN14_Collab.dll	-	exe 시간표(1.0.1)	1곳 (파일 위치 0x476)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f09/SAN14Mods/ModPack/SAN14_Collab.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x484)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f09/SAN14Mods/ModPack/SAN14_Collab.dll	-	db 뿌리 주소 RVA	2곳 (파일 위치 0x5c6,0x7d8)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f13/SAN14Mods/MeritTraits/SAN14_MeritResolver_CEKO.dll	-	exe 시간표(1.0.1)	2곳 (파일 위치 0x455,0x608)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f13/SAN14Mods/MeritTraits/SAN14_MeritResolver_CEKO.dll	-	exe 크기(1.0.1)	3곳 (파일 위치 0x40d,0x45f,0x60c)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f13/SAN14Mods/MeritTraits/SAN14_MeritResolver_CEKO.dll	-	db 뿌리 주소 RVA	1곳 (파일 위치 0x66c)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f28/SAN14Mods/Ext/SAN14_Population.dll	-	exe 시간표(1.0.1)	1곳 (파일 위치 0x817)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f28/SAN14Mods/Ext/SAN14_Population.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x821)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f14/SAN14_ModPackBridge.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x467)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f14/SAN14Mods/ModPack/SAN14_TraitHover.dll	-	exe 시간표(1.0.1)	1곳 (파일 위치 0x2292)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f14/SAN14Mods/ModPack/SAN14_TraitHover.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x22a0)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f14/SAN14Mods/ModPack/SAN14_TraitHover.dll	-	db 뿌리 주소 RVA	4곳 (파일 위치 0xa4f,0xaea,0x15b7,0x202c)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f16/SAN14Mods/resolvers/SAN14_Resolver_PresetGroups_CEKO.dll	-	exe 시간표(1.0.1)	1곳 (파일 위치 0xcb6)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f16/SAN14Mods/resolvers/SAN14_Resolver_PresetGroups_CEKO.dll	-	exe 크기(1.0.1)	3곳 (파일 위치 0xcc3,0xd62,0xd76)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f21/SAN14_PrisonerReturn.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x2bba)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f21/SAN14_PrisonerReturn.dll	-	db 뿌리 주소 RVA	5곳 (파일 위치 0x490,0x533,0x148c,0x19b9,0x240c)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f25/SAN14_Patch27.dll	-	다른 모듈 해시(바이트)	SAN14_IntegratedConvenience.dll 의 해시가 박혀 있음	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f25/SAN14_Patch27.dll	-	다른 모듈 해시(바이트)	SAN14_DomesticCE.dll 의 해시가 박혀 있음	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f25/SAN14_Patch27.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0xabd)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f25/SAN14_Patch27.dll	-	db 뿌리 주소 RVA	1곳 (파일 위치 0x84d0)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f29/SAN14_StatusColor.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x1844)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f29/SAN14_StatusColor.dll	-	db 뿌리 주소 RVA	6곳 (파일 위치 0x44d,0x891,0x943,0xa1a,0x131e,0x13e5)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f26/SAN14_ExecuteLock.dll	-	다른 모듈 해시(바이트)	SAN14_IntegratedConvenience.dll 의 해시가 박혀 있음	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f26/SAN14_ExecuteLock.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0xc6a)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/base/SAN14_IntegratedConvenience.dll	-	exe 시간표(1.0.1)	1곳 (파일 위치 0x4a92a)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/base/SAN14_IntegratedConvenience.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x4a938)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/base/SAN14_IntegratedConvenience.dll	-	db 뿌리 주소 RVA	26곳 (파일 위치 0x927,0xaef,0x24516,0x275b2,0x2864d,0x2bd0b)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/base/SAN14_SettingsHelpScenic.dll	-	다른 모듈 해시(바이트)	SAN14_IntegratedConvenience.dll 의 해시가 박혀 있음	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/base/SAN14_SettingsHelpScenic.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x1748)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/base/SAN14_ModSettings.dll	-	다른 모듈 해시(바이트)	SAN14_IntegratedConvenience.dll 의 해시가 박혀 있음	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/base/SAN14_ModSettings.dll	-	다른 모듈 해시(바이트)	SAN14_DomesticCE.dll 의 해시가 박혀 있음	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/base/SAN14_ModSettings.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x4c64)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/base/SAN14_ICGuard.dll	-	다른 모듈 해시(바이트)	SAN14_IntegratedConvenience.dll 의 해시가 박혀 있음	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/base/SAN14_ICGuard.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x52c9)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/base/SAN14_ICGuard.dll	-	db 뿌리 주소 RVA	1곳 (파일 위치 0x58c)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/base/SAN14_ExtBridge.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0xccc)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/base/SAN14Mods/resolvers/SAN14_Resolver_IP01.dll	-	exe 시간표(1.0.1)	1곳 (파일 위치 0x790)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/base/SAN14Mods/resolvers/SAN14_Resolver_IP01.dll	-	exe 크기(1.0.1)	4곳 (파일 위치 0x7a3,0x81b,0x826,0x9a6)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/base/SAN14Mods/resolvers/SAN14_Resolver_CEKO.dll	-	exe 시간표(1.0.1)	1곳 (파일 위치 0x790)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/base/SAN14Mods/resolvers/SAN14_Resolver_CEKO.dll	-	exe 크기(1.0.1)	4곳 (파일 위치 0x7a3,0x81b,0x826,0x9a6)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/base/SAN14Mods/Core/SAN14_Notice.dll	-	exe 시간표(1.0.1)	1곳 (파일 위치 0x50f)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/base/SAN14Mods/Core/SAN14_Notice.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x516)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/base/SAN14Mods/Core/SAN14_Notice.dll	-	exe 시간표(옛 1.0.0)	1곳 (파일 위치 0x506)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f22/SAN14_DomesticTalent.dll	-	다른 모듈 해시(바이트)	SAN14_DomesticCE.dll 의 해시가 박혀 있음	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f22/SAN14_DomesticTalent.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x7b0)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f22/SAN14_DomesticTalent.dll	-	db 뿌리 주소 RVA	1곳 (파일 위치 0x4cd)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f22/SAN14_DomesticCE.dll	-	exe 시간표(1.0.1)	1곳 (파일 위치 0x5c0)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f22/SAN14_DomesticCE.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x530)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f22/SAN14_DomesticCE.dll	-	db 뿌리 주소 RVA	2곳 (파일 위치 0x2c72b,0x2c95c)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f22/SAN14_DomesticAI.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x26ad)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f22/SAN14_DomesticAI.dll	-	db 뿌리 주소 RVA	4곳 (파일 위치 0x45f,0x588,0x607,0x6aa)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f34/SAN14_RegionOfficer.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x286c)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f34/SAN14_RegionOfficer.dll	-	db 뿌리 주소 RVA	8곳 (파일 위치 0x421,0x4f2,0x52d,0x575,0x960,0x1c31)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f33/SAN14_Range.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x11a2)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f33/SAN14_Range.dll	-	db 뿌리 주소 RVA	7곳 (파일 위치 0x429,0x4b7,0x58c,0x64d,0x78d,0x8c6)	소스로 다시 빌드
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f17/SAN14_Stats200Reader.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x44a)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f17/SAN14Mods/ModPack/SAN14_Stats200.dll	-	exe 시간표(1.0.1)	1곳 (파일 위치 0x841)	소스 없음 → update_fingerprint.py 로 바이트 교체
+배포DLL	/mnt/user-data/uploads/통합패치/통합패치 11월2일 최종판/support/payload/f17/SAN14Mods/ModPack/SAN14_Stats200.dll	-	exe 크기(1.0.1)	1곳 (파일 위치 0x84f)	소스 없음 → update_fingerprint.py 로 바이트 교체

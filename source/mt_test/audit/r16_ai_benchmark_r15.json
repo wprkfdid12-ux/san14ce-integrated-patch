@@ -1,0 +1,77 @@
+{
+  "version": "R15",
+  "scope": "Actual Win64 AI award callback + captured native commit, deterministic entropy.\nHost timings include Python-substituted OS/faction endpoints; NOT game FPS or\ntotal AI-turn timing. No reroll threshold, budget, RNG or native choices changed.\n",
+  "dll_sha256": "8728e563e962e2728e14d4910455f2fe66c56163bc1e1ebca0f06989a7bdedc3",
+  "officers": 100,
+  "rulers": 10,
+  "durations_ms": [
+    50.669324,
+    44.942939,
+    46.744813,
+    73.677881,
+    44.859544
+  ],
+  "median_ms": 46.744813,
+  "outputs": [
+    {
+      "seed_trial": 0,
+      "rng_calls": 900,
+      "rerolls": 149,
+      "accepted": 300,
+      "sha256": "32dd2621ab43adcbe5febc08336956cf145612fb2a30fb10ed85319716120527",
+      "calculations": {
+        "distributions": 400,
+        "cache_hits": 135,
+        "anchor_builds": 0
+      }
+    },
+    {
+      "seed_trial": 1,
+      "rng_calls": 828,
+      "rerolls": 113,
+      "accepted": 300,
+      "sha256": "7086387219b4fb86fc9f487367ea64ba0ee01a9239d5d4739ce29fb2f5ffe7ee",
+      "calculations": {
+        "distributions": 400,
+        "cache_hits": 98,
+        "anchor_builds": 0
+      }
+    },
+    {
+      "seed_trial": 2,
+      "rng_calls": 894,
+      "rerolls": 146,
+      "accepted": 300,
+      "sha256": "23cdc5b46c298cfa6765139765a3366ebcf1dd70983084526fb26cfc43f226ff",
+      "calculations": {
+        "distributions": 402,
+        "cache_hits": 132,
+        "anchor_builds": 0
+      }
+    },
+    {
+      "seed_trial": 3,
+      "rng_calls": 886,
+      "rerolls": 142,
+      "accepted": 300,
+      "sha256": "99a73c41316073b3d818fcaef1d1727d25211ef141f8508d404ccdda9de815df",
+      "calculations": {
+        "distributions": 401,
+        "cache_hits": 124,
+        "anchor_builds": 0
+      }
+    },
+    {
+      "seed_trial": 4,
+      "rng_calls": 932,
+      "rerolls": 165,
+      "accepted": 300,
+      "sha256": "1279b3f00dc450fa0f586db42e71a7acfdda205f81298323c84ae54c579daf97",
+      "calculations": {
+        "distributions": 400,
+        "cache_hits": 144,
+        "anchor_builds": 0
+      }
+    }
+  ]
+}

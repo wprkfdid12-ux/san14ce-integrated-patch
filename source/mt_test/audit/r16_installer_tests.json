@@ -1,0 +1,146 @@
+{
+  "dll_sha256": "9cb11101dc509364dd512240dda2beb27b6657132222b0867bc47c54f8278188",
+  "native_dll_loading_stubbed": true,
+  "package_version": "RC4-R16-Compatibility-TraitRules",
+  "live_game_tested": false,
+  "powershell": "7.4.6",
+  "passed": 34,
+  "tests": [
+    {
+      "pass": true,
+      "name": "selected loader dxgi.dll"
+    },
+    {
+      "pass": true,
+      "name": "installed tested main DLL"
+    },
+    {
+      "pass": true,
+      "name": "same-version reinstall leaves payload and rollback state unchanged"
+    },
+    {
+      "pass": true,
+      "name": "uninstall removes only owned feature; preserves common loader"
+    },
+    {
+      "pass": true,
+      "name": "rollback restores removed feature state"
+    },
+    {
+      "pass": true,
+      "name": "rollback restores exact feature bytes"
+    },
+    {
+      "pass": true,
+      "name": "selected loader dxgi.dll"
+    },
+    {
+      "pass": true,
+      "name": "installed tested main DLL"
+    },
+    {
+      "pass": true,
+      "name": "ProxyCompat1: existing related officers and screenshot DLLs untouched"
+    },
+    {
+      "pass": true,
+      "name": "ProxyCompat1: uninstall preserves related officers patch byte for byte"
+    },
+    {
+      "pass": true,
+      "name": "selected loader dxgi.dll"
+    },
+    {
+      "pass": true,
+      "name": "installed tested main DLL"
+    },
+    {
+      "pass": true,
+      "name": "Original: existing related officers and screenshot DLLs untouched"
+    },
+    {
+      "pass": true,
+      "name": "Original: uninstall preserves related officers patch byte for byte"
+    },
+    {
+      "pass": true,
+      "name": "selected loader version.dll"
+    },
+    {
+      "pass": true,
+      "name": "installed tested main DLL"
+    },
+    {
+      "pass": true,
+      "name": "SafeLoader reuse version.dll without a second proxy"
+    },
+    {
+      "pass": true,
+      "name": "selected loader dinput8.dll"
+    },
+    {
+      "pass": true,
+      "name": "installed tested main DLL"
+    },
+    {
+      "pass": true,
+      "name": "SafeLoader reuse dinput8.dll without a second proxy"
+    },
+    {
+      "pass": true,
+      "name": "selected loader version.dll"
+    },
+    {
+      "pass": true,
+      "name": "installed tested main DLL"
+    },
+    {
+      "pass": true,
+      "name": "unknown dxgi preserved while free version slot loads common Core"
+    },
+    {
+      "pass": true,
+      "name": "all_unknown: reject before any payload overwrite"
+    },
+    {
+      "pass": true,
+      "name": "fake_marker: reject before any payload overwrite"
+    },
+    {
+      "pass": true,
+      "name": "selected loader dxgi.dll"
+    },
+    {
+      "pass": true,
+      "name": "installed tested main DLL"
+    },
+    {
+      "pass": true,
+      "name": "R15 upgrade rollback restores original main DLL"
+    },
+    {
+      "pass": true,
+      "name": "rollback never reverts the relation-compatible shared loader"
+    },
+    {
+      "pass": true,
+      "name": "selected loader dxgi.dll"
+    },
+    {
+      "pass": true,
+      "name": "installed tested main DLL"
+    },
+    {
+      "pass": true,
+      "name": "externally modified feature is refused without overwriting"
+    },
+    {
+      "pass": true,
+      "name": "interrupted first install leaves no active state"
+    },
+    {
+      "pass": true,
+      "name": "interrupted transaction removes partial feature/common payload"
+    }
+  ]
+}

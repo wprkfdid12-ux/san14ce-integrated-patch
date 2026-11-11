@@ -1,0 +1,5 @@
+{
+  "scope": "Bit-for-bit R14/R15 compiled distribution comparison and AI cache invalidation.\nNo probabilistic reimplementation; calls both original and updated Win64 code.\n",
+  "passed": 0,
+  "tests": []
+}

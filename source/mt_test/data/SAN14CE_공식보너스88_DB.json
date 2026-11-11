@@ -1,0 +1,6061 @@
+[
+  {
+    "officer_id": 1001,
+    "name": "영포",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 85,
+    "war": 96,
+    "intelligence": 55,
+    "politics": 31,
+    "charisma": 42,
+    "trait_slots": [
+      22,
+      61,
+      84,
+      3,
+      42,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      22,
+      61,
+      84,
+      3,
+      42
+    ],
+    "trait_names": [
+      "위풍",
+      "호걸",
+      "맹자",
+      "공명",
+      "경솔"
+    ],
+    "formation_mask": 78,
+    "tactic_ids": [
+      76,
+      1,
+      4,
+      11,
+      25,
+      26
+    ],
+    "tactic_names": [
+      "질풍노도",
+      "분전",
+      "제사",
+      "대갈",
+      "강습",
+      "시람"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2001,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1002,
+    "name": "범증",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 37,
+    "war": 9,
+    "intelligence": 94,
+    "politics": 80,
+    "charisma": 72,
+    "trait_slots": [
+      17,
+      45,
+      47,
+      50,
+      122,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      17,
+      45,
+      47,
+      50,
+      122
+    ],
+    "trait_names": [
+      "묘산",
+      "명경",
+      "동지",
+      "봉살",
+      "책사"
+    ],
+    "formation_mask": 264,
+    "tactic_ids": [
+      85,
+      14,
+      17,
+      20,
+      21
+    ],
+    "tactic_names": [
+      "정련책수",
+      "저지",
+      "매성",
+      "진정",
+      "정란"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2002,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2008
+    ],
+    "disliked_ids": [
+      2007
+    ],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1003,
+    "name": "악의",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 99,
+    "war": 76,
+    "intelligence": 93,
+    "politics": 88,
+    "charisma": 93,
+    "trait_slots": [
+      150,
+      48,
+      59,
+      21,
+      139,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      150,
+      48,
+      59,
+      21,
+      139
+    ],
+    "trait_names": [
+      "신장",
+      "신안",
+      "영명",
+      "구심",
+      "주석"
+    ],
+    "formation_mask": 558,
+    "tactic_ids": [
+      91,
+      6,
+      15,
+      18,
+      20,
+      22
+    ],
+    "tactic_names": [
+      "군신",
+      "연노",
+      "혼란",
+      "고무",
+      "진정",
+      "충차"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2003,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2034,
+      2018,
+      440,
+      119
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1004,
+    "name": "장량",
+    "courtesy_name": "자방",
+    "group": "official_bonus_88",
+    "leadership": 65,
+    "war": 23,
+    "intelligence": 100,
+    "politics": 86,
+    "charisma": 92,
+    "trait_slots": [
+      48,
+      52,
+      55,
+      81,
+      149,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      48,
+      52,
+      55,
+      81,
+      149
+    ],
+    "trait_names": [
+      "신안",
+      "허실",
+      "해제",
+      "석병",
+      "지낭"
+    ],
+    "formation_mask": 1544,
+    "tactic_ids": [
+      97,
+      5,
+      6,
+      20,
+      22,
+      23
+    ],
+    "tactic_names": [
+      "신산귀모",
+      "화시",
+      "연노",
+      "진정",
+      "충차",
+      "투석"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2004,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2007,
+      2017,
+      393,
+      440
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1005,
+    "name": "한신",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 100,
+    "war": 74,
+    "intelligence": 95,
+    "politics": 74,
+    "charisma": 68,
+    "trait_slots": [
+      153,
+      4,
+      20,
+      36,
+      91,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      153,
+      4,
+      20,
+      36,
+      91
+    ],
+    "trait_names": [
+      "신기",
+      "질주",
+      "장구",
+      "태연",
+      "지리"
+    ],
+    "formation_mask": 426,
+    "tactic_ids": [
+      61,
+      4,
+      15,
+      16,
+      20,
+      21
+    ],
+    "tactic_names": [
+      "명경지수",
+      "제사",
+      "혼란",
+      "도발",
+      "진정",
+      "정란"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2005,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2006
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1006,
+    "name": "소하",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 21,
+    "war": 17,
+    "intelligence": 86,
+    "politics": 99,
+    "charisma": 89,
+    "trait_slots": [
+      138,
+      63,
+      64,
+      116,
+      139,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      138,
+      63,
+      64,
+      116,
+      139
+    ],
+    "trait_names": [
+      "왕좌",
+      "조달",
+      "운반",
+      "능리",
+      "주석"
+    ],
+    "formation_mask": 1040,
+    "tactic_ids": [
+      39,
+      18,
+      23
+    ],
+    "tactic_names": [
+      "왕좌지재",
+      "고무",
+      "투석"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2006,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2007,
+      440
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1007,
+    "name": "유방",
+    "courtesy_name": "계",
+    "group": "official_bonus_88",
+    "leadership": 71,
+    "war": 62,
+    "intelligence": 57,
+    "politics": 60,
+    "charisma": 100,
+    "trait_slots": [
+      97,
+      105,
+      88,
+      66,
+      35,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      97,
+      105,
+      88,
+      66,
+      35
+    ],
+    "trait_names": [
+      "탈토",
+      "임재",
+      "강운",
+      "재기",
+      "주란"
+    ],
+    "formation_mask": 32,
+    "tactic_ids": [
+      95,
+      7
+    ],
+    "tactic_names": [
+      "대기대덕",
+      "격려"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2007,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2006,
+      2004,
+      2003,
+      2038,
+      2040,
+      952
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1008,
+    "name": "항적",
+    "courtesy_name": "우",
+    "group": "official_bonus_88",
+    "leadership": 98,
+    "war": 100,
+    "intelligence": 66,
+    "politics": 19,
+    "charisma": 95,
+    "trait_slots": [
+      108,
+      106,
+      62,
+      92,
+      194,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      108,
+      106,
+      62,
+      92,
+      194
+    ],
+    "trait_names": [
+      "투장",
+      "신위",
+      "단기",
+      "담력",
+      "난폭"
+    ],
+    "formation_mask": 206,
+    "tactic_ids": [
+      93,
+      3,
+      5,
+      9,
+      24,
+      25
+    ],
+    "tactic_names": [
+      "천하무쌍",
+      "급습",
+      "화시",
+      "경파",
+      "구축",
+      "강습"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2008,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2009,
+      2029,
+      557
+    ],
+    "disliked_ids": [
+      2010
+    ],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1009,
+    "name": "우희",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 28,
+    "war": 15,
+    "intelligence": 68,
+    "politics": 61,
+    "charisma": 96,
+    "trait_slots": [
+      94,
+      96,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      94,
+      96
+    ],
+    "trait_names": [
+      "경국",
+      "응원"
+    ],
+    "formation_mask": 16,
+    "tactic_ids": [
+      100,
+      19,
+      20
+    ],
+    "tactic_names": [
+      "경국지무",
+      "치료",
+      "진정"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2009,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2008
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1010,
+    "name": "영정",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 50,
+    "war": 54,
+    "intelligence": 92,
+    "politics": 100,
+    "charisma": 86,
+    "trait_slots": [
+      19,
+      65,
+      113,
+      31,
+      60,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      19,
+      65,
+      113,
+      31,
+      60
+    ],
+    "trait_names": [
+      "효웅",
+      "사역",
+      "징세",
+      "낭비",
+      "악명"
+    ],
+    "formation_mask": 272,
+    "tactic_ids": [
+      89,
+      13,
+      15,
+      21
+    ],
+    "tactic_names": [
+      "심모원려",
+      "업화",
+      "혼란",
+      "정란"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2010,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2041
+    ],
+    "disliked_ids": [
+      2012
+    ],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1011,
+    "name": "백기",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 100,
+    "war": 90,
+    "intelligence": 72,
+    "politics": 12,
+    "charisma": 46,
+    "trait_slots": [
+      108,
+      11,
+      22,
+      25,
+      60,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      108,
+      11,
+      22,
+      25,
+      60
+    ],
+    "trait_names": [
+      "투장",
+      "용장",
+      "위풍",
+      "일심",
+      "악명"
+    ],
+    "formation_mask": 1190,
+    "tactic_ids": [
+      92,
+      2,
+      5,
+      9,
+      11,
+      23
+    ],
+    "tactic_names": [
+      "만인적",
+      "돌격",
+      "화시",
+      "경파",
+      "대갈",
+      "투석"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2011,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1012,
+    "name": "공구",
+    "courtesy_name": "중니",
+    "group": "official_bonus_88",
+    "leadership": 70,
+    "war": 66,
+    "intelligence": 85,
+    "politics": 87,
+    "charisma": 97,
+    "trait_slots": [
+      23,
+      33,
+      36,
+      109,
+      147,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      23,
+      33,
+      36,
+      109,
+      147
+    ],
+    "trait_names": [
+      "악주",
+      "불굴",
+      "태연",
+      "명성",
+      "학자"
+    ],
+    "formation_mask": 16,
+    "tactic_ids": [
+      47,
+      7,
+      17,
+      19
+    ],
+    "tactic_names": [
+      "명찰추호",
+      "격려",
+      "매성",
+      "치료"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2012,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2016,
+      147,
+      280
+    ],
+    "disliked_ids": [
+      2010,
+      521
+    ],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1013,
+    "name": "곽거병",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 93,
+    "war": 93,
+    "intelligence": 42,
+    "politics": 5,
+    "charisma": 84,
+    "trait_slots": [
+      106,
+      4,
+      20,
+      26,
+      39,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      106,
+      4,
+      20,
+      26,
+      39
+    ],
+    "trait_names": [
+      "신위",
+      "질주",
+      "장구",
+      "앙양",
+      "과감"
+    ],
+    "formation_mask": 198,
+    "tactic_ids": [
+      59,
+      2,
+      4,
+      12
+    ],
+    "tactic_names": [
+      "신위천관",
+      "돌격",
+      "제사",
+      "교란"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2013,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      515
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1014,
+    "name": "오기",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 94,
+    "war": 67,
+    "intelligence": 96,
+    "politics": 95,
+    "charisma": 60,
+    "trait_slots": [
+      153,
+      138,
+      25,
+      122,
+      93,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      153,
+      138,
+      25,
+      122,
+      93
+    ],
+    "trait_names": [
+      "신기",
+      "왕좌",
+      "일심",
+      "책사",
+      "오만"
+    ],
+    "formation_mask": 1586,
+    "tactic_ids": [
+      56,
+      15,
+      17,
+      22,
+      23,
+      26
+    ],
+    "tactic_names": [
+      "기지기책",
+      "혼란",
+      "매성",
+      "충차",
+      "투석",
+      "시람"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2014,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2027
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1015,
+    "name": "손빈",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 68,
+    "war": 1,
+    "intelligence": 99,
+    "politics": 78,
+    "charisma": 68,
+    "trait_slots": [
+      48,
+      52,
+      15,
+      91,
+      149,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      48,
+      52,
+      15,
+      91,
+      149
+    ],
+    "trait_names": [
+      "신안",
+      "허실",
+      "기략",
+      "지리",
+      "지낭"
+    ],
+    "formation_mask": 1416,
+    "tactic_ids": [
+      41,
+      6,
+      16,
+      20,
+      21,
+      23
+    ],
+    "tactic_names": [
+      "허유엄살",
+      "연노",
+      "도발",
+      "진정",
+      "정란",
+      "투석"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2015,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2030,
+      551
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1016,
+    "name": "악비",
+    "courtesy_name": "붕거",
+    "group": "official_bonus_88",
+    "leadership": 96,
+    "war": 92,
+    "intelligence": 78,
+    "politics": 31,
+    "charisma": 95,
+    "trait_slots": [
+      108,
+      37,
+      61,
+      33,
+      92,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      108,
+      37,
+      61,
+      33,
+      92
+    ],
+    "trait_names": [
+      "투장",
+      "통찰",
+      "호걸",
+      "불굴",
+      "담력"
+    ],
+    "formation_mask": 182,
+    "tactic_ids": [
+      96,
+      6,
+      11,
+      12,
+      24
+    ],
+    "tactic_names": [
+      "단기구",
+      "연노",
+      "대갈",
+      "교란",
+      "구축"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2016,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2012,
+      147
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1017,
+    "name": "여상",
+    "courtesy_name": "자아",
+    "group": "official_bonus_88",
+    "leadership": 97,
+    "war": 50,
+    "intelligence": 100,
+    "politics": 92,
+    "charisma": 90,
+    "trait_slots": [
+      153,
+      48,
+      37,
+      81,
+      133,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      153,
+      48,
+      37,
+      81,
+      133
+    ],
+    "trait_names": [
+      "신기",
+      "신안",
+      "통찰",
+      "석병",
+      "의술"
+    ],
+    "formation_mask": 1578,
+    "tactic_ids": [
+      83,
+      6,
+      13,
+      19,
+      22,
+      23
+    ],
+    "tactic_names": [
+      "신기묘산",
+      "연노",
+      "업화",
+      "치료",
+      "충차",
+      "투석"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2017,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2004
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1018,
+    "name": "관이오",
+    "courtesy_name": "중",
+    "group": "official_bonus_88",
+    "leadership": 84,
+    "war": 65,
+    "intelligence": 97,
+    "politics": 100,
+    "charisma": 85,
+    "trait_slots": [
+      138,
+      36,
+      92,
+      139,
+      149,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      138,
+      36,
+      92,
+      139,
+      149
+    ],
+    "trait_names": [
+      "왕좌",
+      "태연",
+      "담력",
+      "주석",
+      "지낭"
+    ],
+    "formation_mask": 312,
+    "tactic_ids": [
+      43,
+      4,
+      13,
+      14,
+      21
+    ],
+    "tactic_names": [
+      "천방백계",
+      "제사",
+      "업화",
+      "저지",
+      "정란"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2018,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2019,
+      2003,
+      440
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1019,
+    "name": "포숙아",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 63,
+    "war": 46,
+    "intelligence": 83,
+    "politics": 87,
+    "charisma": 89,
+    "trait_slots": [
+      46,
+      109,
+      110,
+      120,
+      140,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      46,
+      109,
+      110,
+      120,
+      140
+    ],
+    "trait_names": [
+      "독려",
+      "명성",
+      "진흥",
+      "안목",
+      "소욕"
+    ],
+    "formation_mask": 528,
+    "tactic_ids": [
+      18,
+      19,
+      22
+    ],
+    "tactic_names": [
+      "고무",
+      "치료",
+      "충차"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2019,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2018
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1020,
+    "name": "몽염",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 85,
+    "war": 79,
+    "intelligence": 70,
+    "politics": 75,
+    "charisma": 83,
+    "trait_slots": [
+      13,
+      21,
+      58,
+      111,
+      132,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      13,
+      21,
+      58,
+      111,
+      132
+    ],
+    "trait_names": [
+      "독장",
+      "구심",
+      "축성",
+      "법률",
+      "개수"
+    ],
+    "formation_mask": 368,
+    "tactic_ids": [
+      54,
+      1,
+      6,
+      20,
+      21
+    ],
+    "tactic_names": [
+      "총명강의",
+      "분전",
+      "연노",
+      "진정",
+      "정란"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2020,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2010,
+      2028
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1021,
+    "name": "왕전",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 95,
+    "war": 78,
+    "intelligence": 84,
+    "politics": 69,
+    "charisma": 70,
+    "trait_slots": [
+      37,
+      13,
+      21,
+      45,
+      56,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      37,
+      13,
+      21,
+      45,
+      56
+    ],
+    "trait_names": [
+      "통찰",
+      "독장",
+      "구심",
+      "명경",
+      "신중"
+    ],
+    "formation_mask": 526,
+    "tactic_ids": [
+      86,
+      6,
+      9,
+      10,
+      22,
+      24
+    ],
+    "tactic_names": [
+      "용왕매진",
+      "연노",
+      "경파",
+      "견제",
+      "충차",
+      "구축"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2021,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      271,
+      231,
+      247
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1022,
+    "name": "이사",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 18,
+    "war": 25,
+    "intelligence": 87,
+    "politics": 98,
+    "charisma": 56,
+    "trait_slots": [
+      47,
+      111,
+      113,
+      116,
+      149,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      47,
+      111,
+      113,
+      116,
+      149
+    ],
+    "trait_names": [
+      "동지",
+      "법률",
+      "징세",
+      "능리",
+      "지낭"
+    ],
+    "formation_mask": 1056,
+    "tactic_ids": [
+      20,
+      23
+    ],
+    "tactic_names": [
+      "진정",
+      "투석"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2022,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1023,
+    "name": "여불위",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 47,
+    "war": 32,
+    "intelligence": 88,
+    "politics": 84,
+    "charisma": 79,
+    "trait_slots": [
+      112,
+      120,
+      135,
+      148,
+      141,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      112,
+      120,
+      135,
+      148,
+      141
+    ],
+    "trait_names": [
+      "문화",
+      "안목",
+      "부호",
+      "동원",
+      "탐욕"
+    ],
+    "formation_mask": 528,
+    "tactic_ids": [
+      17,
+      22
+    ],
+    "tactic_names": [
+      "매성",
+      "충차"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2023,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1024,
+    "name": "장의",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 25,
+    "war": 16,
+    "intelligence": 92,
+    "politics": 88,
+    "charisma": 10,
+    "trait_slots": [
+      49,
+      51,
+      121,
+      122,
+      60,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      49,
+      51,
+      121,
+      122,
+      60
+    ],
+    "trait_names": [
+      "선동",
+      "언독",
+      "논객",
+      "책사",
+      "악명"
+    ],
+    "formation_mask": 16,
+    "tactic_ids": [
+      15,
+      16,
+      17
+    ],
+    "tactic_names": [
+      "혼란",
+      "도발",
+      "매성"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2024,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2025
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1025,
+    "name": "소진",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 26,
+    "war": 15,
+    "intelligence": 93,
+    "politics": 87,
+    "charisma": 82,
+    "trait_slots": [
+      49,
+      109,
+      119,
+      121,
+      149,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      49,
+      109,
+      119,
+      121,
+      149
+    ],
+    "trait_names": [
+      "선동",
+      "명성",
+      "인맥",
+      "논객",
+      "지낭"
+    ],
+    "formation_mask": 32,
+    "tactic_ids": [
+      15,
+      18
+    ],
+    "tactic_names": [
+      "혼란",
+      "고무"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2025,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2024
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1026,
+    "name": "조옹",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 89,
+    "war": 72,
+    "intelligence": 86,
+    "politics": 71,
+    "charisma": 80,
+    "trait_slots": [
+      6,
+      4,
+      20,
+      91,
+      141,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      6,
+      4,
+      20,
+      91,
+      141
+    ],
+    "trait_names": [
+      "원시",
+      "질주",
+      "장구",
+      "지리",
+      "탐욕"
+    ],
+    "formation_mask": 206,
+    "tactic_ids": [
+      70,
+      3,
+      6,
+      15,
+      17
+    ],
+    "tactic_names": [
+      "도산경해",
+      "급습",
+      "연노",
+      "혼란",
+      "매성"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2026,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1027,
+    "name": "웅의",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 67,
+    "war": 55,
+    "intelligence": 73,
+    "politics": 83,
+    "charisma": 76,
+    "trait_slots": [
+      110,
+      119,
+      120,
+      123,
+      148,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      110,
+      119,
+      120,
+      123,
+      148
+    ],
+    "trait_names": [
+      "진흥",
+      "인맥",
+      "안목",
+      "위무",
+      "동원"
+    ],
+    "formation_mask": 34,
+    "tactic_ids": [
+      4,
+      13,
+      20,
+      24,
+      26
+    ],
+    "tactic_names": [
+      "제사",
+      "업화",
+      "진정",
+      "구축",
+      "시람"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2027,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2014
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1028,
+    "name": "이신",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 83,
+    "war": 88,
+    "intelligence": 52,
+    "politics": 43,
+    "charisma": 66,
+    "trait_slots": [
+      10,
+      33,
+      61,
+      1,
+      57,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      10,
+      33,
+      61,
+      1,
+      57
+    ],
+    "trait_names": [
+      "효장",
+      "불굴",
+      "호걸",
+      "저돌",
+      "직정"
+    ],
+    "formation_mask": 196,
+    "tactic_ids": [
+      77,
+      1,
+      9,
+      12
+    ],
+    "tactic_names": [
+      "질풍신뢰",
+      "분전",
+      "경파",
+      "교란"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2028,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2020
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1029,
+    "name": "항연",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 88,
+    "war": 80,
+    "intelligence": 77,
+    "politics": 62,
+    "charisma": 82,
+    "trait_slots": [
+      7,
+      21,
+      38,
+      46,
+      59,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      7,
+      21,
+      38,
+      46,
+      59
+    ],
+    "trait_names": [
+      "견수",
+      "구심",
+      "규율",
+      "독려",
+      "영명"
+    ],
+    "formation_mask": 1190,
+    "tactic_ids": [
+      51,
+      5,
+      8,
+      10,
+      23,
+      25
+    ],
+    "tactic_names": [
+      "만천과해",
+      "화시",
+      "철벽",
+      "견제",
+      "투석",
+      "강습"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2008,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2008,
+      2045
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1030,
+    "name": "전기",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 80,
+    "war": 85,
+    "intelligence": 47,
+    "politics": 57,
+    "charisma": 69,
+    "trait_slots": [
+      11,
+      39,
+      61,
+      3,
+      42,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      11,
+      39,
+      61,
+      3,
+      42
+    ],
+    "trait_names": [
+      "용장",
+      "과감",
+      "호걸",
+      "공명",
+      "경솔"
+    ],
+    "formation_mask": 134,
+    "tactic_ids": [
+      72,
+      4,
+      9,
+      11
+    ],
+    "tactic_names": [
+      "개수일촉",
+      "제사",
+      "경파",
+      "대갈"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2033,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2015
+    ],
+    "disliked_ids": [
+      2044
+    ],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1031,
+    "name": "염파",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 90,
+    "war": 94,
+    "intelligence": 76,
+    "politics": 48,
+    "charisma": 56,
+    "trait_slots": [
+      144,
+      12,
+      58,
+      139,
+      142,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      144,
+      12,
+      58,
+      139,
+      142
+    ],
+    "trait_names": [
+      "확삭",
+      "강장",
+      "축성",
+      "주석",
+      "강건"
+    ],
+    "formation_mask": 114,
+    "tactic_ids": [
+      37,
+      2,
+      8,
+      11
+    ],
+    "tactic_names": [
+      "백전연마",
+      "돌격",
+      "철벽",
+      "대갈"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2031,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2032
+    ],
+    "disliked_ids": [
+      765
+    ],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1032,
+    "name": "인상여",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 40,
+    "war": 24,
+    "intelligence": 89,
+    "politics": 95,
+    "charisma": 87,
+    "trait_slots": [
+      28,
+      55,
+      92,
+      121,
+      149,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      28,
+      55,
+      92,
+      121,
+      149
+    ],
+    "trait_names": [
+      "노발",
+      "해제",
+      "담력",
+      "논객",
+      "지낭"
+    ],
+    "formation_mask": 776,
+    "tactic_ids": [
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "tactic_names": [
+      "고무",
+      "치료",
+      "진정",
+      "정란",
+      "충차"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2032,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2031
+    ],
+    "disliked_ids": [
+      765
+    ],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1033,
+    "name": "전인제",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 65,
+    "war": 60,
+    "intelligence": 81,
+    "politics": 93,
+    "charisma": 91,
+    "trait_slots": [
+      21,
+      45,
+      59,
+      109,
+      120,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      21,
+      45,
+      59,
+      109,
+      120
+    ],
+    "trait_names": [
+      "구심",
+      "명경",
+      "영명",
+      "명성",
+      "안목"
+    ],
+    "formation_mask": 1314,
+    "tactic_ids": [
+      18,
+      20,
+      21,
+      23,
+      26
+    ],
+    "tactic_names": [
+      "고무",
+      "진정",
+      "정란",
+      "투석",
+      "시람"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2033,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2044
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1034,
+    "name": "희평",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 60,
+    "war": 52,
+    "intelligence": 75,
+    "politics": 80,
+    "charisma": 78,
+    "trait_slots": [
+      105,
+      25,
+      66,
+      117,
+      120,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      105,
+      25,
+      66,
+      117,
+      120
+    ],
+    "trait_names": [
+      "임재",
+      "일심",
+      "재기",
+      "모집",
+      "안목"
+    ],
+    "formation_mask": 560,
+    "tactic_ids": [
+      7,
+      19,
+      22
+    ],
+    "tactic_names": [
+      "격려",
+      "치료",
+      "충차"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2034,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2003,
+      2047
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1035,
+    "name": "위앵",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 54,
+    "war": 58,
+    "intelligence": 68,
+    "politics": 74,
+    "charisma": 70,
+    "trait_slots": [
+      65,
+      148,
+      43,
+      93,
+      141,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      65,
+      148,
+      43,
+      93,
+      141
+    ],
+    "trait_names": [
+      "사역",
+      "동원",
+      "우유",
+      "오만",
+      "탐욕"
+    ],
+    "formation_mask": 1064,
+    "tactic_ids": [
+      5,
+      16,
+      23
+    ],
+    "tactic_names": [
+      "화시",
+      "도발",
+      "투석"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2035,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1036,
+    "name": "한무",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 57,
+    "war": 66,
+    "intelligence": 72,
+    "politics": 82,
+    "charisma": 71,
+    "trait_slots": [
+      58,
+      63,
+      65,
+      111,
+      31,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      58,
+      63,
+      65,
+      111,
+      31
+    ],
+    "trait_names": [
+      "축성",
+      "조달",
+      "사역",
+      "법률",
+      "낭비"
+    ],
+    "formation_mask": 274,
+    "tactic_ids": [
+      13,
+      14,
+      21
+    ],
+    "tactic_names": [
+      "업화",
+      "저지",
+      "정란"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2036,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1037,
+    "name": "황헐",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 72,
+    "war": 62,
+    "intelligence": 83,
+    "politics": 82,
+    "charisma": 73,
+    "trait_slots": [
+      109,
+      121,
+      122,
+      148,
+      93,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      109,
+      121,
+      122,
+      148,
+      93
+    ],
+    "trait_names": [
+      "명성",
+      "논객",
+      "책사",
+      "동원",
+      "오만"
+    ],
+    "formation_mask": 280,
+    "tactic_ids": [
+      15,
+      17,
+      21,
+      24,
+      26
+    ],
+    "tactic_names": [
+      "혼란",
+      "매성",
+      "정란",
+      "구축",
+      "시람"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2037,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2039
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1038,
+    "name": "전문",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 78,
+    "war": 41,
+    "intelligence": 89,
+    "politics": 85,
+    "charisma": 94,
+    "trait_slots": [
+      105,
+      36,
+      59,
+      120,
+      148,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      105,
+      36,
+      59,
+      120,
+      148
+    ],
+    "trait_names": [
+      "임재",
+      "태연",
+      "영명",
+      "안목",
+      "동원"
+    ],
+    "formation_mask": 1080,
+    "tactic_ids": [
+      63,
+      13,
+      18,
+      20,
+      23,
+      25
+    ],
+    "tactic_names": [
+      "기략종횡",
+      "업화",
+      "고무",
+      "진정",
+      "투석",
+      "강습"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2033,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      484,
+      483,
+      481
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1039,
+    "name": "조승",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 76,
+    "war": 59,
+    "intelligence": 80,
+    "politics": 78,
+    "charisma": 82,
+    "trait_slots": [
+      109,
+      119,
+      135,
+      148,
+      149,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      109,
+      119,
+      135,
+      148,
+      149
+    ],
+    "trait_names": [
+      "명성",
+      "인맥",
+      "부호",
+      "동원",
+      "지낭"
+    ],
+    "formation_mask": 592,
+    "tactic_ids": [
+      4,
+      10,
+      14,
+      20,
+      22
+    ],
+    "tactic_names": [
+      "제사",
+      "견제",
+      "저지",
+      "진정",
+      "충차"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2026,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2026,
+      2037,
+      2040
+    ],
+    "disliked_ids": [
+      2011
+    ],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1040,
+    "name": "위무기",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 92,
+    "war": 71,
+    "intelligence": 87,
+    "politics": 70,
+    "charisma": 84,
+    "trait_slots": [
+      45,
+      55,
+      109,
+      120,
+      148,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      45,
+      55,
+      109,
+      120,
+      148
+    ],
+    "trait_names": [
+      "명경",
+      "해제",
+      "명성",
+      "안목",
+      "동원"
+    ],
+    "formation_mask": 1066,
+    "tactic_ids": [
+      48,
+      6,
+      13,
+      15,
+      23
+    ],
+    "tactic_names": [
+      "수문연무",
+      "연노",
+      "업화",
+      "혼란",
+      "투석"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2035,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2038
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1041,
+    "name": "한비",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 16,
+    "war": 12,
+    "intelligence": 90,
+    "politics": 96,
+    "charisma": 64,
+    "trait_slots": [
+      38,
+      109,
+      111,
+      112,
+      147,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      38,
+      109,
+      111,
+      112,
+      147
+    ],
+    "trait_names": [
+      "규율",
+      "명성",
+      "법률",
+      "문화",
+      "학자"
+    ],
+    "formation_mask": 272,
+    "tactic_ids": [
+      20,
+      21
+    ],
+    "tactic_names": [
+      "진정",
+      "정란"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2041,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2022
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1042,
+    "name": "방연",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 81,
+    "war": 70,
+    "intelligence": 83,
+    "politics": 71,
+    "charisma": 62,
+    "trait_slots": [
+      16,
+      50,
+      122,
+      34,
+      57,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      16,
+      50,
+      122,
+      34,
+      57
+    ],
+    "trait_names": [
+      "궤계",
+      "봉살",
+      "책사",
+      "동요",
+      "직정"
+    ],
+    "formation_mask": 550,
+    "tactic_ids": [
+      2,
+      10,
+      14,
+      17,
+      22
+    ],
+    "tactic_names": [
+      "돌격",
+      "견제",
+      "저지",
+      "매성",
+      "충차"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2042,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [],
+    "disliked_ids": [
+      2015
+    ],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1043,
+    "name": "전단",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 91,
+    "war": 73,
+    "intelligence": 94,
+    "politics": 64,
+    "charisma": 71,
+    "trait_slots": [
+      153,
+      8,
+      36,
+      49,
+      54,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      153,
+      8,
+      36,
+      49,
+      54
+    ],
+    "trait_names": [
+      "신기",
+      "붕벽",
+      "태연",
+      "선동",
+      "화공"
+    ],
+    "formation_mask": 1684,
+    "tactic_ids": [
+      49,
+      3,
+      15,
+      18,
+      22,
+      23
+    ],
+    "tactic_names": [
+      "극염",
+      "급습",
+      "혼란",
+      "고무",
+      "충차",
+      "투석"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2033,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1044,
+    "name": "추기",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 42,
+    "war": 34,
+    "intelligence": 86,
+    "politics": 86,
+    "charisma": 78,
+    "trait_slots": [
+      23,
+      51,
+      112,
+      149,
+      93,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      23,
+      51,
+      112,
+      149,
+      93
+    ],
+    "trait_names": [
+      "악주",
+      "언독",
+      "문화",
+      "지낭",
+      "오만"
+    ],
+    "formation_mask": 8,
+    "tactic_ids": [
+      16,
+      17
+    ],
+    "tactic_names": [
+      "도발",
+      "매성"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2044,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [],
+    "disliked_ids": [
+      2030
+    ],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1045,
+    "name": "이목",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 96,
+    "war": 74,
+    "intelligence": 90,
+    "politics": 67,
+    "charisma": 73,
+    "trait_slots": [
+      52,
+      36,
+      58,
+      91,
+      130,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      52,
+      36,
+      58,
+      91,
+      130
+    ],
+    "trait_names": [
+      "허실",
+      "태연",
+      "축성",
+      "지리",
+      "견뢰"
+    ],
+    "formation_mask": 214,
+    "tactic_ids": [
+      87,
+      6,
+      15,
+      16,
+      20
+    ],
+    "tactic_names": [
+      "불요불굴",
+      "연노",
+      "혼란",
+      "도발",
+      "진정"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2045,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2029
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1046,
+    "name": "극신",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 79,
+    "war": 87,
+    "intelligence": 41,
+    "politics": 35,
+    "charisma": 40,
+    "trait_slots": [
+      5,
+      61,
+      69,
+      3,
+      41,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      5,
+      61,
+      69,
+      3,
+      41
+    ],
+    "trait_names": [
+      "소탕",
+      "호걸",
+      "산전",
+      "공명",
+      "단려"
+    ],
+    "formation_mask": 196,
+    "tactic_ids": [
+      1,
+      9,
+      11,
+      17
+    ],
+    "tactic_names": [
+      "분전",
+      "경파",
+      "대갈",
+      "매성"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2046,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2003
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1047,
+    "name": "곽외",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 30,
+    "war": 21,
+    "intelligence": 82,
+    "politics": 83,
+    "charisma": 75,
+    "trait_slots": [
+      109,
+      115,
+      119,
+      120,
+      149,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      109,
+      115,
+      119,
+      120,
+      149
+    ],
+    "trait_names": [
+      "명성",
+      "교화",
+      "인맥",
+      "안목",
+      "지낭"
+    ],
+    "formation_mask": 528,
+    "tactic_ids": [
+      18,
+      20,
+      22
+    ],
+    "tactic_names": [
+      "고무",
+      "진정",
+      "충차"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2047,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2034,
+      2003
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1048,
+    "name": "굴평",
+    "courtesy_name": "원",
+    "group": "official_bonus_88",
+    "leadership": 38,
+    "war": 28,
+    "intelligence": 85,
+    "politics": 91,
+    "charisma": 88,
+    "trait_slots": [
+      27,
+      28,
+      45,
+      109,
+      112,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      27,
+      28,
+      45,
+      109,
+      112
+    ],
+    "trait_names": [
+      "시상",
+      "노발",
+      "명경",
+      "명성",
+      "문화"
+    ],
+    "formation_mask": 264,
+    "tactic_ids": [
+      18,
+      21,
+      24,
+      25,
+      26
+    ],
+    "tactic_names": [
+      "고무",
+      "정란",
+      "구축",
+      "강습",
+      "시람"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2048,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [],
+    "disliked_ids": [
+      2024
+    ],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1049,
+    "name": "공수반",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 33,
+    "war": 16,
+    "intelligence": 71,
+    "politics": 56,
+    "charisma": 62,
+    "trait_slots": [
+      9,
+      147,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      9,
+      147
+    ],
+    "trait_names": [
+      "발명",
+      "학자"
+    ],
+    "formation_mask": 1792,
+    "tactic_ids": [
+      21,
+      22,
+      23
+    ],
+    "tactic_names": [
+      "정란",
+      "충차",
+      "투석"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2049,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1050,
+    "name": "오용",
+    "courtesy_name": "학구",
+    "group": "official_bonus_88",
+    "leadership": 47,
+    "war": 43,
+    "intelligence": 96,
+    "politics": 87,
+    "charisma": 70,
+    "trait_slots": [
+      17,
+      81,
+      49,
+      122,
+      149,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      17,
+      81,
+      49,
+      122,
+      149
+    ],
+    "trait_names": [
+      "묘산",
+      "석병",
+      "선동",
+      "책사",
+      "지낭"
+    ],
+    "formation_mask": 1552,
+    "tactic_ids": [
+      63,
+      13,
+      20,
+      22,
+      23
+    ],
+    "tactic_names": [
+      "기략종횡",
+      "업화",
+      "진정",
+      "충차",
+      "투석"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2050,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      440,
+      2053,
+      2083
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1051,
+    "name": "임충",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 90,
+    "war": 96,
+    "intelligence": 68,
+    "politics": 43,
+    "charisma": 83,
+    "trait_slots": [
+      108,
+      62,
+      22,
+      92,
+      85,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      108,
+      62,
+      22,
+      92,
+      85
+    ],
+    "trait_names": [
+      "투장",
+      "단기",
+      "위풍",
+      "담력",
+      "포박"
+    ],
+    "formation_mask": 38,
+    "tactic_ids": [
+      92,
+      3,
+      9,
+      12,
+      24
+    ],
+    "tactic_names": [
+      "만인적",
+      "급습",
+      "경파",
+      "교란",
+      "구축"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2051,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      656,
+      2052,
+      2053,
+      2083,
+      2084
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1052,
+    "name": "호연작",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 95,
+    "war": 91,
+    "intelligence": 75,
+    "politics": 60,
+    "charisma": 82,
+    "trait_slots": [
+      106,
+      61,
+      39,
+      54,
+      66,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      106,
+      61,
+      39,
+      54,
+      66
+    ],
+    "trait_names": [
+      "신위",
+      "호걸",
+      "과감",
+      "화공",
+      "재기"
+    ],
+    "formation_mask": 1186,
+    "tactic_ids": [
+      86,
+      2,
+      5,
+      9,
+      23
+    ],
+    "tactic_names": [
+      "용왕매진",
+      "돌격",
+      "화시",
+      "경파",
+      "투석"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2052,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2051,
+      2053,
+      2083
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1053,
+    "name": "화영",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 87,
+    "war": 89,
+    "intelligence": 79,
+    "politics": 67,
+    "charisma": 78,
+    "trait_slots": [
+      11,
+      6,
+      36,
+      55,
+      86,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      11,
+      6,
+      36,
+      55,
+      86
+    ],
+    "trait_names": [
+      "용장",
+      "원시",
+      "태연",
+      "해제",
+      "호위"
+    ],
+    "formation_mask": 362,
+    "tactic_ids": [
+      60,
+      5,
+      6,
+      7,
+      21,
+      26
+    ],
+    "tactic_names": [
+      "신궁",
+      "화시",
+      "연노",
+      "격려",
+      "정란",
+      "시람"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2053,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2050,
+      2051,
+      2052
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1054,
+    "name": "이규",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 62,
+    "war": 98,
+    "intelligence": 13,
+    "politics": 1,
+    "charisma": 17,
+    "trait_slots": [
+      84,
+      62,
+      1,
+      35,
+      41,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      84,
+      62,
+      1,
+      35,
+      41
+    ],
+    "trait_names": [
+      "맹자",
+      "단기",
+      "저돌",
+      "주란",
+      "단려"
+    ],
+    "formation_mask": 68,
+    "tactic_ids": [
+      45,
+      1,
+      11,
+      17
+    ],
+    "tactic_names": [
+      "맹호조아",
+      "분전",
+      "대갈",
+      "매성"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2054,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2055,
+      2083
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1055,
+    "name": "연청",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 54,
+    "war": 85,
+    "intelligence": 85,
+    "politics": 74,
+    "charisma": 80,
+    "trait_slots": [
+      6,
+      23,
+      25,
+      33,
+      47,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      6,
+      23,
+      25,
+      33,
+      47
+    ],
+    "trait_names": [
+      "원시",
+      "악주",
+      "일심",
+      "불굴",
+      "동지"
+    ],
+    "formation_mask": 648,
+    "tactic_ids": [
+      47,
+      4,
+      10,
+      14,
+      22,
+      25
+    ],
+    "tactic_names": [
+      "명찰추호",
+      "제사",
+      "견제",
+      "저지",
+      "충차",
+      "강습"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2055,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2054,
+      2083
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1056,
+    "name": "오다노부나가",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 94,
+    "war": 75,
+    "intelligence": 91,
+    "politics": 95,
+    "charisma": 96,
+    "trait_slots": [
+      14,
+      105,
+      59,
+      4,
+      110,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      14,
+      105,
+      59,
+      4,
+      110
+    ],
+    "trait_names": [
+      "간웅",
+      "임재",
+      "영명",
+      "질주",
+      "진흥"
+    ],
+    "formation_mask": 174,
+    "tactic_ids": [
+      49,
+      3,
+      6,
+      10,
+      18,
+      24
+    ],
+    "tactic_names": [
+      "극염",
+      "급습",
+      "연노",
+      "견제",
+      "고무",
+      "구축"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2056,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      521
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1057,
+    "name": "다케다신겐",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 96,
+    "war": 76,
+    "intelligence": 92,
+    "politics": 90,
+    "charisma": 92,
+    "trait_slots": [
+      153,
+      21,
+      36,
+      58,
+      109,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      153,
+      21,
+      36,
+      58,
+      109
+    ],
+    "trait_names": [
+      "신기",
+      "구심",
+      "태연",
+      "축성",
+      "명성"
+    ],
+    "formation_mask": 626,
+    "tactic_ids": [
+      98,
+      7,
+      8,
+      15,
+      16,
+      22
+    ],
+    "tactic_names": [
+      "대호웅략",
+      "격려",
+      "철벽",
+      "혼란",
+      "도발",
+      "충차"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2057,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      551
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1058,
+    "name": "우에스기겐신",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 100,
+    "war": 90,
+    "intelligence": 79,
+    "politics": 60,
+    "charisma": 91,
+    "trait_slots": [
+      150,
+      37,
+      5,
+      22,
+      35,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      150,
+      37,
+      5,
+      22,
+      35
+    ],
+    "trait_names": [
+      "신장",
+      "통찰",
+      "소탕",
+      "위풍",
+      "주란"
+    ],
+    "formation_mask": 198,
+    "tactic_ids": [
+      91,
+      2,
+      3,
+      9,
+      12,
+      25
+    ],
+    "tactic_names": [
+      "군신",
+      "돌격",
+      "급습",
+      "경파",
+      "교란",
+      "강습"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2058,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      147
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1059,
+    "name": "모리모토나리",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 89,
+    "war": 62,
+    "intelligence": 98,
+    "politics": 93,
+    "charisma": 89,
+    "trait_slots": [
+      52,
+      25,
+      45,
+      68,
+      122,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      52,
+      25,
+      45,
+      68,
+      122
+    ],
+    "trait_names": [
+      "허실",
+      "일심",
+      "명경",
+      "수전",
+      "책사"
+    ],
+    "formation_mask": 312,
+    "tactic_ids": [
+      83,
+      5,
+      18,
+      20,
+      21,
+      26
+    ],
+    "tactic_names": [
+      "신기묘산",
+      "화시",
+      "고무",
+      "진정",
+      "정란",
+      "시람"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2059,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1060,
+    "name": "다이겐셋사이",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 85,
+    "war": 50,
+    "intelligence": 96,
+    "politics": 97,
+    "charisma": 82,
+    "trait_slots": [
+      48,
+      138,
+      121,
+      122,
+      149,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      48,
+      138,
+      121,
+      122,
+      149
+    ],
+    "trait_names": [
+      "신안",
+      "왕좌",
+      "논객",
+      "책사",
+      "지낭"
+    ],
+    "formation_mask": 1066,
+    "tactic_ids": [
+      61,
+      4,
+      15,
+      19,
+      20,
+      23
+    ],
+    "tactic_names": [
+      "명경지수",
+      "제사",
+      "혼란",
+      "치료",
+      "진정",
+      "투석"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2060,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1061,
+    "name": "이이나오토라",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 48,
+    "war": 30,
+    "intelligence": 70,
+    "politics": 78,
+    "charisma": 74,
+    "trait_slots": [
+      96,
+      181,
+      140,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      96,
+      181,
+      140
+    ],
+    "trait_names": [
+      "응원",
+      "여망",
+      "소욕"
+    ],
+    "formation_mask": 80,
+    "tactic_ids": [
+      18,
+      19
+    ],
+    "tactic_names": [
+      "고무",
+      "치료"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2061,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1062,
+    "name": "칭기즈칸",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 100,
+    "war": 92,
+    "intelligence": 88,
+    "politics": 81,
+    "charisma": 95,
+    "trait_slots": [
+      67,
+      14,
+      4,
+      20,
+      22,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      67,
+      14,
+      4,
+      20,
+      22
+    ],
+    "trait_names": [
+      "비장",
+      "간웅",
+      "질주",
+      "장구",
+      "위풍"
+    ],
+    "formation_mask": 654,
+    "tactic_ids": [
+      93,
+      3,
+      5,
+      7,
+      12,
+      22
+    ],
+    "tactic_names": [
+      "천하무쌍",
+      "급습",
+      "화시",
+      "격려",
+      "교란",
+      "충차"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2062,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2064,
+      2066
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1063,
+    "name": "자무카",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 82,
+    "war": 78,
+    "intelligence": 93,
+    "politics": 70,
+    "charisma": 82,
+    "trait_slots": [
+      4,
+      33,
+      49,
+      66,
+      121,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      4,
+      33,
+      49,
+      66,
+      121
+    ],
+    "trait_names": [
+      "질주",
+      "불굴",
+      "선동",
+      "재기",
+      "논객"
+    ],
+    "formation_mask": 202,
+    "tactic_ids": [
+      87,
+      4,
+      12,
+      16,
+      17
+    ],
+    "tactic_names": [
+      "불요불굴",
+      "제사",
+      "교란",
+      "도발",
+      "매성"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2063,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [],
+    "disliked_ids": [
+      2062
+    ],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1064,
+    "name": "보르테",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 32,
+    "war": 16,
+    "intelligence": 72,
+    "politics": 82,
+    "charisma": 88,
+    "trait_slots": [
+      96,
+      182,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      96,
+      182
+    ],
+    "trait_names": [
+      "응원",
+      "인정"
+    ],
+    "formation_mask": 32,
+    "tactic_ids": [
+      18,
+      19
+    ],
+    "tactic_names": [
+      "고무",
+      "치료"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2064,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2062
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1065,
+    "name": "라찌",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 29,
+    "war": 65,
+    "intelligence": 70,
+    "politics": 61,
+    "charisma": 25,
+    "trait_slots": [
+      94,
+      26,
+      129,
+      1,
+      141,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      94,
+      26,
+      129,
+      1,
+      141
+    ],
+    "trait_names": [
+      "경국",
+      "앙양",
+      "점술",
+      "저돌",
+      "탐욕"
+    ],
+    "formation_mask": 132,
+    "tactic_ids": [
+      100,
+      16,
+      17
+    ],
+    "tactic_names": [
+      "경국지무",
+      "도발",
+      "매성"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2065,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2062,
+      2063,
+      2066,
+      521,
+      952,
+      551,
+      557,
+      553
+    ],
+    "disliked_ids": [
+      2064,
+      816,
+      163,
+      292,
+      584,
+      411,
+      841,
+      640
+    ],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1066,
+    "name": "쿠빌라이",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 86,
+    "war": 75,
+    "intelligence": 90,
+    "politics": 95,
+    "charisma": 86,
+    "trait_slots": [
+      105,
+      13,
+      4,
+      91,
+      113,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      105,
+      13,
+      4,
+      91,
+      113
+    ],
+    "trait_names": [
+      "임재",
+      "독장",
+      "질주",
+      "지리",
+      "징세"
+    ],
+    "formation_mask": 1196,
+    "tactic_ids": [
+      38,
+      3,
+      6,
+      9,
+      20,
+      23
+    ],
+    "tactic_names": [
+      "장구직입",
+      "급습",
+      "연노",
+      "경파",
+      "진정",
+      "투석"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2062,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2062
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1067,
+    "name": "야율초재",
+    "courtesy_name": "진경",
+    "group": "official_bonus_88",
+    "leadership": 28,
+    "war": 30,
+    "intelligence": 85,
+    "politics": 98,
+    "charisma": 83,
+    "trait_slots": [
+      27,
+      112,
+      115,
+      129,
+      147,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      27,
+      112,
+      115,
+      129,
+      147
+    ],
+    "trait_names": [
+      "시상",
+      "문화",
+      "교화",
+      "점술",
+      "학자"
+    ],
+    "formation_mask": 1296,
+    "tactic_ids": [
+      88,
+      19,
+      21,
+      23
+    ],
+    "tactic_names": [
+      "침의대략",
+      "치료",
+      "정란",
+      "투석"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2067,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2062
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1068,
+    "name": "이세민",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 92,
+    "war": 81,
+    "intelligence": 90,
+    "politics": 100,
+    "charisma": 92,
+    "trait_slots": [
+      105,
+      4,
+      59,
+      112,
+      182,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      105,
+      4,
+      59,
+      112,
+      182
+    ],
+    "trait_names": [
+      "임재",
+      "질주",
+      "영명",
+      "문화",
+      "인정"
+    ],
+    "formation_mask": 422,
+    "tactic_ids": [
+      83,
+      2,
+      9,
+      11,
+      20,
+      21
+    ],
+    "tactic_names": [
+      "신기묘산",
+      "돌격",
+      "경파",
+      "대갈",
+      "진정",
+      "정란"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2068,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2069,
+      2070,
+      2071,
+      2072,
+      2007,
+      521
+    ],
+    "disliked_ids": [
+      2073
+    ],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1069,
+    "name": "장손무기",
+    "courtesy_name": "보기",
+    "group": "official_bonus_88",
+    "leadership": 54,
+    "war": 32,
+    "intelligence": 83,
+    "politics": 82,
+    "charisma": 71,
+    "trait_slots": [
+      149,
+      109,
+      111,
+      146,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      149,
+      109,
+      111,
+      146,
+      2
+    ],
+    "trait_names": [
+      "지낭",
+      "명성",
+      "법률",
+      "사관",
+      "소심"
+    ],
+    "formation_mask": 528,
+    "tactic_ids": [
+      89,
+      14,
+      20,
+      22
+    ],
+    "tactic_names": [
+      "심모원려",
+      "저지",
+      "진정",
+      "충차"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2069,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2068
+    ],
+    "disliked_ids": [
+      2073
+    ],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1070,
+    "name": "이정",
+    "courtesy_name": "약사",
+    "group": "official_bonus_88",
+    "leadership": 100,
+    "war": 86,
+    "intelligence": 95,
+    "politics": 81,
+    "charisma": 83,
+    "trait_slots": [
+      153,
+      37,
+      4,
+      20,
+      139,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      153,
+      37,
+      4,
+      20,
+      139
+    ],
+    "trait_names": [
+      "신기",
+      "통찰",
+      "질주",
+      "장구",
+      "주석"
+    ],
+    "formation_mask": 214,
+    "tactic_ids": [
+      91,
+      3,
+      15,
+      12,
+      18,
+      25
+    ],
+    "tactic_names": [
+      "군신",
+      "급습",
+      "혼란",
+      "교란",
+      "고무",
+      "강습"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2070,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2068,
+      440,
+      521
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1071,
+    "name": "울지공",
+    "courtesy_name": "경덕",
+    "group": "official_bonus_88",
+    "leadership": 85,
+    "war": 100,
+    "intelligence": 68,
+    "politics": 38,
+    "charisma": 79,
+    "trait_slots": [
+      108,
+      62,
+      22,
+      85,
+      142,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      108,
+      62,
+      22,
+      85,
+      142
+    ],
+    "trait_names": [
+      "투장",
+      "단기",
+      "위풍",
+      "포박",
+      "강건"
+    ],
+    "formation_mask": 92,
+    "tactic_ids": [
+      92,
+      1,
+      4,
+      8,
+      16
+    ],
+    "tactic_names": [
+      "만인적",
+      "분전",
+      "제사",
+      "철벽",
+      "도발"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2071,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2068,
+      2072,
+      147
+    ],
+    "disliked_ids": [
+      2069
+    ],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1072,
+    "name": "진경",
+    "courtesy_name": "숙보",
+    "group": "official_bonus_88",
+    "leadership": 81,
+    "war": 96,
+    "intelligence": 55,
+    "politics": 30,
+    "charisma": 88,
+    "trait_slots": [
+      10,
+      62,
+      86,
+      87,
+      195,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      10,
+      62,
+      86,
+      87,
+      195
+    ],
+    "trait_names": [
+      "효장",
+      "단기",
+      "호위",
+      "혈로",
+      "금강"
+    ],
+    "formation_mask": 22,
+    "tactic_ids": [
+      87,
+      2,
+      7,
+      9,
+      11
+    ],
+    "tactic_names": [
+      "불요불굴",
+      "돌격",
+      "격려",
+      "경파",
+      "대갈"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2072,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2068,
+      2071,
+      147
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1073,
+    "name": "무조",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 43,
+    "war": 38,
+    "intelligence": 88,
+    "politics": 83,
+    "charisma": 78,
+    "trait_slots": [
+      52,
+      122,
+      120,
+      60,
+      93,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      52,
+      122,
+      120,
+      60,
+      93
+    ],
+    "trait_names": [
+      "허실",
+      "책사",
+      "안목",
+      "악명",
+      "오만"
+    ],
+    "formation_mask": 32,
+    "tactic_ids": [
+      71,
+      15,
+      16
+    ],
+    "tactic_names": [
+      "짐독",
+      "혼란",
+      "도발"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2073,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [],
+    "disliked_ids": [
+      2069
+    ],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1074,
+    "name": "양옥환",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 2,
+    "war": 3,
+    "intelligence": 59,
+    "politics": 1,
+    "charisma": 97,
+    "trait_slots": [
+      94,
+      23,
+      112,
+      31,
+      99,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      94,
+      23,
+      112,
+      31,
+      99
+    ],
+    "trait_names": [
+      "경국",
+      "악주",
+      "문화",
+      "낭비",
+      "나약"
+    ],
+    "formation_mask": 32,
+    "tactic_ids": [
+      100
+    ],
+    "tactic_names": [
+      "경국지무"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2074,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      640,
+      656
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1075,
+    "name": "화목란",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 77,
+    "war": 76,
+    "intelligence": 68,
+    "politics": 27,
+    "charisma": 82,
+    "trait_slots": [
+      20,
+      25,
+      33,
+      140,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      20,
+      25,
+      33,
+      140
+    ],
+    "trait_names": [
+      "장구",
+      "일심",
+      "불굴",
+      "소욕"
+    ],
+    "formation_mask": 68,
+    "tactic_ids": [
+      38,
+      10,
+      18
+    ],
+    "tactic_names": [
+      "장구직입",
+      "견제",
+      "고무"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2075,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1076,
+    "name": "고장공",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 90,
+    "war": 93,
+    "intelligence": 70,
+    "politics": 35,
+    "charisma": 91,
+    "trait_slots": [
+      106,
+      92,
+      21,
+      26,
+      39,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      106,
+      92,
+      21,
+      26,
+      39
+    ],
+    "trait_names": [
+      "신위",
+      "담력",
+      "구심",
+      "앙양",
+      "과감"
+    ],
+    "formation_mask": 198,
+    "tactic_ids": [
+      96,
+      2,
+      4,
+      7,
+      9
+    ],
+    "tactic_names": [
+      "단기구",
+      "돌격",
+      "제사",
+      "격려",
+      "경파"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2076,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      379
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1077,
+    "name": "정성공",
+    "courtesy_name": "명엄",
+    "group": "official_bonus_88",
+    "leadership": 89,
+    "war": 76,
+    "intelligence": 79,
+    "politics": 83,
+    "charisma": 90,
+    "trait_slots": [
+      11,
+      5,
+      25,
+      68,
+      154,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      11,
+      5,
+      25,
+      68,
+      154
+    ],
+    "trait_names": [
+      "용장",
+      "소탕",
+      "일심",
+      "수전",
+      "조타"
+    ],
+    "formation_mask": 1066,
+    "tactic_ids": [
+      66,
+      5,
+      18,
+      23,
+      25,
+      26
+    ],
+    "tactic_names": [
+      "충용의열",
+      "화시",
+      "고무",
+      "투석",
+      "강습",
+      "시람"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2077,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      379
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1078,
+    "name": "사카모토료마",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 64,
+    "war": 87,
+    "intelligence": 85,
+    "politics": 76,
+    "charisma": 93,
+    "trait_slots": [
+      37,
+      64,
+      154,
+      119,
+      121,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      37,
+      64,
+      154,
+      119,
+      121
+    ],
+    "trait_names": [
+      "통찰",
+      "운반",
+      "조타",
+      "인맥",
+      "논객"
+    ],
+    "formation_mask": 266,
+    "tactic_ids": [
+      61,
+      4,
+      7,
+      21,
+      24,
+      26
+    ],
+    "tactic_names": [
+      "명경지수",
+      "제사",
+      "격려",
+      "정란",
+      "구축",
+      "시람"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2078,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2080
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1079,
+    "name": "히지카타도시조",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 81,
+    "war": 90,
+    "intelligence": 76,
+    "politics": 46,
+    "charisma": 62,
+    "trait_slots": [
+      108,
+      5,
+      25,
+      38,
+      27,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      108,
+      5,
+      25,
+      38,
+      27
+    ],
+    "trait_names": [
+      "투장",
+      "소탕",
+      "일심",
+      "규율",
+      "시상"
+    ],
+    "formation_mask": 22,
+    "tactic_ids": [
+      86,
+      1,
+      8,
+      9,
+      12
+    ],
+    "tactic_names": [
+      "용왕매진",
+      "분전",
+      "철벽",
+      "경파",
+      "교란"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2079,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [],
+    "disliked_ids": [
+      2081,
+      2082
+    ],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1080,
+    "name": "가쓰가이슈",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 49,
+    "war": 64,
+    "intelligence": 90,
+    "politics": 96,
+    "charisma": 71,
+    "trait_slots": [
+      48,
+      138,
+      119,
+      120,
+      121,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      48,
+      138,
+      119,
+      120,
+      121
+    ],
+    "trait_names": [
+      "신안",
+      "왕좌",
+      "인맥",
+      "안목",
+      "논객"
+    ],
+    "formation_mask": 16,
+    "tactic_ids": [
+      47,
+      16,
+      17
+    ],
+    "tactic_names": [
+      "명찰추호",
+      "도발",
+      "매성"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2080,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2078,
+      2082
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1081,
+    "name": "다카스기신사쿠",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 94,
+    "war": 73,
+    "intelligence": 92,
+    "politics": 66,
+    "charisma": 85,
+    "trait_slots": [
+      153,
+      122,
+      4,
+      23,
+      49,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      153,
+      122,
+      4,
+      23,
+      49
+    ],
+    "trait_names": [
+      "신기",
+      "책사",
+      "질주",
+      "악주",
+      "선동"
+    ],
+    "formation_mask": 94,
+    "tactic_ids": [
+      63,
+      3,
+      16,
+      17,
+      18,
+      25
+    ],
+    "tactic_names": [
+      "기략종횡",
+      "급습",
+      "도발",
+      "매성",
+      "고무",
+      "강습"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2081,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2078
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1082,
+    "name": "사이고다카모리",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 85,
+    "war": 58,
+    "intelligence": 84,
+    "politics": 88,
+    "charisma": 95,
+    "trait_slots": [
+      105,
+      92,
+      21,
+      36,
+      139,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      105,
+      92,
+      21,
+      36,
+      139
+    ],
+    "trait_names": [
+      "임재",
+      "담력",
+      "구심",
+      "태연",
+      "주석"
+    ],
+    "formation_mask": 562,
+    "tactic_ids": [
+      95,
+      2,
+      5,
+      11,
+      22,
+      24
+    ],
+    "tactic_names": [
+      "대기대덕",
+      "돌격",
+      "화시",
+      "대갈",
+      "충차",
+      "구축"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2082,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2078,
+      2080
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1083,
+    "name": "송강",
+    "courtesy_name": "공명",
+    "group": "official_bonus_88",
+    "leadership": 74,
+    "war": 68,
+    "intelligence": 73,
+    "politics": 72,
+    "charisma": 98,
+    "trait_slots": [
+      105,
+      59,
+      27,
+      117,
+      123,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      105,
+      59,
+      27,
+      117,
+      123
+    ],
+    "trait_names": [
+      "임재",
+      "영명",
+      "시상",
+      "모집",
+      "위무"
+    ],
+    "formation_mask": 552,
+    "tactic_ids": [
+      88,
+      4,
+      9,
+      22
+    ],
+    "tactic_names": [
+      "침의대략",
+      "제사",
+      "경파",
+      "충차"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2083,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2050,
+      2051,
+      2054
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1084,
+    "name": "무송",
+    "courtesy_name": "",
+    "group": "official_bonus_88",
+    "leadership": 70,
+    "war": 98,
+    "intelligence": 51,
+    "politics": 20,
+    "charisma": 62,
+    "trait_slots": [
+      62,
+      5,
+      28,
+      57,
+      35,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      62,
+      5,
+      28,
+      57,
+      35
+    ],
+    "trait_names": [
+      "단기",
+      "소탕",
+      "노발",
+      "직정",
+      "주란"
+    ],
+    "formation_mask": 1030,
+    "tactic_ids": [
+      46,
+      3,
+      11,
+      23
+    ],
+    "tactic_names": [
+      "호소풍열",
+      "급습",
+      "대갈",
+      "투석"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2084,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2051
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1085,
+    "name": "주원장",
+    "courtesy_name": "국서",
+    "group": "official_bonus_88",
+    "leadership": 94,
+    "war": 80,
+    "intelligence": 95,
+    "politics": 96,
+    "charisma": 90,
+    "trait_slots": [
+      19,
+      68,
+      32,
+      114,
+      88,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      19,
+      68,
+      32,
+      114,
+      88
+    ],
+    "trait_names": [
+      "효웅",
+      "수전",
+      "둔전",
+      "농정",
+      "강운"
+    ],
+    "formation_mask": 1098,
+    "tactic_ids": [
+      70,
+      5,
+      17,
+      15,
+      24,
+      23
+    ],
+    "tactic_names": [
+      "도산경해",
+      "화시",
+      "매성",
+      "혼란",
+      "구축",
+      "투석"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2085,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2087,
+      2088,
+      2086,
+      2007
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1086,
+    "name": "유기",
+    "courtesy_name": "백온",
+    "group": "official_bonus_88",
+    "leadership": 53,
+    "war": 22,
+    "intelligence": 100,
+    "politics": 95,
+    "charisma": 92,
+    "trait_slots": [
+      153,
+      122,
+      138,
+      27,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      153,
+      122,
+      138,
+      27,
+      129
+    ],
+    "trait_names": [
+      "신기",
+      "책사",
+      "왕좌",
+      "시상",
+      "점술"
+    ],
+    "formation_mask": 792,
+    "tactic_ids": [
+      97,
+      13,
+      14,
+      20,
+      26,
+      22
+    ],
+    "tactic_names": [
+      "신산귀모",
+      "업화",
+      "저지",
+      "진정",
+      "시람",
+      "충차"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2086,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2085,
+      2004,
+      440
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1087,
+    "name": "서달",
+    "courtesy_name": "천덕",
+    "group": "official_bonus_88",
+    "leadership": 98,
+    "war": 85,
+    "intelligence": 84,
+    "politics": 69,
+    "charisma": 88,
+    "trait_slots": [
+      150,
+      21,
+      85,
+      38,
+      58,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      150,
+      21,
+      85,
+      38,
+      58
+    ],
+    "trait_names": [
+      "신장",
+      "구심",
+      "포박",
+      "규율",
+      "축성"
+    ],
+    "formation_mask": 358,
+    "tactic_ids": [
+      48,
+      1,
+      9,
+      12,
+      24,
+      21
+    ],
+    "tactic_names": [
+      "수문연무",
+      "분전",
+      "경파",
+      "교란",
+      "구축",
+      "정란"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2087,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2085,
+      2088,
+      2086
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  },
+  {
+    "officer_id": 1088,
+    "name": "상우춘",
+    "courtesy_name": "백인",
+    "group": "official_bonus_88",
+    "leadership": 91,
+    "war": 97,
+    "intelligence": 69,
+    "politics": 49,
+    "charisma": 68,
+    "trait_slots": [
+      108,
+      6,
+      86,
+      39,
+      194,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trait_ids": [
+      108,
+      6,
+      86,
+      39,
+      194
+    ],
+    "trait_names": [
+      "투장",
+      "원시",
+      "호위",
+      "과감",
+      "난폭"
+    ],
+    "formation_mask": 204,
+    "tactic_ids": [
+      60,
+      6,
+      11,
+      25,
+      26
+    ],
+    "tactic_names": [
+      "신궁",
+      "연노",
+      "대갈",
+      "강습",
+      "시람"
+    ],
+    "birth_year": 170,
+    "death_year": 268,
+    "bloodline_root_id": 2088,
+    "father_id": 0,
+    "mother_id": 0,
+    "generation": 0,
+    "liked_ids": [
+      2085,
+      2087
+    ],
+    "disliked_ids": [],
+    "father_name": "",
+    "mother_name": "",
+    "children_ids": [],
+    "children_names": [],
+    "star_unique_tactic": false,
+    "unique_tactic_ids": [],
+    "unique_tactic_names": [],
+    "teacher_role": "auxiliary"
+  }
+]

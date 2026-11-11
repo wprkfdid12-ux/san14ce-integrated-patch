@@ -1,0 +1,30 @@
+{
+  "version": "RC4-R7-NativeDialogs",
+  "scope": "Win64 DLL and original native state tick, substituted OS/game/widgets; NOT Windows/live game",
+  "results": [
+    {
+      "test": "test_r6.py",
+      "exit": 0,
+      "seconds": 3.039
+    },
+    {
+      "test": "test_r7.py",
+      "exit": 0,
+      "seconds": 1.748
+    },
+    {
+      "test": "test_r7_compat.py",
+      "exit": 1,
+      "seconds": 1.627
+    },
+    {
+      "test": "test_stack_probe.py",
+      "exit": 0,
+      "seconds": 0.381
+    }
+  ],
+  "dll_sha256": {
+    "SAN14_MeritTraits.dll": "dad3a4d1d227a6ba4fc18d83a83e1ebfe628fe65b45e45aee7c0215600df3880",
+    "SAN14_MeritResolver_CEKO.dll": "2e49edef167f5a721310c534fa389032b12467f7ae32925735669e583a8db353"
+  }
+}

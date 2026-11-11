@@ -1,0 +1,65 @@
+{
+  "version": "RC4-R5-SafeExit",
+  "scope": "Win64 DLL and original native state tick, substituted OS/game/widgets; NOT Windows/live game",
+  "results": [
+    {
+      "test": "test_rc4.py",
+      "exit": 0,
+      "seconds": 0.726
+    },
+    {
+      "test": "test_cp03.py",
+      "exit": 0,
+      "seconds": 1.758
+    },
+    {
+      "test": "test_stack_probe.py",
+      "exit": 0,
+      "seconds": 0.527
+    },
+    {
+      "test": "test_native_integration.py",
+      "exit": 0,
+      "seconds": 1.805
+    },
+    {
+      "test": "test_r1_skip.py",
+      "exit": 0,
+      "seconds": 0.613
+    },
+    {
+      "test": "test_r2.py",
+      "exit": 0,
+      "seconds": 1.567
+    },
+    {
+      "test": "test_r3.py",
+      "exit": 0,
+      "seconds": 2.224
+    },
+    {
+      "test": "test_r4.py",
+      "exit": 0,
+      "seconds": 1.752
+    },
+    {
+      "test": "test_r5.py",
+      "exit": 0,
+      "seconds": 2.503
+    },
+    {
+      "test": "test_r5_warning.py",
+      "exit": 0,
+      "seconds": 1.579
+    },
+    {
+      "test": "test_r5_package.py",
+      "exit": 0,
+      "seconds": 0.195
+    }
+  ],
+  "dll_sha256": {
+    "SAN14_MeritResolver_CEKO.dll": "c77445b31f8dbf0b56bc63c4bd89c480e8ae586caa67d99326e6a087fc380cda",
+    "SAN14_MeritTraits.dll": "24d1eb6d35e68e280ad93421fc89b0945b71921c2bc8e038d14d0df56435c989"
+  }
+}

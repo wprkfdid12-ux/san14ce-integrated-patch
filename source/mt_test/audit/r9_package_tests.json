@@ -1,0 +1,717 @@
+{
+  "version": "RC4-R9-OwnerContext",
+  "scope": "Build/PE/package/PowerShell static checks, NOT Windows PowerShell or live game execution",
+  "passed": 176,
+  "checks": [
+    {
+      "name": "R9 installer enabled, incremental continuation of our R8",
+      "pass": true
+    },
+    {
+      "name": "live-game limitation is explicit in both manifests",
+      "pass": true
+    },
+    {
+      "name": "exact eight install target allowlist",
+      "pass": true
+    },
+    {
+      "name": "payload SHA256 SAN14Mods/Core/SAN14_ModCore.dll",
+      "pass": true
+    },
+    {
+      "name": "payload SHA256 SAN14Mods/MeritTraits/SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "payload SHA256 SAN14Mods/MeritTraits/UI_Traits9_Hover.dll",
+      "pass": true
+    },
+    {
+      "name": "payload SHA256 SAN14Mods/manifests/MeritTraits.json",
+      "pass": true
+    },
+    {
+      "name": "payload SHA256 SAN14Mods/modules/MeritTraits.ini",
+      "pass": true
+    },
+    {
+      "name": "payload SHA256 SAN14Mods/resolvers/SAN14_Resolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "payload SHA256 SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "payload SHA256 dxgi.dll",
+      "pass": true
+    },
+    {
+      "name": "deterministic build SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "shipped DLL equals executed test build SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "deterministic build SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "shipped DLL equals executed test build SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "common/support bytes unchanged dxgi.dll",
+      "pass": true
+    },
+    {
+      "name": "common/support bytes unchanged SAN14Mods/Core/SAN14_ModCore.dll",
+      "pass": true
+    },
+    {
+      "name": "common/support bytes unchanged SAN14Mods/resolvers/SAN14_Resolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "common/support bytes unchanged SAN14Mods/MeritTraits/UI_Traits9_Hover.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 architecture dxgi.dll",
+      "pass": true
+    },
+    {
+      "name": "no RWX section dxgi.dll",
+      "pass": true
+    },
+    {
+      "name": "valid PE entry dxgi.dll",
+      "pass": true
+    },
+    {
+      "name": "OS-only direct imports dxgi.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 architecture SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "no RWX section SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "valid PE entry SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "OS-only direct imports SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "feature initialization export and x64 unwind metadata",
+      "pass": true
+    },
+    {
+      "name": "Win64 architecture SAN14_Resolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "no RWX section SAN14_Resolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "valid PE entry SAN14_Resolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "OS-only direct imports SAN14_Resolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 architecture SAN14_ModCore.dll",
+      "pass": true
+    },
+    {
+      "name": "no RWX section SAN14_ModCore.dll",
+      "pass": true
+    },
+    {
+      "name": "valid PE entry SAN14_ModCore.dll",
+      "pass": true
+    },
+    {
+      "name": "OS-only direct imports SAN14_ModCore.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 architecture UI_Traits9_Hover.dll",
+      "pass": true
+    },
+    {
+      "name": "no RWX section UI_Traits9_Hover.dll",
+      "pass": true
+    },
+    {
+      "name": "valid PE entry UI_Traits9_Hover.dll",
+      "pass": true
+    },
+    {
+      "name": "OS-only direct imports UI_Traits9_Hover.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 architecture SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "no RWX section SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "valid PE entry SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "OS-only direct imports SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "35 hooks plus 27 native adapters described",
+      "pass": true
+    },
+    {
+      "name": "presentation and all-three-equal rules retained",
+      "pass": true
+    },
+    {
+      "name": "local companion cloud limitation not hidden",
+      "pass": true
+    },
+    {
+      "name": "Korean Windows script encoding Rollback.ps1",
+      "pass": true
+    },
+    {
+      "name": "static PowerShell string/delimiter balance Rollback.ps1",
+      "pass": true
+    },
+    {
+      "name": "Korean Windows script encoding CollectLogs.ps1",
+      "pass": true
+    },
+    {
+      "name": "static PowerShell string/delimiter balance CollectLogs.ps1",
+      "pass": true
+    },
+    {
+      "name": "Korean Windows script encoding Diagnostics.Common.ps1",
+      "pass": true
+    },
+    {
+      "name": "static PowerShell string/delimiter balance Diagnostics.Common.ps1",
+      "pass": true
+    },
+    {
+      "name": "Korean Windows script encoding CaptureRuntime.ps1",
+      "pass": true
+    },
+    {
+      "name": "static PowerShell string/delimiter balance CaptureRuntime.ps1",
+      "pass": true
+    },
+    {
+      "name": "Korean Windows script encoding Installer.Common.ps1",
+      "pass": true
+    },
+    {
+      "name": "static PowerShell string/delimiter balance Installer.Common.ps1",
+      "pass": true
+    },
+    {
+      "name": "Korean Windows script encoding BackupSaves.ps1",
+      "pass": true
+    },
+    {
+      "name": "static PowerShell string/delimiter balance BackupSaves.ps1",
+      "pass": true
+    },
+    {
+      "name": "Korean Windows script encoding Install.ps1",
+      "pass": true
+    },
+    {
+      "name": "static PowerShell string/delimiter balance Install.ps1",
+      "pass": true
+    },
+    {
+      "name": "Korean Windows script encoding Uninstall.ps1",
+      "pass": true
+    },
+    {
+      "name": "static PowerShell string/delimiter balance Uninstall.ps1",
+      "pass": true
+    },
+    {
+      "name": "running game protection",
+      "pass": true
+    },
+    {
+      "name": "exclusive installation lock",
+      "pass": true
+    },
+    {
+      "name": "interrupted transaction recovery",
+      "pass": true
+    },
+    {
+      "name": "externally modified own-file protection",
+      "pass": true
+    },
+    {
+      "name": "target path allowlist",
+      "pass": true
+    },
+    {
+      "name": "Windows native DLL load/export probe before copying",
+      "pass": true
+    },
+    {
+      "name": "exact-hash RC3 migration",
+      "pass": true
+    },
+    {
+      "name": "one-click previous patch restoration",
+      "pass": true
+    },
+    {
+      "name": "durable previous transaction record",
+      "pass": true
+    },
+    {
+      "name": "rollback preserves shared components",
+      "pass": true
+    },
+    {
+      "name": "uninstall preserves shared/unowned files",
+      "pass": true
+    },
+    {
+      "name": "idempotent reinstall retains prior rollback history",
+      "pass": true
+    },
+    {
+      "name": "all install conflicts checked before backing up or changing targets",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launch wrapper ROLLBACK.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launch wrapper 세이브백업.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launch wrapper UNINSTALL.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launch wrapper 가챠로그추출.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launch wrapper 실게임자료수집.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launch wrapper 문제자료모으기.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launch wrapper INSTALL.cmd",
+      "pass": true
+    },
+    {
+      "name": "backup includes native saves, two generation files and slot references with hashes",
+      "pass": true
+    },
+    {
+      "name": "backup bounds and consistent closed-game snapshot",
+      "pass": true
+    },
+    {
+      "name": "diagnostic logs bounded to four two-MiB files",
+      "pass": true
+    },
+    {
+      "name": "executed-code result r6_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed-code result r7_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed-code result r8_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed-code result r9_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed-code result r7_compat_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed-code result cp03_stack_tests.json",
+      "pass": true
+    },
+    {
+      "name": "recognized exact R1 hash for upgrade SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "recognized exact R1 hash for upgrade SAN14Mods/MeritTraits/SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "recognized exact R1 hash for upgrade SAN14Mods/manifests/MeritTraits.json",
+      "pass": true
+    },
+    {
+      "name": "recognized exact R1 hash for upgrade SAN14Mods/modules/MeritTraits.ini",
+      "pass": true
+    },
+    {
+      "name": "target and comparison DB basis matches final user instruction",
+      "pass": true
+    },
+    {
+      "name": "automatic thanks on input release is disabled",
+      "pass": true
+    },
+    {
+      "name": "result assessment cannot adjust draw probabilities",
+      "pass": true
+    },
+    {
+      "name": "recognized exact R2 hash for upgrade SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "recognized exact R2 hash for upgrade SAN14Mods/MeritTraits/SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "recognized exact R2 hash for upgrade SAN14Mods/manifests/MeritTraits.json",
+      "pass": true
+    },
+    {
+      "name": "recognized exact R2 hash for upgrade SAN14Mods/modules/MeritTraits.ini",
+      "pass": true
+    },
+    {
+      "name": "v3 wire extension and v2 migration declared",
+      "pass": true
+    },
+    {
+      "name": "five rerolls shared only within one officer three chances",
+      "pass": true
+    },
+    {
+      "name": "initial MISS tuning and three exclusion rules declared",
+      "pass": true
+    },
+    {
+      "name": "passion tuning explicitly matches compiled parameter block",
+      "pass": true
+    },
+    {
+      "name": "MISS does not receive a six-level grade",
+      "pass": true
+    },
+    {
+      "name": "separate seven-site X bridge contract",
+      "pass": true
+    },
+    {
+      "name": "shipped Hover call-site targets 0x2080",
+      "pass": true
+    },
+    {
+      "name": "shipped Hover call-site targets 0x3610",
+      "pass": true
+    },
+    {
+      "name": "shared read-only trait/X display API is exported",
+      "pass": true
+    },
+    {
+      "name": "unverified custom panels and native X icon are disclosed",
+      "pass": true
+    },
+    {
+      "name": "older-DLL rollback requires matching pre-R3 save backup",
+      "pass": true
+    },
+    {
+      "name": "recognized exact R3 hash for upgrade SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "recognized exact R3 hash for upgrade SAN14Mods/MeritTraits/SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "recognized exact R3 hash for upgrade SAN14Mods/manifests/MeritTraits.json",
+      "pass": true
+    },
+    {
+      "name": "recognized exact R3 hash for upgrade SAN14Mods/modules/MeritTraits.ini",
+      "pass": true
+    },
+    {
+      "name": "R4 storage/compatibility source unchanged slot_store.inc",
+      "pass": true
+    },
+    {
+      "name": "R4 storage/compatibility source unchanged display_patch.inc",
+      "pass": true
+    },
+    {
+      "name": "R4 storage/compatibility source unchanged hover_x_adapter.inc",
+      "pass": true
+    },
+    {
+      "name": "R4 storage/compatibility source unchanged presets_x_adapter.inc",
+      "pass": true
+    },
+    {
+      "name": "R4 storage/compatibility source unchanged merit_display_api.h",
+      "pass": true
+    },
+    {
+      "name": "original official comparison DB unchanged",
+      "pass": true
+    },
+    {
+      "name": "RC25 optional display-only bridge scope declared",
+      "pass": true
+    },
+    {
+      "name": "exact supplied RC25 file and text fingerprints",
+      "pass": true
+    },
+    {
+      "name": "thirteen original RC25 calls all target its unchanged refresh function",
+      "pass": true
+    },
+    {
+      "name": "optional preset bridge adds no other-mod file to installer targets",
+      "pass": true
+    },
+    {
+      "name": "public display API lifetime/fallback contract documented",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash r4_release_baseline/package.manifest.json SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash r4_release_baseline/package.manifest.json SAN14Mods/MeritTraits/SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash r4_release_baseline/package.manifest.json SAN14Mods/manifests/MeritTraits.json",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash r4_release_baseline/package.manifest.json SAN14Mods/modules/MeritTraits.ini",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash r5_release_baseline/package.manifest.json SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash r5_release_baseline/package.manifest.json SAN14Mods/MeritTraits/SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash r5_release_baseline/package.manifest.json SAN14Mods/manifests/MeritTraits.json",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash r5_release_baseline/package.manifest.json SAN14Mods/modules/MeritTraits.ini",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash r6_release_baseline/package.manifest.json SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash r6_release_baseline/package.manifest.json SAN14Mods/MeritTraits/SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash r6_release_baseline/package.manifest.json SAN14Mods/manifests/MeritTraits.json",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash r6_release_baseline/package.manifest.json SAN14Mods/modules/MeritTraits.ini",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash r7_release_baseline/package.manifest.json SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash r7_release_baseline/package.manifest.json SAN14Mods/MeritTraits/SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash r7_release_baseline/package.manifest.json SAN14Mods/manifests/MeritTraits.json",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash r7_release_baseline/package.manifest.json SAN14Mods/modules/MeritTraits.ini",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash r8_release_baseline/package.manifest.json SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash r8_release_baseline/package.manifest.json SAN14Mods/MeritTraits/SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash r8_release_baseline/package.manifest.json SAN14Mods/manifests/MeritTraits.json",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash r8_release_baseline/package.manifest.json SAN14Mods/modules/MeritTraits.ini",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash other_r5_recognition.json SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash other_r5_recognition.json SAN14Mods/MeritTraits/SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash other_r5_recognition.json SAN14Mods/manifests/MeritTraits.json",
+      "pass": true
+    },
+    {
+      "name": "recognized exact previous hash other_r5_recognition.json SAN14Mods/modules/MeritTraits.ini",
+      "pass": true
+    },
+    {
+      "name": "latest cancel/result/ticket rule is unambiguous",
+      "pass": true
+    },
+    {
+      "name": "single original exit chain and removed upper controls documented",
+      "pass": true
+    },
+    {
+      "name": "latest explicit Yes/No warning and nonrefunding No rule declared",
+      "pass": true
+    },
+    {
+      "name": "requested native button wording/typography documented",
+      "pass": true
+    },
+    {
+      "name": "MISS is applied only on Decision, never on Back cancellation",
+      "pass": true
+    },
+    {
+      "name": "video/log evidence and separate incremental instruction are preserved",
+      "pass": true
+    },
+    {
+      "name": "shared native choice limit and two verified bindings declared",
+      "pass": true
+    },
+    {
+      "name": "explicit replacement warning contract declared",
+      "pass": true
+    },
+    {
+      "name": "independent native window and explicit text-line contract declared",
+      "pass": true
+    },
+    {
+      "name": "nine popup bindings and native object layout declared",
+      "pass": true
+    },
+    {
+      "name": "popup fingerprints match supplied original native captures",
+      "pass": true
+    },
+    {
+      "name": "hidden-dialog recovery and officer-selector lifetime documented",
+      "pass": true
+    },
+    {
+      "name": "R7 incremental implementation, evidence review and separate directive preserved",
+      "pass": true
+    },
+    {
+      "name": "only explicit native cancel can request discard; bottom group fallback removed",
+      "pass": true
+    },
+    {
+      "name": "notice buttons independent and blank clicks never grant consent",
+      "pass": true
+    },
+    {
+      "name": "lifecycle registration hook guards one unregister per native registration",
+      "pass": true
+    },
+    {
+      "name": "immutable R8 rejects commit with actual main/transition ownership; current commits once",
+      "pass": true
+    },
+    {
+      "name": "R8 cancellation traverses wrong object; current restores main selection tree",
+      "pass": true
+    },
+    {
+      "name": "actual unchanged Hover DLL receives NULL under R8 and native context under current",
+      "pass": true
+    },
+    {
+      "name": "negative control uses exact shipped current DLL",
+      "pass": true
+    },
+    {
+      "name": "correct native selection owner documented",
+      "pass": true
+    },
+    {
+      "name": "bounded read-only SAN14 crash event metadata collector included",
+      "pass": true
+    },
+    {
+      "name": "R8 evidence and separate incremental instruction included",
+      "pass": true
+    }
+  ],
+  "executed_dll_assertions": 546,
+  "dll_sha256": {
+    "SAN14_MeritTraits.dll": "286f0dd4e577ade7b3a1076f23ace552dc6a69cf518090870891386569b9a711",
+    "SAN14_MeritResolver_CEKO.dll": "2e49edef167f5a721310c534fa389032b12467f7ae32925735669e583a8db353"
+  },
+  "private_native_evidence_used": false
+}

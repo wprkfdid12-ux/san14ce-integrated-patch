@@ -1,0 +1,23 @@
+﻿{
+  "Format": 1,
+  "Id": "SAN14CE.RelatedOfficersTab",
+  "Version": "RC2.4-HoverPin-ProxyCompat1",
+  "SupportedExeSHA256": [
+    "07a047826cfc316dc9e3db6bfddc72b85e8d7de99743cc73a2d7199a1ad3aa40"
+  ],
+  "CompatibilityBasisSHA256": "d70e289cb007afc82deee57daac1762942b695123f354d877094e7e11bea675e",
+  "Files": {
+    "dxgi.dll": "4222090ff39da6c44750929452452be2b28ced50c00fa1548cecb43ddfe12eb2",
+    "SAN14Mods/Core/SAN14_ModCore.dll": "f54c7d4848dacf0c2414b07c7573cdbac8bf3ca9b5aec84345d8f549b292fc67",
+    "SAN14Mods/resolvers/SAN14_Resolver_CEKO.dll": "a0b52ed963d0ae3b4b70c32ac4f04e9f22c1ad01739c7cb447802f8a74d57e51",
+    "SAN14Mods/resolvers/SAN14_RelatedOfficersResolver.dll": "4e6bfb68f5f49ada3d4dededac564f0b3db98c6fd71e1b2f1a7b1580b7df59d6",
+    "SAN14_RelatedOfficersTab.dll": "a8dd37f901d4481fcdf8996179990f3ba4995632d437adf153d12c9342ed02ad",
+    "SAN14Mods/modules/RelatedOfficersTab.ini": "cf6bf18d70530cbe4f4f9472a4db2ea06c5cb84fbcf0f8ed6b93f75ea2a27dc3",
+    "SAN14Mods/manifests/RelatedOfficersTab.json": "c51401e276aa5f793b40143c6f3597f841de869f74ce4f3ff33b3ad6efd4de96"
+  },
+  "LiveGameTested": false,
+  "CompatibilityPolicy": "Preserve unrelated mod files. If a different root dxgi.dll exists, copy it byte-for-byte to dxgi.s14rel.chain.dll and install a compatibility DXGI wrapper that forwards exports to the preserved proxy first, falling back to System32 DXGI, then starts SAN14 ModCore. Other shared-file collisions still refuse overwrite.",
+  "WindowsDllLoadPreflight": "Runs on dxgi compatibility wrapper plus the two relation DLL entry points before any payload write; not executed on Linux builder.",
+  "CoveragePolicy": "All common CPersonData list/select windows with native tab bars; native Relation pages are skipped.",
+  "DXGIProxyCompatibility": "Existing foreign/older dxgi.dll is transactionally preserved as dxgi.s14rel.chain.dll and chain-loaded. This avoids the prior same-name install stop, but arbitrary third-party proxies that require the exact filename/path may still be incompatible."
+}

@@ -1,0 +1,1393 @@
+[
+  {
+    "held": 38,
+    "candidate": 37,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00917029710993953,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 39,
+    "candidate": 37,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.009339968895698667,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 40,
+    "candidate": 37,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.009213076097104271,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 41,
+    "candidate": 37,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.009325387090868331,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 42,
+    "candidate": 37,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.009413523315728195,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 43,
+    "candidate": 37,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.009300314311325723,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 44,
+    "candidate": 37,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.009167612272741184,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 42,
+    "candidate": 38,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.033002430360481706,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 38,
+    "candidate": 151,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00010846911394526725,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 38,
+    "candidate": 157,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 6.833571440305488e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 38,
+    "candidate": 163,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 1.2279972693028796e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 38,
+    "candidate": 204,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 8.945826320780808e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 43,
+    "candidate": 39,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.13516229524161327,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 39,
+    "candidate": 151,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00010290568463752886,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 39,
+    "candidate": 157,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 6.483074508554914e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 39,
+    "candidate": 163,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 1.1650127408101912e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 39,
+    "candidate": 204,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 8.486990892659927e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 44,
+    "candidate": 40,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.02437092805298091,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 40,
+    "candidate": 151,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00011465042972924073,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 40,
+    "candidate": 157,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 6.865449716595719e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 40,
+    "candidate": 163,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 1.233725816458119e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 40,
+    "candidate": 204,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 8.987558162701164e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 41,
+    "candidate": 151,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00011030356626578169,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 41,
+    "candidate": 157,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 6.94914222843228e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 41,
+    "candidate": 163,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 1.2487654157209903e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 41,
+    "candidate": 204,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 9.097120004818426e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 42,
+    "candidate": 151,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00010857328471383948,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 42,
+    "candidate": 157,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 6.840134215303252e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 42,
+    "candidate": 163,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 1.2291766042738687e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 42,
+    "candidate": 204,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 8.954417647559965e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 43,
+    "candidate": 151,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00011000699766516525,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 43,
+    "candidate": 157,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 6.930458359397577e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 43,
+    "candidate": 163,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 1.2454079122025075e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 43,
+    "candidate": 204,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 9.072660957474769e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 44,
+    "candidate": 151,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00010843735685948251,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 44,
+    "candidate": 157,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 6.831570738847231e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 44,
+    "candidate": 163,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 1.227637741938764e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 44,
+    "candidate": 204,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 8.9432072031025e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 45,
+    "candidate": 48,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0004673708386647676,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 45,
+    "candidate": 158,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00012044501170596153,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 158,
+    "candidate": 45,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.015449148391223187,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 45,
+    "candidate": 162,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.004315062032810268,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 45,
+    "candidate": 202,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00014027658230625201,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 202,
+    "candidate": 45,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.015449148391223187,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 46,
+    "candidate": 48,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0004648965284925703,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 46,
+    "candidate": 158,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00011977053446805387,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 158,
+    "candidate": 46,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.026640912024733534,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 46,
+    "candidate": 162,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0042908982166416495,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 46,
+    "candidate": 202,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00013949105071439142,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 202,
+    "candidate": 46,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.026640912024733534,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 47,
+    "candidate": 48,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00047076776581977427,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 47,
+    "candidate": 158,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00012117588419740806,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 158,
+    "candidate": 47,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.003656738934662291,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 47,
+    "candidate": 162,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.004341246264884285,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 47,
+    "candidate": 202,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00014112779477034365,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 202,
+    "candidate": 47,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.003656738934662291,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 49,
+    "candidate": 52,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00161159462174115,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 50,
+    "candidate": 52,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0016091382530386742,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 51,
+    "candidate": 52,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.001617093328092922,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 54,
+    "candidate": 53,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0014410333076339554,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 53,
+    "candidate": 78,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 3.064633319527171e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 78,
+    "candidate": 53,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0014521285855190647,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 53,
+    "candidate": 183,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.016874083931453905,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 183,
+    "candidate": 53,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0014396841869918724,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 54,
+    "candidate": 78,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 3.0138829541132524e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 78,
+    "candidate": 54,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.03277670239982322,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 54,
+    "candidate": 183,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.016594648894286537,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 183,
+    "candidate": 54,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0324958138124501,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 61,
+    "candidate": 62,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.029077060049746355,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 62,
+    "candidate": 144,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.012267685789499107,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 144,
+    "candidate": 62,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.030825525578697957,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 69,
+    "candidate": 71,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0023732299847183925,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 71,
+    "candidate": 69,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.09175948751791567,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 69,
+    "candidate": 72,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.001883198029947217,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 72,
+    "candidate": 69,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.09178477253278523,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 69,
+    "candidate": 73,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0007383289431577697,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 73,
+    "candidate": 69,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.09184393173079558,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 69,
+    "candidate": 74,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.001100094884383503,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 74,
+    "candidate": 69,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.09182844588741627,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 70,
+    "candidate": 75,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00046436752374976636,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 75,
+    "candidate": 70,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.06303052101633742,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 70,
+    "candidate": 76,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.002688036535556492,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 76,
+    "candidate": 70,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.06296141629115548,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 71,
+    "candidate": 72,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.001967560706142918,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 72,
+    "candidate": 71,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0024802281538584773,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 71,
+    "candidate": 73,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0007714042780758286,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 73,
+    "candidate": 71,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00248182676661761,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 71,
+    "candidate": 74,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0011493764506553166,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 74,
+    "candidate": 71,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00248140830477829,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 71,
+    "candidate": 75,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0004784328031049105,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 75,
+    "candidate": 71,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0024822222763552547,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 71,
+    "candidate": 76,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0027694547718796025,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 76,
+    "candidate": 71,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0024795008441747474,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 72,
+    "candidate": 73,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0007716168443092417,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 73,
+    "candidate": 72,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0019693714084432256,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 72,
+    "candidate": 74,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0011496931699552133,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 74,
+    "candidate": 72,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0019690393519141533,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 72,
+    "candidate": 75,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0004785646388514674,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 75,
+    "candidate": 72,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00196968525209241,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 72,
+    "candidate": 76,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00277021791590952,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 76,
+    "candidate": 72,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0019675257497458326,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 73,
+    "candidate": 74,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0011504341962062532,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 74,
+    "candidate": 73,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0007719839977612891,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 73,
+    "candidate": 75,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00047887309415891455,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 75,
+    "candidate": 73,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.000772237230182104,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 73,
+    "candidate": 76,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0027720034394304346,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 76,
+    "candidate": 73,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0007713905730276573,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 74,
+    "candidate": 75,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00047879235116811517,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 75,
+    "candidate": 74,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0011506175320994913,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 74,
+    "candidate": 76,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.002771536050782094,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 76,
+    "candidate": 74,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0011493560304164472,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 75,
+    "candidate": 76,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0027724451924036183,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 76,
+    "candidate": 75,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.00047842430309421626,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 78,
+    "candidate": 183,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.01688551030188988,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 183,
+    "candidate": 78,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 3.0404275843653057e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 78,
+    "candidate": 195,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.06596487317705288,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 195,
+    "candidate": 78,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 2.9655614690606507e-05,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 124,
+    "candidate": 125,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.022193564561226026,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 125,
+    "candidate": 124,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.018685226247147843,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 124,
+    "candidate": 126,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.014046411554953175,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 126,
+    "candidate": 124,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.012938987650810375,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 124,
+    "candidate": 127,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.013599244924097802,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 127,
+    "candidate": 124,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.012938901601803894,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 124,
+    "candidate": 128,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.01703094363081054,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 128,
+    "candidate": 124,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.012917525098876649,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 125,
+    "candidate": 126,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.014023979811444256,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 126,
+    "candidate": 125,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.016335327019835928,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 125,
+    "candidate": 127,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.01357752729373656,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 127,
+    "candidate": 125,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.016335218383928814,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 125,
+    "candidate": 128,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.01700374566941331,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 128,
+    "candidate": 125,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.016308230788354815,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 126,
+    "candidate": 127,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.013592449095373209,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 127,
+    "candidate": 126,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.014039298900557608,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 126,
+    "candidate": 128,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.0170224329100625,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 128,
+    "candidate": 126,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.014016104419041308,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 127,
+    "candidate": 128,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.017022319704649583,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 128,
+    "candidate": 127,
+    "reason": [
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.013569902613956812,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 188,
+    "candidate": 187,
+    "reason": [
+      "개성 ID 배타그룹",
+      "동일 발동조건의 효과 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.03743588063186703,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  },
+  {
+    "held": 194,
+    "candidate": 193,
+    "reason": [
+      "개성 ID 배타그룹"
+    ],
+    "compiled_candidate_weight": 0.009557342495086,
+    "compiled_accept_return": 1,
+    "accepted_in_slots": true
+  }
+]

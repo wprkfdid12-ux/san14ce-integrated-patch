@@ -1,0 +1,117 @@
+{
+  "passed": 20,
+  "tests": [
+    {
+      "name": "ai_benchmark: exact R16 release and final R17 DLL hashes",
+      "pass": true
+    },
+    {
+      "name": "ai_benchmark: same officer and ruler counts",
+      "pass": true
+    },
+    {
+      "name": "ai_benchmark: five seeds retain every state digest, RNG count, reroll, accepted award and distribution count",
+      "pass": true
+    },
+    {
+      "name": "ai_benchmark: measured game-callback time decreases with AI rerolls enabled",
+      "pass": true
+    },
+    {
+      "name": "small_batch: exact R16 release and final R17 DLL hashes",
+      "pass": true
+    },
+    {
+      "name": "small_batch: same officer and ruler counts",
+      "pass": true
+    },
+    {
+      "name": "small_batch: five seeds retain every state digest, RNG count, reroll, accepted award and distribution count",
+      "pass": true
+    },
+    {
+      "name": "small_batch: measured game-callback time decreases with AI rerolls enabled",
+      "pass": true
+    },
+    {
+      "name": "turn-adjacent measurements use exact baseline/final DLL",
+      "pass": true
+    },
+    {
+      "name": "saved/restored domestic officer state equals R16",
+      "pass": true
+    },
+    {
+      "name": "four_queries_x1000: no extra gacha or entropy",
+      "pass": true
+    },
+    {
+      "name": "warm menu/AI qualification retains zero OS memory queries",
+      "pass": true
+    },
+    {
+      "name": "empty_ai_commit_x100: no extra gacha or entropy",
+      "pass": true
+    },
+    {
+      "name": "empty_ai_commit_x100: observed host cost decreases",
+      "pass": true
+    },
+    {
+      "name": "domestic_only_ai_commit: no extra gacha or entropy",
+      "pass": true
+    },
+    {
+      "name": "domestic_only_ai_commit: observed host cost decreases",
+      "pass": true
+    },
+    {
+      "name": "one_live_trait_rule_change: no extra gacha or entropy",
+      "pass": true
+    },
+    {
+      "name": "one_live_trait_rule_change: observed host cost decreases",
+      "pass": true
+    },
+    {
+      "name": "native_save_2MiB_1000_officers: no extra gacha or entropy",
+      "pass": true
+    },
+    {
+      "name": "native_save_2MiB_1000_officers: observed host cost decreases",
+      "pass": true
+    }
+  ],
+  "scope": "Final DLL benchmark checks; host callback timings only, not game FPS.",
+  "metrics": {
+    "ai_benchmark": {
+      "r16_median_ms": 28.81975,
+      "r17_median_ms": 16.976999
+    },
+    "small_batch": {
+      "r16_median_ms": 0.270968,
+      "r17_median_ms": 0.21898
+    },
+    "four_queries_x1000": {
+      "r16_median_ms": 11.901937,
+      "r17_median_ms": 12.906868
+    },
+    "empty_ai_commit_x100": {
+      "r16_median_ms": 1.399076,
+      "r17_median_ms": 0.95624
+    },
+    "domestic_only_ai_commit": {
+      "r16_median_ms": 0.062504,
+      "r17_median_ms": 0.058358
+    },
+    "one_live_trait_rule_change": {
+      "r16_median_ms": 5.91901,
+      "r17_median_ms": 0.048473
+    },
+    "native_save_2MiB_1000_officers": {
+      "r16_median_ms": 38.843891,
+      "r17_median_ms": 30.315954
+    }
+  },
+  "live_game_tested": false
+}

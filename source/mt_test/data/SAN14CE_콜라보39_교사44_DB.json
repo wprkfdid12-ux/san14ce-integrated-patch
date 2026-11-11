@@ -1,0 +1,543 @@
+{
+  "purpose": "Supplement the 39 collaboration-exclusive trait sources omitted from the uploaded 1088-officer static database. No invented officer/trait pairings.",
+  "method": "Character identities and exclusive traits are corroborated by Koei Tecmo collaboration/DLC pages. Numeric five-stat values are transcribed from the SAN14 Wiki bonus-officer table; duplicate official design variants are retained as separate holders where the game distributes both records.",
+  "sources": {
+    "koei_dlc": "https://www.gamecity.ne.jp/sangokushi14/portal/info-dlc.html",
+    "koei_gineiden": "https://www.gamecity.ne.jp/sangokushi14/info-collabo-gineiden.html",
+    "koei_ryza": "https://www.gamecity.ne.jp/sangokushi14/info-collabo-ryza.html",
+    "koei_ryza2": "https://www.gamecity.ne.jp/sangokushi14/wpk/collabo-ryza2.html",
+    "koei_doaxvv": "https://www.gamecity.ne.jp/sangokushi14/wpk/collabo-doaxvv.html",
+    "koei_nijisanji": "https://www.gamecity.ne.jp/sangokushi14/wpk/collabo-nijisanji.html",
+    "stats_transcription": "https://wikiwiki.jp/sangokushi14/%E3%81%8A%E3%81%BE%E3%81%91%E6%AD%A6%E5%B0%86"
+  },
+  "records": [
+    {
+      "trait_id": 155,
+      "name": "Ryza",
+      "stats": [
+        78,
+        80,
+        85,
+        62,
+        95
+      ],
+      "group": "Atelier Ryza"
+    },
+    {
+      "trait_id": 156,
+      "name": "Lent",
+      "stats": [
+        83,
+        90,
+        58,
+        51,
+        78
+      ],
+      "group": "Atelier Ryza"
+    },
+    {
+      "trait_id": 157,
+      "name": "Tao",
+      "stats": [
+        51,
+        65,
+        90,
+        81,
+        73
+      ],
+      "group": "Atelier Ryza"
+    },
+    {
+      "trait_id": 158,
+      "name": "Klaudia",
+      "stats": [
+        67,
+        63,
+        79,
+        91,
+        90
+      ],
+      "group": "Atelier Ryza"
+    },
+    {
+      "trait_id": 159,
+      "name": "Empel",
+      "stats": [
+        73,
+        61,
+        97,
+        89,
+        80
+      ],
+      "group": "Atelier Ryza"
+    },
+    {
+      "trait_id": 160,
+      "name": "Lila",
+      "stats": [
+        93,
+        97,
+        57,
+        56,
+        87
+      ],
+      "group": "Atelier Ryza"
+    },
+    {
+      "trait_id": 161,
+      "name": "Reinhard (DNT)",
+      "stats": [
+        99,
+        75,
+        91,
+        92,
+        94
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 162,
+      "name": "Kircheis (DNT)",
+      "stats": [
+        94,
+        91,
+        90,
+        76,
+        95
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 163,
+      "name": "Yang (DNT)",
+      "stats": [
+        98,
+        11,
+        100,
+        72,
+        85
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 164,
+      "name": "Julian (DNT)",
+      "stats": [
+        83,
+        75,
+        86,
+        78,
+        83
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 161,
+      "name": "Reinhard (classic)",
+      "stats": [
+        99,
+        75,
+        91,
+        92,
+        94
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 162,
+      "name": "Kircheis (classic)",
+      "stats": [
+        94,
+        91,
+        90,
+        76,
+        95
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 163,
+      "name": "Yang (classic)",
+      "stats": [
+        98,
+        11,
+        100,
+        72,
+        85
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 164,
+      "name": "Julian (classic)",
+      "stats": [
+        83,
+        75,
+        86,
+        78,
+        83
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 165,
+      "name": "Oberstein",
+      "stats": [
+        27,
+        19,
+        95,
+        96,
+        13
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 166,
+      "name": "Mittermeyer",
+      "stats": [
+        92,
+        85,
+        83,
+        68,
+        82
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 167,
+      "name": "Reuenthal",
+      "stats": [
+        90,
+        87,
+        86,
+        80,
+        67
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 168,
+      "name": "Hilda",
+      "stats": [
+        14,
+        12,
+        75,
+        87,
+        86
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 169,
+      "name": "Cazellnu",
+      "stats": [
+        70,
+        34,
+        85,
+        97,
+        81
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 170,
+      "name": "Schoenkopf",
+      "stats": [
+        80,
+        93,
+        77,
+        34,
+        69
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 171,
+      "name": "Frederica",
+      "stats": [
+        40,
+        20,
+        84,
+        75,
+        84
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 172,
+      "name": "Attenborough",
+      "stats": [
+        88,
+        83,
+        82,
+        64,
+        83
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 173,
+      "name": "Bittenfeld",
+      "stats": [
+        84,
+        89,
+        42,
+        27,
+        56
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 174,
+      "name": "Ovlesser",
+      "stats": [
+        73,
+        95,
+        25,
+        25,
+        40
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 175,
+      "name": "Annerose",
+      "stats": [
+        11,
+        4,
+        80,
+        70,
+        95
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 176,
+      "name": "Braunschweig",
+      "stats": [
+        54,
+        35,
+        68,
+        55,
+        72
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 177,
+      "name": "Bucock",
+      "stats": [
+        90,
+        68,
+        75,
+        67,
+        84
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 178,
+      "name": "Poplan",
+      "stats": [
+        69,
+        84,
+        50,
+        25,
+        72
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 179,
+      "name": "Trunicht",
+      "stats": [
+        10,
+        5,
+        70,
+        90,
+        65
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 180,
+      "name": "Fork",
+      "stats": [
+        34,
+        37,
+        80,
+        80,
+        29
+      ],
+      "group": "Legend of the Galactic Heroes"
+    },
+    {
+      "trait_id": 197,
+      "name": "Ayane",
+      "stats": [
+        70,
+        81,
+        92,
+        50,
+        87
+      ],
+      "group": "DEAD OR ALIVE Xtreme Venus Vacation"
+    },
+    {
+      "trait_id": 198,
+      "name": "Kasumi",
+      "stats": [
+        90,
+        86,
+        70,
+        62,
+        92
+      ],
+      "group": "DEAD OR ALIVE Xtreme Venus Vacation"
+    },
+    {
+      "trait_id": 199,
+      "name": "Marie",
+      "stats": [
+        86,
+        63,
+        84,
+        62,
+        95
+      ],
+      "group": "DEAD OR ALIVE Xtreme Venus Vacation"
+    },
+    {
+      "trait_id": 200,
+      "name": "Misaki",
+      "stats": [
+        87,
+        44,
+        65,
+        93,
+        91
+      ],
+      "group": "DEAD OR ALIVE Xtreme Venus Vacation"
+    },
+    {
+      "trait_id": 155,
+      "name": "Ryza (Ryza 2)",
+      "stats": [
+        82,
+        80,
+        86,
+        62,
+        95
+      ],
+      "group": "Atelier Ryza 2"
+    },
+    {
+      "trait_id": 202,
+      "name": "Klaudia (Ryza 2)",
+      "stats": [
+        71,
+        64,
+        82,
+        92,
+        91
+      ],
+      "group": "Atelier Ryza 2"
+    },
+    {
+      "trait_id": 203,
+      "name": "Lent (Ryza 2)",
+      "stats": [
+        86,
+        92,
+        60,
+        52,
+        80
+      ],
+      "group": "Atelier Ryza 2"
+    },
+    {
+      "trait_id": 204,
+      "name": "Tao (Ryza 2)",
+      "stats": [
+        55,
+        66,
+        91,
+        81,
+        77
+      ],
+      "group": "Atelier Ryza 2"
+    },
+    {
+      "trait_id": 205,
+      "name": "Patricia",
+      "stats": [
+        78,
+        85,
+        69,
+        65,
+        83
+      ],
+      "group": "Atelier Ryza 2"
+    },
+    {
+      "trait_id": 206,
+      "name": "Clifford",
+      "stats": [
+        61,
+        75,
+        84,
+        82,
+        78
+      ],
+      "group": "Atelier Ryza 2"
+    },
+    {
+      "trait_id": 207,
+      "name": "Serri",
+      "stats": [
+        67,
+        66,
+        88,
+        78,
+        81
+      ],
+      "group": "Atelier Ryza 2"
+    },
+    {
+      "trait_id": 208,
+      "name": "Kuzuha",
+      "stats": [
+        87,
+        91,
+        55,
+        21,
+        89
+      ],
+      "group": "Nijisanji"
+    },
+    {
+      "trait_id": 209,
+      "name": "Sister Claire",
+      "stats": [
+        71,
+        68,
+        75,
+        65,
+        78
+      ],
+      "group": "Nijisanji"
+    },
+    {
+      "trait_id": 210,
+      "name": "Debidebi Debiru",
+      "stats": [
+        62,
+        5,
+        81,
+        93,
+        82
+      ],
+      "group": "Nijisanji"
+    }
+  ]
+}

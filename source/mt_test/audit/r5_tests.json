@@ -1,0 +1,34 @@
+{
+  "scope": "Production Win64 DLL plus original native state tick, substituted OS/widgets; NOT live game",
+  "passed": 7,
+  "tests": [
+    {
+      "name": "top accept/exit are absent objects, not invisible hit targets",
+      "pass": true
+    },
+    {
+      "name": "reroll exactly shares native Selection button baseline and height",
+      "pass": true
+    },
+    {
+      "name": "calculation button has only the requested single-line wording",
+      "pass": true
+    },
+    {
+      "name": "button uses exact native Selection typography, no smaller forced font",
+      "pass": true
+    },
+    {
+      "name": "caption is center/center with equal four-side insets",
+      "pass": true
+    },
+    {
+      "name": "button uses exact native Selection typography, no smaller forced font",
+      "pass": true
+    },
+    {
+      "name": "caption is center/center with equal four-side insets",
+      "pass": true
+    }
+  ]
+}

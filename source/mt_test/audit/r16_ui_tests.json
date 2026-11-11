@@ -1,0 +1,27 @@
+{
+  "passed": 5,
+  "tests": [
+    {
+      "name": "Zhang Fei: five actual UI rerolls preserve incumbent traits; owned Single Combat never drawn",
+      "pass": true
+    },
+    {
+      "name": "final Decision keeps all five original slots and exactly one Single Combat",
+      "pass": true
+    },
+    {
+      "name": "actual final award committed without corrupting metadata",
+      "pass": true
+    },
+    {
+      "name": "information labels and hover indices match live physical slots even with stale sorted base person; native traits unchanged",
+      "pass": true
+    },
+    {
+      "name": "combined reroll and information callbacks complete without ABI errors",
+      "pass": true
+    }
+  ],
+  "original_report_reproduced": false,
+  "live_game_tested": false
+}

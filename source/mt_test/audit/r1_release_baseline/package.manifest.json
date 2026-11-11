@@ -1,0 +1,46 @@
+{
+  "Format": 1,
+  "Id": "SAN14CE.MeritTraits",
+  "Version": "RC4-R1",
+  "SupportedExeSHA256": [
+    "07a047826cfc316dc9e3db6bfddc72b85e8d7de99743cc73a2d7199a1ad3aa40"
+  ],
+  "Files": {
+    "dxgi.dll": "653aaaea26842224533ec31d590562712ede9785ed2fe418be2ae85fb5974c8f",
+    "SAN14Mods/Core/SAN14_ModCore.dll": "f54c7d4848dacf0c2414b07c7573cdbac8bf3ca9b5aec84345d8f549b292fc67",
+    "SAN14Mods/resolvers/SAN14_Resolver_CEKO.dll": "a0b52ed963d0ae3b4b70c32ac4f04e9f22c1ad01739c7cb447802f8a74d57e51",
+    "SAN14_MeritTraits.dll": "27642c2803eb6b9c41a33598b788077634c21d4c411344dd831dcbc994019bb5",
+    "SAN14Mods/MeritTraits/SAN14_MeritResolver_CEKO.dll": "405a9a0587dd8c4d55e506fb1259e3443f8d0f13c19f44468e39646525e09e47",
+    "SAN14Mods/MeritTraits/UI_Traits9_Hover.dll": "2926c3ef05abd004bf0e5d9f7113321568800a6cf4d60b7e7e0bf25367b0f164",
+    "SAN14Mods/modules/MeritTraits.ini": "d03adb2ce8508ac5ef0ab98f359bf43511f955bd31612bb83d95984372f17497",
+    "SAN14Mods/manifests/MeritTraits.json": "ab5232b4e7792cd487949e4c81aaedf2df93a8629fa09bfcc13e3384c36f55a2"
+  },
+  "ReleaseReady": true,
+  "ReleaseChannel": "Installable native-integration release candidate",
+  "LiveGameTested": false,
+  "KnownLimitations": [
+    "Windows installer, live SAN14, DirectX, 60FPS and real listening not executed here.",
+    "Balance values remain centralized initial tuning, not statistically certified final balance.",
+    "39 DLC golden traits have no verified official owner mapping in supplied decoded data; not invented as teachers/candidates.",
+    "Custom/edited target stats/tactics/parents are live; log display name is the official teacher name when available, otherwise null.",
+    "Existing native button primitives are highlighted; no separate particle renderer or extra layer added.",
+    "Unsupported build, unknown conflicting module bytes or incompatible existing Hover is refused without overwriting that mod."
+  ],
+  "RecognizedPrevious": {
+    "SAN14Mods/MeritTraits/SAN14_MeritResolver_CEKO.dll": [
+      "0ee878b04de607a8a7ec51d99e8dc6fbe6d9171550b759547d7b9df0b893ce2e"
+    ],
+    "SAN14Mods/MeritTraits/UI_Traits9_Hover.dll": [
+      "2926c3ef05abd004bf0e5d9f7113321568800a6cf4d60b7e7e0bf25367b0f164"
+    ],
+    "SAN14Mods/manifests/MeritTraits.json": [
+      "211089b9c375349179c08e92fb0466dd4f303788217daac0c7d87f0d5fb52af6"
+    ],
+    "SAN14Mods/modules/MeritTraits.ini": [
+      "304b06d73ada68b6c346feac7c4945b7cd1df62d8186b72e1b6792fdb0c1c01d"
+    ],
+    "SAN14_MeritTraits.dll": [
+      "22836d75480c391e56d725cc54d02718a94c7cf4edbad2e5ba9d65c137fdabd0"
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "scope": "R8: real shared end-event bytes + asynchronous fade endpoint + bottom GROUP.\nThis corrects the R7 fixture's single Back-widget assumption. External resource\nrendering/OS/fade completion/cost endpoints remain substituted, NOT a game run.\n",
+  "passed": 27,
+  "tests": [
+    {
+      "name": "latest R7 log seeds reproduce Zhao Yun 원시 and Jo Gwang 독려",
+      "pass": true
+    },
+    {
+      "name": "original shared-rank allowance and each officer own spent coupon retained",
+      "pass": true
+    },
+    {
+      "name": "a bottom-group rectangle press/release never synthesizes Back",
+      "pass": true
+    },
+    {
+      "name": "native Decision code passes unchanged through captured shared end-event function",
+      "pass": true
+    },
+    {
+      "name": "Decision waits for original fade/state event rather than synthetic immediate state mutation",
+      "pass": true
+    },
+    {
+      "name": "Decision opens only named replacement confirmation, never the Back discard warning",
+      "pass": true
+    },
+    {
+      "name": "approved Decision applies exact two-officer outcomes once",
+      "pass": true
+    },
+    {
+      "name": "commit clears previews and warning state",
+      "pass": true
+    },
+    {
+      "name": "latest R7 log seeds reproduce Zhao Yun 원시 and Jo Gwang 독려",
+      "pass": true
+    },
+    {
+      "name": "original shared-rank allowance and each officer own spent coupon retained",
+      "pass": true
+    },
+    {
+      "name": "explicit Back alone opens a healthy discard warning",
+      "pass": true
+    },
+    {
+      "name": "Yes/No have no hidden/clipped popup parent; native roots use one ordered render layer",
+      "pass": true
+    },
+    {
+      "name": "both native buttons have explicit Korean captions",
+      "pass": true
+    },
+    {
+      "name": "repeated blank-space clicks cannot grant Yes consent or start teardown",
+      "pass": true
+    },
+    {
+      "name": "background Decision cannot start a fade behind the Back warning",
+      "pass": true
+    },
+    {
+      "name": "Yes mouse-down never unregisters or cancels while button is held",
+      "pass": true
+    },
+    {
+      "name": "released Yes starts only the original cancel fade, without forced state pop",
+      "pass": true
+    },
+    {
+      "name": "late native Back/Decision callbacks cannot restart the closing transition",
+      "pass": true
+    },
+    {
+      "name": "duplicate native UI unregister is ignored until genuine next registration",
+      "pass": true
+    },
+    {
+      "name": "Back fade changes no officer data and spends no original rank/cost",
+      "pass": true
+    },
+    {
+      "name": "discard clears results while preserving both spent individual tickets",
+      "pass": true
+    },
+    {
+      "name": "queued stale Yes after cleanup cannot access or recreate controls",
+      "pass": true
+    },
+    {
+      "name": "reused layout address can register and unregister normally in a new visit",
+      "pass": true
+    },
+    {
+      "name": "shared end-event preserves non-Back code 0x1",
+      "pass": true
+    },
+    {
+      "name": "shared end-event preserves non-Back code 0x2",
+      "pass": true
+    },
+    {
+      "name": "shared end-event preserves non-Back code 0x7ffffffd",
+      "pass": true
+    },
+    {
+      "name": "native No event argument works even after hover target resets to root; preview retained",
+      "pass": true
+    }
+  ]
+}

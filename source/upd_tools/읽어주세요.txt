@@ -1,0 +1,61 @@
+4_대장 — 게임 업데이트 날 "어디를 고쳐야 하는지" 자동으로 찾는 장부와 도구
+(기준: 삼국지14 CE 한국어 1.0.1, 통합패치 R42g2 / 2026-11-03)
+
+■ 장부 3개
+  연결자리_대장.tsv   통합패치 모든 모듈이 게임 exe 안에서 건드리는 자리 1326곳
+                      (소스 256, ModCore 기록 193, IC 훅표 89, 소스 없는 DLL 안 주소 788)
+  구조값_대장.tsv     게임 자료 구조 값 34개 (db 표 위치 17, 무장·지역·세력·칸 칸 위치 17)
+                      값마다 '증인 명령'(옛 판에서 그 값을 쓰는 명령 주소)을 같이 적어 둠
+  지문_지도.tsv       "1.0.1 판인지" 확인하려고 박아 둔 값이 있는 곳 전부
+                      (exe 시간표·크기·해시, 다른 모듈 해시 — 소스 줄 번호와 배포 DLL 위치)
+
+■ 업데이트 날 순서 (도구는 2_도구 의 설치_환경준비.txt 로 환경을 먼저 준비)
+  1) 새 exe 해제:   python3 stubdec.py 새SAN14CE_KO.exe 새.dec.exe       (2_도구/분석)
+  2) 자리 찾기:     python3 find_new.py 옛.dec.exe 새.dec.exe 연결자리_대장.tsv 결과폴더 구조값_대장.tsv
+                    → 결과폴더/요약.txt, 자리_대응.tsv, 구조값_대응.tsv  (1분쯤)
+                    옛.dec.exe = 3_기준자료 2of2 안 해제본
+  3) 요약.txt 확인:
+     · 판정 '정확'  = 같은 함수·같은 명령을 찾음. 그대로 새 주소 쓰면 됨
+     · '정렬'       = 함수는 같고 명령 줄을 맞춰 찾음. 거의 맞지만 한 번 눈으로
+     · '확인필요'·'못찾음'·'함수 못 맞춤' = 사람이 봐야 함 (이게 시행착오 나던 곳)
+     · 구조값 '바뀜' = 게임 자료 구조가 바뀜 → 그 칸을 쓰는 모듈 전부 손봐야 함
+       '구조별 이동량'에서 무장 칸이 모두 같은 만큼 움직였으면 믿을 만함
+  4) 소스 있는 모듈: 자리_대응.tsv 의 새 주소로 r41/src 고치고 다시 빌드 (build_all.sh)
+  5) 소스 없는 모듈·IC 훅표·지문: 한 번에 고치기
+       python3 apply_new.py --map 결과폴더/자리_대응.tsv --payload 옛payload --out 새payload
+                            --stamp 0x새시간표 --size 0x새크기 --sha 새원본exe해시 --addr --src r41/src
+     · 원본은 안 건드리고 새 폴더에 만듦. 바꾼 곳 전부 새payload/적용_보고.txt 에 적힘
+     · 0x10000 밑 작은 값, 확인필요·못찾음은 자동으로 안 바꾸고 '손으로 볼 곳'에 적음
+     · --strict 를 붙이면 '정확'만 바꿈(정렬도 손으로)
+     · 바이트를 바꾼 DLL 은 해시가 바뀜 → 그 해시를 확인하는 소스(common.h, settings_help.cpp,
+       domestic_talent.cpp, patch27_ui.cpp, mod_settings.cpp, traits9_check.cpp)를
+       '새payload_소스사본'에서 자동으로 새 해시로 바꿔 둠. 그 사본으로 다시 빌드
+     · 마지막에 설치기 manifest(Values·Known)·SHA256SUMS 를 새 해시로 (보고서 맨 위 목록)
+  6) 지문은 '안전 잠금'. 주소를 다 고치기 전에 지문만 바꾸면 모듈이 엉뚱한 곳을 건드려 튕길 수 있음
+     → 반드시 3)의 사람이 볼 것을 다 끝낸 뒤 마지막에
+
+■ 검증 (만들 때 해 본 것, 검증_결과 폴더)
+  · 한국어 1.0.1 → 일본어 CE: 함수 75189개 중 74403개 맞춤, 사람이 볼 것 153곳
+    구조값: 무장 칸이 전부 -0x48 이동으로 일관되게 나옴(이름 길이 차이), 지역·세력·칸은 그대로
+  · 한국어 1.0.1 → PK(다른 제품): 사람이 볼 것 426곳, db 표 위치가 바뀐 것을 모두 잡음
+  · apply_new.py 를 일본어판 대응표로 시험: 23개 DLL 1769곳 바꿈, 모든 DLL 명령 흐름 그대로
+    (즉시값만 바뀌고 명령 길이·종류는 안 변함), 해시 의존 소스 6개 자동 교체 확인
+  ※ 실제 다음 한국어 패치 exe 로는 아직 못 돌려 봄(나오면 그때 1~6 순서대로)
+
+■ 다시 만들기 (모듈을 새로 추가했거나 소스가 바뀌면 장부도 다시)
+  objdump -d -M intel 해제본.exe > game.asm ; python3 make_riptargets.py game.asm riptargets.pkl
+  python3 make_ledger.py 해제본.exe runtime.log payload폴더 r41/src riptargets.pkl > 연결자리_대장.tsv
+  objdump -d -M intel 해제본.exe > game.asm ; python3 make_struct_ledger.py game.asm > 구조값_대장.tsv
+  python3 make_fingerprint_map.py r41/src r41/installer101 r41/aiinst r41/field_src r41/mt_test/source r41/build_tc/src
+          --built r41/build_out --bin payload폴더 > 지문_지도.tsv
+  (runtime.log = 게임 폴더 SAN14Mods 로그, 모든 모듈이 켜진 상태로 한 번 실행한 것)
+
+■ R42i4(2026-11-05) 추가분 — 업데이트 날 꼭 같이 볼 것
+  · 연결자리 대장(ledger.tsv)에 새 모듈 자리 5곳 추가: 2번 자동논공 새 엔진(auto_merit.cpp: 논공 확정 0x1ec550·객체 확인 0x32f500·
+    할당기 0x3f6bc0·데이터 뿌리), 22번 플레이어 내정(domestic_player.cpp: 데이터 뿌리). → find_new 가 새 주소를 찾고 apply_new --addr --src 가 소스를 고침
+  · 구조값 대장에 무장 계급 0x1bc·상위 보상 수 0x1c2·내정 보상 수 0x1c3·행동 표시 0x15e·신분(군주) 0xe6 추가(증인 = 1.0.1 명령 자리).
+    지역 소유 세력 0x78·지역 인구 0x52·무장 가상함수 세력 +0x80 은 증인이 없어 '못찾음' 으로 나옴 → 22번 audit 줄 값·2번 exec 줄로 사람이 확인
+  · auto_merit.cpp 의 G_COMMIT·G_VALID(함수 앞 16바이트)는 새 판 함수 앞부분으로 손으로 바꿀 것. 안 바꾸면 새 엔진이 '알 수 없게 바뀜'으로 스스로 쉼(옛 방식) — 튕김은 없음
+  · 13번 소스는 두 벌: mt_test/source = 1.0.0 기준, mt/src = 1.0.1 기준. 값은 반드시 mt/src·이 대장 기준으로
+  · 옛 판(1.0.1) 실행 파일 보관(11-05, 사용자가 업데이트 전 원본을 줌): 작업 결과물 폴더 '업데이트대비_1.0.1' 에
+    SAN14CE_KO_1.0.1_원본.exe(sha256 87ed4e46…, 설치기 Known 과 같음) + SAN14CE_KO_1.0.1_해제본.exe(=find_new 의 옛.dec.exe)

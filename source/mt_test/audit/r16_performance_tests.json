@@ -1,0 +1,73 @@
+{
+  "passed": 16,
+  "tests": [
+    {
+      "name": "baseline benchmark identifies exact delivered R15 DLL",
+      "pass": true
+    },
+    {
+      "name": "R16 benchmark identifies final compiled DLL",
+      "pass": true
+    },
+    {
+      "name": "same officer/ruler workload sizes",
+      "pass": true
+    },
+    {
+      "name": "seed 0: 300 upper awards, live rerolls and fresh entropy",
+      "pass": true
+    },
+    {
+      "name": "seed 0: fewer full calculations, cache reused, no anchor rebuild",
+      "pass": true
+    },
+    {
+      "name": "seed 1: 300 upper awards, live rerolls and fresh entropy",
+      "pass": true
+    },
+    {
+      "name": "seed 1: fewer full calculations, cache reused, no anchor rebuild",
+      "pass": true
+    },
+    {
+      "name": "seed 2: 300 upper awards, live rerolls and fresh entropy",
+      "pass": true
+    },
+    {
+      "name": "seed 2: fewer full calculations, cache reused, no anchor rebuild",
+      "pass": true
+    },
+    {
+      "name": "seed 3: 300 upper awards, live rerolls and fresh entropy",
+      "pass": true
+    },
+    {
+      "name": "seed 3: fewer full calculations, cache reused, no anchor rebuild",
+      "pass": true
+    },
+    {
+      "name": "seed 4: 300 upper awards, live rerolls and fresh entropy",
+      "pass": true
+    },
+    {
+      "name": "seed 4: fewer full calculations, cache reused, no anchor rebuild",
+      "pass": true
+    },
+    {
+      "name": "observed host AI award callback median improves",
+      "pass": true
+    },
+    {
+      "name": "small-batch risk check uses one officer and final DLL",
+      "pass": true
+    },
+    {
+      "name": "one-officer callback also improves after native object lifetime cache",
+      "pass": true
+    }
+  ],
+  "old_median_ms": 46.744813,
+  "new_median_ms": 26.810659,
+  "scope": "Current DLL host benchmark gate; intentionally does not compare FPS or old draw results.",
+  "live_game_tested": false
+}

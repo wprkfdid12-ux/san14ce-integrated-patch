@@ -1,0 +1,1332 @@
+출처	모듈	종류	RVA	길이	구역	함수시작	함수끝	함수안위치	원본바이트(16)	메모
+소스	death_log.cpp	자료	0x13a7608		.rdata				d0de314001000000d02a094001000000	death_log.cpp:49
+소스	death_log.cpp	코드	0x934400		.text	0x934400	0x9348f6	+0x0	488bc45557415441564157488d68d148	death_log.cpp:121
+소스	domestic_ai.cpp	자료	0x277df18		.data					domestic_ai.cpp:20
+소스	domestic_ai.cpp	코드	0x32f500		.text	0x32f500	0x32f524	+0x0	4883ec284885c97414488b01ff501885	domestic_ai.cpp:22
+소스	domestic_ai.cpp	코드	0xb1aa0		.text	0xb1aa0	0xb1b55	+0x0	4055415641574883ec200fb6411a458b	domestic_ai.cpp:53
+소스	domestic_ai.cpp	코드	0x22c810		.text				0fb7413a488b0dfd1655023d0fbd0000	domestic_ai.cpp:58
+소스	domestic_ai.cpp	코드	0x32e910		.text				0fb6413a83f83377128bc8488b05f6f5	domestic_ai.cpp:58
+소스	domestic_ai.cpp	코드	0x22fce0		.text	0x22fce0	0x230195	+0x0	89542410555657415441554156415748	domestic_ai.cpp:65
+소스	domestic_ai.cpp	자료	0x134c8f8		.rdata				10a1074001000000102b094001000000	domestic_ai.cpp:86
+소스	domestic_ai.cpp	코드	0x7a110		.text	0x7a110	0x7a20f	+0x0	48895c24104889742418574883ec3048	domestic_ai.cpp:86
+소스	domestic_ai.cpp	훅	0x7a1db		.text	0x7a110	0x7a20f	+0xcb	e8c0780300488bcee858d8b700448b44	domestic_ai.cpp:87
+소스	domestic_talent.cpp	자료	0x13d63a0		.rdata				c09d434001000000f0a0444001000000	domestic_talent.cpp:55
+소스	domestic_talent.cpp	자료	0x1b620b0		.data					domestic_talent.cpp:57
+소스	domestic_talent.cpp	자료	0x277df18		.data					domestic_talent.cpp:60
+소스	domestic_talent.cpp	코드	0x871f0		.text	0x87169	0x87221	+0x87	cee84a08b7008b5740488bc84c8bc3e8	domestic_talent.cpp:60
+소스	domestic_talent.cpp	코드	0x871e8		.text	0x87169	0x87221	+0x7f	4f2a00488bd8488bcee84a08b7008b57	domestic_talent.cpp:60
+소스	execute_lock.cpp	훅	0x66ff53		.text	0x66fd80	0x66ff6d	+0x1d3	488b6c2468488b742470488b7c247848	execute_lock.cpp:110
+소스	execute_lock.cpp	훅	0x66ff4e		.text	0x66fd80	0x66ff6d	+0x1ce	488b5c2460488b6c2468488b74247048	execute_lock.cpp:110
+소스	hired_face.cpp	자료	0x277df18		.data					hired_face.cpp:17
+소스	hired_face.cpp	훅	0x32f196		.text	0x32f14e	0x32f226	+0x48	66894710488d4c242085db8954246848	hired_face.cpp:80
+소스	hired_face.cpp	훅	0x32f21a		.text	0x32f14e	0x32f226	+0xcc	41ff4f08488bc74c8b742460488b5c24	hired_face.cpp:81
+소스	hired_face.cpp	훅	0x3346ee		.text	0x3339a0	0x33477d	+0xd4e	41888765010000498bd7498bcce870ee	hired_face.cpp:82
+소스	hired_face.cpp	훅	0x3374c9		.text	0x337440	0x3374d7	+0x89	33c03947500f94c04883c4205fc3cccc	hired_face.cpp:83
+소스	ic_guard.cpp	자료	0x13a6840		.rdata				f0d6314001000000d02a094001000000	ic_guard.cpp:104
+소스	ic_guard.cpp	코드	0x32c130		.text				448bca4c8bd185d27508488b8138dd00	ic_guard.cpp:106
+소스	ic_guard.cpp	자료	0x13a6690		.rdata				50d1314001000000d02a094001000000	ic_guard.cpp:107
+소스	ic_guard.cpp	코드	0x32f500		.text	0x32f500	0x32f524	+0x0	4883ec284885c97414488b01ff501885	ic_guard.cpp:107
+소스	ic_guard.cpp	코드	0x51510		.text	0x51380	0x5163e	+0x190	85c0741c8b11488b0dd3fb77024885c9	ic_guard.cpp:182
+소스	ic_guard.cpp	자료	0x277df18		.data					ic_guard.cpp:182
+소스	item_picture.cpp	훅	0x6839e0		.text	0x6839e0	0x683ac8	+0x0	40574881ec8004000048c7442420feff	item_picture.cpp:28
+소스	mod_settings.cpp	코드	0x86b6f0		.text				85d278173b91780100007d0f488b8168	mod_settings.cpp:277
+소스	mod_settings.cpp	코드	0x84ed40		.text	0x84ed40	0x84ed8d	+0x0	40534883ec20488bd98b89840100008b	mod_settings.cpp:279
+소스	mod_settings.cpp	코드	0x85ce60		.text	0x85ce60	0x85cf43	+0x0	48895c24104889742420574883ec308b	mod_settings.cpp:279
+소스	mod_settings.cpp	코드	0x86b270		.text				85d278173b91600100007d0f488b8158	mod_settings.cpp:318
+소스	mod_settings.cpp	코드	0x85b1b0		.text				488b0189918001000048ffa090010000	mod_settings.cpp:329
+소스	mod_settings.cpp	코드	0x85b1a0		.text				488b0189917c01000048ffa090010000	mod_settings.cpp:329
+소스	mod_settings.cpp	코드	0x85c8c0		.text				89918c010000488b89a8010000e98e4b	mod_settings.cpp:330
+소스	mod_settings.cpp	코드	0x85c860		.text				3b91800100007c1d3b917c0100007f15	mod_settings.cpp:331
+소스	mod_settings.cpp	코드	0x8a1380		.text	0x8a1380	0x8a1486	+0x0	4c8bdc5556574883ec5049c743b8feff	mod_settings.cpp:397
+소스	mod_settings.cpp	코드	0x2af6a0		.text	0x2af6a0	0x2af73a	+0x0	40534883ec3048c7442420feffffff8b	mod_settings.cpp:399
+소스	mod_settings.cpp	코드	0x8542e0		.text	0x8542e0	0x854483	+0x0	40565741564883ec3048c7442420feff	mod_settings.cpp:399
+소스	mod_settings.cpp	자료	0x1a47b98		.data				f00f3a4101000000c07ba44101000000	mod_settings.cpp:399
+소스	mod_settings.cpp	코드	0x6566e0		.text	0x6566e0	0x656960	+0x0	4057415641574883ec4048c7442420fe	mod_settings.cpp:400
+소스	mod_settings.cpp	코드	0x656d90		.text	0x656d90	0x656e5d	+0x0	48895c240848896c2410488974241848	mod_settings.cpp:400
+소스	mod_settings.cpp	코드	0xffff		.text	0xfe9f	0x10180	+0x160	59d1f30f58c2e80ee70001488b475041	mod_settings.cpp:433
+소스	mod_settings.cpp	코드	0x110e0		.text	0x110e0	0x11161	+0x0	40534883ec3048c7442420feffffff8b	mod_settings.cpp:471
+소스	mod_settings.cpp	코드	0x465a60		.text	0x465a60	0x465bc9	+0x0	488bc44c894820555657415641574881	mod_settings.cpp:472
+소스	mod_settings.cpp	자료	0x13e7b28		.rdata				4353657455705363656e6172696f5365	mod_settings.cpp:472
+소스	mod_settings.cpp	자료	0x141bcc8		.rdata				10915b4001000000307c864001000000	mod_settings.cpp:522
+소스	mod_settings.cpp	훅	0x3ea6bf		.text				33c0c366904ca43e0057a43e0083a43e	mod_settings.cpp:538
+소스	mod_settings.cpp	훅	0x3ea400		.text				83fa3c0f87b60200004863c24c8d0ded	mod_settings.cpp:538
+소스	mod_settings.cpp	훅	0x3effdb		.text				c330fd3e003cfd3e006cfd3e0078fd3e	mod_settings.cpp:539
+소스	mod_settings.cpp	훅	0x3efce0		.text				83fa3c0f87f20200004863c24c8d150d	mod_settings.cpp:539
+소스	mod_settings.cpp	훅	0x636250		.text	0x636250	0x63640b	+0x0	40565741564881ec9000000048c74424	mod_settings.cpp:540
+소스	mod_settings.cpp	훅	0x308ef0		.text				e95bffffffcccccccccccccccccccccc	mod_settings.cpp:545
+소스	mod_settings.cpp	훅	0x13aedb8		.rdata				f08e304001000000008f304001000000	mod_settings.cpp:545
+소스	mod_settings.cpp	훅	0x5b9110		.text	0x5b9110	0x5b91b9	+0x0	48895c2408488974241048897c241841	mod_settings.cpp:546
+소스	mod_settings.cpp	훅	0x6068d0		.text	0x6068d0	0x606ff4	+0x0	488bc45541564157488d68a14881ecf0	mod_settings.cpp:547
+소스	mod_settings.cpp	훅	0x141c1c0		.rdata				d068604001000000b0e65f4001000000	mod_settings.cpp:547
+소스	mod_settings.cpp	훅	0x5fe6b0		.text	0x5fe6b0	0x5fe803	+0x0	48895c24104889742418574883ec2048	mod_settings.cpp:548
+소스	mod_settings.cpp	훅	0x141c1c8		.rdata				b0e65f400100000070b5424001000000	mod_settings.cpp:548
+소스	mod_settings.cpp	훅	0x60c6c0		.text	0x60c6c0	0x60c882	+0x0	40574883ec30488bf9e84237f6ff85c0	mod_settings.cpp:549
+소스	mod_settings.cpp	훅	0x141c1e0		.rdata				c0c660400100000060ff564001000000	mod_settings.cpp:549
+소스	mod_settings.cpp	훅	0x308f00		.text	0x308f00	0x308f4e	+0x0	40534883ec208d82a015ffffc7819812	mod_settings.cpp:550
+소스	mod_settings.cpp	훅	0x13aedc0		.rdata				008f304001000000d02a094001000000	mod_settings.cpp:550
+소스	mod_settings.cpp	훅	0x65676b		.text	0x6566e0	0x656960	+0x8b	ff90c80000008bd7448bc741b9010000	mod_settings.cpp:551
+소스	mod_settings.cpp	훅	0x65675d		.text	0x6566e0	0x656960	+0x7d	83fa047d0433d2eb05ba01000000ff90	mod_settings.cpp:551
+소스	mod_settings.cpp	훅	0x627379		.text	0x62733a	0x6273c5	+0x3f	3beb7c073be88bdd0f4fd8488b8f9001	mod_settings.cpp:553
+소스	mod_settings.cpp	훅	0x627370		.text	0x62733a	0x6273c5	+0x36	428b1c21428b4421043beb7c073be88b	mod_settings.cpp:553
+소스	mod_settings.cpp	훅	0x636398		.text	0x636250	0x63640b	+0x148	428b040189442438428b440104894424	mod_settings.cpp:555
+소스	officer_names.cpp	자료	0x13a4220		.rdata				b01b2340010000003060214001000000	officer_names.cpp:22
+소스	officer_names.cpp	자료	0x13a4258		.rdata				b01b2340010000003060214001000000	officer_names.cpp:22
+소스	officer_names.cpp	코드	0x196b50		.text	0x196b50	0x196bb0	+0x0	4c894c24204881ec58080000488b052d	officer_names.cpp:119
+소스	officer_names.cpp	코드	0x21e030		.text	0x21e030	0x21e18a	+0x0	48895c24084889742410574883ec2049	officer_names.cpp:120
+소스	officer_names.cpp	코드	0x92cee0		.text	0x92cee0	0x92cf0a	+0x0	4883ec0885d20f888d0000003b51100f	officer_names.cpp:125
+소스	officer_names.cpp	자료	0x1a23440		.data				70ed3a41010000000000000000000000	officer_names.cpp:129
+소스	officer_names.cpp	코드	0x30a2f0		.text	0x30a2f0	0x30a31d	+0x0	4883ec084533c9488d91b0120000418b	officer_names.cpp:129
+소스	officer_names.cpp	코드	0x30dd20		.text				4183f80a730a418bc0899481b0120000	officer_names.cpp:130
+소스	officer_names.cpp	코드	0x84ec80		.text				488b8178010000c3cccccccccccccccc	officer_names.cpp:131
+소스	officer_names.cpp	코드	0x89b110		.text	0x89b110	0x89b12e	+0x0	4885d20f849a00000048895c24104889	officer_names.cpp:131
+소스	officer_names.cpp	코드	0x2830		.text				488d0df9a73301e97070ff00cccccccc	officer_names.cpp:131
+소스	officer_names.cpp	코드	0x206310		.text	0x206310	0x206580	+0x0	405556574154415541564157488bec48	officer_names.cpp:146
+소스	officer_names.cpp	코드	0x5be4b0		.text	0x5be4b0	0x5be4c3	+0x0	4883ec2883fa057c0ab8070000004883	officer_names.cpp:151
+소스	officer_names.cpp	코드	0x62cf10		.text	0x62cf10	0x62d19c	+0x0	405556574154415541564157488d6c24	officer_names.cpp:151
+소스	officer_names.cpp	코드	0x21965f		.text	0x219654	0x2196cb	+0xb	80ba8c00000000740f488d5108458bc4	officer_names.cpp:167
+소스	officer_names.cpp	코드	0x62cfc6		.text	0x62cf10	0x62d19c	+0xb6	488996e8050000488d0da467d9004889	officer_names.cpp:167
+소스	patch27.cpp	코드	0x32e812		.text	0x32e670	0x32e8b7	+0x1a2	41898660bf00004c897c2438488b4424	patch27.cpp:40
+소스	patch27.cpp	코드	0x22dda0		.text				488b0571015502482b8870e2000048c1	patch27.cpp:42
+소스	patch27.cpp	코드	0x231790		.text	0x231790	0x2318a5	+0x0	48895c2410574883ec500f2974244049	patch27.cpp:45
+소스	patch27.cpp	코드	0x1ef680		.text	0x1ef680	0x1ef6cd	+0x0	48895c2420564883ec200fb64210488b	patch27.cpp:51
+소스	patch27.cpp	코드	0x232240		.text	0x232240	0x232325	+0x0	48895c24184889742420574883ec200f	patch27.cpp:55
+소스	patch27.cpp	코드	0x22aa70		.text	0x22aa70	0x22ab53	+0x0	48895c2410564883ec20488b05973455	patch27.cpp:57
+소스	patch27.cpp	코드	0x32f500		.text	0x32f500	0x32f524	+0x0	4883ec284885c97414488b01ff501885	patch27.cpp:58
+소스	patch27.cpp	코드	0x368360		.text	0x368360	0x36846e	+0x0	4057b800190000e8a419c900482be048	patch27.cpp:65
+소스	patch27.cpp	코드	0x14cb00		.text				488b056930a501c3cccccccccccccccc	patch27.cpp:67
+소스	patch27.cpp	코드	0x14c9f0		.text				488b0511486802488b40784885c07503	patch27.cpp:68
+소스	patch27.cpp	코드	0x295aa0		.text	0x295aa0	0x297171	+0x0	405556574154415541564157488dac24	patch27.cpp:76
+소스	patch27.cpp	코드	0x1ef7f0		.text	0x1ef6f7	0x1ef812	+0xf9	8bfd8bc5e9aa000000ba06000000e84d	patch27.cpp:92
+소스	patch27.cpp	코드	0x1ef89d		.text	0x1ef89d	0x1ef8b8	+0x0	8bc7eb0233c0488b7c2438488b6c2430	patch27.cpp:92
+소스	patch27.cpp	코드	0x295c67		.text	0x295aa0	0x297171	+0x1c7	39bd800100000f85c2080000448be744	patch27.cpp:92
+소스	patch27.cpp	코드	0x296535		.text	0x295aa0	0x297171	+0xa95	41bf01000000498bcde8edbdf9ff85c0	patch27.cpp:92
+소스	patch27.cpp	코드	0x22d580		.text	0x22d580	0x22d731	+0x0	48895c2408574883ec20488bd9e8ded4	patch27.cpp:93
+소스	patch27.cpp	코드	0x1e8ce7		.text	0x1e89a0	0x1e8d2c	+0x347	741d8bd5488bcee89dc2ffff488b0648	patch27.cpp:93
+소스	patch27.cpp	코드	0x1e90b0		.text	0x1e8d30	0x1e90f5	+0x380	741d8bd5488bcee8d4beffff488b0648	patch27.cpp:93
+소스	patch27.cpp	코드	0x23151f		.text	0x231510	0x2315b2	+0xf	574883ec30498b4008498be9498bd84c	patch27.cpp:101
+소스	patch27_ui.cpp	코드	0x92cee0		.text	0x92cee0	0x92cf0a	+0x0	4883ec0885d20f888d0000003b51100f	patch27_ui.cpp:50
+소스	patch27_ui.cpp	코드	0x85c9c0		.text				4c8bc2488bd1488b89880100004885c9	patch27_ui.cpp:51
+소스	patch27_ui.cpp	코드	0x8741d0		.text	0x8741d0	0x87426c	+0x0	40534883ec20448b414033db836140fe	patch27_ui.cpp:52
+소스	patch27_ui.cpp	코드	0x141e0		.text				836140fbf7da1bc083e004094140c3cc	patch27_ui.cpp:53
+소스	patch27_ui.cpp	코드	0x493d0		.text	0x48ce0	0x4abdf	+0x6f0	010000e858871d00ffc34983c70883fb	patch27_ui.cpp:143
+소스	patch27_ui.cpp	코드	0x280c0		.text	0x280a0	0x28347	+0x20	897c247848897c2460488bcae86ff9bc	patch27_ui.cpp:143
+소스	prisoner_return.cpp	자료	0x277df18		.data					prisoner_return.cpp:55
+소스	prisoner_return.cpp	자료	0x13a6b88		.rdata				10e1314001000000708b224001000000	prisoner_return.cpp:56
+소스	prisoner_return.cpp	코드	0x1770		.text	0x1760	0x177c	+0x10	48890599c0a3014883c428c3cccccccc	prisoner_return.cpp:56
+소스	prisoner_return.cpp	코드	0x10000		.text	0xfe9f	0x10180	+0x161	d1f30f58c2e80ee70001488b4750410f	prisoner_return.cpp:58
+소스	prisoner_return.cpp	코드	0x32c130		.text				448bca4c8bd185d27508488b8138dd00	prisoner_return.cpp:61
+소스	prisoner_return.cpp	자료	0x13a6690		.rdata				50d1314001000000d02a094001000000	prisoner_return.cpp:61
+소스	prisoner_return.cpp	코드	0x2ea6d0		.text	0x2ea6d0	0x2ea883	+0x0	41564883ec4048c7442420feffffff48	prisoner_return.cpp:132
+소스	prisoner_return.cpp	코드	0x240cb0		.text	0x240cb0	0x240cbd	+0x0	40534883ec200fb681e0000000488974	prisoner_return.cpp:140
+소스	prisoner_return.cpp	코드	0x2390b0		.text	0x2390b0	0x23ab4d	+0x0	405556574154415541564157488dac24	prisoner_return.cpp:154
+소스	prisoner_return.cpp	코드	0x2e0cf5		.text	0x2e0cf0	0x2e0d24	+0x5	5355564881eca0000000418bd8488bea	prisoner_return.cpp:182
+소스	prisoner_return.cpp	자료	0x13a6bb0		.rdata				b090234001000000c0ad234001000000	prisoner_return.cpp:184
+소스	range.cpp	자료	0x277df18		.data					range.cpp:17
+소스	range.cpp	코드	0x2aa850		.text				448bd2b895204f09f7e9b895204f0944	range.cpp:32
+소스	range.cpp	코드	0x22b140		.text	0x22b140	0x22b1ba	+0x0	48895c2408574883ec200fb7412a488b	range.cpp:48
+소스	range.cpp	코드	0x22b090		.text	0x22b090	0x22b131	+0x0	48895c2408574883ec200fb7412a488b	range.cpp:67
+소스	range.cpp	코드	0x22c850		.text	0x22c850	0x22c884	+0x0	40534883ec20488b1dbb165502e8de03	range.cpp:67
+소스	range.cpp	코드	0x2c6cd0		.text	0x2c6cd0	0x2c6cef	+0x0	48895c2418564883ec20488b82b00000	range.cpp:69
+소스	range.cpp	훅	0x2c6d59		.text	0x2c6d46	0x2c6d66	+0x13	8bc3488b5c24404883c4205ec3cccccc	range.cpp:113
+소스	range.cpp	훅	0x1f8dc		.text	0x1f7e0	0x1fab9	+0xfc	bf01000000b90200000085c00f45f94c	range.cpp:114
+소스	range.cpp	훅	0x16cd3d		.text	0x16ccf0	0x16cd80	+0x4d	85c00f95c3ffc3eb334d85f6750433c0	range.cpp:115
+소스	range.cpp	훅	0x16cd64		.text	0x16ccf0	0x16cd80	+0x74	85c00f95c3ffc3eb0cbb02000000eb05	range.cpp:116
+소스	range.cpp	훅	0x16f386		.text	0x16f2d0	0x16f7bc	+0xb6	33db85c00f95c3ffc3895de7c745cfff	range.cpp:117
+소스	range.cpp	훅	0x2c95c6		.text	0x2c949a	0x2c9604	+0x12c	85c07402ffc7498bcee8cc47f6ff8bc8	range.cpp:118
+소스	range.cpp	훅	0x2ca721		.text	0x2ca3e0	0x2ca8af	+0x341	85c0b901000000bd020000000f45cd8b	range.cpp:119
+소스	range.cpp	훅	0x88acf9		.text	0x88abc0	0x88b23c	+0x139	33c985c00f95c1ffc141898e94050000	range.cpp:120
+소스	range.cpp	훅	0x2c7074		.text	0x2c701a	0x2c741b	+0x5a	440fb6733c448bc04180feff0f858e02	range.cpp:121
+소스	range.cpp	코드	0x2c7257		.text	0x2c701a	0x2c741b	+0x23d	488b05ba6c4b0281ff0fbd0000770a48	range.cpp:122
+소스	range.cpp	코드	0x2c73c2		.text	0x2c701a	0x2c741b	+0x3a8	0fb64b378d41f53c01763180f9110f85	range.cpp:122
+소스	range.cpp	코드	0x2c73fe		.text	0x2c701a	0x2c741b	+0x3e4	b801000000488bac2408010000488bb4	range.cpp:122
+소스	range.cpp	훅	0x2c70fa		.text	0x2c701a	0x2c741b	+0xe0	41b803000000488d4c2440e88607feff	range.cpp:123
+소스	range.cpp	훅	0x2c7231		.text	0x2c701a	0x2c741b	+0x217	41b802000000488d4c2440e84f06feff	range.cpp:124
+소스	range.cpp	훅	0x2c732c		.text	0x2c701a	0x2c741b	+0x312	448d46fe488d4c2440e85605feff33c0	range.cpp:125
+소스	range.cpp	훅	0x2c739f		.text	0x2c701a	0x2c741b	+0x385	488d4c244041b802000000e8e104feff	range.cpp:126
+소스	range.cpp	훅	0x2b5362		.text	0x2b5330	0x2b552f	+0x32	41b910bd0000448bc3498bd6488d4c24	range.cpp:127
+소스	region_officer.cpp	자료	0x277df18		.data					region_officer.cpp:26
+소스	region_officer.cpp	코드	0x32f500		.text	0x32f500	0x32f524	+0x0	4883ec284885c97414488b01ff501885	region_officer.cpp:36
+소스	region_officer.cpp	코드	0x32e910		.text				0fb6413a83f83377128bc8488b05f6f5	region_officer.cpp:40
+소스	region_officer.cpp	코드	0x22c810		.text				0fb7413a488b0dfd1655023d0fbd0000	region_officer.cpp:40
+소스	region_officer.cpp	코드	0x92ef10		.text	0x92ef10	0x92ef94	+0x0	48895c240848896c2410488974241857	region_officer.cpp:82
+소스	region_officer.cpp	코드	0x229e40		.text	0x229e40	0x229e92	+0x0	40534883ec20e8b5360000488bc8488b	region_officer.cpp:105
+소스	region_officer.cpp	훅	0x1a7fc5		.text	0x1a7f50	0x1a7fd0	+0x75	488b5c24304883c4205fc34057415641	region_officer.cpp:128
+소스	region_officer.cpp	훅	0x1a7f41		.text	0x1a7ea0	0x1a7f4c	+0xa1	488b5c24304883c4205fc3cccccccc48	region_officer.cpp:129
+소스	scene_skip.cpp	자료	0x277df18		.data					scene_skip.cpp:41
+소스	scene_skip.cpp	코드	0x16efc0		.text	0x16efc0	0x16f030	+0x0	4883ec2865488b0425580000008b0d4d	scene_skip.cpp:45
+소스	scene_skip.cpp	자료	0x1a47b98		.data				f00f3a4101000000c07ba44101000000	scene_skip.cpp:46
+소스	scene_skip.cpp	코드	0x934400		.text	0x934400	0x9348f6	+0x0	488bc45557415441564157488d68d148	scene_skip.cpp:48
+소스	scene_skip.cpp	코드	0x1394		.text	0x1390	0x13d3	+0x4	488d0d55331402e8e0f6370033c0488d	scene_skip.cpp:48
+소스	scene_skip.cpp	코드	0x1f0ad0		.text	0x1f0ad0	0x1f0dca	+0x0	488bc455488d68a14881ec9000000048	scene_skip.cpp:93
+소스	scene_skip.cpp	코드	0x871e8		.text	0x87169	0x87221	+0x7f	4f2a00488bd8488bcee84a08b7008b57	scene_skip.cpp:99
+소스	scene_skip.cpp	코드	0x32e910		.text				0fb6413a83f83377128bc8488b05f6f5	scene_skip.cpp:100
+소스	scene_skip.cpp	코드	0x32f500		.text	0x32f500	0x32f524	+0x0	4883ec284885c97414488b01ff501885	scene_skip.cpp:100
+소스	scene_skip.cpp	코드	0x404a00		.text	0x404a00	0x404a3b	+0x0	40534883ec20488b81881200008bda48	scene_skip.cpp:127
+소스	scene_skip.cpp	코드	0x451ff0		.text				488b89b80100004533c0e9910a3f00cc	scene_skip.cpp:131
+소스	scene_skip.cpp	코드	0x43ff90		.text				488b89b8010000e994523f00cccccccc	scene_skip.cpp:135
+소스	scene_skip.cpp	코드	0x403810		.text				4881c1a0020000e9d4010000cccccccc	scene_skip.cpp:154
+소스	scene_skip.cpp	코드	0x243a60		.text	0x243a60	0x243bc9	+0x0	488bc44c894820555657415641574881	scene_skip.cpp:158
+소스	scene_skip.cpp	코드	0x571ef0		.text	0x571ef0	0x571f5f	+0x0	40534883ec204883795000488bd97459	scene_skip.cpp:162
+소스	scene_skip.cpp	자료	0x29ff000		?					scene_skip.cpp:202
+소스	scene_skip.cpp	코드	0x304640		.text	0x304640	0x3046f9	+0x0	488bc4574881ec8000000048c74098fe	scene_skip.cpp:220
+소스	scene_skip.cpp	코드	0x143db		.text	0x143d0	0x1442f	+0xb	488bc2754a33d28991280200000f2805	scene_skip.cpp:226
+소스	scene_skip.cpp	코드	0x143d0		.text	0x143d0	0x1442f	+0x0	4883ec3883b98801000000488bc2754a	scene_skip.cpp:226
+소스	scene_skip.cpp	코드	0x428b06		.text	0x428b00	0x428b46	+0x6	488bd933d2488b0d06543502488b89e8	scene_skip.cpp:231
+소스	scene_skip.cpp	코드	0x428b00		.text	0x428b00	0x428b46	+0x0	40534883ec20488bd933d2488b0d0654	scene_skip.cpp:231
+소스	scene_skip.cpp	코드	0x934405		.text	0x934400	0x9348f6	+0x5	415441564157488d68d14881eca00000	scene_skip.cpp:232
+소스	scene_skip_b23.cpp	코드	0x30a2f0		.text	0x30a2f0	0x30a31d	+0x0	4883ec084533c9488d91b0120000418b	scene_skip_b23.cpp:32
+소스	scene_skip_b23.cpp	코드	0x30dbb0		.text				4183f80a730a418bc0899481d81c0000	scene_skip_b23.cpp:33
+소스	scene_skip_b23.cpp	코드	0x30dc20		.text	0x30dc20	0x30dc2b	+0x0	4183f80a7370534883ec304889742428	scene_skip_b23.cpp:34
+소스	scene_skip_b23.cpp	코드	0x195de0		.text	0x195de0	0x195e42	+0x0	4883ec2865488b0425580000008b0d2d	scene_skip_b23.cpp:39
+소스	scene_skip_b23.cpp	코드	0x196b50		.text	0x196b50	0x196bb0	+0x0	4c894c24204881ec58080000488b052d	scene_skip_b23.cpp:40
+소스	scene_skip_b23.cpp	자료	0x139c730		.rdata				250073000000000030325f30345f3030	scene_skip_b23.cpp:40
+소스	scene_skip_b23.cpp	코드	0x22ca00		.text	0x22ca00	0x22ca75	+0x0	40534883ec200fb681e000000083f833	scene_skip_b23.cpp:45
+소스	scene_skip_b23.cpp	코드	0x22e970		.text	0x22e970	0x22e992	+0x0	40534883ec20488b01488bd9ff506085	scene_skip_b23.cpp:81
+소스	scene_skip_b23.cpp	코드	0x22d9e0		.text				488b0531055502482b88f0ca060048b8	scene_skip_b23.cpp:82
+소스	scene_skip_b23.cpp	코드	0x30d9d0		.text				4183f80a730a418bc0899481c81d0000	scene_skip_b23.cpp:82
+소스	scene_skip_b23.cpp	코드	0x3f5a0		.text				0fb6413583f83377128bc8488b0566e9	scene_skip_b23.cpp:84
+소스	scene_skip_b23.cpp	코드	0x30d8c0		.text				4183f80a730a418bc0899481781d0000	scene_skip_b23.cpp:85
+소스	scene_skip_b23.cpp	훅	0x6c43b0		.text	0x6c43b0	0x6c4442	+0x0	40574883ec7048c7442420feffffff48	scene_skip_b23.cpp:102
+소스	scene_skip_b23.cpp	훅	0x6c4670		.text	0x6c4670	0x6c4702	+0x0	40574883ec7048c7442420feffffff48	scene_skip_b23.cpp:107
+소스	settings_help.cpp	코드	0x3f6bc0		.text	0x3f6bc0	0x3f6c4c	+0x0	48895c240848896c2410488974241857	settings_help.cpp:102
+소스	settings_help.cpp	코드	0x864c50		.text	0x864c50	0x864d0e	+0x0	48894c2408574883ec3048c7442420fe	settings_help.cpp:103
+소스	settings_help.cpp	코드	0x92ab70		.text				33c04889014889410889411048894118	settings_help.cpp:103
+소스	settings_help.cpp	자료	0x139c540		.rdata				60b6194001000000d02a094001000000	settings_help.cpp:103
+소스	settings_help.cpp	코드	0x89c320		.text	0x89c320	0x89c3a7	+0x0	40534883ec4048c74424300000000048	settings_help.cpp:104
+소스	settings_help.cpp	코드	0x8a18c0		.text				440fb6c24881c130010000ba02000000	settings_help.cpp:106
+소스	settings_help.cpp	코드	0x92ad0		.text				c20000cccccccccccccccccccccccccc	settings_help.cpp:109
+소스	settings_help.cpp	코드	0x11290		.text	0x11290	0x11311	+0x0	40534883ec3048c7442420feffffff8b	settings_help.cpp:118
+소스	settings_help.cpp	코드	0x92cee0		.text	0x92cee0	0x92cf0a	+0x0	4883ec0885d20f888d0000003b51100f	settings_help.cpp:125
+소스	settings_help.cpp	코드	0x8a2140		.text	0x8a2140	0x8a2210	+0x0	48895c24184889742420574883ec2044	settings_help.cpp:135
+소스	settings_help.cpp	코드	0x8a5d60		.text	0x8a5d60	0x8a5e11	+0x0	40534883ec20488bd9488b49104885c9	settings_help.cpp:138
+소스	settings_help.cpp	코드	0x8cad90		.text	0x8cad90	0x8caded	+0x0	40534883ec20488bd9e882eaf9ffe8fd	settings_help.cpp:140
+소스	settings_help.cpp	코드	0x8fd520		.text	0x8fd520	0x8fd5fd	+0x0	48895c24084889742410574883ec2048	settings_help.cpp:141
+소스	settings_help.cpp	코드	0x7229c0		.text	0x7229c0	0x722e58	+0x0	40564883ec4048c7442430feffffff48	settings_help.cpp:143
+소스	settings_help.cpp	코드	0x83bf80		.text				488b8978040000e9e4010000cccccccc	settings_help.cpp:148
+소스	settings_help.cpp	코드	0x421960		.text	0x421960	0x42198f	+0x0	4883ec28e857f6beff488bc833d2e8fd	settings_help.cpp:156
+소스	settings_help.cpp	코드	0x4218b0		.text	0x4218b0	0x4218ca	+0x0	4883ec28e807f7beff488bc8ba010000	settings_help.cpp:168
+소스	settings_help.cpp	코드	0x1d2a20		.text	0x1d2a20	0x1d2aa8	+0x0	48895c24084889742410574883ec2048	settings_help.cpp:176
+소스	settings_help.cpp	코드	0x3f7fa0		.text	0x3f7fa0	0x3f8021	+0x0	40534883ec3048c7442420feffffff8b	settings_help.cpp:176
+소스	settings_help.cpp	자료	0x1a23440		.data				70ed3a41010000000000000000000000	settings_help.cpp:177
+소스	settings_help.cpp	코드	0x30a2f0		.text	0x30a2f0	0x30a31d	+0x0	4883ec084533c9488d91b0120000418b	settings_help.cpp:177
+소스	settings_help.cpp	코드	0x5c76		.text	0x42c0	0x7840	+0x19b6	d7488bc8e8616e8a00488bd0488d0d57	settings_help.cpp:179
+소스	settings_help.cpp	코드	0x30d910		.text				4183f80a730a418bc0899481001d0000	settings_help.cpp:179
+소스	settings_help.cpp	코드	0x5c75		.text	0x42c0	0x7840	+0x19b5	8bd7488bc8e8616e8a00488bd0488d0d	settings_help.cpp:180
+소스	settings_help.cpp	코드	0x22a880		.text	0x22a880	0x22a8b4	+0x0	40534883ec20488b1d8b365502e82e00	settings_help.cpp:180
+소스	settings_help.cpp	코드	0x30d8c0		.text				4183f80a730a418bc0899481781d0000	settings_help.cpp:180
+소스	settings_help.cpp	코드	0x229f80		.text	0x229f80	0x229fce	+0x0	40534883ec200fb7415c3d0fbd000077	settings_help.cpp:181
+소스	settings_help.cpp	코드	0x30d9d0		.text				4183f80a730a418bc0899481c81d0000	settings_help.cpp:181
+소스	settings_help.cpp	코드	0x30dc20		.text	0x30dc20	0x30dc2b	+0x0	4183f80a7370534883ec304889742428	settings_help.cpp:182
+소스	settings_help.cpp	코드	0x30dd20		.text				4183f80a730a418bc0899481b0120000	settings_help.cpp:183
+소스	settings_help.cpp	코드	0x195de0		.text	0x195de0	0x195e42	+0x0	4883ec2865488b0425580000008b0d2d	settings_help.cpp:185
+소스	settings_help.cpp	코드	0x196b50		.text	0x196b50	0x196bb0	+0x0	4c894c24204881ec58080000488b052d	settings_help.cpp:186
+소스	settings_help.cpp	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	settings_help.cpp:186
+소스	settings_help.cpp	자료	0x139c730		.rdata				250073000000000030325f30345f3030	settings_help.cpp:186
+소스	settings_help.cpp	코드	0x56fe10		.text	0x56fe10	0x56fe45	+0x0	40534883ec20488bd9e8c212aaff4883	settings_help.cpp:192
+소스	settings_help.cpp	코드	0x110e0		.text	0x110e0	0x11161	+0x0	40534883ec3048c7442420feffffff8b	settings_help.cpp:193
+소스	settings_help.cpp	코드	0x12540		.text	0x12540	0x12571	+0x0	40574883ec40488bf9c7442430010000	settings_help.cpp:198
+소스	settings_help.cpp	코드	0x5706c0		.text	0x5706c0	0x57071f	+0x0	40534883ec204883795000488bd97449	settings_help.cpp:199
+소스	settings_help.cpp	자료	0x13d2ed8		.rdata				70ba4140010000006019424001000000	settings_help.cpp:206
+소스	settings_help.cpp	코드	0x421990		.text	0x421990	0x4219ed	+0x0	40534883ec20488bd9e872e4140085c0	settings_help.cpp:209
+소스	settings_help.cpp	코드	0x32f500		.text	0x32f500	0x32f524	+0x0	4883ec284885c97414488b01ff501885	settings_help.cpp:213
+소스	status_color.cpp	코드	0x1770		.text	0x1760	0x177c	+0x10	48890599c0a3014883c428c3cccccccc	status_color.cpp:27
+소스	status_color.cpp	자료	0x277df18		.data					status_color.cpp:27
+소스	status_color.cpp	코드	0x1340000		.rdata				dae8a10100000000b4e8a10100000000	status_color.cpp:83
+소스	status_color.cpp	자료	0x1a20000		.data				00401c470000000000c05a460000803f	status_color.cpp:83
+소스	status_color.cpp	자료	0x29ff000		?					status_color.cpp:89
+소스	status_color.cpp	코드	0x85c5dc		.text	0x85c420	0x85c5fa	+0x1bc	488b8c24300800004833cce894d77900	status_color.cpp:106
+소스	status_color.cpp	코드	0x930d20		.text	0x930d20	0x930e28	+0x0	48895c2408488974241048897c241841	status_color.cpp:141
+소스	status_color.cpp	코드	0x930e30		.text	0x930e30	0x930e5a	+0x0	4885c90f84ec0000004c8bdc53564881	status_color.cpp:141
+소스	status_color.cpp	코드	0x866000		.text	0x865fe0	0x86602d	+0x20	e8cbca82ff488bcfe853f5fffff6c301	status_color.cpp:150
+소스	status_color.cpp	코드	0x879000		.text	0x878f00	0x8790ac	+0x100	e480f5014885ff741f4885c0741a8b0f	status_color.cpp:150
+소스	status_color.cpp	코드	0x32c9f0		.text				0fb6c18bd1448bc1c1ea0841c1e81044	status_color.cpp:160
+소스	status_color.cpp	훅	0x22eee8		.text	0x22eec0	0x22eef6	+0x28	488bc3488b5c24304883c4205fc3cccc	status_color.cpp:173
+소스	status_color.cpp	훅	0x930d35		.text	0x930d20	0x930e28	+0x15	4863f2498bf88bd64c8bf1e89bc1ffff	status_color.cpp:174
+소스	status_color.cpp	훅	0x85c420		.text	0x85c420	0x85c5fa	+0x0	405355565741564881ec40080000488b	status_color.cpp:175
+소스	status_color.cpp	훅	0x22fce0		.text	0x22fce0	0x230195	+0x0	89542410555657415441554156415748	status_color.cpp:176
+소스	status_color.cpp	훅	0x153ed0		.text	0x153eb0	0x153ee8	+0x20	410fb64008498bf883f8090f87570200	status_color.cpp:177
+소스	status_color.cpp	훅	0x154138		.text	0x154138	0x154180	+0x0	488b4d3f4833cce83c5cea00488bbc24	status_color.cpp:177
+소스	status_color.cpp	코드	0x153edb		.text	0x153eb0	0x153ee8	+0x2b	0f8757020000488d1518c1eaff48899c	status_color.cpp:180
+소스	status_color.cpp	코드	0x930e39		.text	0x930e30	0x930e5a	+0x9	4c8bdc53564881ec38080000488b0544	status_color.cpp:184
+소스	traits9_check.cpp	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	traits9_check.cpp:76
+소스	traits9_check.cpp	자료	0x29ff000		?					traits9_check.cpp:76
+소스	traits9_check.cpp	코드	0x3f6bc0		.text	0x3f6bc0	0x3f6c4c	+0x0	48895c240848896c2410488974241857	traits9_check.cpp:124
+소스	traits9_check.cpp	코드	0x84b150		.text	0x84b150	0x84b1a6	+0x0	48894c2408534883ec3048c7442420fe	traits9_check.cpp:125
+소스	traits9_check.cpp	코드	0x851160		.text	0x851160	0x8512ae	+0x0	48895c24084889742410574883ec408b	traits9_check.cpp:128
+소스	traits9_check.cpp	코드	0x89af80		.text	0x89af80	0x89b045	+0x0	48895c24084889742410574883ec2048	traits9_check.cpp:134
+소스	traits9_check.cpp	자료	0x277df18		.data					traits9_check.cpp:153
+ModCore기록	SAN14CE.CityCaps	훅	0x1a4a1ec	4	.data				50c3000001000000e8030000a0860100	
+ModCore기록	SAN14CE.CityCaps	훅	0x1a4a1f8	4	.data				a0860100020000006400000050c30000	
+ModCore기록	SAN14CE.CityCaps	훅	0x1a4a204	4	.data				50c300000a000000dc05000005000000	
+ModCore기록	SAN14CE.DomesticAI	훅	0x7a1db	5	.text	0x7a110	0x7a20f	+0xcb	e8c0780300488bcee858d8b700448b44	
+ModCore기록	SAN14CE.DomesticTalent	훅	0x13d63c8	8	.rdata				f0ca44400100000060ff564001000000	
+ModCore기록	SAN14CE.ExecuteLock	훅	0x66ff4e	5	.text	0x66fd80	0x66ff6d	+0x1ce	488b5c2460488b6c2468488b74247048	
+ModCore기록	SAN14CE.FPS120.R8.Duel60_StockTiming_Other120	훅	0x152267	5	.text	0x152170	0x15246c	+0xf7	e844307e00488d4e0889442440488b01	
+ModCore기록	SAN14CE.FPS120.R8.Duel60_StockTiming_Other120	훅	0x153e3a	12	.text	0x153d60	0x153eb0	+0xda	f30f100d56ed1e01f30f5ec8f30f114d	
+ModCore기록	SAN14CE.FPS120.R8.Duel60_StockTiming_Other120	훅	0x95474a	5	.text	0x954730	0x9548e1	+0x1a	e82148feffb201488bcf488bf0e8e453	
+ModCore기록	SAN14CE.FPS120.R8.Duel60_StockTiming_Other120	훅	0x44bd00	5	.text	0x44bca0	0x44c664	+0x60	e8abf5f2ff488b0d247a33028b511089	
+ModCore기록	SAN14CE.FPS120.R8.Duel60_StockTiming_Other120	훅	0x36b805	11	.text	0x36b7e9	0x36b819	+0x1c	4533c0f3480f2cd0ff5318488b5c2430	
+ModCore기록	SAN14CE.FPS120.R8.Duel60_StockTiming_Other120	훅	0xf3eb9f	16	.text	0xf3eaf0	0xf3f1bf	+0xaf	488b5308488d4b084889442440ff5228	
+ModCore기록	SAN14CE.FPS120.R8.Duel60_StockTiming_Other120	훅	0xf3ee2d	7	.text	0xf3eaf0	0xf3f1bf	+0x33d	8b403441894718488b4d184885c9740b	
+ModCore기록	SAN14CE.HiredFace	훅	0x32f196	9	.text	0x32f14e	0x32f226	+0x48	66894710488d4c242085db8954246848	
+ModCore기록	SAN14CE.DragGive	훅	0x750df9	9	.text	0x750c30	0x751032	+0x1c9	48c744246c01000000b9aa050000e874	
+ModCore기록	SAN14CE.HiredFace	훅	0x32f21a	7	.text	0x32f14e	0x32f226	+0xcc	41ff4f08488bc74c8b742460488b5c24	
+ModCore기록	SAN14CE.DragGive	훅	0x750e33	5	.text	0x750c30	0x751032	+0x203	488b4c24404885c974048b01eb03488b	
+ModCore기록	SAN14CE.HiredFace	훅	0x3346ee	7	.text	0x3339a0	0x33477d	+0xd4e	41888765010000498bd7498bcce870ee	
+ModCore기록	SAN14CE.DragGive	훅	0x6cd6f2	5	.text	0x6cd4fb	0x6cd71b	+0x1f7	e8092cb2ff4c8b7c2440b8010000004c	
+ModCore기록	SAN14CE.HiredFace	훅	0x3374c9	8	.text	0x337440	0x3374d7	+0x89	33c03947500f94c04883c4205fc3cccc	
+ModCore기록	SAN14CE.DragGive	훅	0x6cd59a	5	.text	0x6cd4fb	0x6cd71b	+0x9f	e821941800ba01000000488bcfe8a460	
+ModCore기록	SAN14CE.DragGive	훅	0x6cd6dc	7	.text	0x6cd4fb	0x6cd71b	+0x1e1	41ff9090010000488d4c243048897c24	
+ModCore기록	SAN14CE.ItemPicture	훅	0x6839e0	9	.text	0x6839e0	0x683ac8	+0x0	40574881ec8004000048c7442420feff	
+ModCore기록	SAN14CE.MeritTraits	훅	0x1ef5a0	6	.text	0x1ef5a0	0x1ef5f7	+0x0	40534883ec20488bd9e852ff130085c0	
+ModCore기록	SAN14CE.MeritTraits	훅	0x3fd70	6	.text	0x3fd70	0x3fe05	+0x0	40534883ec20ba01000000488bd9e8cd	
+ModCore기록	SAN14CE.MeritTraits	훅	0x3fd20	6	.text	0x3fd20	0x3fd68	+0x0	40534883ec20ba01000000488bd9e81d	
+ModCore기록	SAN14CE.MeritTraits	훅	0x1447ce0	8	.rdata				d03b774001000000d8a1844101000000	
+ModCore기록	SAN14CE.MeritTraits	훅	0x33d091	5	.text	0x33d050	0x33d15e	+0x41	e8faac0b0084c07507c74324d4feffff	
+ModCore기록	SAN14CE.MeritTraits	훅	0x2cadd	5	.text	0x2c970	0x2cc4b	+0x16d	e8ee5f010085c00f840b010000ba0300	
+ModCore기록	SAN14CE.MeritTraits	훅	0x1478468	8	.rdata				a0498a4001000000a084864001000000	
+ModCore기록	SAN14CE.MeritTraits	훅	0x14793a0	8	.rdata				c05b8a4001000000105d8a4001000000	
+ModCore기록	SAN14CE.MeritTraits	훅	0x6cc04c	5	.text	0x6cbc60	0x6cc574	+0x3ec	e8ff04b2ff4585f67418e895dfd1ff45	
+ModCore기록	SAN14CE.MeritTraits	훅	0x2cc06	5	.text	0x2c970	0x2cc4b	+0x296	e845f91b00904c8b45e84d8bc84d8b00	
+ModCore기록	SAN14CE.MeritTraits	훅	0x2622da	5	.text	0x261b70	0x264dc7	+0x76a	e8d1780400c74424700a0000000fb68f	
+ModCore기록	SAN14CE.MeritTraits	훅	0x262710	5	.text	0x261b70	0x264dc7	+0xba0	e89b740400c74424700a0000000fb68e	
+ModCore기록	SAN14CE.MeritTraits	훅	0x262d22	5	.text	0x261b70	0x264dc7	+0x11b2	e8896e0400c74424700a000000410fb6	
+ModCore기록	SAN14CE.MeritTraits	훅	0x263453	5	.text	0x261b70	0x264dc7	+0x18e3	e858670400c745580a0000000fb68b82	
+ModCore기록	SAN14CE.MeritTraits	훅	0x263722	5	.text	0x261b70	0x264dc7	+0x1bb2	e889640400c745380a0000000fb68b82	
+ModCore기록	SAN14CE.MeritTraits	훅	0x2a9dae	5	.text	0x2a9d30	0x2a9db3	+0x7e	e9fdfdffffcccccccccccccccccccccc	
+ModCore기록	SAN14CE.MeritTraits	훅	0x89ce0a	5	.text	0x89c760	0x89ce2f	+0x6aa	e831630000b801000000488b9c245801	
+ModCore기록	SAN14CE.MeritTraits	훅	0x8a1b97	5	.text				e9a4150000cccccccc488bc448895010	
+ModCore기록	SAN14CE.MeritTraits	훅	0x14784a0	8	.rdata				d02a0940010000000011874001000000	
+ModCore기록	SAN14CE.MeritTraits	훅	0x1447d30	8	.rdata				104d6c4001000000800e874001000000	
+ModCore기록	SAN14CE.MeritTraits	훅	0x733510	5	.text	0x7334a0	0x733531	+0x70	e84b87f9ff85c07412e8c2db8dff488b	
+ModCore기록	SAN14CE.MeritTraits	훅	0x8a345e	5	.text	0x8a3140	0x8a382e	+0x31e	e82d63e3ff488b8578010000488d5424	
+ModCore기록	SAN14CE.MeritTraits	훅	0x56f357	5	.text	0x56f310	0x56f469	+0x47	e874a4dbff8bd889442420eb2e33db89	
+ModCore기록	SAN14CE.MeritTraits	훅	0x50b011	5	.text	0x50a8b0	0x50b0cc	+0x761	e8bab3e2ffe865cacfff488bc8e8eda3	
+ModCore기록	SAN14CE.MeritTraits	훅	0x56f38b	5	.text	0x56f310	0x56f469	+0x7b	e84070dcff8bd8891db836260285db0f	
+ModCore기록	SAN14CE.MeritTraits	훅	0x5fc898	5	.text	0x5fc830	0x5fc912	+0x68	e8339bd3ff488b0d74161802488b89e8	
+ModCore기록	SAN14CE.MeritTraits	훅	0x5fca07	5	.text	0x5fc920	0x5fca91	+0xe7	e8c499d3ff488b87980400004885c074	
+ModCore기록	SAN14CE.MeritTraits	훅	0x608bf7	5	.text	0x608a50	0x608cbb	+0x1a7	e8d4d7d2ff8b838c04000089442420c7	
+ModCore기록	SAN14CE.MeritTraits	훅	0x60ba41	5	.text	0x60b97e	0x60bca9	+0xc3	e88aa9d2ffe835c0bfff488bc8e8bd99	
+ModCore기록	SAN14CE.MeritTraits	훅	0x6332c7	5	.text	0x6331e0	0x633b22	+0xe7	e80431d0ff488d05dd03d100488945ff	
+ModCore기록	SAN14CE.MeritTraits	훅	0x56f4b4	5	.text	0x56f470	0x56f4f8	+0x44	e8b7a5dbff4885c07414488b0d53ea20	
+ModCore기록	SAN14CE.MeritTraits	훅	0x56f4c8	5	.text	0x56f470	0x56f4f8	+0x58	e883dbdcff85c00f94c3e8b9a7e7ff48	
+ModCore기록	SAN14CE.MeritTraits	훅	0x335b99	5	.text	0x335aa0	0x335d7b	+0xf9	e8c2480c0084c00f846e010000c74718	
+ModCore기록	SAN14CE.MeritTraits	훅	0x3f7e32	7	.text	0x3f7dd9	0x3f7e70	+0x59	ff1048837b18100fb6f848c743100000	
+ModCore기록	SAN14CE.MeritTraits	훅	0x3f7e8e	5	.text	0x3f7e70	0x3f7eb9	+0x1e	ff505885c074c9488b4b48488b01ff50	
+ModCore기록	SAN14CE.MeritTraits	훅	0x1447c98	8	.rdata				a03473400100000060ff564001000000	
+ModCore기록	SAN14CE.MeritTraits	훅	0x1447e80	8	.rdata				30ea6b4001000000c014864001000000	
+ModCore기록	SAN14CE.MeritTraits	훅	0x6cc08e	7	.text	0x6cbc60	0x6cc574	+0x42e	488b86c804000033d2488b88d8010000	
+ModCore기록	SAN14CE.MeritTraits	훅	0x1447d28	8	.rdata				10516b4001000000104d6c4001000000	
+ModCore기록	SAN14CE.MeritTraits.HoverX	훅	0x491f01	14	.text				cccccccccccccccccccccccccccccc40	
+ModCore기록	SAN14CE.ModSettingsUI	훅	0x3ea400	9	.text				83fa3c0f87b60200004863c24c8d0ded	
+ModCore기록	SAN14CE.ModSettingsUI	훅	0x3efce0	9	.text				83fa3c0f87f20200004863c24c8d150d	
+ModCore기록	SAN14CE.ModSettingsUI	훅	0x636250	12	.text	0x636250	0x63640b	+0x0	40565741564881ec9000000048c74424	
+ModCore기록	SAN14CE.ModSettingsUI	훅	0x13aedb8	8	.rdata				f08e304001000000008f304001000000	
+ModCore기록	SAN14CE.ModSettingsUI	훅	0x141bcc8	8	.rdata				10915b4001000000307c864001000000	
+ModCore기록	SAN14CE.ModSettingsUI	훅	0x141c1c0	8	.rdata				d068604001000000b0e65f4001000000	
+ModCore기록	SAN14CE.ModSettingsUI	훅	0x141c1c8	8	.rdata				b0e65f400100000070b5424001000000	
+ModCore기록	SAN14CE.ModSettingsUI	훅	0x141c1e0	8	.rdata				c0c660400100000060ff564001000000	
+ModCore기록	SAN14CE.ModSettingsUI	훅	0x13aedc0	8	.rdata				008f304001000000d02a094001000000	
+ModCore기록	SAN14CE.ModSettingsUI	훅	0x65675d	14	.text	0x6566e0	0x656960	+0x7d	83fa047d0433d2eb05ba01000000ff90	
+ModCore기록	SAN14CE.ModSettingsUI	훅	0x627370	9	.text	0x62733a	0x6273c5	+0x36	428b1c21428b4421043beb7c073be88b	
+ModCore기록	SAN14CE.ModSettingsUI	훅	0x636398	13	.text	0x636250	0x63640b	+0x148	428b040189442438428b440104894424	
+ModCore기록	SAN14CE.Patch27.CityEventSkip	훅	0x3d5e41	8	.text	0x3d5cd0	0x3d5f97	+0x171	488b01498bd6ff108bf0eb0233f64989	
+ModCore기록	SAN14CE.Patch27.RemoteRecruit	훅	0x6dd669	5	.text	0x6dd654	0x6dd6d5	+0x15	e81220b1ff85c07455833d373a0f0200	
+ModCore기록	SAN14CE.Patch27.RemoteRecruit	훅	0x1ef7e8	8	.text	0x1ef6f7	0x1ef812	+0xf1	3bd80f85ad0000008bfd8bc5e9aa0000	
+ModCore기록	SAN14CE.Patch27.RemoteRecruit	훅	0x1e8c9f	14	.text	0x1e89a0	0x1e8d2c	+0x2ff	e8dc4804000fb64e71384814eb3aba06	
+ModCore기록	SAN14CE.Patch27.RemoteRecruit	훅	0x1e9068	14	.text	0x1e8d30	0x1e90f5	+0x338	e8134504000fb64e71384814eb3aba06	
+ModCore기록	SAN14CE.Patch27.RemoteRecruitDays	훅	0x231510	15	.text	0x231510	0x2315b2	+0x0	48895c240848896c2410488974241857	
+ModCore기록	SAN14CE.Patch27.DeployedPosts	훅	0x72d385	5	.text	0x72d240	0x72df4f	+0x145	e8b64eb0ff85c07458833d1b3d0a0200	
+ModCore기록	SAN14CE.Patch27.DeployedPosts	훅	0x72d9db	5	.text	0x72d240	0x72df4f	+0x79b	e86048b0ff85c07451833dc5360a0200	
+ModCore기록	SAN14CE.Patch27.BattleDeaths	훅	0x259682	5	.text	0x258ee0	0x25c065	+0x7a2	e8d9ec100085c00f8494000000b93004	
+ModCore기록	SAN14CE.Patch27.BattleDeaths	훅	0x27d976	5	.text	0x27d4b0	0x27df0a	+0x4c6	e8e5a90e0085c07451b930040000e837	
+ModCore기록	SAN14CE.Patch27.BattleDeaths	훅	0x25974b	5	.text	0x258ee0	0x25c065	+0x86b	e850c303008bf84c8d0d57e9f0ffba40	
+ModCore기록	SAN14CE.Patch27.BattleDeaths	훅	0x27da09	5	.text	0x27d4b0	0x27df0a	+0x559	e892800100448be04c8d0d98a6eeffba	
+ModCore기록	SAN14CE.Patch27.BattleDeaths	훅	0x295c5f	8	.text	0x295aa0	0x297171	+0x1bf	85db0f84ce08000039bd800100000f85	
+ModCore기록	SAN14CE.Patch27.BattleDeaths	훅	0x296172	5	.text	0x295aa0	0x297171	+0x6d2	e889e26900e960020000498bcde87c68	
+ModCore기록	SAN14CE.Patch27.BattleDeaths	훅	0x2963d3	5	.text	0x295aa0	0x297171	+0x933	e828e06900448b6588e89f8ff5ff3978	
+ModCore기록	SAN14CE.DragLearn	훅	0x7482ec	9	.text	0x747f50	0x748513	+0x39c	48897dbcb9bc050000e8864cbcff4889	
+ModCore기록	SAN14CE.DragLearn	훅	0x748359	7	.text	0x747f50	0x748513	+0x409	4d8b85b80400004d8b88a0010000488b	
+ModCore기록	SAN14CE.DragLearn	훅	0x740125	5	.text	0x74011d	0x74022c	+0x8	e8f603abff488b8b78040000e87a36af	
+ModCore기록	SAN14CE.DragLearn	훅	0x74a338	10	.text	0x74a240	0x74a4a7	+0xf8	488974245cb92e030000e8392cbcff48	
+ModCore기록	SAN14CE.DragLearn	훅	0x74a37a	6	.text	0x74a240	0x74a4a7	+0x13a	41be00400100488b5424284885d27404	
+ModCore기록	SAN14CE.Patch27.OfficerNames	훅	0x20ffa0	5	.text				488d410cc3cccccccccccccccccccccc	
+ModCore기록	SAN14CE.DragLearn	훅	0x74816e	7	.text	0x747f50	0x748513	+0x21e	833d3b8f080200740d488d0d3a8f0802	
+ModCore기록	SAN14CE.DragLearn	훅	0x75b29e	5	.text	0x75b28b	0x75b2c9	+0x13	e85d040000488b83b8040000c7808001	
+ModCore기록	SAN14CE.Patch27.OfficerNames	훅	0x20e990	5	.text				488d4112c3cccccccccccccccccccccc	
+ModCore기록	SAN14CE.Patch27.OfficerNames	훅	0x21be10	8	.text	0x21be10	0x21be56	+0x0	405355574883ec20488d590c33c0488b	
+ModCore기록	SAN14CE.DragLearn	훅	0x6bda83	5	.text	0x6bda40	0x6bda9d	+0x43	e828fdffff488b5c2430c78770040000	
+ModCore기록	SAN14CE.Patch27.OfficerNames	훅	0x21b770	8	.text	0x21b770	0x21b7b6	+0x0	405355574883ec20488d591233c0488b	
+ModCore기록	SAN14CE.DragLearn	훅	0x75b25b	5	.text	0x75b204	0x75b276	+0x57	e850d6ffff488b83b8040000488b7424	
+ModCore기록	SAN14CE.Patch27.OfficerNames	훅	0x21965a	5	.text	0x219654	0x2196cb	+0x6	664489610a80ba8c00000000740f488d	
+ModCore기록	SAN14CE.Patch27.OfficerNames	훅	0x5dc7f0	6	.text	0x5dc7f0	0x5dd1d7	+0x0	405556574154415541564157488d6c24	
+ModCore기록	SAN14CE.Patch27.OfficerNames	훅	0x627a20	6	.text	0x627a20	0x627a39	+0x0	40574883ec30488b81e8050000488bf9	
+ModCore기록	SAN14CE.Patch27.OfficerNames	훅	0x620270	6	.text	0x620270	0x6202b7	+0x0	40534883ec20488bd9488d91a0010000	
+ModCore기록	SAN14CE.Patch27.OfficerNames	훅	0x62cf7d	13	.text	0x62cf10	0x62d19c	+0x6d	4c8dbea001000041be03000000eb3a4c	
+ModCore기록	SAN14CE.Patch27.OfficerNames	훅	0x62cf8c	13	.text	0x62cf10	0x62d19c	+0x7c	4c8dbea601000041be03000000eb2b4c	
+ModCore기록	SAN14CE.Patch27.OfficerNames	훅	0x20eafb	5	.text	0x20ea90	0x20eb3d	+0x6b	e85080f8ff488b5c2440488bc74883c4	
+ModCore기록	SAN14CE.Patch27.OfficerNames	훅	0x47872c	5	.text	0x478670	0x478765	+0xbc	e86f78d9ff48894424204c8d0db788f2	
+ModCore기록	SAN14CE.Patch27.OfficerNames	훅	0x20a8d3	5	.text	0x20a800	0x20ae9f	+0xd3	e85837010090488d55d7488bcbe87b71	
+ModCore기록	SAN14CE.Patch27.OfficerNames	훅	0x20a921	5	.text	0x20a800	0x20ae9f	+0x121	e80a370100904c8b45ef4983f8087210	
+ModCore기록	SAN14CE.PrisonerReturn	훅	0x2e0cf0	5	.text	0x2e0cf0	0x2e0d24	+0x0	44894c24205355564881eca000000041	
+ModCore기록	SAN14CE.PrisonerReturn	훅	0x2e7a1f	5	.text	0x2e79b4	0x2e7b10	+0x6b	e8ac2c0000488bcbe884bdf4ff85c00f	
+ModCore기록	SAN14CE.PrisonerReturn.SaveSlot	훅	0x13a6bb0	8	.rdata				b090234001000000c0ad234001000000	
+ModCore기록	SAN14CE.Range	훅	0x2c6d59	7	.text	0x2c6d46	0x2c6d66	+0x13	8bc3488b5c24404883c4205ec3cccccc	
+ModCore기록	SAN14CE.Range	훅	0x1f8dc	15	.text	0x1f7e0	0x1fab9	+0xfc	bf01000000b90200000085c00f45f94c	
+ModCore기록	SAN14CE.Range	훅	0x16cd3d	7	.text	0x16ccf0	0x16cd80	+0x4d	85c00f95c3ffc3eb334d85f6750433c0	
+ModCore기록	SAN14CE.Range	훅	0x16cd64	7	.text	0x16ccf0	0x16cd80	+0x74	85c00f95c3ffc3eb0cbb02000000eb05	
+ModCore기록	SAN14CE.Range	훅	0x16f386	9	.text	0x16f2d0	0x16f7bc	+0xb6	33db85c00f95c3ffc3895de7c745cfff	
+ModCore기록	SAN14CE.Range	훅	0x2c95c6	6	.text	0x2c949a	0x2c9604	+0x12c	85c07402ffc7498bcee8cc47f6ff8bc8	
+ModCore기록	SAN14CE.Range	훅	0x2ca721	12	.text	0x2ca3e0	0x2ca8af	+0x341	85c0b901000000bd020000000f45cd8b	
+ModCore기록	SAN14CE.Range	훅	0x88acf9	9	.text	0x88abc0	0x88b23c	+0x139	33c985c00f95c1ffc141898e94050000	
+ModCore기록	SAN14CE.Range	훅	0x2c7074	8	.text	0x2c701a	0x2c741b	+0x5a	440fb6733c448bc04180feff0f858e02	
+ModCore기록	SAN14CE.Range	훅	0x2c70fa	11	.text	0x2c701a	0x2c741b	+0xe0	41b803000000488d4c2440e88607feff	
+ModCore기록	SAN14CE.Range	훅	0x2c7231	11	.text	0x2c701a	0x2c741b	+0x217	41b802000000488d4c2440e84f06feff	
+ModCore기록	SAN14CE.Range	훅	0x2c732c	9	.text	0x2c701a	0x2c741b	+0x312	448d46fe488d4c2440e85605feff33c0	
+ModCore기록	SAN14CE.Range	훅	0x2c739f	11	.text	0x2c701a	0x2c741b	+0x385	488d4c244041b802000000e8e104feff	
+ModCore기록	SAN14CE.Range	훅	0x2b5362	9	.text	0x2b5330	0x2b552f	+0x32	41b910bd0000448bc3498bd6488d4c24	
+ModCore기록	SAN14CE.RegionOfficer	훅	0x1a7fc5	11	.text	0x1a7f50	0x1a7fd0	+0x75	488b5c24304883c4205fc34057415641	
+ModCore기록	SAN14CE.RegionOfficer	훅	0x1a7f41	11	.text	0x1a7ea0	0x1a7f4c	+0xa1	488b5c24304883c4205fc3cccccccc48	
+ModCore기록	RelatedOfficersTab.RC2_4.HoverPin	훅	0x2c0cbd	7	.text	0x2c0820	0x2c17b1	+0x49d	488b8fa801000083b99c000000000f84	
+ModCore기록	RelatedOfficersTab.RC2_4.HoverPin	훅	0x2f0a80	5	.text	0x2f0a80	0x2f0b66	+0x0	48895c2408574883ec208b8280000000	
+ModCore기록	RelatedOfficersTab.RC2_4.HoverPin	훅	0x2dc2a2	6	.text	0x2dc180	0x2dc33a	+0x122	ff9080010000488b8b400100004885c9	
+ModCore기록	RelatedOfficersTab.RC2_4.HoverPin	훅	0x48c19f	5	.text	0x48c190	0x48c1c4	+0xf	e81ce8fefff6c301740dba1003000048	
+ModCore기록	RelatedOfficersTab.RC2_4.HoverPin	훅	0x2dc352	5	.text	0x2dc340	0x2dc43b	+0x12	e86954feffba4b000000488bc8488bf8	
+ModCore기록	RelatedOfficersTab.RC2_4.HoverPin	훅	0x65e490	7	.text				488b4908488b12488b0148ffa0380200	
+ModCore기록	SAN14CE.SceneSkip.Disaster	훅	0x2999ef	5	.text	0x2989a0	0x299d6d	+0x104f	e80cb01600e8e7601a00488bc8837d8c	
+ModCore기록	SAN14CE.SceneSkip.Disaster	훅	0x299a0c	5	.text	0x2989a0	0x299d6d	+0x106c	e8df851b00e88ae51500488bc8e80290	
+ModCore기록	SAN14CE.SceneSkip.Disaster	훅	0x299ace	5	.text	0x2989a0	0x299d6d	+0x112e	e8fd6ff5ffe808601a00488bc8e8b064	
+ModCore기록	SAN14CE.SceneSkip.Disaster	훅	0x299adb	5	.text	0x2989a0	0x299d6d	+0x113b	e8b0641a00488b0d217653024d85ff74	
+ModCore기록	SAN14CE.SceneSkip.Disaster	훅	0x29ac7b	5	.text	0x29a4b0	0x29b175	+0x7cb	e8809d1600e85b4e1a00488bc84585ff	
+ModCore기록	SAN14CE.SceneSkip.Disaster	훅	0x29ac97	5	.text	0x29a4b0	0x29b175	+0x7e7	e854731b00e8ffd21500488bc8e8777d	
+ModCore기록	SAN14CE.SceneSkip.Disaster	훅	0x29aea6	5	.text	0x29a4b0	0x29b175	+0x9f6	e8255cf5ffe8304c1a00488bc8e8d850	
+ModCore기록	SAN14CE.SceneSkip.Disaster	훅	0x29aeb3	5	.text	0x29a4b0	0x29b175	+0xa03	e8d8501a00488b15496253024d85ed74	
+ModCore기록	SAN14CE.SceneSkip.Disaster	훅	0x2ba672	5	.text	0x2ba220	0x2bac11	+0x452	e889a31400e864541800488bc8ba0e00	
+ModCore기록	SAN14CE.SceneSkip.Disaster	훅	0x2ba684	5	.text	0x2ba220	0x2bac11	+0x464	e867791900488b5daf488b1b458be74c	
+ModCore기록	SAN14CE.SceneSkip.Disaster	훅	0x2ba85a	5	.text	0x2ba220	0x2bac11	+0x63a	e87162f3ff41ffc4448b75cb453be68b	
+ModCore기록	SAN14CE.SceneSkip.Disaster	훅	0x2ba891	5	.text	0x2ba220	0x2bac11	+0x671	e8fa561800c7451791500000c7451b94	
+ModCore기록	SAN14CE.SceneSkip.DisasterOngoing	훅	0x29833a	5	.text	0x297e10	0x298998	+0x52a	e8d1b4160033f6488974247848897580	
+ModCore기록	SAN14CE.SceneSkip.DisasterOngoing	훅	0x298694	5	.text	0x297e10	0x298998	+0x884	e877b1160033c0488944244048894424	
+ModCore기록	SAN14CE.SceneSkip.DisasterOngoing	훅	0x29840b	5	.text	0x297e10	0x298998	+0x5fb	e850b6faff488bcfe8d89a2d00448bee	
+ModCore기록	SAN14CE.SceneSkip.DisasterOngoing	훅	0x298805	5	.text	0x297e10	0x298998	+0x9f5	e856b2faff488bcfe8de962d004533ed	
+ModCore기록	SAN14CE.SceneSkip.DisasterOngoing	훅	0x298413	5	.text	0x297e10	0x298998	+0x603	e8d89a2d00448bee397758410f95c544	
+ModCore기록	SAN14CE.SceneSkip.DisasterOngoing	훅	0x29880d	5	.text	0x297e10	0x298998	+0x9fd	e8de962d004533ed44396f58410f95c5	
+ModCore기록	SAN14CE.SceneSkip.Employ	훅	0x6c43b0	6	.text	0x6c43b0	0x6c4442	+0x0	40574883ec7048c7442420feffffff48	
+ModCore기록	SAN14CE.SceneSkip.Treasure	훅	0x6c4670	6	.text	0x6c4670	0x6c4702	+0x0	40574883ec7048c7442420feffffff48	
+ModCore기록	SAN14CE.SceneSkip.TurnSummary	훅	0x428b00	6	.text	0x428b00	0x428b46	+0x0	40534883ec20488bd933d2488b0d0654	
+ModCore기록	SAN14CE.SceneSkip.TurnSummaryNews	훅	0x934400	5	.text	0x934400	0x9348f6	+0x0	488bc45557415441564157488d68d148	
+ModCore기록	SAN14CE.SceneSkip.Camera	훅	0x143d0	11	.text	0x143d0	0x1442f	+0x0	4883ec3883b98801000000488bc2754a	
+ModCore기록	SAN14CE.SceneSkip.Camera	훅	0x298944	5	.text	0x297e10	0x298998	+0xb34	e8f7bc060090488b4d784885c9741048	
+ModCore기록	SAN14CE.SceneSkip.Camera	훅	0x2a35b0	5	.text	0x2a2f50	0x2a3b7f	+0x660	e88b100600448bfee91a050000488d05	
+ModCore기록	SAN14CE.SceneSkip.Camera	훅	0x2a3a44	5	.text	0x2a2f50	0x2a3b7f	+0xaf4	e8f70b0600eb0233f64c8b65a841bd00	
+ModCore기록	SAN14CE.SceneSkip.Camera	훅	0x2c237d	5	.text	0x2c1850	0x2c29b7	+0xb2d	e8be220400498b07498bcfff506083f8	
+ModCore기록	SAN14CE.SceneSkip.Camera	훅	0x2d1de5	5	.text	0x2d1d66	0x2d1e01	+0x7f	e8562803000f287424408bc539842480	
+ModCore기록	SAN14CE.SceneSkip.Camera	훅	0x2d5822	5	.text	0x2d40b0	0x2d5ef7	+0x1772	e819ee0200eb0641bf01000000488d55	
+ModCore기록	SAN14CE.SceneSkip.Camera	훅	0x2da5b3	5	.text	0x2da490	0x2da5cd	+0x123	e888a00200488b5c2460488b7424700f	
+ModCore기록	SAN14CE.SceneSkip.Camera	훅	0x2e01b1	5	.text	0x2e00c0	0x2e0758	+0xf1	e88a4402008bc5398424a00000000f94	
+ModCore기록	SAN14CE.SceneSkip.Camera	훅	0x2e8e65	5	.text	0x2e8e30	0x2e8e70	+0x35	e8d6b701004883c4205bc3488bc45541	
+ModCore기록	SAN14CE.SceneSkip.Camera	훅	0x377a4c	5	.text	0x3779d7	0x377a66	+0x75	e8efcbf8ff488b4b20e8a67afbff85c0	
+ModCore기록	SAN14CE.SceneryMovieSkip	훅	0x13d2ee0	8	.rdata				6019424001000000b018424001000000	
+ModCore기록	SAN14CE.SceneryMovieSkip	훅	0x13d2ee8	8	.rdata				b01842400100000070b5424001000000	
+ModCore기록	SAN14CE.SceneryMovieSkip	훅	0x13d2f00	8	.rdata				901942400100000060ff564001000000	
+ModCore기록	SAN14CE.SceneryDiscoverySkip	훅	0x14471f0	8	.rdata				c02972400100000000dc714001000000	
+ModCore기록	SAN14CE.SettingsHelp	훅	0x14a7158	8	.rdata				d02a0940010000000011874001000000	
+ModCore기록	SAN14CE.SettingsHelp	훅	0x14a7120	8	.rdata				20d58f4001000000a084864001000000	
+ModCore기록	SAN14CE.SettingsHelp	훅	0x14a7138	8	.rdata				90ad8c4001000000800e874001000000	
+ModCore기록	SortiePresets	훅	0x7c554f	5	.text	0x7c5490	0x7c5554	+0xbf	e92cb20200cccccccccccccccccccccc	
+ModCore기록	SortiePresets	훅	0x1458828	8	.rdata				50b97d4001000000509e7d4001000000	
+ModCore기록	SortiePresets	훅	0x1458830	8	.rdata				509e7d400100000080957d4001000000	
+ModCore기록	SortiePresets	훅	0x1458840	8	.rdata				909a7d400100000040f57d4001000000	
+ModCore기록	SortiePresets	훅	0x1458848	8	.rdata				40f57d400100000060ff564001000000	
+ModCore기록	SAN14CE.Stats200Reader	훅	0x21064e	5	.text	0x2103c0	0x210894	+0x28e	ba640000000fb6440dbe413bc4730541	
+ModCore기록	SAN14CE.StatusColor	훅	0x22eee8	14	.text	0x22eec0	0x22eef6	+0x28	488bc3488b5c24304883c4205fc3cccc	
+ModCore기록	SAN14CE.StatusColor	훅	0x930d35	11	.text	0x930d20	0x930e28	+0x15	4863f2498bf88bd64c8bf1e89bc1ffff	
+ModCore기록	SAN14CE.StatusColor	훅	0x85c420	14	.text	0x85c420	0x85c5fa	+0x0	405355565741564881ec40080000488b	
+ModCore기록	SAN14CE.StatusColor	훅	0x22fce0	7	.text	0x22fce0	0x230195	+0x0	89542410555657415441554156415748	
+ModCore기록	SAN14CE.StatusColor	훅	0x153ed0	11	.text	0x153eb0	0x153ee8	+0x20	410fb64008498bf883f8090f87570200	
+ModCore기록	SAN14CE.StatusColor.Table	훅	0x930e39	12	.text	0x930e30	0x930e5a	+0x9	4c8bdc53564881ec38080000488b0544	
+ModCore기록	SAN14CE.WheelRegion	훅	0x17f590	6	.text				443b4204750333c0c344890ab8010000	
+ModCore기록	SAN14CE.WheelRegion	훅	0x18c4b4	7	.text	0x18c44e	0x18c51b	+0x66	4489b5b0f40200e8a0c8ffff448bf848	
+ModCore기록	SAN14CE.WheelRegion	훅	0x231500	5	.text				0fbf411cc3cccccccccccccccccccccc	
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x1756d	5	.text	0x172f0	0x1770d	+0x27d	e87ecb3d00418bff85c0410f45feb90a	원래대상 0x3f40f0 우회 0x180001a50
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x3f40f0		.text	0x3f40f0	0x3f4220	+0x0	48895c240848896c2410488974241857	0x1756d 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x17580	5	.text	0x172f0	0x1770d	+0x290	e86bcb3d0085c07402ffc785f674764c	원래대상 0x3f40f0 우회 0x180001a50
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x7fe547	5	.text				e9a438feffcccccccc488b12488b4908	원래대상 0x7e1df0 우회 0x180001ba0
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x7e1df0		.text	0x7e1df0	0x7e1e44	+0x0	48895c2418574883ec20488bfa488bd9	0x7fe547 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x7e1fbe	5	.text	0x7e1fa1	0x7e1fe8	+0x1d	e89d35feff488b8b80050000488d6d08	원래대상 0x7c5560 우회 0x180001970
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x7c5560		.text	0x7c5560	0x7c55f5	+0x0	40574883ec20448b4150488bf9488b41	0x7e1fbe 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x7cbfb0	5	.text	0x7cbf68	0x7cc05f	+0x48	e8bba0010083bb40060000007551488b	원래대상 0x7e6070 우회 0x1800019b0
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x7e6070		.text	0x7e6070	0x7e6122	+0x0	48895c24084889742410574883ec2048	0x7cbfb0 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x7cc0b9	5	.text	0x7cc060	0x7cc17b	+0x59	e8b29f010048ffc6488d5b08493bf675	원래대상 0x7e6070 우회 0x1800019b0
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x7e755e	5	.text	0x7e7300	0x7e7b82	+0x25e	e80debffff488bcfe835d9fdff488d5b	원래대상 0x7e6070 우회 0x1800019b0
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x7fea37	5	.text				e954aefeffcccccccc488b12488b4908	원래대상 0x7e9890 우회 0x180001d90
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x7e9890		.text	0x7e9890	0x7e9de0	+0x0	488bc4554154415541564157488d68a1	0x7fea37 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x7e9942	5	.text	0x7e9890	0x7e9de0	+0xb2	e819aafdffffc64883c30849ffc44d3b	원래대상 0x7c4360 우회 0x180001a00
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x7c4360		.text	0x7c4360	0x7c43d8	+0x0	4889542410535556574883ec484963e8	0x7e9942 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x7c461b	5	.text	0x7c44f0	0x7c464c	+0x12b	e8e0789cff488d7608488b4f08482b0f	원래대상 0x18bf00 우회 0x180001940
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x18bf00		.text	0x18bf00	0x18bf51	+0x0	40534883ec208bc2488d99300100008b	0x7c461b 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x7db153	5	.text	0x7dac00	0x7db40f	+0x553	e8a80d9bff488b07488bcfff5038498d	원래대상 0x18bf00 우회 0x180001940
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x7e3055	5	.text	0x7e2c70	0x7e3273	+0x3e5	e8a68e9aff33d2488bcbe80c8a9aff48	원래대상 0x18bf00 우회 0x180001940
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x7e9d87	5	.text	0x7e9890	0x7e9de0	+0x4f7	e874d5ffff4c8d9c24b0000000498b5b	원래대상 0x7e7300 우회 0x1800028e0
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x7e7300		.text	0x7e7300	0x7e7b82	+0x0	488bc448895010488948085556574154	0x7e9d87 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x7ea031	5	.text	0x7e9f50	0x7ea117	+0xe1	e8cad2ffff83bb3805000003751ce85c	원래대상 0x7e7300 우회 0x1800028e0
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x7eb019	5	.text	0x7eadf0	0x7eb23f	+0x229	e8e2c2ffffe9a2010000488b9e780500	원래대상 0x7e7300 우회 0x1800028e0
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x7eb3cf	5	.text	0x7eb390	0x7eb3e9	+0x3f	e82cbfffff4c8b6c24604c8ba4249000	원래대상 0x7e7300 우회 0x1800028e0
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x7fea23	5	.text	0x7fe9d0	0x7fea2e	+0x53	e8d888feff4883c4505bc3cccc488b12	원래대상 0x7e7300 우회 0x1800028e0
+IC훅표	SAN14_IntegratedConvenience.dll	포인터	0x1457218	8	.rdata				a0a27d4001000000a0957d4001000000	원래대상 0x7da2a0 우회 0x180001ce0
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x7da2a0		.text	0x7da2a0	0x7dabf1	+0x0	4055565741544155415641574883ec50	0x1457218 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	포인터	0x1457228	8	.rdata				b09a7d4001000000f0f57d4001000000	원래대상 0x7d9ab0 우회 0x180001d30
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x7d9ab0		.text	0x7d9ab0	0x7d9b12	+0x0	4883ec28488b0d45a23d01e8b0c99aff	0x1457228 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	포인터	0x1457230	8	.rdata				f0f57d400100000060ff564001000000	원래대상 0x7df5f0 우회 0x180001c40
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x7df5f0		.text	0x7df5f0	0x7e0152	+0x0	488bc4554154415541564157488d68a1	0x1457230 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x7cb0b1	5	.text	0x7cb0a0	0x7cb0d2	+0x11	e8fa9d0200488bcbe8529c0200488bcb	원래대상 0x7f4eb0 우회 0x180005190
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x7f4eb0		.text	0x7f4eb0	0x7f52c1	+0x0	488bc45741544155415641574881ec00	0x7cb0b1 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x7fe849	5	.text	0x7fe810	0x7fe870	+0x39	e86266ffff488bcbe8ba64ffff488bcb	원래대상 0x7f4eb0 우회 0x180005190
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x2da20c	5	.text	0x2da1a0	0x2da242	+0x6c	e8dff3ffff488b5b08ffc74885db75e5	원래대상 0x2d95f0 우회 0x180004c70
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x2d95f0		.text	0x2d95f0	0x2d9623	+0x0	40534881ece0080000488b0590257b01	0x2da20c 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x2d96c5	5	.text	0x2d96a4	0x2d96ef	+0x21	e886faf8ff448bc0418bd4488bcb8bf8	원래대상 0x269150 우회 0x180004a80
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x269150		.text	0x269150	0x2691d3	+0x0	40534883ec40488bd9e8a2630c00488b	0x2d96c5 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x2d970a	5	.text	0x2d96ef	0x2da153	+0x1b	e8114adeff0fb74b1433d2894424783b	원래대상 0xbe120 우회 0x180005050
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0xbe120		.text	0xbe120	0xbe1aa	+0x0	40534883ec20488bd9e862bb3200488b	0x2d970a 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x2d96bd	5	.text	0x2d96a4	0x2d96ef	+0x19	e8ee830200488bcbe886faf8ff448bc0	원래대상 0x301ab0 우회 0x180003850
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x301ab0		.text	0x301ab0	0x301c94	+0x0	488bc456574154415641574881eca002	0x2d96bd 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x2d96d5	5	.text	0x2d96a4	0x2d96ef	+0x31	e8c67a020085c00f84710a0000663973	원래대상 0x3011a0 우회 0x1800038e0
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x3011a0		.text	0x3011a0	0x301aab	+0x0	44894424188954241048894c24085553	0x2d96d5 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x2d9ca1	5	.text	0x2d96ef	0x2da153	+0x5b2	e8aa0500000fb66b37488bcb0fb7733a	원래대상 0x2da250 우회 0x180003a80
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x2da250		.text	0x2da250	0x2da2c7	+0x0	405657415441554883ec380fb7412a41	0x2d9ca1 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x2d9c96	5	.text	0x2d96ef	0x2da153	+0x5a7	e85588faff418bd6488bcbe8aa050000	원래대상 0x2824f0 우회 0x180003a40
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x2824f0		.text				488b0521ba4f0281f90fbd0000770d48	0x2d9c96 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x2d9ad8	5	.text	0x2d96ef	0x2da153	+0x3e9	e8c3c20100488bcbe86b3cfcffe95906	원래대상 0x2f5da0 우회 0x180003bf0
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x2f5da0		.text	0x2f5da0	0x2f5ed0	+0x0	48895c240848896c2410488974241848	0x2d9ad8 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	포인터	0x1342480	8	.rdata				805b234001000000c0ad234001000000	원래대상 0x235b80 우회 0x1800050b0
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x235b80		.text	0x235b80	0x235bb8	+0x0	4c8bdc535641544883ec60488b05fe5f	0x1342480 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	포인터	0x146a888	8	.rdata				40de854001000000a084864001000000	원래대상 0x85de40 우회 0x180005140
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x85de40		.text	0x85de40	0x85de89	+0x0	40534883ec20488bd9e892a4010083bb	0x146a888 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	포인터	0x1395780	8	.rdata				30608c4001000000d02a094001000000	원래대상 0x8c6030 우회 0x180001900
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x8c6030		.text	0x8c6030	0x8c6073	+0x0	48895c2408574883ec20488bf98bda48	0x1395780 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	포인터	0x13957c0	8	.rdata				2098864001000000800e874001000000	원래대상 0x869820 우회 0x1800018d0
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x869820		.text	0x869820	0x86984a	+0x0	40534883ec20488bd9e892777aff488b	0x13957c0 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	포인터	0x1395830	8	.rdata				c0450140010000004042014001000000	원래대상 0x145c0 우회 0x180001850
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x145c0		.text				895150c3cccccccccccccccccccccccc	0x1395830 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x1844e0	5	.text	0x1843e0	0x18457d	+0x100	e84bf5ffff4885c0742f4885f67e0448	원래대상 0x183a30 우회 0x180001330
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x183a30		.text	0x183a30	0x1843d2	+0x0	488bc4448948204c8940188950104889	0x1844e0 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x183cc9	5	.text	0x183a30	0x1843d2	+0x299	e8c2c51200f30f114587f30f117d8f48	원래대상 0x2b0290 우회 0x1800014c0
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x2b0290		.text	0x2b0290	0x2b02db	+0x0	4053564155415641574881ecf0020000	0x183cc9 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x184001	5	.text	0x183a30	0x1843d2	+0x5d1	e87a60000085c00f84d1020000837d97	원래대상 0x18a080 우회 0x1800015f0
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x18a080		.text	0x18a080	0x18a0b4	+0x0	4053555641564883ec78488b05ff1a90	0x184001 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x1841af	5	.text	0x183a30	0x1843d2	+0x77f	e83c230000418b5c242003d80fb6471c	원래대상 0x1864f0 우회 0x1800017d0
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x1864f0		.text	0x1864f0	0x186525	+0x0	48895c241048896c2420574883ec5049	0x1841af 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	포인터	0x1457908	8	.rdata				a0417c4001000000c0917c4001000000	원래대상 0x7c41a0 우회 0x180003c30
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x7c41a0		.text	0x7c41a0	0x7c41cc	+0x0	40534883ec20488bd9e8422d0a00488b	0x1457908 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x44c1b7	5	.text	0x44bca0	0x44c664	+0x517	e8143fe6ff488d8ea8040000e8086bc4	원래대상 0x2b00d0 우회 0x1800045c0
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x2b00d0		.text	0x2b00d0	0x2b00da	+0x0	48896c2420564883ec2048895c243848	0x44c1b7 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x2d9d10	5	.text	0x2d96ef	0x2da153	+0x621	e8cb50fcff83fd0375534889bc248800	원래대상 0x29ede0 우회 0x180004650
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x29ede0		.text	0x29ede0	0x29f5fc	+0x0	44894424185556574154415541564157	0x2d9d10 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x2d9e08	5	.text	0x2d96ef	0x2da153	+0x719	e8d34ffcff83fd020f855affffff33c0	원래대상 0x29ede0 우회 0x180004650
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x29f3c9	5	.text	0x29ede0	0x29f5fc	+0x5e9	e8f2f80700410fb7472a3d0fbd000077	원래대상 0x31ecc0 우회 0x1800045f0
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x31ecc0		.text	0x31ecc0	0x31ed7d	+0x0	48895c2408574883ec20488b4170488b	0x29f3c9 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x272252	5	.text	0x272190	0x27491c	+0xc2	e8e9f2020033f68975b0807b10020f85	원래대상 0x2a1540 우회 0x180004400
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x2a1540		.text	0x2a1540	0x2a15d3	+0x0	48895c2408574883ec20488bd9e8aedf	0x272252 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x2a100e	5	.text	0x2a1007	0x2a102d	+0x7	e82d050000488b8c24700800004833cc	원래대상 0x2a1540 우회 0x180004400
+IC훅표	SAN14_IntegratedConvenience.dll	훅	0x2a1089	5	.text	0x2a1030	0x2a153e	+0x59	e8b2040000e98b0400004533e4458bf4	원래대상 0x2a1540 우회 0x180004400
+IC훅표	SAN14_IntegratedConvenience.dll	포인터	0x1398a58	8	.rdata				20b0194001000000d02a094001000000	원래대상 0x19b020 우회 0x180004940
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x19b020		.text	0x19b020	0x19b08e	+0x0	40574883ec3048c7442420feffffff48	0x1398a58 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	포인터	0x1398a68	8	.rdata				407a1a4001000000c02d874001000000	원래대상 0x1a7a40 우회 0x180004a40
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x1a7a40		.text	0x1a7a40	0x1a7acf	+0x0	4889742418574883ec20488b01488bf2	0x1398a68 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	포인터	0x1398a98	8	.rdata				60ce19400100000030361a4001000000	원래대상 0x19ce60 우회 0x180004910
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x19ce60		.text	0x19ce60	0x19ceac	+0x0	40534883ec20488bd9488b8970020000	0x1398a98 의 원래 대상
+IC훅표	SAN14_IntegratedConvenience.dll	포인터	0x1398b08	8	.rdata				00511a40010000004042014001000000	원래대상 0x1a5100 우회 0x180004980
+IC훅표	SAN14_IntegratedConvenience.dll	코드	0x1a5100		.text	0x1a5100	0x1a5240	+0x0	48895c2408574883ec20488bb9580200	0x1398b08 의 원래 대상
+DLL상수(함수)	SAN14_ModCore.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	3곳
+DLL상수(함수)	SAN14_Resolver_CEKO.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	1곳
+DLL상수(함수)	SAN14_Resolver_IP01.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	1곳
+DLL상수(함수)	SAN14_CrashLog.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	6곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x183a30		.text	0x183a30	0x1843d2	+0x0	488bc4448948204c8940188950104889	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x2b0290		.text	0x2b0290	0x2b02db	+0x0	4053564155415641574881ecf0020000	3곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x277df18		.data					26곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0xbe120		.text	0xbe120	0xbe1aa	+0x0	40534883ec20488bd9e862bb3200488b	4곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x18a080		.text	0x18a080	0x18a0b4	+0x0	4053555641564883ec78488b05ff1a90	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1864f0		.text	0x1864f0	0x186525	+0x0	48895c241048896c2420574883ec5049	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x869820		.text	0x869820	0x86984a	+0x0	40534883ec20488bd9e892777aff488b	7곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x8c6030		.text	0x8c6030	0x8c6073	+0x0	48895c2408574883ec20488bf98bda48	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x18bf00		.text	0x18bf00	0x18bf51	+0x0	40534883ec208bc2488d99300100008b	4곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x7c5560		.text	0x7c5560	0x7c55f5	+0x0	40574883ec20448b4150488bf9488b41	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x7e6070		.text	0x7e6070	0x7e6122	+0x0	48895c24084889742410574883ec2048	3곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x7c4360		.text	0x7c4360	0x7c43d8	+0x0	4889542410535556574883ec484963e8	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x3f40f0		.text	0x3f40f0	0x3f4220	+0x0	48895c240848896c2410488974241857	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x56fe10		.text	0x56fe10	0x56fe45	+0x0	40534883ec20488bd9e8c212aaff4883	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x7e1df0		.text	0x7e1df0	0x7e1e44	+0x0	48895c2418574883ec20488bfa488bd9	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x7df5f0		.text	0x7df5f0	0x7e0152	+0x0	488bc4554154415541564157488d68a1	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x7da2a0		.text	0x7da2a0	0x7dabf1	+0x0	4055565741544155415641574883ec50	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x7d9ab0		.text	0x7d9ab0	0x7d9b12	+0x0	4883ec28488b0d45a23d01e8b0c99aff	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x7e9890		.text	0x7e9890	0x7e9de0	+0x0	488bc4554154415541564157488d68a1	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x7e7300		.text	0x7e7300	0x7e7b82	+0x0	488bc448895010488948085556574154	3곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x301ab0		.text	0x301ab0	0x301c94	+0x0	488bc456574154415641574881eca002	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x2c6640		.text	0x2c6640	0x2c66fe	+0x0	48895c240848896c2410488974241857	4곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x3011a0		.text	0x3011a0	0x301aab	+0x0	44894424188954241048894c24085553	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x2da250		.text	0x2da250	0x2da2c7	+0x0	405657415441554883ec380fb7412a41	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x2f5da0		.text	0x2f5da0	0x2f5ed0	+0x0	48895c240848896c2410488974241848	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1b620c0		.data					11곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1b620d0		.data					11곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x7cc5c0		.text	0x7cc5c0	0x7cc62a	+0x0	4883ec38488b05c5f52b014833c44889	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x92cee0		.text	0x92cee0	0x92cf0a	+0x0	4883ec0885d20f888d0000003b51100f	13곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x7c3590		.text	0x7c3590	0x7c3844	+0x0	40555657415641574881eca000000048	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x7c41a0		.text	0x7c41a0	0x7c41cc	+0x0	40534883ec20488bd9e8422d0a00488b	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x8741d0		.text	0x8741d0	0x87426c	+0x0	40534883ec20448b414033db836140fe	74곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x2a1540		.text	0x2a1540	0x2a15d3	+0x0	48895c2408574883ec20488bd9e8aedf	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x22cc40		.text	0x22cc40	0x22cccb	+0x0	40534883ec200fb741123d7017000077	12곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x32f500		.text	0x32f500	0x32f524	+0x0	4883ec284885c97414488b01ff501885	19곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x2b00d0		.text	0x2b00d0	0x2b00da	+0x0	48896c2420564883ec2048895c243848	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x31ecc0		.text	0x31ecc0	0x31ed7d	+0x0	48895c2408574883ec20488b4170488b	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x29ede0		.text	0x29ede0	0x29f5fc	+0x0	44894424185556574154415541564157	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x19ce60		.text	0x19ce60	0x19ceac	+0x0	40534883ec20488bd9488b8970020000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x19b020		.text	0x19b020	0x19b08e	+0x0	40574883ec3048c7442420feffffff48	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1a5100		.text	0x1a5100	0x1a5240	+0x0	48895c2408574883ec20488bb9580200	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1a7a40		.text	0x1a7a40	0x1a7acf	+0x0	4889742418574883ec20488b01488bf2	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x269150		.text	0x269150	0x2691d3	+0x0	40534883ec40488bd9e8a2630c00488b	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x2b5840		.text	0x2b5840	0x2b5aff	+0x0	4055565741544155415641574883ec40	2곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1a48c58		.data				64000000280000006200000001000000	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x2d95f0		.text	0x2d95f0	0x2d9623	+0x0	40534881ece0080000488b0590257b01	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x235b80		.text	0x235b80	0x235bb8	+0x0	4c8bdc535641544883ec60488b05fe5f	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x85de40		.text	0x85de40	0x85de89	+0x0	40534883ec20488bd9e892a4010083bb	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x11d0		.text	0x11d0	0x1206	+0x0	4883ec28f30f1005a8473901e837d501	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x12c0		.text	0x12c0	0x12f6	+0x0	4883ec28ba02000000488d0d28331402	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x7f4eb0		.text	0x7f4eb0	0x7f52c1	+0x0	488bc45741544155415641574881ec00	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	657곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1342458		.rdata				f0cd314001000000d02a094001000000	4곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1457208		.rdata				c02a7c400100000070c87d4001000000	3곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x216090		.text	0x216090	0x216247	+0x0	488bc455574156488d68a14881ec9000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x81d300		.text	0x81d300	0x81ff9c	+0x0	488bc455565741544155415641574881	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x81cb20		.text	0x81cb20	0x81d2f2	+0x0	48895c241844894c2420555657415441	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x805210		.text	0x805210	0x805351	+0x0	488bc4574881eca000000048c74088fe	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x13e0		.text	0x13e0	0x1400	+0x0	4883ec28488d0d453c1402e870723000	6곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x10f0		.text	0x10f0	0x112c	+0x0	4883ec38ba20000000488d05d0270900	18곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x5a9cc0		.text	0x5a9cc0	0x5a9cfe	+0x0	40534883ec20488bd9e8b2d12b00488b	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x50fd00		.text	0x50fd00	0x50fe4c	+0x0	40574883ec5048c7442430feffffff48	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13a6690		.rdata				50d1314001000000d02a094001000000	11곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x6dce80		.text	0x6dce80	0x6dd250	+0x0	488bc448895010488948085556574154	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13a6980		.rdata				60cd314001000000d02a094001000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1f0080		.text	0x1f0080	0x1f00e3	+0x0	40574883ec20488bf9488b4908e86ef4	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x233960		.text	0x233960	0x233a0d	+0x0	48895c24084889742410574883ec2048	3곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1f2b80		.text	0x1f2b80	0x1f2c6b	+0x0	40574883ec3048c7442420feffffff48	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x2b0210		.text	0x2b0210	0x2b0231	+0x0	40564883ec20488b81b0000000488bf1	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x27d1208		.data					5곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x27d10e0		.data					3곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1b5c990		.data					1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x27d1128		.data					3곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1b5c9d8		.data					1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x27d10b0		.data					5곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x27d10b8		.data					12곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13436b0		.rdata				b0a1014001000000b8e7794101000000	2곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13423e0		.rdata				c0a4004001000000f0da794101000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x18b60		.text	0x18b60	0x18cc5	+0x0	41564883ec3048c7442420feffffff48	2곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13a6b88		.rdata				10e1314001000000708b224001000000	12곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x277e278		.data					4곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x18770		.text	0x18770	0x18825	+0x0	40574883ec3048c7442420feffffff48	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x186b0		.text	0x186b0	0x18765	+0x0	40574883ec3048c7442420feffffff48	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x18830		.text	0x18830	0x1893a	+0x0	40574883ec3048c7442420feffffff48	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x167e20		.text	0x167e20	0x167e49	+0x0	40534883ec204c8b01488d5424304d8b	3곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1468100		.rdata				40bf844001000000805d854001000000	12곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x3f6bc0		.text	0x3f6bc0	0x3f6c4c	+0x0	48895c240848896c2410488974241857	17곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x84b2d0		.text	0x84b2d0	0x84b2fb	+0x0	40534883ec20488bd9e8c2f8ffff488d	6곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x84fb10		.text	0x84fb10	0x84fb8b	+0x0	48895c240848896c2410488974241857	6곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x84b300		.text	0x84b300	0x84b39e	+0x0	48894c2408574883ec3048c7442420fe	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x851930		.text	0x851930	0x851f0f	+0x0	488bc4554154415541564157488d68a9	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1a3ed0		.text	0x1a3ed0	0x1a3efd	+0x0	48896c241048897c24184c8974242041	5곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x2fa5e0		.text	0x2fa5e0	0x2fa5ed	+0x0	488bc45541554881ec88000000488958	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x2fa400		.text	0x2fa400	0x2fa583	+0x0	48895c240848896c2410488974241857	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x2f9c90		.text	0x2f9c90	0x2f9c9f	+0x0	488bc444894820554881ecb000000048	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x8f1af0		.text	0x8f1af0	0x8f1b66	+0x0	4c8bdc4883ec7849c743a8feffffff48	2곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x2783730		.data					6곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x2143260		.data					2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x3fd090		.text	0x3fd090	0x3fd0bc	+0x0	40564883ec20488b4148488bf24885c0	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1b9fb70		.data					3곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x11170		.text	0x11170	0x111f1	+0x0	40534883ec3048c7442420feffffff8b	3곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x3719c0		.text	0x3719c0	0x371aeb	+0x0	48894c2408574883ec4048c7442430fe	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x3739f0		.text	0x3739f0	0x373a6b	+0x0	40534883ec2065488b0425580000008b	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x373af0		.text	0x373af0	0x373cb5	+0x0	40555657415641574883ec3048c74424	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x84ad20		.text	0x84ad20	0x84ad70	+0x0	48894c2408534883ec3048c7442420fe	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13b5e38		.rdata				001e374001000000d02a094001000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x84f8c0		.text	0x84f8c0	0x84f909	+0x0	40534883ec4033c04533c94889442430	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x85da00		.text	0x85da00	0x85da0d	+0x0	40574883ec20488bf985d27e5648895c	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x37a880		.text	0x37a880	0x37aa7f	+0x0	4055535657488d6c24a84881ec580100	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13e4c78		.rdata				a0e2484001000000d02a094001000000	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x84da20		.text	0x84da20	0x84da5e	+0x0	40534883ec20488bd9e8f2bd0100488b	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x3fced0		.text	0x3fced0	0x3fcef7	+0x0	4883ec2844898148010000c781700100	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x8a2140		.text	0x8a2140	0x8a2210	+0x0	48895c24184889742420574883ec2044	2곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1474a28		.rdata				50e8874001000000e0c3884001000000	3곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13d6390		.rdata				f0974340010000007803804101000000	2곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x139c540		.rdata				60b6194001000000d02a094001000000	3곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x14769f0		.rdata				80868940010000008086894001000000	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1411bd8		.rdata				305a5a4001000000d02a094001000000	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x5dbee0		.text	0x5dbee0	0x5dc110	+0x0	405355565741544155415641574881ec	5곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1411680		.rdata				f0595a4001000000805d854001000000	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x92f810		.text	0x92f810	0x92f833	+0x0	85d2787248895c241048896c24185648	11곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x198ba0		.text	0x198ba0	0x198bd4	+0x0	48895c2408574883ec208bda488bf9e8	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13a72c0		.rdata				50e3314001000000808c224001000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x2337b0		.text	0x2337b0	0x233809	+0x0	48895c2408574883ec20488b0557a754	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1c2b10		.text	0x1c2b10	0x1c2ba3	+0x0	48895c2408574883ec2033ff488bd948	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1bc683		.text	0x1bc683	0x1bc6ca	+0x0	48897c24400f1f840000000000488b3b	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x86f250		.text	0x86f250	0x86f29a	+0x0	40534883ec208b4140488bd983e0033c	3곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x8f04b0		.text	0x8f04b0	0x8f0861	+0x0	405556574883ec7048c7442420feffff	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x19e6a0		.text	0x19e6a0	0x19e6d2	+0x0	4883ec28e8174e00008b480c85c9750b	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x66ed30		.text	0x66ed30	0x66ef78	+0x0	4057415641574883ec4048c7442420fe	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1b0093		.text	0x1b0093	0x1b00ab	+0x0	488b01ba01000000ff1048c743280000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x37acf0		.text	0x37acf0	0x37ae6c	+0x0	48895c24084889742410574883ec2033	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x371ee0		.text	0x371ee0	0x371f14	+0x0	48895c2408574883ec208bda488bf9e8	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1b620e0		.data					13곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1b620b0		.data					6곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x12540		.text	0x12540	0x12571	+0x0	40574883ec40488bf9c7442430010000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x2ca280		.text	0x2ca280	0x2ca370	+0x0	4889742410574883ec20488b35873c4b	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x2ae780		.text	0x2ae780	0x2ae8fc	+0x0	48895c2408488974241048897c2418b8	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x2a76f0		.text	0x2a76f0	0x2a771e	+0x0	4883ec28e8270000003d0fbd00007607	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13b2658		.rdata				f0e9314001000000d02a094001000000	5곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x22cd10		.text	0x22cd10	0x22cd74	+0x0	4883ec28488b01ff90800000004c8bc0	4곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1c0920		.text	0x1c0920	0x1c09f1	+0x0	40574883ec3048c7442420feffffff48	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13d63a0		.rdata				c09d434001000000f0a0444001000000	4곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13a68b0		.rdata				90d3314001000000d02a094001000000	4곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1a4840c		.data				0100000005000000b80b000032000000	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1a4856c		.data				01000000c80000002800000001000000	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1a48854		.data				010000000f0000005a00000001000000	2곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1a48848		.data				640000000a0000009600000001000000	2곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x27d1120		.data					2곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x27d1108		.data					1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x92e430		.text	0x92e430	0x92e652	+0x0	488bc441564883ec6048c740e0feffff	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x874650		.text	0x874650	0x874670	+0x0	4883ec28488b0189542430488d542430	4곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x6d7650		.text	0x6d7650	0x6d797f	+0x0	4055565741564157488d6c24c94881ec	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x439ad0		.text	0x439ad0	0x439b30	+0x0	40574883ec3048c7442420feffffff48	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x87e1c0		.text	0x87e1c0	0x87e20d	+0x0	48895c2408574883ec20488d05f75bbf	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x8782e0		.text	0x8782e0	0x878311	+0x0	48895c2408574883ec20488bf9488bda	6곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x198be0		.text	0x198be0	0x198c2d	+0x0	48895c2408574883ec20488d050fec1f	5곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1d8bc0		.text	0x1d8bc0	0x1d8bf4	+0x0	48895c2408574883ec208bda488bf9e8	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x48cc50		.text	0x48cc50	0x48ccb5	+0x0	48895c24084889742410574883ec2048	4곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1bddc7		.text	0x1bddc7	0x1bde0b	+0x0	48897c24308b3db2a38801e8b9be2200	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x4546d0		.text	0x4546d0	0x4547db	+0x0	48895c2408574883ec20488bfa488bd9	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x893620		.text	0x893620	0x8936bd	+0x0	48895c2408574883ec20488bd9488bfa	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x464140		.text	0x464140	0x4642a9	+0x0	488bc44c894820555657415641574881	2곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13ea120		.rdata				43496e707574537472696e6753746174	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x110e0		.text	0x110e0	0x11161	+0x0	40534883ec3048c7442420feffffff8b	2곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13d6670		.rdata				209c434001000000d096444001000000	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13a2398		.rdata				00891d4001000000d02a094001000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x332e90		.text	0x332e90	0x332ec9	+0x0	4883ec28e847e2cdff488bc8488d1505	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1b5c9a0		.data					1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1b5c9d0		.data					1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x21432b0		.data					1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x2143298		.data					1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x2143280		.data					1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x22ca00		.text	0x22ca00	0x22ca75	+0x0	40534883ec200fb681e000000083f833	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x22ecc0		.text	0x22ecc0	0x22ecf6	+0x0	48895c2408574883ec20488bf9e8ce92	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x231c60		.text	0x231c60	0x231d5c	+0x0	48895c240848897c2410440fb791e400	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x22a7b0		.text	0x22a7b0	0x22a846	+0x0	48895c2408574883ec20e8412d000048	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x229e40		.text	0x229e40	0x229e92	+0x0	40534883ec20e8b5360000488bc8488b	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x27d26c8		.data					4곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1788968		.rdata				1032224101000000a0cb214101000000	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1409e60		.rdata				90665a4001000000805d854001000000	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x864ea0		.text	0x864ea0	0x864eeb	+0x0	48894c2408534883ec3048c7442420fe	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x86cec0		.text	0x86cec0	0x86cf7b	+0x0	48895c24084889742410574883ec4048	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x8759a0		.text	0x8759a0	0x8759d1	+0x0	40534883ec20488bd9488b8930010000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x8740b0		.text	0x8740b0	0x8740ed	+0x0	48895c2408574883ec20488bf98bda48	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x92f180		.text	0x92f180	0x92f1ec	+0x0	4885c97466534881ec90000000488b05	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x866ef0		.text	0x866ef0	0x866f0e	+0x0	40534883ec20488bd9e8c2a07aff488b	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x865f30		.text	0x865f30	0x865f97	+0x0	40574883ec3048c7442420feffffff48	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x606220		.text	0x606220	0x606400	+0x0	488bc441564883ec7048c740a8feffff	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x870cf0		.text	0x870cf0	0x870e78	+0x0	488bc457415641574883ec7048c740d8	3곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1470e38		.rdata				7060864001000000d02a094001000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x4f7170		.text	0x4f7170	0x4f720b	+0x0	48895c2410574883ec20488bd9488bfa	3곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x4f70d0		.text	0x4f70d0	0x4f716b	+0x0	48895c2410574883ec20488bd9488bfa	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x27d3c38		.data					6곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x89bde0		.text	0x89bde0	0x89be71	+0x0	48895c2420565741564883ec40488b05	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x89bd40		.text	0x89bd40	0x89bdd1	+0x0	48895c2420565741564883ec40488b05	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x142e3f0		.rdata				b0ff664001000000b0ff664001000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x86bc70		.text	0x86bc70	0x86bd8e	+0x0	40574883ec5048c7442420feffffff48	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x2ee1e0		.text	0x2ee1e0	0x2ee2aa	+0x0	48895c24084889742410574883ec2041	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x864c50		.text	0x864c50	0x864d0e	+0x0	48894c2408574883ec3048c7442420fe	5곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1342530		.rdata				803a914001000000d02a094001000000	5곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x139c300		.rdata				30305f38315f30375f62746e5f636f75	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x86e0c0		.text	0x86e0c0	0x86e0fb	+0x0	4883ec48488b84248000000048894424	3곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x92ef10		.text	0x92ef10	0x92ef94	+0x0	48895c240848896c2410488974241857	3곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x9303b0		.text	0x9303b0	0x930486	+0x0	4885c90f84cc00000048895c24105748	11곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x930d20		.text	0x930d20	0x930e28	+0x0	48895c2408488974241048897c241841	3곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x92ec40		.text	0x92ec40	0x92ec82	+0x0	85d2783d534883ec20410fb6d83b5110	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x866e80		.text	0x866e80	0x866ee3	+0x0	48895c2408574883ec20488bd94881c1	5곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1a35e0		.text	0x1a35e0	0x1a360f	+0x0	40534883ec20488bd9488b49084885c9	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13981a0		.rdata				d0b0194001000000d02a094001000000	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x14578d0		.rdata				00267c4001000000805d854001000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x2eaae0		.text	0x2eaae0	0x2eab39	+0x0	48895c2408574883ec208bda488bf9e8	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x2eab40		.text	0x2eab40	0x2eab8d	+0x0	48895c24084889742410574883ec2041	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13a6840		.rdata				f0d6314001000000d02a094001000000	2곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1a47c20		.data				01000000010000001e00000055000000	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x27d10f0		.data					1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x185901		.text	0x185901	0x185b0f	+0x0	0f29b424f00000000f29bc24e0000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x6ef890		.text	0x6ef890	0x6f0901	+0x0	488bc4554154415541564157488da8d8	3곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1447cf0		.rdata				701a6b4001000000d02a094001000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x66b8c0		.text	0x66b8c0	0x66b961	+0x0	40534883ec7048c7442420feffffff48	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x142def0		.rdata				e089664001000000f0bb664001000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x773bd0		.text	0x773bd0	0x773be5	+0x0	4883ec28e807d589ff488bc84883c428	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1c5500		.text	0x1c5500	0x1c5533	+0x0	48895c242041564883ec20488b01488b	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x11290		.text	0x11290	0x11311	+0x0	40534883ec3048c7442420feffffff8b	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x870ed0		.text	0x870ed0	0x8710f6	+0x0	48895c240848896c2410488974241857	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x3f6c50		.text	0x3f6c50	0x3f6ca8	+0x0	40574883ec3048c7442420feffffff48	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13e4e08		.rdata				e0e64840010000007046504001000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x50b800		.text	0x50b800	0x50c0ec	+0x0	40555356574156488d6c24c94881ece0	3곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x4f9310		.text	0x4f9310	0x4f96a5	+0x0	488bc4565741564881ecd000000048c7	3곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13e6f28		.rdata				b0da48400100000080be4f4001000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x5060d0		.text	0x5060d0	0x506208	+0x0	40534883ec20488bd9e8329d060085c0	4곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x4f76f0		.text	0x4f76f0	0x4f7781	+0x0	48895c2410574883ec20488bd9488bfa	4곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x9090		.text	0x9090	0x90c2	+0x0	40534883ec20488bd9e832ffffff84c0	4곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1835e0		.text	0x1835e0	0x183644	+0x0	40574883ec3048c7442420feffffff48	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x23f380		.text	0x23f380	0x23f39c	+0x0	4053415441564883ec60488b05ffc784	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x22abb0		.text	0x22abb0	0x22adc8	+0x0	48895c2418574883ec200fb7415c488b	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x22add0		.text	0x22add0	0x22afcd	+0x0	48895c2418574883ec200fb7415c488b	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x273b0		.text	0x273b0	0x27407	+0x0	48895c24084889742410574883ec2048	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x5ef8e0		.text	0x5ef8e0	0x5efdb7	+0x0	488bc4554154415541564157488d68a9	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x66bbf0		.text	0x66bbf0	0x66bff1	+0x0	40574883ec5048c7442420feffffff48	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1a9f9f		.text	0x1a9f9f	0x1aa0c2	+0x0	48897c2440488bd948894518488b8958	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x5fe540		.text	0x5fe540	0x5fe5f6	+0x0	48895c2410574883ec20f30f100d1247	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x855400		.text	0x855400	0x85541a	+0x0	40574883ec20f6414004488bf90f8483	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x17d4f0		.text	0x17d4f0	0x17d646	+0x0	488bc448895808488968104889701857	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x19b660		.text	0x19b660	0x19b6ad	+0x0	48895c2408574883ec20488d05cf0e20	2곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x146afe8		.rdata				40c1844001000000d02a094001000000	2곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x146ae58		.rdata				10c3844001000000505e854001000000	2곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1478068		.rdata				30aa894001000000c025874101000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x8a1380		.text	0x8a1380	0x8a1486	+0x0	4c8bdc5556574883ec5049c743b8feff	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x145a1e8		.rdata				30365f30315f30315f31305f676f616c	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x930000		.text	0x930000	0x93011f	+0x0	48895c24088bda4c8bd94885c90f8406	9곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x913a80		.text	0x913a80	0x913ac3	+0x0	48895c2408574883ec20488bf98bda48	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x146a860		.rdata				00c0844001000000d02a094001000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x89c320		.text	0x89c320	0x89c3a7	+0x0	40534883ec4048c74424300000000048	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x891720		.text	0x891720	0x8917db	+0x0	40534881ec3007000048c7442420feff	4곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x22fce0		.text	0x22fce0	0x230195	+0x0	89542410555657415441554156415748	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x3720d0		.text	0x3720d0	0x372429	+0x0	405355565741544155415641574881ec	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x379920		.text	0x379920	0x379951	+0x0	4055564154415541574883ec504c8ba4	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1397800		.rdata				e08b194001000000d02a094001000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1b2e80		.text	0x1b2e80	0x1b2fc3	+0x0	48895c24084889742410574883ec4033	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x27d10e8		.data					1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x27d1158		.data					1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x14a70f8		.rdata				40638c400100000030af8e4001000000	4곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x45e1e0		.text	0x45e1e0	0x45e348	+0x0	4c894c2420555657415641574881ec90	2곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1b620f0		.data					4곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13ebfd0		.rdata				50cc48400100000000a34f4001000000	3곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x58820		.text	0x58820	0x58895	+0x0	48895c2408574883ec20833d7f887702	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x667d20		.text	0x667d20	0x667e88	+0x0	4c894c2420555657415641574881ec90	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x142e228		.rdata				50cc484001000000c0b8664001000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1d3c20		.text	0x1d3c20	0x1d3da5	+0x0	488bc44c894820565741544156415748	2곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13a2e88		.rdata				c08b1d4001000000f02d864001000000	4곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13d6840		.rdata				90d848400100000010698e4001000000	2곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1395780		.rdata				30608c4001000000d02a094001000000	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x930840		.text	0x930840	0x930d1a	+0x0	40555356574154415541564157488dac	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0xffa2c8		.text	0xffa2c8	0xffa2da	+0x0	4883ec28e8cf0400004883c428e982fe	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1ef5a0		.text	0x1ef5a0	0x1ef5f7	+0x0	40534883ec20488bd9e852ff130085c0	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x3fd70		.text	0x3fd70	0x3fe05	+0x0	40534883ec20ba01000000488bd9e8cd	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13a6ab8		.rdata				70d2314001000000d02a094001000000	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1464088		.rdata				202683400100000030a3834001000000	4곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x900f80		.text	0x900f80	0x900f98	+0x0	48895c2420564883ec2083b980010000	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1680		.text	0x1680	0x16c3	+0x0	4883ec28488d0dd5c97702e8f0f33700	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x224220		.text	0x224220	0x2242b3	+0x0	4889542410574883ec3048c7442428fe	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13a6490		.rdata				702a2240010000004032334001000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x22a9d0		.text	0x22a9d0	0x22aa70	+0x0	40574883ec7048c7442420feffffff48	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1676e0		.text	0x1676e0	0x167703	+0x0	40534883ec2033c0488bd94889014889	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x231790		.text	0x231790	0x2318a5	+0x0	48895c2410574883ec500f2974244049	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x69a870		.text	0x69a870	0x69a934	+0x0	48895c24104889742418574883ec3048	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1192d0		.text	0x1192d0	0x119359	+0x0	40534883ec3048c7442420feffffff48	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1a60010		.data				00000000b7f165560100000000000000	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x403520		.text	0x403520	0x403579	+0x0	40534881eca0000000488bd98b491ce8	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x4000b0		.text	0x4000b0	0x40016d	+0x0	48897c24084533c0c741080100000048	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x403130		.text	0x403130	0x4031a0	+0x0	48895c24084889742410574883ec4048	4곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x4042b0		.text	0x4042b0	0x4042d7	+0x0	488bc4534881ecb000000083b90c0200	3곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13d6050		.rdata				d09a43400100000050d3444001000000	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x451360		.text	0x451360	0x4514aa	+0x0	488bc45556574881ece000000048c744	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x16dc56		.text	0x16dc56	0x16dc65	+0x0	488b6c24584883c420415e415c5ec348	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x14a4ca		.text	0x14a4ca	0x14a506	+0x0	48895c2450498bf048896c2458488bea	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1a3e290		.data				4345314d6f746f724368617261637465	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x432d40		.text	0x432d40	0x432ea9	+0x0	488bc44c894820555657415641574881	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x432bd0		.text	0x432bd0	0x432d39	+0x0	488bc44c894820555657415641574881	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13d7948		.rdata				435265706f7274576169745374617465	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13d7960		.rdata				435265706f7274446973706c61795374	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x16d009		.text	0x16d009	0x16d157	+0x0	440f29130f28059cd934010f2943100f	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x890380		.text	0x890380	0x890813	+0x0	40555356574154415541564157488bec	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x87f2f0		.text	0x87f2f0	0x87f307	+0x0	40534883ec20488bda4885d275098d42	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x88f540		.text	0x88f540	0x88f820	+0x0	48895c241048896c2418565741544156	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1473dc8		.rdata				c0e1874001000000a0c1884001000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1ec550		.text	0x1ec550	0x1ec57a	+0x0	41564883ec3048837908004c8bf17709	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x6dd290		.text	0x6dd290	0x6dd2e9	+0x0	48895c241048896c2418564883ec2048	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x7c4ea0		.text	0x7c4ea0	0x7c5097	+0x0	4c8bdc5741544155415641574883ec40	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x78740		.text	0x78740	0x78798	+0x0	48895c2408574883ec20488d05cf752d	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x167f30		.text	0x167f30	0x167f7c	+0x0	40574883ec3048c7442420feffffff48	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13eba10		.rdata				80cd484001000000c87d804101000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x21e2b0		.text	0x21e2b0	0x21e32b	+0x0	40534883ec204883790800488bd9740a	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x18df0		.text	0x18df0	0x18f0a	+0x0	41564883ec3048c7442420feffffff48	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x617b70		.text	0x617b70	0x617ded	+0x0	48895424105556574154415541564157	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x613de0		.text	0x613de0	0x613dfe	+0x0	48896c2420574883ec208991c8010000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x872b40		.text	0x872b40	0x872b66	+0x0	40534883ec20488b0133d2488bd9ff90	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13b56d0		.rdata				82425aa77133a6566fa5f63bacd961df	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x120cb90		.text	0x120cb90	0x120cd08	+0x0	488bc45741544155415641574883ec50	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x122a690		.text	0x122a690	0x122a8cd	+0x0	488bc45741544155415641574883ec50	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x122bfc0		.text	0x122bfc0	0x122c12e	+0x0	488bc457415641574883ec5048c740b8	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x12417f0		.text	0x12417f0	0x1241942	+0x0	488bc457415641574883ec5048c740b8	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1219490		.text	0x1219490	0x121966e	+0x0	488bc44154415641574883ec5048c740	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x18e160		.text	0x18e160	0x18e249	+0x0	40574881ec8000000048c7442420feff	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x18e540		.text	0x18e540	0x18e566	+0x0	4883ec3848c7442420feffffff4883c1	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x18e500		.text	0x18e500	0x18e537	+0x0	40534883ec20488d05d3762001488bd9	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0xae170		.text	0xae170	0xae2a5	+0x0	488bc4565741564881ec9000000048c7	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x830670		.text	0x830670	0x830819	+0x0	4c894c24205556574154415541564157	2곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x14657e0		.rdata				90608440010000009060844001000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x18cd0		.text	0x18cd0	0x18dea	+0x0	41564883ec3048c7442420feffffff48	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1f28c0		.text	0x1f28c0	0x1f2910	+0x0	48894c24085541544883ec58488b4108	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x6d8350		.text	0x6d8350	0x6d866f	+0x0	4055565741564157488d6c24c94881ec	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x69e5e0		.text	0x69e5e0	0x69e60d	+0x0	40538bc24c8bd9488d1cc50000000048	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x303ef0		.text	0x303ef0	0x3040f5	+0x0	488bc453564154415541564881ec9000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0xa2293		.text	0xa2293	0xa2299	+0x0	4883c4305fc3cccccccccccccc488954	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x13a6d38		.rdata				90e5314001000000d02a094001000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x22ce80		.text	0x22ce80	0x22cee7	+0x0	48895c2408574883ec200fb7415c488b	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x22a880		.text	0x22a880	0x22a8b4	+0x0	40534883ec20488b1d8b365502e82e00	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x27842a0		.data					1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x3d5fa0		.text	0x3d5fa0	0x3d6105	+0x0	488bc45541564157488d68d84881ec10	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x84ce60		.text	0x84ce60	0x84d046	+0x0	48895c240848896c2410488974241857	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x870be0		.text	0x870be0	0x870cec	+0x0	48895c2410574883ec20488bd9488bfa	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1426f80		.rdata				d021664001000000d021664001000000	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x2ac8d0		.text	0x2ac8d0	0x2aca3a	+0x0	40574883ec5048c7442430feffffff48	4곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x2144ee8		.data					2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x713e60		.text	0x713e60	0x714dbd	+0x0	405556574154415541564157488dac24	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x66ed00		.text	0x66ed00	0x66ed23	+0x0	40534883ec20488bd9e812050000488b	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1832d0		.text	0x1832d0	0x183330	+0x0	48894c2408534883ec3048c7442420fe	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x18ba70		.text	0x18ba70	0x18baac	+0x0	48895c2408574883ec20488b19488bf9	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x18c390		.text	0x18c390	0x18c3ba	+0x0	40534883ec20488bd9e86207fcff488b	1곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x14751c8		.rdata				d0e3874001000000d02a094001000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1001e0		.text	0x1001e0	0x100269	+0x0	40534883ec3048c7442420feffffff48	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x44d350		.text	0x44d350	0x44d36d	+0x0	40534883ec40488bd9e8f21e420085c0	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x102fa0		.text	0x102fa0	0x103029	+0x0	40534883ec3048c7442420feffffff48	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x894330		.text	0x894330	0x89439c	+0x0	40534883ec20488bd9e8d244feff488b	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x131930		.text	0x131930	0x13196e	+0x0	48895c2408574883ec20488d05374325	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x372a90		.text	0x372a90	0x372b32	+0x0	48895c24084889742410574883ec3033	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x37b2b0		.text	0x37b2b0	0x37b2cd	+0x0	40534883ec2083b98805000000488bd9	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x17a200		.text	0x17a200	0x17a20f	+0x0	4183f8020f8dcf000000534883ec2048	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x451100		.text	0x451100	0x45115c	+0x0	40534883ec208bd9e8d3ffbbff488bc8	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x60c5d0		.text	0x60c5d0	0x60c60c	+0x0	40534883ec20488bd9e83238f6ff85c0	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1cb520		.text	0x1cb520	0x1cb6e4	+0x0	48895c241048896c2418488974242057	2곳
+DLL상수(자료)	SAN14_IntegratedConvenience.dll	자료	0x1a60014		.data				b7f16556010000000000000001000000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x17dca0		.text	0x17dca0	0x17dccb	+0x0	40534883ec20488d053b6f2101488bd9	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x5aa0d0		.text	0x5aa0d0	0x5aa10e	+0x0	40534883ec20488bd9e8a2cd2b00488b	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x5b4aa0		.text	0x5b4aa0	0x5b4ade	+0x0	40534883ec20488bd9e8724d2b00488b	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x845990		.text	0x845990	0x845a1b	+0x0	40574883ec7048c7442420feffffff48	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1300		.text	0x1300	0x1343	+0x0	4883ec28488d0df5331402e870f73700	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x176cdf		.text	0x176cdf	0x17754e	+0x0	4c89a424900100004c89ac2440010000	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x1686b3		.text	0x1686b3	0x1686df	+0x0	0fb746160fb74b163bc17406400f97c7	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x105040		.text	0x105040	0x1050c9	+0x0	40534883ec3048c7442420feffffff48	1곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x839ca0		.text	0x839ca0	0x839cda	+0x0	40534883ec20488bd9e8b20000004883	2곳
+DLL상수(함수)	SAN14_IntegratedConvenience.dll	코드	0x862e40		.text	0x862e40	0x862ea8	+0x0	4883ec38486381b80400003d70170000	2곳
+DLL상수(함수)	SAN14_Collab.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	1곳
+DLL상수(함수)	SAN14_Collab.dll	코드	0x23eb50		.text	0x23eb50	0x23eb5a	+0x0	4053574883ec28488bda488974242048	1곳
+DLL상수(함수)	SAN14_Collab.dll	코드	0x23fb90		.text	0x23fb90	0x23fe52	+0x0	40555657415541564157488bec4883ec	1곳
+DLL상수(자료)	SAN14_Collab.dll	자료	0x13a6db8		.rdata				b0e6314001000000f08c224001000000	2곳
+DLL상수(자료)	SAN14_Collab.dll	자료	0x277df18		.data					2곳
+DLL상수(자료)	SAN14_Collab.dll	자료	0x13a71f0		.rdata				a0e1314001000000a08b224001000000	1곳
+DLL상수(함수)	SAN14_Traits9.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	4곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x10fc0		.text	0x10fc0	0x11041	+0x0	40534883ec3048c7442420feffffff8b	5곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x86e7e0		.text	0x86e7e0	0x86e910	+0x0	48895c240848897c241048637a14488b	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x491fa0		.text	0x491fa0	0x491fcc	+0x0	40534883ec20488bd9e8d24e3d00488b	2곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x49fe10		.text	0x49fe10	0x49fe3c	+0x0	40534883ec20488bd9e8029a3c00488b	2곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x5459e0		.text	0x5459e0	0x545a5c	+0x0	48895c2408574883ec20488bd9488bfa	2곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x3f6bc0		.text	0x3f6bc0	0x3f6c4c	+0x0	48895c240848896c2410488974241857	5곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x84b150		.text	0x84b150	0x84b1a6	+0x0	48894c2408534883ec3048c7442420fe	2곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x851160		.text	0x851160	0x8512ae	+0x0	48895c24084889742410574883ec408b	3곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x89af80		.text	0x89af80	0x89b045	+0x0	48895c24084889742410574883ec2048	2곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x540e30		.text	0x540e30	0x541b61	+0x0	488bc4554154415541564157488d68a1	1곳
+DLL상수(자료)	SAN14_Traits9_UI.dll	자료	0x277df18		.data					6곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x32f500		.text	0x32f500	0x32f524	+0x0	4883ec284885c97414488b01ff501885	2곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x92cee0		.text	0x92cee0	0x92cf0a	+0x0	4883ec0885d20f888d0000003b51100f	3곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x857370		.text	0x857370	0x8573a8	+0x0	4883ec384863c24c8bc9488d15d74ec1	2곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	13곳
+DLL상수(자료)	SAN14_Traits9_UI.dll	자료	0x14ab6e8		.rdata				00618c4001000000e0ad8e4001000000	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x2305d0		.text	0x2305d0	0x230667	+0x0	48895c24084889742410574883ec200f	4곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x89b5d0		.text	0x89b5d0	0x89b6d3	+0x0	40564883ec304863f183fe15760833c0	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x16f7f0		.text	0x16f7f0	0x16f82c	+0x0	48896c2418488974242041564883ec20	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x89e650		.text	0x89e650	0x89e677	+0x0	48896c2418564883ec208bea488bf1e8	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x8573b0		.text	0x8573b0	0x857421	+0x0	48895c24084889742410574883ec3048	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x857460		.text	0x857460	0x85748d	+0x0	4883ec384c8bc9c74424280000000089	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x906c60		.text	0x906c60	0x90794d	+0x0	4885d20f84e30c000055565741544155	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x907950		.text	0x907950	0x908819	+0x0	4885d20f84bf0e000055565741544155	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x651520		.text	0x651520	0x651f35	+0x0	4885d20f840b0a000055565741544155	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x9029f0		.text	0x9029f0	0x9035df	+0x0	4885d20f84e50b000055565741544155	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x9035e0		.text	0x9035e0	0x9047cc	+0x0	4885d20f84e211000055565741544155	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x9013d0		.text	0x9013d0	0x9029ed	+0x0	4885d20f841316000055565741544155	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x8a4450		.text	0x8a4450	0x8a4585	+0x0	40535556574154415641574883ec5048	1곳
+DLL상수(자료)	SAN14_Traits9_UI.dll	자료	0x1b5c990		.data					1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x18cd0		.text	0x18cd0	0x18dea	+0x0	41564883ec3048c7442420feffffff48	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x35f020		.text	0x35f020	0x35f0e7	+0x0	4889742410574883ec208bf2488bf9e8	4곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x353810		.text	0x353810	0x353ae3	+0x0	48895c2420555657415641574881ec40	16곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x353390		.text	0x353390	0x353434	+0x0	405355565741574881ec40080000488b	8곳
+DLL상수(자료)	SAN14_Traits9_UI.dll	자료	0x1a2b850		.data				00000000000000000000000000000000	3곳
+DLL상수(자료)	SAN14_Traits9_UI.dll	자료	0x1a35820		.data				00000000000000000000000000000000	4곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x864c50		.text	0x864c50	0x864d0e	+0x0	48894c2408574883ec3048c7442420fe	1곳
+DLL상수(자료)	SAN14_Traits9_UI.dll	자료	0x139c540		.rdata				60b6194001000000d02a094001000000	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x89c320		.text	0x89c320	0x89c3a7	+0x0	40534883ec4048c74424300000000048	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x807b20		.text	0x807b20	0x808190	+0x0	405556574154415541564157488d6c24	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x806a00		.text	0x806a00	0x807258	+0x0	488bc455565741544155415641574881	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x252290		.text	0x252290	0x2525fb	+0x0	488bc456574154415641574881ec8000	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x2befe0		.text	0x2befe0	0x2bf876	+0x0	488bc4554154415541564157488d68d1	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x4ca4f0		.text	0x4ca4f0	0x4cad86	+0x0	488bc4554154415541564157488d68d1	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x8a2140		.text	0x8a2140	0x8a2210	+0x0	48895c24184889742420574883ec2044	2곳
+DLL상수(자료)	SAN14_Traits9_UI.dll	자료	0x13a42c8		.rdata				704a204001000000c01b234001000000	3곳
+DLL상수(자료)	SAN14_Traits9_UI.dll	자료	0x13a4298		.rdata				704d204001000000c01b234001000000	3곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x8a5d60		.text	0x8a5d60	0x8a5e11	+0x0	40534883ec20488bd9488b49104885c9	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x3594b0		.text	0x3594b0	0x359544	+0x0	40534883ec50488bd9e8324aedff3d00	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x11290		.text	0x11290	0x11311	+0x0	40534883ec3048c7442420feffffff8b	4곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x2cd20		.text	0x2cd20	0x2cfd5	+0x0	4055565741544155415641574881ecc0	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x8fbd40		.text	0x8fbd40	0x8fbf27	+0x0	48895c240848896c2410488974241848	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x3f6c50		.text	0x3f6c50	0x3f6ca8	+0x0	40574883ec3048c7442420feffffff48	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x7c9080		.text	0x7c9080	0x7c9153	+0x0	48895c240848896c2410488974241848	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x9143c0		.text	0x9143c0	0x91440a	+0x0	48895c24084889742410574883ec2048	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x924b20		.text	0x924b20	0x924bc3	+0x0	48895c240848896c2410488974241857	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x869820		.text	0x869820	0x86984a	+0x0	40534883ec20488bd9e892777aff488b	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x8782e0		.text	0x8782e0	0x878311	+0x0	48895c2408574883ec20488bf9488bda	1곳
+DLL상수(자료)	SAN14_Traits9_UI.dll	자료	0x13acf30		.rdata				90c1484001000000d02a094001000000	2곳
+DLL상수(자료)	SAN14_Traits9_UI.dll	자료	0x13ad158		.rdata				f06825400100000040c32d4001000000	1곳
+DLL상수(함수)	SAN14_Traits9_UI.dll	코드	0x2dc340		.text	0x2dc340	0x2dc43b	+0x0	48895c2408574883ec20488bd9e89e50	1곳
+DLL상수(자료)	SAN14_Traits9_UI.dll	자료	0x14b8ce0		.rdata				f038914001000000d02a094001000000	1곳
+DLL상수(함수)	SAN14_MeritResolver_CEKO.dll	코드	0x89abe0		.text	0x89abe0	0x89ac2d	+0x0	48895c2408574883ec20488d054fd8bd	1곳
+DLL상수(자료)	SAN14_MeritResolver_CEKO.dll	자료	0x1478440		.rdata				e0ab894001000000d02a094001000000	1곳
+DLL상수(함수)	SAN14_MeritResolver_CEKO.dll	코드	0x8a49a0		.text	0x8a49a0	0x8a4a08	+0x0	40574883ec3048c7442420feffffff48	1곳
+DLL상수(함수)	SAN14_MeritTraits.dll	코드	0x2cf0		.text	0x2cf0	0x2d38	+0x0	4883ec28488d0dedfd7c02e880dd3700	1곳
+DLL상수(함수)	SAN14_MeritTraits.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	34곳
+DLL상수(함수)	SAN14_MeritTraits.dll	코드	0x216a60		.text	0x216a60	0x217925	+0x0	405556574154415541564157488d6c24	1곳
+DLL상수(함수)	SAN14_MeritTraits.dll	코드	0xab2f0		.text	0xab2f0	0xab34b	+0x0	40534883ec20418b1848c74424400000	1곳
+DLL상수(함수)	SAN14_MeritTraits.dll	코드	0xea9973		.text	0xea9973	0xea9992	+0x0	32c0488b8db01f00004833cce8fc0315	1곳
+DLL상수(함수)	SAN14_MeritTraits.dll	코드	0x1400		.text	0x1400	0x14b5	+0x0	40534883ec20488d0d4b20a201e8ee21	1곳
+DLL상수(함수)	SAN14_MeritTraits.dll	코드	0xc800		.text	0xc800	0xc860	+0x0	4057488bd1488d79044533c033c04489	1곳
+DLL상수(함수)	SAN14_MeritTraits.dll	코드	0xcc60		.text	0xcc60	0xcd1c	+0x0	48895c2408574883ec20488bf94883c1	1곳
+DLL상수(함수)	SAN14_MeritTraits.dll	코드	0x50030		.text	0x50030	0x50062	+0x0	40534883ec20488bd9e862880000488d	1곳
+DLL상수(함수)	SAN14_MeritTraits.dll	코드	0x92cee0		.text	0x92cee0	0x92cf0a	+0x0	4883ec0885d20f888d0000003b51100f	3곳
+DLL상수(함수)	SAN14_MeritTraits.dll	코드	0x857370		.text	0x857370	0x8573a8	+0x0	4883ec384863c24c8bc9488d15d74ec1	2곳
+DLL상수(함수)	SAN14_MeritTraits.dll	코드	0xf9bfb0		.text	0xf9bfb0	0xf9bfee	+0x0	48895c2408574883ec20488d05dfcb76	1곳
+DLL상수(함수)	SAN14_MeritTraits.dll	코드	0x944d0		.text	0x944d0	0x9451b	+0x0	48895c241048896c2418488974242041	1곳
+DLL상수(함수)	SAN14_MeritTraits.dll	코드	0xaca0		.text	0xaca0	0xb18e	+0x0	488bc455565741564157488d68b84881	1곳
+DLL상수(자료)	SAN14_TraitHover.dll	자료	0x13a42c8		.rdata				704a204001000000c01b234001000000	3곳
+DLL상수(자료)	SAN14_TraitHover.dll	자료	0x13a4298		.rdata				704d204001000000c01b234001000000	3곳
+DLL상수(자료)	SAN14_TraitHover.dll	자료	0x277df18		.data					4곳
+DLL상수(함수)	SAN14_TraitHover.dll	코드	0x32f500		.text	0x32f500	0x32f524	+0x0	4883ec284885c97414488b01ff501885	5곳
+DLL상수(함수)	SAN14_TraitHover.dll	코드	0x10fc0		.text	0x10fc0	0x11041	+0x0	40534883ec3048c7442420feffffff8b	4곳
+DLL상수(함수)	SAN14_TraitHover.dll	코드	0x11290		.text	0x11290	0x11311	+0x0	40534883ec3048c7442420feffffff8b	4곳
+DLL상수(함수)	SAN14_TraitHover.dll	코드	0x2dc340		.text	0x2dc340	0x2dc43b	+0x0	48895c2408574883ec20488bd9e89e50	2곳
+DLL상수(함수)	SAN14_TraitHover.dll	코드	0x7c9080		.text	0x7c9080	0x7c9153	+0x0	48895c240848896c2410488974241848	1곳
+DLL상수(함수)	SAN14_TraitHover.dll	코드	0x8a5d60		.text	0x8a5d60	0x8a5e11	+0x0	40534883ec20488bd9488b49104885c9	1곳
+DLL상수(함수)	SAN14_TraitHover.dll	코드	0x3594b0		.text	0x3594b0	0x359544	+0x0	40534883ec50488bd9e8324aedff3d00	1곳
+DLL상수(함수)	SAN14_TraitHover.dll	코드	0x8a2140		.text	0x8a2140	0x8a2210	+0x0	48895c24184889742420574883ec2044	2곳
+DLL상수(자료)	SAN14_TraitHover.dll	자료	0x14b8ce0		.rdata				f038914001000000d02a094001000000	1곳
+DLL상수(함수)	SAN14_TraitHover.dll	코드	0x2305d0		.text	0x2305d0	0x230667	+0x0	48895c24084889742410574883ec200f	1곳
+DLL상수(함수)	SAN14_TraitHover.dll	코드	0x9143c0		.text	0x9143c0	0x91440a	+0x0	48895c24084889742410574883ec2048	1곳
+DLL상수(함수)	SAN14_TraitHover.dll	코드	0x924b20		.text	0x924b20	0x924bc3	+0x0	48895c240848896c2410488974241857	1곳
+DLL상수(함수)	SAN14_TraitHover.dll	코드	0x869820		.text	0x869820	0x86984a	+0x0	40534883ec20488bd9e892777aff488b	2곳
+DLL상수(함수)	SAN14_TraitHover.dll	코드	0x8782e0		.text	0x8782e0	0x878311	+0x0	48895c2408574883ec20488bf9488bda	2곳
+DLL상수(함수)	SAN14_TraitHover.dll	코드	0x930d20		.text	0x930d20	0x930e28	+0x0	48895c2408488974241048897c241841	1곳
+DLL상수(자료)	SAN14_TraitHover.dll	자료	0x145ffd8		.rdata				5032804001000000d02a094001000000	3곳
+DLL상수(자료)	SAN14_TraitHover.dll	자료	0x14604b8		.rdata				6031804001000000d02a094001000000	3곳
+DLL상수(함수)	SAN14_TraitHover.dll	코드	0x92cee0		.text	0x92cee0	0x92cf0a	+0x0	4883ec0885d20f888d0000003b51100f	1곳
+DLL상수(함수)	SAN14_TraitHover.dll	코드	0x8fbd40		.text	0x8fbd40	0x8fbf27	+0x0	48895c240848896c2410488974241848	1곳
+DLL상수(함수)	SAN14_TraitHover.dll	코드	0x3f6bc0		.text	0x3f6bc0	0x3f6c4c	+0x0	48895c240848896c2410488974241857	1곳
+DLL상수(함수)	SAN14_TraitHover.dll	코드	0x864c50		.text	0x864c50	0x864d0e	+0x0	48894c2408574883ec3048c7442420fe	1곳
+DLL상수(자료)	SAN14_TraitHover.dll	자료	0x139c540		.rdata				60b6194001000000d02a094001000000	1곳
+DLL상수(함수)	SAN14_TraitHover.dll	코드	0x89c320		.text	0x89c320	0x89c3a7	+0x0	40534883ec4048c74424300000000048	1곳
+DLL상수(함수)	SAN14_TraitHover.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	2곳
+DLL상수(함수)	SAN14_ModPackBridge.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	4곳
+DLL상수(함수)	SAN14_RelatedOfficersResolver.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	1곳
+DLL상수(함수)	SAN14_RelatedOfficersTab.dll	코드	0x195c0		.text	0x195c0	0x19650	+0x0	40574883ec4048c7442420feffffff48	1곳
+DLL상수(함수)	SAN14_RelatedOfficersTab.dll	코드	0x85b0		.text	0x85b0	0x85db	+0x0	4883ec3833c0488d0d93713301488944	1곳
+DLL상수(함수)	SAN14_RelatedOfficersTab.dll	코드	0x8560		.text	0x8560	0x85a5	+0x0	4883ec3833c0488d0d636ca801488944	1곳
+DLL상수(함수)	SAN14_RelatedOfficersTab.dll	코드	0xa490		.text	0xa490	0xa4bb	+0x0	40534883ec20488d0523803301488bd9	1곳
+DLL상수(함수)	SAN14_RelatedOfficersTab.dll	코드	0xc730		.text	0xc730	0xc756	+0x0	48895c2410574883ec208bda488bf945	1곳
+DLL상수(함수)	SAN14_RelatedOfficersTab.dll	코드	0x146c0		.text	0x146c0	0x14847	+0x0	4883ec180f28c80f57d20f2eca7a1475	1곳
+DLL상수(함수)	SAN14_Resolver_PresetGroups_CEKO.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	2곳
+DLL상수(함수)	SAN14_SortiePresets.dll	코드	0x925a6		.text	0x925a6	0x925b0	+0x0	0fb741344883c4205ec30fb681ce0000	1곳
+DLL상수(함수)	SAN14_SortiePresets.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	1곳
+DLL상수(함수)	SAN14_SortiePresets.dll	코드	0x191d0		.text	0x191d0	0x19260	+0x0	40574883ec4048c7442420feffffff48	1곳
+DLL상수(함수)	SAN14_SortiePresets.dll	코드	0xebb0		.text	0xebb0	0xebd7	+0x0	4883ec380f29742420e8220200000f28	1곳
+DLL상수(함수)	SAN14_SortiePresets.dll	코드	0x14623		.text	0x14623	0x14663	+0x0	48895c243033db85c074306690488b87	1곳
+DLL상수(함수)	SAN14_SortiePresets.dll	코드	0x14526		.text	0x14526	0x14536	+0x0	f20f104b30660f2fce0f287424207235	1곳
+DLL상수(함수)	SAN14_SortiePresets.dll	코드	0x1a160		.text	0x1a160	0x1a1aa	+0x0	40574883ec3048c7442420feffffff48	1곳
+DLL상수(함수)	SAN14_SortiePresets.dll	코드	0x24e90		.text	0x24e90	0x24eba	+0x0	40534883ec20488bd9e8023a0300488d	1곳
+DLL상수(함수)	SAN14_SortiePresets.dll	코드	0x243d0		.text	0x243d0	0x243f8	+0x0	40534883ec20488bd9e8c2440300488d	1곳
+DLL상수(함수)	SAN14_SortiePresets.dll	코드	0x24cb0		.text	0x24cb0	0x24cd7	+0x0	40534883ec20488bd9e8e23b0300488d	1곳
+DLL상수(함수)	SAN14_SortiePresets.dll	코드	0x240c0		.text	0x240c0	0x24145	+0x0	48895c24184889742420574883ec2048	1곳
+DLL상수(함수)	SAN14_Stats200.dll	코드	0x2b9d50		.text	0x2b9d50	0x2b9d80	+0x0	44894c24205556574883ec50418be848	2곳
+DLL상수(함수)	SAN14_Stats200.dll	코드	0x32f4d0		.text	0x32f4d0	0x32f4f4	+0x0	4883ec284885c97414488b01ff501085	2곳
+DLL상수(함수)	SAN14_Stats200.dll	코드	0x2589c0		.text	0x2589c0	0x258a4a	+0x0	48896c242048894c2408574156415748	1곳
+DLL상수(함수)	SAN14_Stats200.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	4곳
+DLL상수(함수)	SAN14_Stats200Reader.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	4곳
+DLL상수(자료)	SAN14_FPS120.dll	자료	0x2783730		.data					6곳
+DLL상수(자료)	SAN14_FPS120.dll	자료	0x13b5fe8		.rdata				e01e374001000000494b4b4955544849	5곳
+DLL상수(함수)	SAN14_FPS120.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	13곳
+DLL상수(함수)	SAN14_FPS120.dll	코드	0x954730		.text	0x954730	0x9548e1	+0x0	48895c240848896c2410488974241857	2곳
+DLL상수(함수)	SAN14_FPS120.dll	코드	0x938f70		.text	0x938f70	0x938fa2	+0x0	4883ec28488b052537ea018078120074	1곳
+DLL상수(함수)	SAN14_FPS120.dll	코드	0x37b2b0		.text	0x37b2b0	0x37b2cd	+0x0	40534883ec2083b98805000000488bd9	1곳
+DLL상수(함수)	SAN14_DomesticCE.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	24곳
+DLL상수(자료)	SAN14_DomesticCE.dll	자료	0x27d10f0		.data					1곳
+DLL상수(함수)	SAN14_DomesticCE.dll	코드	0x92cee0		.text	0x92cee0	0x92cf0a	+0x0	4883ec0885d20f888d0000003b51100f	2곳
+DLL상수(함수)	SAN14_DomesticCE.dll	코드	0x8741d0		.text	0x8741d0	0x87426c	+0x0	40534883ec20448b414033db836140fe	1곳
+DLL상수(함수)	SAN14_DomesticCE.dll	코드	0x22fd5		.text	0x22fd5	0x23183	+0x0	48895c245048896c245848897c24604c	1곳
+DLL상수(함수)	SAN14_DomesticCE.dll	코드	0x3ff0		.text	0x3ff0	0x403a	+0x0	4883ec68488d4c2450e8f2d792000f10	1곳
+DLL상수(자료)	SAN14_DomesticCE.dll	자료	0x277df18		.data					2곳
+DLL상수(자료)	SAN14_CityCaps.dll	자료	0x1a4a1ec		.data				50c3000001000000e8030000a0860100	1곳
+DLL상수(함수)	SAN14_CityCaps.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	4곳
+DLL상수(함수)	SAN14_AISearch.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	6곳
+DLL상수(함수)	SAN14_AISearch.dll	코드	0x232000		.text	0x232000	0x232068	+0x0	4889542410534883ec3048c7442428fe	1곳
+DLL상수(함수)	SAN14_NoExecute.dll	코드	0x2a50		.text	0x2a50	0x2a70	+0x0	4883ec28488d0d95157802e810549300	1곳
+DLL상수(함수)	SAN14_RoninEscape.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	2곳
+DLL상수(함수)	SAN14_RoninEscape.dll	코드	0x13500		.text	0x13500	0x13638	+0x0	48895c240848896c2410488974241857	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1342458		.rdata				f0cd314001000000d02a094001000000	17곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x277df18		.data					41곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13a6840		.rdata				f0d6314001000000d02a094001000000	18곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13a6b88		.rdata				10e1314001000000708b224001000000	20곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13a68b0		.rdata				90d3314001000000d02a094001000000	28곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13a6690		.rdata				50d1314001000000d02a094001000000	16곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13a6770		.rdata				80e0314001000000d02a094001000000	14곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13a5fb0		.rdata				e0da314001000000d02a094001000000	19곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x188700		.text	0x188700	0x1887cd	+0x0	48895c2408574883ec30448bc90f2974	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13a03a8		.rdata				700f1c4001000000f0271c4001000000	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1398a58		.rdata				20b0194001000000d02a094001000000	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x19c0f0		.text	0x19c0f0	0x19c1f4	+0x0	48895c24084889742410574883ec2048	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1a7a40		.text	0x1a7a40	0x1a7acf	+0x0	4889742418574883ec20488b01488bf2	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1a20584		.data				ffffffffffffffffffffffffffffffff	5곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x91bfc0		.text	0x91bfc0	0x91bfc9	+0x0	40534883ec20488bd94889742438488b	2곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x14b7700		.rdata				4039914001000000d02a094001000000	11곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x92a480		.text	0x92a480	0x92a541	+0x0	405355574881ecc0000000488b05fe16	2곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x927220		.text	0x927220	0x9272b2	+0x0	48895c24104889742418574883ec4048	4곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x927e10		.text	0x927e10	0x927e69	+0x0	4055415441554157488dac2478feffff	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x14b7fa8		.rdata				703b914001000000d02a094001000000	2곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x930d20		.text	0x930d20	0x930e28	+0x0	48895c2408488974241048897c241841	8곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1c6ec0		.text	0x1c6ec0	0x1c6fca	+0x0	48895c24084889742410574883ec208b	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x98dd90		.text	0x98dd90	0x98dde4	+0x0	40534883ec20488bd9e882bdffff84c0	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x13b930		.text	0x13b930	0x13b95c	+0x0	40534883ec20488bd9e85224850084c0	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x98ddf0		.text	0x98ddf0	0x98e26e	+0x0	48895c240848896c2410488974241857	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x12c0		.text	0x12c0	0x12f6	+0x0	4883ec28ba02000000488d0d28331402	2곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x13c970		.text	0x13c970	0x13c9c0	+0x0	40534883ec20f6811814000020488bd9	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1c6fd0		.text	0x1c6fd0	0x1c700f	+0x0	48895c24084889742410574883ec2048	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1c7090		.text	0x1c7090	0x1c70d2	+0x0	48895c24084889742410574883ec2048	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13a0560		.rdata				f0111c4001000000802c1c4001000000	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13999b8		.rdata				50b3194001000000d02a094001000000	15곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x19c540		.text	0x19c540	0x19c599	+0x0	4055534156488bec4883ec204c8bf148	2곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x19c330		.text	0x19c330	0x19c442	+0x0	48895c24104889742418574883ec2048	3곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x8741d0		.text	0x8741d0	0x87426c	+0x0	40534883ec20448b414033db836140fe	15곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1399108		.rdata				d0b3194001000000d02a094001000000	6곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1a4690		.text	0x1a4690	0x1a4754	+0x0	48895c2408574883ec20488b018bfa48	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1a75a0		.text	0x1a75a0	0x1a7765	+0x0	48895c24084889742410574883ec2048	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1a74d0		.text	0x1a74d0	0x1a7531	+0x0	48895c2408574883ec20488b01488bfa	3곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x19b350		.text	0x19b350	0x19b38e	+0x0	48895c2408574883ec20488d05a7e31f	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x19b1d0		.text	0x19b1d0	0x19b20e	+0x0	48895c2408574883ec20488d0597ee1f	2곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1aae10		.text	0x1aae10	0x1aaea2	+0x0	48895c2408574883ec20488bd9e83efd	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1a4760		.text	0x1a4760	0x1a47b1	+0x0	48895c2408574883ec20488b018bfa48	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x139ac88		.rdata				20b5194001000000d02a094001000000	10곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x139a328		.rdata				d0b1194001000000d02a094001000000	8곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x139bf78		.rdata				e0b5194001000000d02a094001000000	8곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1399c78		.rdata				90b1194001000000d02a094001000000	3곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1399e78		.rdata				10b2194001000000d02a094001000000	3곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x139b8c8		.rdata				a0b5194001000000d02a094001000000	3곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x139bac8		.rdata				20b6194001000000d02a094001000000	3곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1399308		.rdata				90b3194001000000d02a094001000000	3곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1398f08		.rdata				50b2194001000000d02a094001000000	3곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x139a5d8		.rdata				e0b4194001000000d02a094001000000	3곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x139a7d8		.rdata				60b5194001000000d02a094001000000	4곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1a20590		.data				ffffffffffffffffffffffff00000000	3곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1a7ea0		.text	0x1a7ea0	0x1a7f4c	+0x0	48895c2408574883ec20488b01488bfa	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1a7f50		.text	0x1a7f50	0x1a7fd0	+0x0	48895c2408574883ec20488b01488bfa	3곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x19ca60		.text	0x19ca60	0x19cb78	+0x0	48895c24104889742418574883ec2048	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1a20598		.data				ffffffff00000000ffffffff01000000	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x19cb80		.text	0x19cb80	0x19cb9c	+0x0	4889742418574883ec2083b92c020000	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x19e6e0		.text	0x19e6e0	0x19e72d	+0x0	40534883ec20488bd9e8d24d00008b40	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x19e620		.text	0x19e620	0x19e697	+0x0	48895c2408574883ec208b1d5c1f8801	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x19e740		.text	0x19e740	0x19e7a7	+0x0	48895c2408574883ec208b1d481e8801	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1ab510		.text	0x1ab510	0x1ab569	+0x0	405341574881ec78080000488b056e06	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1ab2b0		.text	0x1ab2b0	0x1ab305	+0x0	48895c2418554883ec208bea488bd9e8	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1abbc0		.text	0x1abbc0	0x1abc15	+0x0	48896c2418574883ec208bea488bf9e8	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1aba90		.text	0x1aba90	0x1abbb6	+0x0	48895c2408574883ec208bfa488bd9e8	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1aa730		.text	0x1aa730	0x1aa76a	+0x0	48896c2418564883ec300f297424208b	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1aa5c0		.text	0x1aa5c0	0x1aa5fa	+0x0	48896c2418564883ec300f297424208b	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1aaa20		.text	0x1aaa20	0x1aaa67	+0x0	48896c2418564883ec3083b92c020000	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1aa900		.text	0x1aa900	0x1aa93a	+0x0	48896c2418564883ec300f297424208b	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x14b6eb8		.rdata				f038914001000000d02a094001000000	11곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x14b8ce0		.rdata				f038914001000000d02a094001000000	11곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x14b78e0		.rdata				303a914001000000d02a094001000000	7곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x14b8640		.rdata				103c914001000000d02a094001000000	7곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x14b6b48		.rdata				f038914001000000d02a094001000000	7곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x14b7df0		.rdata				703b914001000000d02a094001000000	7곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x14b9978		.rdata				c00c6b4001000000d02a094001000000	7곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x14b7a98		.rdata				b03c914001000000d02a094001000000	11곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x14b6d00		.rdata				703b914001000000d02a094001000000	11곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x921c80		.text	0x921c80	0x921cd5	+0x0	48895c2408574883ec208bfa488bd9e8	4곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x921ce0		.text	0x921ce0	0x921e55	+0x0	48895c2408574883ec208bfa488bd9e8	3곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x921f20		.text	0x921f20	0x921fab	+0x0	48895c2408574883ec208bfa488bd9e8	3곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x921b80		.text	0x921b80	0x921c77	+0x0	48895c2408574883ec208bfa488bd9e8	3곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x921ea0		.text	0x921ea0	0x921ed1	+0x0	48895c2408574883ec208bfa488bd9e8	3곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1a20000		.data				00401c470000000000c05a460000803f	3곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	49곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x927010		.text	0x927010	0x927106	+0x0	48895c241048897c241841564883ec30	3곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x9271d0		.text	0x9271d0	0x927216	+0x0	48895c2408574883ec20488b81780100	3곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x929080		.text	0x929080	0x929098	+0x0	405357415541564883ec28488b817801	3곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x9277b0		.text	0x9277b0	0x9277e9	+0x0	488974241841564883ec20488b817801	3곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x928580		.text	0x928580	0x9285b7	+0x0	48896c2418564883ec20488b81780100	3곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x926e10		.text	0x926e10	0x926e5c	+0x0	48896c2420564881ec40020000488b05	3곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x927d60		.text	0x927d60	0x927d9d	+0x0	48896c2418488974242041564883ec20	3곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x929290		.text	0x929290	0x9292c7	+0x0	4154415641574881ec80000000488b81	3곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x927960		.text	0x927960	0x9279a1	+0x0	48895c241048896c2418488974242041	3곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x924370		.text	0x924370	0x92441b	+0x0	48895c2408574883ec20488bd9488bfa	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x924420		.text	0x924420	0x924516	+0x0	48895c2408574883ec2033c0488bd948	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x924b20		.text	0x924b20	0x924bc3	+0x0	48895c240848896c2410488974241857	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x924640		.text	0x924640	0x9246a8	+0x0	48895c2408574883ec20488bd9488bfa	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x9138f0		.text	0x9138f0	0x91393d	+0x0	48895c2408574883ec20488d051f30b3	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x913b70		.text	0x913b70	0x913bbd	+0x0	48895c2408574883ec20488d059f2db3	2곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x913940		.text	0x913940	0x91398d	+0x0	48895c2408574883ec20488d05cf2fb3	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x913a30		.text	0x913a30	0x913a7d	+0x0	48895c2408574883ec20488d05df2eb3	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x913c10		.text	0x913c10	0x913c5d	+0x0	48895c2408574883ec20488d05ff2cb3	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x6b0cc0		.text	0x6b0cc0	0x6b0d0d	+0x0	48895c2408574883ec20488d054f5cd9	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x913cb0		.text	0x913cb0	0x913cfd	+0x0	48895c2408574883ec20488d055f2cb3	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x92ec90		.text	0x92ec90	0x92ecae	+0x0	4885c97418534883ec20488b010fb6da	4곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1a7fd0		.text	0x1a7fd0	0x1a8137	+0x0	4057415641574883ec3048c7442420fe	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1aad00		.text	0x1aad00	0x1aad65	+0x0	48895c2408574883ec20488bf9e84efe	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1aaeb0		.text	0x1aaeb0	0x1aaf0c	+0x0	48895c2408574883ec20488bf9e89efc	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1a78b0		.text	0x1a78b0	0x1a7911	+0x0	48895c2408574883ec20488b01488bfa	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x19b520		.text	0x19b520	0x19b55e	+0x0	48895c2408574883ec20488d05a7f41f	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x19b5e0		.text	0x19b5e0	0x19b61e	+0x0	48895c2408574883ec20488d05d70620	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1400		.text	0x1400	0x14b5	+0x0	40534883ec20488d0d4b20a201e8ee21	2곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x27d2a5c		.data					1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x27d2a60		.data					1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x27d2a58		.data					1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x27d2a78		.data					1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x27d2a80		.data					1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x27d2a68		.data					1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x232240		.text	0x232240	0x232325	+0x0	48895c24184889742420574883ec200f	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x233110		.text	0x233110	0x233179	+0x0	48895c2408574883ec20488bd98bfa0f	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13a6980		.rdata				60cd314001000000d02a094001000000	3곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13a71f0		.rdata				a0e1314001000000a08b224001000000	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x232d00		.text	0x232d00	0x232dd9	+0x0	48895c240848896c2410488974241848	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13a6bf0		.rdata				30d9314001000000d02a094001000000	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13a6d38		.rdata				90e5314001000000d02a094001000000	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x2c0820		.text	0x2c0820	0x2c17b1	+0x0	405556574154415541564157488dac24	2곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x22fce0		.text	0x22fce0	0x230195	+0x0	89542410555657415441554156415748	2곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0xec9a0		.text	0xec9a0	0xeca61	+0x0	48895c24084889742410574883ec2065	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x44ca90		.text	0x44ca90	0x44cae9	+0x0	40534883ec20488bd9e87233120083bb	2곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x67b7c0		.text	0x67b7c0	0x67b83f	+0x0	40534883ec20488bd9e84246efff85c0	2곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x4f6990		.text	0x4f6990	0x4f69b6	+0x0	4883ec28c781700400000000000033d2	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x72e8b0		.text	0x72e8b0	0x72edbc	+0x0	488bc455488d68a14881ec9000000048	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1448240		.rdata				402e6b4001000000b0e8724001000000	3곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1342530		.rdata				803a914001000000d02a094001000000	2곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x143bff8		.rdata				803a914001000000d02a094001000000	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x146afe8		.rdata				40c1844001000000d02a094001000000	5곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x92cee0		.text	0x92cee0	0x92cf0a	+0x0	4883ec0885d20f888d0000003b51100f	13곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1478078		.rdata				20ae89400100000060048a4001000000	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1685ed8		.rdata				3076b1400100000060e7ac4001000000	2곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x737600		.text	0x737600	0x737728	+0x0	40534883ec20488bd9e80288e3ff85c0	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x7208c0		.text	0x7208c0	0x720a21	+0x0	48895c24104889742418574883ec2048	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x89eb30		.text	0x89eb30	0x8a00d4	+0x0	405556574154415541564157488d6c24	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1477de8		.rdata				f0a989400100000030eb894001000000	2곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x92f810		.text	0x92f810	0x92f833	+0x0	85d2787248895c241048896c24185648	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x8a00e0		.text	0x8a00e0	0x8a0134	+0x0	40534883ec20488bd9e822fdccff85c0	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x89e990		.text	0x89e990	0x89eb28	+0x0	48895c24104889742418574883ec2048	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x456f40		.text	0x456f40	0x456fa7	+0x0	48895c24084889742410574883ec2048	2곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x457040		.text	0x457040	0x4570ac	+0x0	48895c24084889742410574883ec2048	2곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1bb3d00		.data					7곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13d63a0		.rdata				c09d434001000000f0a0444001000000	6곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x43b860		.text	0x43b860	0x43b908	+0x0	48895c240848896c2410488974241848	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1395620		.rdata				0039184001000000d02a094001000000	3곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x44caf0		.text	0x44caf0	0x44cb75	+0x0	40564883ec40488bf1e81233120085c0	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x27d1208		.data					1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x2143258		.data					1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13a06a0		.rdata				30111c40010000004645344d6f64656c	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1342520		.rdata				60a700400100000020de794101000000	2곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1b5cb40		.data					3곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13b6660		.rdata				30be3740010000006d61705f756e6974	5곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0xb44a80		.text	0xb44a80	0xb44a9e	+0x0	48895424104883ec2841b80100000048	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1230ef0		.text	0x1230ef0	0x12313b0	+0x0	488bc45741544155415641574883ec70	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1213900		.text	0x1213900	0x1213a7d	+0x0	488bc457415641574883ec5048c740b8	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x27d26c8		.data					1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1788968		.rdata				1032224101000000a0cb214101000000	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1226410		.text	0x1226410	0x12268cf	+0x0	4055565741544155415641574881eca0	2곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x9267e0		.text	0x9267e0	0x9267fd	+0x0	40564883ec20488bf1e8628af4ff85c0	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x924e40		.text	0x924e40	0x924e4e	+0x0	4883ec384883b97801000000746e4889	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1bde40		.text	0x1bde40	0x1bde4a	+0x0	4055415641574883ec204c8964245848	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x139f368		.rdata				c0ea1a4001000000000a7e4101000000	3곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1bb3c98		.data					3곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x27d10f0		.data					4곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x27d10e8		.data					4곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x27d1120		.data					4곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x5702a0		.text	0x5702a0	0x570307	+0x0	40534883ec20488bd9e81215d5ffe82d	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x922030		.text	0x922030	0x922083	+0x0	48895c2408574883ec208bfa488bd9e8	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x926a90		.text	0x926a90	0x926aa2	+0x0	405356574883ec40488b817801000048	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x921ee0		.text	0x921ee0	0x921f1f	+0x0	48895c2408574883ec208bda488bf9e8	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x878810		.text	0x878810	0x878831	+0x0	40534883ec20488bd94881c1a8000000	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x14b8478		.rdata				c03b914001000000d02a094001000000	5곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13a7608		.rdata				d0de314001000000d02a094001000000	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1aacb0		.text	0x1aacb0	0x1aacfd	+0x0	48895c2408574883ec20488bf9e89efe	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x1a72b0		.text	0x1a72b0	0x1a737d	+0x0	48895c2408574883ec20488b01488bfa	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x19b020		.text	0x19b020	0x19b08e	+0x0	40574883ec3048c7442420feffffff48	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x668d10		.text	0x668d10	0x668d66	+0x0	48895c2410564883ec2083b9f0010000	3곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x142d4b8		.rdata				f087664001000000d02a094001000000	6곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x66f6a0		.text	0x66f6a0	0x66f79a	+0x0	40534883ec20488bd9e8629120008b83	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x142d328		.rdata				a087664001000000d02a094001000000	5곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x668fb0		.text	0x668fb0	0x668ffc	+0x0	48895c24084889742410574883ec2041	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x66f7c0		.text	0x66f7c0	0x66f7fe	+0x0	40534883ec2083b90802000000488bd9	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x142d7d8		.rdata				4088664001000000d012874001000000	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x670060		.text	0x670060	0x6700ae	+0x0	40534883ec20488b1a4885db743a8b93	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x86b710		.text	0x86b710	0x86b75b	+0x0	48895c241848896c2420564883ec208b	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x142d190		.rdata				d088664001000000d02a094001000000	3곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1b91e00		.data					1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x4067d0		.text	0x4067d0	0x406e1f	+0x0	40554154415541564157488dac24d0e7	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x14b600		.text	0x14b600	0x14b943	+0x0	48895c241048896c2418488974242057	2곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x27dc6c8		.data					5곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x14bce98		.rdata				008f944001000000e0571f4101000000	3곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x257d2		.text	0x257d2	0x2585a	+0x0	488b94c158010000eb07488b91503a07	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x451360		.text	0x451360	0x4514aa	+0x0	488bc45556574881ece000000048c744	2곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1b62450		.data					3곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x14b87f8		.rdata				b03c914001000000d02a094001000000	3곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1b620d0		.data					7곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1b620c0		.data					7곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1b620c8		.data					4곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1b620e0		.data					5곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13d6050		.rdata				d09a43400100000050d3444001000000	2곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1b620f0		.data					2곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x139c540		.rdata				60b6194001000000d02a094001000000	2곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13d6390		.rdata				f0974340010000007803804101000000	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x14747f8		.rdata				40e3874001000000c0c1884001000000	3곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x8a2140		.text	0x8a2140	0x8a2210	+0x0	48895c24184889742420574883ec2044	3곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x874650		.text	0x874650	0x874670	+0x0	4883ec28488b0189542430488d542430	3곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x66c000		.text	0x66c000	0x66c3cd	+0x0	488bc45557415441564157488d68a148	2곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x88ff10		.text	0x88ff10	0x890023	+0x0	48895c24084889742410574883ec2048	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0xe19dd0		.text	0xe19dd0	0xe19e8e	+0x0	4c8bdc49895b08574883ec50488b8424	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13a6a50		.rdata				20e6314001000000d02a094001000000	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x146b800		.rdata				f0c0844001000000d02a094001000000	2곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x2b27b0		.text	0x2b27b0	0x2b27d1	+0x0	40564883ec20488b81b0000000488bf1	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x146b658		.rdata				a0c0844001000000d02a094001000000	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1440e48		.rdata				70206b4001000000d02a094001000000	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1441608		.rdata				702f6b4001000000d02a094001000000	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x18d770		.text	0x18d770	0x18dd35	+0x0	48895c24085556574154415541564157	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x95bbf0		.text	0x95bbf0	0x95bc0a	+0x0	4883ec38488b41104533c94889442420	2곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x95bf70		.text	0x95bf70	0x95bf9c	+0x0	4c8bdc534883ec70488b0511fc120148	4곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x2b0659		.text	0x2b0659	0x2b072e	+0x0	488bcee8efc1f7ff488bc8e897ee0700	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0xce6450		.text	0xce6450	0xce64d8	+0x0	48895c240848896c2410488974241857	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x360890		.text	0x360890	0x3608f4	+0x0	40574883ec300fb6b9ef00000085ff75	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x2783730		.data					1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13b5fe8		.rdata				e01e374001000000494b4b4955544849	1곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13d6670		.rdata				209c434001000000d096444001000000	4곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x13e41e8		.rdata				a0675a4001000000805d854001000000	2곳
+DLL상수(자료)	SAN14_FogTrial.dll	자료	0x1468100		.rdata				40bf844001000000805d854001000000	2곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x736d80		.text	0x736d80	0x736f6c	+0x0	41564883ec4048c7442420feffffff48	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x874670		.text	0x874670	0x8746cb	+0x0	48895c2408574533c9488bf94c8bd145	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x928ce0		.text	0x928ce0	0x928d31	+0x0	4053415441564881ec90000000488b05	1곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x924f70		.text	0x924f70	0x924fc2	+0x0	40534883ec20488bd9e832ffb1ff85c0	2곳
+DLL상수(함수)	SAN14_FogTrial.dll	코드	0x587b10		.text	0x587b10	0x587c79	+0x0	488bc44c894820555657415641574881	1곳
+DLL상수(함수)	SAN14_Population.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	11곳
+DLL상수(함수)	SAN14_Population.dll	코드	0x2e90		.text	0x2e90	0x2f3a	+0x0	4883ec28488d0d51f4a501e8e0db3700	1곳
+DLL상수(함수)	SAN14_FastMenu.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	16곳
+DLL상수(함수)	SAN14_DragGive.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	2곳
+DLL상수(함수)	SAN14_DragGive.dll	코드	0x42c0		.text	0x42c0	0x7840	+0x0	40554154415541564157488dac24d0e2	1곳
+DLL상수(함수)	SAN14_DragLearn.dll	코드	0x7f80		.text	0x7f80	0x7fa0	+0x0	4883ec28488d0df56d7e02e89047b300	1곳
+DLL상수(함수)	SAN14_DragLearn.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	2곳
+DLL상수(함수)	SAN14_WheelRegion.dll	코드	0xb190		.text	0xb190	0xb215	+0x0	48895c240848896c2410488974241857	1곳
+DLL상수(함수)	SAN14_WheelRegion.dll	코드	0x1000		.text	0x1000	0x1036	+0x0	4883ec28ba02000000488d0d08bab501	16곳
+DLL상수(함수)	SAN14_WheelRegion.dll	코드	0xa790		.text	0xa790	0xa7c4	+0x0	48895c2408574883ec208bda488bf9e8	1곳
+DLL상수(함수)	SAN14_WheelRegion.dll	코드	0x2d40		.text	0x2d40	0x2d88	+0x0	4883ec28488d0d8dfd7c02e830dd3700	1곳
+DLL상수(함수)	SAN14_WheelRegion.dll	코드	0x9050		.text	0x9050	0x9082	+0x0	40534883ec20488bd9e8f2feffff84c0	1곳
+소스	auto_merit.cpp	코드	0x1ec550		.text	0x1ec550	0x1ec57a	+0x0	41564883ec3048837908004c8bf17709	auto_merit.cpp:RVA_COMMIT 게임 논공 확정(F_COMMIT) — 새 판에서 G_COMMIT 16바이트도 확인
+소스	auto_merit.cpp	코드	0x32f500		.text	0x32f500	0x32f524	+0x0	4883ec284885c97414488b01ff501885	auto_merit.cpp:RVA_VALID 게임 객체 확인(F_VALID) — 새 판에서 G_VALID 16바이트도 확인
+소스	auto_merit.cpp	코드	0x3f6bc0		.text	0x3f6bc0	0x3f6c4c	+0x0	48895c240848896c2410488974241857	auto_merit.cpp:RVA_ALLOC 게임 할당기(표 칸 만들기)
+소스	auto_merit.cpp	자료	0x277df18		.data					auto_merit.cpp:RVA_DB 데이터 뿌리
+소스	domestic_player.cpp	자료	0x277df18		.data					domestic_player.cpp:23 데이터 뿌리(db)

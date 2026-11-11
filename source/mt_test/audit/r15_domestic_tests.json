@@ -1,0 +1,129 @@
+{
+  "scope": "Execute shipped PE + captured native bonus/selection/commit code.\nNative OS, factions and rendering endpoints are fixtures, not a live game run.\n",
+  "passed": 30,
+  "tests": [
+    {
+      "name": "full native eligible/rank fingerprints accepted before hooks",
+      "pass": true
+    },
+    {
+      "name": "production installer constructs all 39 hooks and original-entry trampolines",
+      "pass": true
+    },
+    {
+      "name": "senior rank derived from three actual rank-table grants, not a hard-coded test capacity",
+      "pass": true
+    },
+    {
+      "name": "all 1,088 officer IDs and custom 5999: ruler/non-ruler, all ten upper/lower combinations, all four bonus kinds",
+      "pass": true,
+      "detail": {
+        "combinations": 21780
+      }
+    },
+    {
+      "name": "all domestic bonus queries leave entropy, gacha states, reroll tickets and traits untouched",
+      "pass": true
+    },
+    {
+      "name": "reported base policy 3 reproduces missing native ruler bonus and resolves to effective level 4",
+      "pass": true
+    },
+    {
+      "name": "original bonus exclusion retained at 0x2320b0",
+      "pass": true
+    },
+    {
+      "name": "original bonus exclusion retained at 0x232640",
+      "pass": true
+    },
+    {
+      "name": "native flag 0x4000 cannot be bypassed by restoring ruler domestic bonus",
+      "pass": true
+    },
+    {
+      "name": "invalid metadata cannot create a ruler reward",
+      "pass": true
+    },
+    {
+      "name": "current/former/reappointed rulers keep one policy reward and three territory capacity",
+      "pass": true
+    },
+    {
+      "name": "native policy display arithmetic consumes restored ruler bonus",
+      "pass": true
+    },
+    {
+      "name": "no native domestic callback failures",
+      "pass": true
+    },
+    {
+      "name": "full native eligible/rank fingerprints accepted before hooks",
+      "pass": true
+    },
+    {
+      "name": "production installer constructs all 39 hooks and original-entry trampolines",
+      "pass": true
+    },
+    {
+      "name": "senior rank derived from three actual rank-table grants, not a hard-coded test capacity",
+      "pass": true
+    },
+    {
+      "name": "lower selection 1 creates no gacha, RNG or reroll-ticket charge",
+      "pass": true
+    },
+    {
+      "name": "lower selection 2 creates no gacha, RNG or reroll-ticket charge",
+      "pass": true
+    },
+    {
+      "name": "lower selection 3 creates no gacha, RNG or reroll-ticket charge",
+      "pass": true
+    },
+    {
+      "name": "all three domestic selections follow the actual ruler native prefix/capacity",
+      "pass": true
+    },
+    {
+      "name": "actual player native commit grants lower rewards only, preserving all upper states and tickets",
+      "pass": true
+    },
+    {
+      "name": "committed player ruler receives the earned policy bonus",
+      "pass": true
+    },
+    {
+      "name": "domestic-only reward and unchanged reroll state save with existing wire format",
+      "pass": true
+    },
+    {
+      "name": "existing ledger restores all three paid lower choices after reload",
+      "pass": true
+    },
+    {
+      "name": "reload restores unchanged tickets and exactly one policy bonus",
+      "pass": true
+    },
+    {
+      "name": "full native eligible/rank fingerprints accepted before hooks",
+      "pass": true
+    },
+    {
+      "name": "production installer constructs all 39 hooks and original-entry trampolines",
+      "pass": true
+    },
+    {
+      "name": "senior rank derived from three actual rank-table grants, not a hard-coded test capacity",
+      "pass": true
+    },
+    {
+      "name": "AI ruler at 9/9 takes all three domestic rewards through the unchanged choice policy",
+      "pass": true
+    },
+    {
+      "name": "AI domestic fallback consumes no RNG/tickets and receives its policy reward",
+      "pass": true
+    }
+  ]
+}

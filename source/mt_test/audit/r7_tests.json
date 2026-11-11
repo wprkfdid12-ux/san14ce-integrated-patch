@@ -1,0 +1,314 @@
+{
+  "scope": "R7 dialog/lifetime regressions on the compiled Win64 DLL.\nNative click and state tick are captured original machine code. OS/widget\nendpoints are substituted; geometry/ownership tests are NOT a GPU visual test.\n",
+  "passed": 77,
+  "tests": [
+    {
+      "name": "logged Zhao Yun replacement is 상승",
+      "pass": true
+    },
+    {
+      "name": "log seeds reproduce 수전 and 불굴 exactly",
+      "pass": true
+    },
+    {
+      "name": "logged two-officer selection and individual coupon totals preserved",
+      "pass": true
+    },
+    {
+      "name": "logged Decision reaches exact visible-structure replacement dialog",
+      "pass": true
+    },
+    {
+      "name": "replacement No returns to unchanged current choices",
+      "pass": true
+    },
+    {
+      "name": "explicit replacement Yes commits both logged officers once",
+      "pass": true
+    },
+    {
+      "name": "confirmed exit unregisters all owned controls and dialog",
+      "pass": true
+    },
+    {
+      "name": "logged Zhao Yun replacement is 상승",
+      "pass": true
+    },
+    {
+      "name": "log seeds reproduce 수전 and 불굴 exactly",
+      "pass": true
+    },
+    {
+      "name": "logged two-officer selection and individual coupon totals preserved",
+      "pass": true
+    },
+    {
+      "name": "standalone Back displays result-reset and no-refund text",
+      "pass": true
+    },
+    {
+      "name": "standalone Back Yes performs one native cancel with zero trait/rank/cost changes",
+      "pass": true
+    },
+    {
+      "name": "standalone cancellation discards both results but retains each officer spent coupons",
+      "pass": true
+    },
+    {
+      "name": "notice uses independent native balloon layout, not a row child button",
+      "pass": true
+    },
+    {
+      "name": "notice centers in actual logical merit coordinates including all ancestors",
+      "pass": true
+    },
+    {
+      "name": "Yes and No are independent native controls on the same registered layer",
+      "pass": true
+    },
+    {
+      "name": "layout is never passed to button caption or callback APIs",
+      "pass": true
+    },
+    {
+      "name": "warning uses separate owned text primitives for all four lines",
+      "pass": true
+    },
+    {
+      "name": "native Yes/No labels and Selection height preserved",
+      "pass": true
+    },
+    {
+      "name": "logical-coordinate release over No works with an actual native No target",
+      "pass": true
+    },
+    {
+      "name": "native popup teardown releases each owned object once",
+      "pass": true
+    },
+    {
+      "name": "popup children unregister before their native root",
+      "pass": true
+    },
+    {
+      "name": "lost native visibility unlocks without consent or refund: 11",
+      "pass": true
+    },
+    {
+      "name": "warning can be rebuilt/reopened after native visibility loss: 11",
+      "pass": true
+    },
+    {
+      "name": "lost native visibility unlocks without consent or refund: 12",
+      "pass": true
+    },
+    {
+      "name": "warning can be rebuilt/reopened after native visibility loss: 12",
+      "pass": true
+    },
+    {
+      "name": "lost native visibility unlocks without consent or refund: 13",
+      "pass": true
+    },
+    {
+      "name": "warning can be rebuilt/reopened after native visibility loss: 13",
+      "pass": true
+    },
+    {
+      "name": "native background failure leaves no confirmation barrier",
+      "pass": true
+    },
+    {
+      "name": "background allocation retries without abandoning preview",
+      "pass": true
+    },
+    {
+      "name": "partial notice text failure never locks screen: 1",
+      "pass": true
+    },
+    {
+      "name": "partial notice text construction resumes safely: 1",
+      "pass": true
+    },
+    {
+      "name": "partial notice text failure never locks screen: 4",
+      "pass": true
+    },
+    {
+      "name": "partial notice text construction resumes safely: 4",
+      "pass": true
+    },
+    {
+      "name": "partial notice text failure never locks screen: 6",
+      "pass": true
+    },
+    {
+      "name": "partial notice text construction resumes safely: 6",
+      "pass": true
+    },
+    {
+      "name": "Back during replacement confirmation changes to cancellation warning",
+      "pass": true
+    },
+    {
+      "name": "old replacement Yes cannot approve new Back warning",
+      "pass": true
+    },
+    {
+      "name": "fresh Back while cancellation warning is open acts as No",
+      "pass": true
+    },
+    {
+      "name": "next explicit Back Yes cancels without applying replacement",
+      "pass": true
+    },
+    {
+      "name": "all merit controls suspend before original officer picker: False",
+      "pass": true
+    },
+    {
+      "name": "picker rejects stale toolbar/reentrant tick and Back callback: False",
+      "pass": true
+    },
+    {
+      "name": "native picker returns once without changing parked gacha: False",
+      "pass": true
+    },
+    {
+      "name": "toolbar restored after picker or recreated after owner destruction: False",
+      "pass": true
+    },
+    {
+      "name": "restored toolbar binds a fresh actionable callback: False",
+      "pass": true
+    },
+    {
+      "name": "all merit controls suspend before original officer picker: True",
+      "pass": true
+    },
+    {
+      "name": "picker rejects stale toolbar/reentrant tick and Back callback: True",
+      "pass": true
+    },
+    {
+      "name": "native picker returns once without changing parked gacha: True",
+      "pass": true
+    },
+    {
+      "name": "toolbar restored after picker or recreated after owner destruction: True",
+      "pass": true
+    },
+    {
+      "name": "restored toolbar binds a fresh actionable callback: True",
+      "pass": true
+    },
+    {
+      "name": "unregister-time callback cannot commit, close twice or resurrect controls",
+      "pass": true
+    },
+    {
+      "name": "reentrant cleanup releases native resources once with original context",
+      "pass": true
+    },
+    {
+      "name": "MISS description uses independent native text window",
+      "pass": true
+    },
+    {
+      "name": "Back temporarily hides MISS description before warning",
+      "pass": true
+    },
+    {
+      "name": "Back No restores same MISS description without hidden modal state",
+      "pass": true
+    },
+    {
+      "name": "description OK only closes text and grants no reward",
+      "pass": true
+    },
+    {
+      "name": "original bottom Decision is sole MISS/X/passion commit",
+      "pass": true
+    },
+    {
+      "name": "two independent popup roots and children clean up exactly once",
+      "pass": true
+    },
+    {
+      "name": "popup exact-build bindings and object size accepted",
+      "pass": true
+    },
+    {
+      "name": "compiled popup guard matches supplied original capture 0",
+      "pass": true
+    },
+    {
+      "name": "foreign popup function bytes reject patch before hooks 0",
+      "pass": true
+    },
+    {
+      "name": "compiled popup guard matches supplied original capture 1",
+      "pass": true
+    },
+    {
+      "name": "foreign popup function bytes reject patch before hooks 1",
+      "pass": true
+    },
+    {
+      "name": "compiled popup guard matches supplied original capture 2",
+      "pass": true
+    },
+    {
+      "name": "foreign popup function bytes reject patch before hooks 2",
+      "pass": true
+    },
+    {
+      "name": "compiled popup guard matches supplied original capture 3",
+      "pass": true
+    },
+    {
+      "name": "foreign popup function bytes reject patch before hooks 3",
+      "pass": true
+    },
+    {
+      "name": "compiled popup guard matches supplied original capture 4",
+      "pass": true
+    },
+    {
+      "name": "foreign popup function bytes reject patch before hooks 4",
+      "pass": true
+    },
+    {
+      "name": "compiled popup guard matches supplied original capture 5",
+      "pass": true
+    },
+    {
+      "name": "foreign popup function bytes reject patch before hooks 5",
+      "pass": true
+    },
+    {
+      "name": "compiled popup guard matches supplied original capture 6",
+      "pass": true
+    },
+    {
+      "name": "foreign popup function bytes reject patch before hooks 6",
+      "pass": true
+    },
+    {
+      "name": "compiled popup guard matches supplied original capture 7",
+      "pass": true
+    },
+    {
+      "name": "foreign popup function bytes reject patch before hooks 7",
+      "pass": true
+    },
+    {
+      "name": "compiled popup guard matches supplied original capture 8",
+      "pass": true
+    },
+    {
+      "name": "foreign popup function bytes reject patch before hooks 8",
+      "pass": true
+    }
+  ]
+}

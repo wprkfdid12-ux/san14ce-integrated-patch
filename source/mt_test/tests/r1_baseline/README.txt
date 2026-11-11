@@ -1,0 +1,1 @@
+R1-era test source kept for change review only. Current runners in tests/ use R2 event semantics. Pending sidecar fixtures now call the production engine on an already committed native unlock. Removed tile-reuse/automatic-thanks expectations are replaced by test_r2.py.

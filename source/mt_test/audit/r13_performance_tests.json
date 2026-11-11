@@ -1,0 +1,129 @@
+{
+  "version": "RC4-R13-PreviewReroll_Perf",
+  "scope": "Compare exact R12/R13 DLL operations, not live-game FPS/time.",
+  "passed": 30,
+  "tests": [
+    {
+      "name": "negative control is exact R12-UIFastPath distributed DLL",
+      "pass": true
+    },
+    {
+      "name": "R12 actual DLL workload completed: bench_r13_queries.py",
+      "pass": true
+    },
+    {
+      "name": "R12 actual DLL workload completed: bench_r13_ui.py",
+      "pass": true
+    },
+    {
+      "name": "R13 actual DLL workload completed: bench_r13_queries.py",
+      "pass": true
+    },
+    {
+      "name": "R13 actual DLL workload completed: bench_r13_ui.py",
+      "pass": true
+    },
+    {
+      "name": "query reports fingerprint exact tested modules",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_eligible same count and same 1000-officer/50-force world",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_eligible identical eligibility/rank results",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_eligible fewer repeated checked-memory calls within callback",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_eligible retains R12 warm rank/force-table optimization",
+      "pass": true
+    },
+    {
+      "name": "hook_ai_visit same count and same 1000-officer/50-force world",
+      "pass": true
+    },
+    {
+      "name": "hook_ai_visit identical eligibility/rank results",
+      "pass": true
+    },
+    {
+      "name": "hook_ai_visit fewer repeated checked-memory calls within callback",
+      "pass": true
+    },
+    {
+      "name": "hook_ai_visit retains R12 warm rank/force-table optimization",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_current_rank same count and same 1000-officer/50-force world",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_current_rank identical eligibility/rank results",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_current_rank fewer repeated checked-memory calls within callback",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_current_rank retains R12 warm rank/force-table optimization",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_rank same count and same 1000-officer/50-force world",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_rank identical eligibility/rank results",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_rank fewer repeated checked-memory calls within callback",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_rank retains R12 warm rank/force-table optimization",
+      "pass": true
+    },
+    {
+      "name": "UI/commit reports fingerprint exact tested modules",
+      "pass": true
+    },
+    {
+      "name": "one actual batch visits 4 officer-table slots instead of 2003; unrelated officers unchanged",
+      "pass": true
+    },
+    {
+      "name": "single-officer native commit boundary checks 10023 -> 22",
+      "pass": true
+    },
+    {
+      "name": "9000 X-free cell checks avoid 9000 unnecessary live officer lookups",
+      "pass": true
+    },
+    {
+      "name": "X-free checked-memory calls 36000 -> 9000, same zero mask results",
+      "pass": true
+    },
+    {
+      "name": "actual shipped Core code reproduces one sync file triplet per UI diagnostic",
+      "pass": true
+    },
+    {
+      "name": "same 61 diagnostics queued with zero file calls on gameplay callback",
+      "pass": true
+    },
+    {
+      "name": "full queue/absent logger drop diagnostics without sync fallback or disabling gameplay",
+      "pass": true
+    }
+  ],
+  "baseline_dll_sha256": "1de57229e56cfe01485bfd0bcf7e3dff691742f9d7bac1a32639b3d390e2a83d",
+  "current_dll_sha256": "4c88b9de8ce71b10c40632b01eb44b30c38d2b218165668ca28250c3dadb88e9"
+}

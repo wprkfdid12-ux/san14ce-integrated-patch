@@ -1,0 +1,282 @@
+{
+  "passed": 68,
+  "tests": [
+    {
+      "name": "R16 version and algorithm metadata agree",
+      "pass": true
+    },
+    {
+      "name": "ready installer format 2, with live-game verification explicitly false",
+      "pass": true
+    },
+    {
+      "name": "exact ten payload files match manifest, including three alternative loaders",
+      "pass": true
+    },
+    {
+      "name": "R15 no-state upgrade recognizes SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "R15 no-state upgrade recognizes SAN14Mods/manifests/MeritTraits.json",
+      "pass": true
+    },
+    {
+      "name": "R15 no-state upgrade recognizes SAN14Mods/modules/MeritTraits.ini",
+      "pass": true
+    },
+    {
+      "name": "shared/private support bytes unchanged: SAN14Mods/Core/SAN14_ModCore.dll",
+      "pass": true
+    },
+    {
+      "name": "shared/private support bytes unchanged: SAN14Mods/resolvers/SAN14_Resolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "shared/private support bytes unchanged: SAN14Mods/MeritTraits/SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "shared/private support bytes unchanged: SAN14Mods/MeritTraits/UI_Traits9_Hover.dll",
+      "pass": true
+    },
+    {
+      "name": "default loader is original common loader, only package location changed",
+      "pass": true
+    },
+    {
+      "name": "deterministic main-only rebuild SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "tested DLL equals payload SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "deterministic main-only rebuild SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "tested DLL equals payload SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 PE SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "no writable executable section SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 PE version.dll",
+      "pass": true
+    },
+    {
+      "name": "no writable executable section version.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 PE dinput8.dll",
+      "pass": true
+    },
+    {
+      "name": "no writable executable section dinput8.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 PE dxgi.dll",
+      "pass": true
+    },
+    {
+      "name": "no writable executable section dxgi.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 PE SAN14_ModCore.dll",
+      "pass": true
+    },
+    {
+      "name": "no writable executable section SAN14_ModCore.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 PE SAN14_Resolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "no writable executable section SAN14_Resolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 PE SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "no writable executable section SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 PE UI_Traits9_Hover.dll",
+      "pass": true
+    },
+    {
+      "name": "no writable executable section UI_Traits9_Hover.dll",
+      "pass": true
+    },
+    {
+      "name": "public export/import ABI unchanged",
+      "pass": true
+    },
+    {
+      "name": "complete resolver hook inventory and five female-only traits recorded",
+      "pass": true
+    },
+    {
+      "name": "Windows encoding and balanced script CaptureUIPerformance.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows encoding and balanced script Diagnostics.Common.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows encoding and balanced script CollectLogs.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows encoding and balanced script Uninstall.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows encoding and balanced script BackupSaves.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows encoding and balanced script Installer.Common.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows encoding and balanced script Install.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows encoding and balanced script CaptureRuntime.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows encoding and balanced script Rollback.ps1",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launcher 문제자료모으기.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launcher 가챠로그추출.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launcher UI호출진단.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launcher INSTALL.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launcher 세이브백업.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launcher 실게임자료수집.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launcher ROLLBACK.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit launcher UNINSTALL.cmd",
+      "pass": true
+    },
+    {
+      "name": "actual PowerShell install/upgrade/uninstall/rollback and interruption fixtures passed with final DLL",
+      "pass": true
+    },
+    {
+      "name": "executed regression report r6_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report r7_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report r9_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report r11_compat_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report cp03_stack_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report r11_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report r12_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report r13_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report r14_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report r15_domestic_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report r16_trait_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report r16_ui_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report r16_compat_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed regression report r16_performance_tests.json",
+      "pass": true
+    },
+    {
+      "name": "AI timing refers to final DLL",
+      "pass": true
+    },
+    {
+      "name": "AI rerolls retained; lower row does not use tickets",
+      "pass": true
+    },
+    {
+      "name": "Korean report covers requirements and outstanding live checks",
+      "pass": true
+    }
+  ],
+  "dll_sha256": {
+    "SAN14_MeritResolver_CEKO.dll": "73d48b3896beed61b95538478f2ce57fcf6583e8c60f0e241ffeaaf8ca46ecfc",
+    "SAN14_MeritTraits.dll": "9cb11101dc509364dd512240dda2beb27b6657132222b0867bc47c54f8278188"
+  },
+  "scope": "R16 release integrity/build gate. No claim of live Windows DLL loading/gameplay."
+}

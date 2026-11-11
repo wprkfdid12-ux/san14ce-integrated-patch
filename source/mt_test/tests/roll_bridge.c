@@ -1,0 +1,2 @@
+#include <stdint.h>
+uint64_t callroll(uint64_t f, uint64_t t,uint64_t s,uint64_t stage,uint64_t colors,uint64_t seed,uint64_t rid,uint64_t inherit,uint64_t reroll,uint64_t dist){return ((int(__attribute__((ms_abi))*)(void*,void*,uint32_t,void*,uint64_t,uint64_t,uint16_t,int,void*))f)((void*)t,(void*)s,stage,(void*)colors,seed,rid,inherit,reroll,(void*)dist);}

@@ -1,0 +1,14 @@
+[
+  {
+    "path": "/mnt/data/r10_deliverables/SAN14CE_MeritTraits_RC4_R10_MeritRules_Install.zip",
+    "bytes": 338630,
+    "sha256": "93e2807b858d01e501e418c11bfbfd327043b5f13990a6c8835d4096cf18b5b5",
+    "files": 49
+  },
+  {
+    "path": "/mnt/data/r10_deliverables/SAN14CE_MeritTraits_RC4_R10_MeritRules_Source.zip",
+    "bytes": 4104256,
+    "sha256": "618ddd1e6507927396c989fd2b0907ea69892e8d70fbbfe1a2d904dfa52c9596",
+    "files": 398
+  }
+]

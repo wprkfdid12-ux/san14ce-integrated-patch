@@ -1,0 +1,12 @@
+LIBRARY KERNEL32.dll
+EXPORTS
+AddVectoredExceptionHandler
+GetModuleHandleExW
+GetModuleFileNameW
+CreateFileW
+WriteFile
+SetFilePointer
+CloseHandle
+GetLocalTime
+GetCurrentThreadId
+VirtualQuery

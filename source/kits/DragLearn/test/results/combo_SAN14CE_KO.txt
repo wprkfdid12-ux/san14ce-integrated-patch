@@ -1,0 +1,46 @@
+== WheelRegion + DragLearn together on /home/claude/dl/img_SAN14CE_KO.bin
+    [log] DragLearn: pattern matches S=1 X=1 Y=1 P=1 Q=1 E1=1 E2=1 D=1 SF=1 XC=1 L1=1 L2=1 L3=1 L4=1 L5=1 L6=1 G=1 X5=1
+    [log] DragLearn: S (list opens) exe+0x7482EC
+    [log] DragLearn: X (list closed) exe+0x748359
+    [log] DragLearn: Y (learn call) exe+0x740125
+    [log] DragLearn: P (general list opens) exe+0x74A338
+    [log] DragLearn: Q (general list closed) exe+0x74A37A
+    [log] DragLearn: D (book grey-out) exe+0x74816E
+    [log] DragLearn: LearnTactic exe+0x1F0520
+    [log] DragLearn: valid exe+0x32F500
+    [log] DragLearn: tactic slot exe+0x22A320
+    [log] DragLearn: orders exe+0x22E7E0
+    [log] DragLearn: tactic id exe+0x22E0A0
+    [log] DragLearn: formation id exe+0x22DD10
+    [log] DragLearn: general special formation exe+0x42A80
+    [log] DragLearn: general has formation exe+0x232350
+    [log] DragLearn: book index exe+0x22DD70
+    [log] DragLearn: data root exe+0x277DF18
+    [log] DragLearn: orders cost exe+0x1A48584
+    [log] DragLearn: result head exe+0x27D10F0
+    [log] DragLearn: result count exe+0x27D1108
+    [log] DragLearn: ready (multi-select: up to 10 books, up to 10 generals)
+    [log] WheelRegion: pattern matches A=1 B=1 K1=1 K2=1 G=1
+    [log] WheelRegion: A (hover tile) exe+0x17F590
+    [log] WheelRegion: B (info tile) exe+0x18C4B4
+    [log] WheelRegion: K (garrison) exe+0x231500
+    [log] WheelRegion: map global exe+0x1BB3D00
+    [log] WheelRegion: data root global exe+0x277DF18
+    [log] WheelRegion: ready (wheel click on an empty tile selects the region's village/port/city/gate)
+  ok: WheelRegion hooked
+  ok: DragLearn hooked
+    patched exe+17F590..+17F597
+    patched exe+18C4B4..+18C4BC
+    patched exe+231500..+231506
+    patched exe+740125..+74012A
+    patched exe+74816E..+748176
+    patched exe+7482EC..+7482F6
+    patched exe+748359..+748361
+    patched exe+74A338..+74A343
+    patched exe+74A37A..+74A381
+  ok: 9 separate patched ranges (WheelRegion 3 + DragLearn 6), none shared
+    [log] DragLearn: stopped, original bytes restored
+    [log] WheelRegion: stopped, original bytes restored
+  ok: after both stop: image identical to the original
+
+4 checks, 0 failed

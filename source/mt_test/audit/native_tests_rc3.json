@@ -1,0 +1,150 @@
+{
+  "scope": "Production Win64 PE instructions executed on Linux using MS-ABI bridge; API/game services mocked. NOT real Windows or full SAN14 runtime.",
+  "tests": [
+    {
+      "name": "SHA256 empty",
+      "pass": true
+    },
+    {
+      "name": "SHA256 abc",
+      "pass": true
+    },
+    {
+      "name": "SHA256 long",
+      "pass": true
+    },
+    {
+      "name": "SHA256 unaligned",
+      "pass": true
+    },
+    {
+      "name": "fixed top-stat mask (96, 91, 80, 70, 60)",
+      "pass": true
+    },
+    {
+      "name": "fixed top-stat mask (91, 96, 76, 70, 80)",
+      "pass": true
+    },
+    {
+      "name": "fixed top-stat mask (90, 30, 100, 95, 90)",
+      "pass": true
+    },
+    {
+      "name": "fixed top-stat mask (80, 30, 90, 99, 95)",
+      "pass": true
+    },
+    {
+      "name": "fixed top-stat mask (75, 65, 80, 88, 99)",
+      "pass": true
+    },
+    {
+      "name": "fixed top-stat mask (99, 99, 20, 30, 40)",
+      "pass": true
+    },
+    {
+      "name": "fixed top-stat mask (0, 0, 0, 0, 0)",
+      "pass": true
+    },
+    {
+      "name": "fixed top-stat mask (200, 200, 200, 200, 200)",
+      "pass": true
+    },
+    {
+      "name": "185 unique actual-ID blue/gold catalog entries",
+      "pass": true
+    },
+    {
+      "name": "pool tier/unique-ID/type (1, 0)",
+      "pass": true
+    },
+    {
+      "name": "pool tier/unique-ID/type (1, 1)",
+      "pass": true
+    },
+    {
+      "name": "pool tier/unique-ID/type (1, 2)",
+      "pass": true
+    },
+    {
+      "name": "pool tier/unique-ID/type (2, 0)",
+      "pass": true
+    },
+    {
+      "name": "pool tier/unique-ID/type (2, 1)",
+      "pass": true
+    },
+    {
+      "name": "pool tier/unique-ID/type (2, 2)",
+      "pass": true
+    },
+    {
+      "name": "pool tier/unique-ID/type (4, 0)",
+      "pass": true
+    },
+    {
+      "name": "pool tier/unique-ID/type (4, 1)",
+      "pass": true
+    },
+    {
+      "name": "pool tier/unique-ID/type (4, 2)",
+      "pass": true
+    },
+    {
+      "name": "pool tier/unique-ID/type (8, 0)",
+      "pass": true
+    },
+    {
+      "name": "pool tier/unique-ID/type (8, 1)",
+      "pass": true
+    },
+    {
+      "name": "pool tier/unique-ID/type (8, 2)",
+      "pass": true
+    },
+    {
+      "name": "pool tier/unique-ID/type (16, 0)",
+      "pass": true
+    },
+    {
+      "name": "pool tier/unique-ID/type (16, 1)",
+      "pass": true
+    },
+    {
+      "name": "pool tier/unique-ID/type (16, 2)",
+      "pass": true
+    },
+    {
+      "name": "pool tier/unique-ID/type (3, 0)",
+      "pass": true
+    },
+    {
+      "name": "pool tier/unique-ID/type (3, 1)",
+      "pass": true
+    },
+    {
+      "name": "pool tier/unique-ID/type (3, 2)",
+      "pass": true
+    },
+    {
+      "name": "pool tier/unique-ID/type (31, 0)",
+      "pass": true
+    },
+    {
+      "name": "pool tier/unique-ID/type (31, 1)",
+      "pass": true
+    },
+    {
+      "name": "pool tier/unique-ID/type (31, 2)",
+      "pass": true
+    },
+    {
+      "name": "Wolong family duplicate filter",
+      "pass": true
+    },
+    {
+      "name": "nonduplicate gold synergy candidates retained",
+      "pass": true
+    }
+  ],
+  "passed": 36
+}

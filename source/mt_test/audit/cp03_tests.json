@@ -1,0 +1,174 @@
+{
+  "scope": "Rebuilt Win64 PE executed on Linux through Microsoft x64 ABI; OS/game mocked; not Windows/live game.",
+  "passed": 42,
+  "tests": [
+    {
+      "name": "fresh state passes semantic validation",
+      "pass": true
+    },
+    {
+      "name": "an already unlocked third chance can be chosen first",
+      "pass": true
+    },
+    {
+      "name": "reverse-order second pending roll rejected atomically",
+      "pass": true
+    },
+    {
+      "name": "single pending state passes validation",
+      "pass": true
+    },
+    {
+      "name": "semantic validator rejects NaN cost",
+      "pass": true
+    },
+    {
+      "name": "semantic validator rejects infinite weight",
+      "pass": true
+    },
+    {
+      "name": "semantic validator rejects negative fit",
+      "pass": true
+    },
+    {
+      "name": "semantic validator rejects uninitialized with payload",
+      "pass": true
+    },
+    {
+      "name": "semantic validator rejects reroll sum mismatch",
+      "pass": true
+    },
+    {
+      "name": "semantic validator rejects nonboolean star",
+      "pass": true
+    },
+    {
+      "name": "semantic validator rejects budget mismatch",
+      "pass": true
+    },
+    {
+      "name": "semantic validator rejects transcend without anomaly",
+      "pass": true
+    },
+    {
+      "name": "semantic validator rejects invalid original trait",
+      "pass": true
+    },
+    {
+      "name": "semantic validator rejects two pending results",
+      "pass": true
+    },
+    {
+      "name": "initial entropy failure preserves chance and counters",
+      "pass": true
+    },
+    {
+      "name": "entropy failure does not leave a spinning UI",
+      "pass": true
+    },
+    {
+      "name": "reroll entropy failure preserves preview and remaining rerolls",
+      "pass": true
+    },
+    {
+      "name": "metadata fault rejects direct reroll",
+      "pass": true
+    },
+    {
+      "name": "metadata fault rejects finalization",
+      "pass": true
+    },
+    {
+      "name": "preflight entropy failure prevents native fee/rank commit",
+      "pass": true
+    },
+    {
+      "name": "native commit failure creates no trait result",
+      "pass": true
+    },
+    {
+      "name": "RC3 .mtdat reconstructs the accepted RC4 result",
+      "pass": true
+    },
+    {
+      "name": "legacy migration reconstructs coherent budget and zero rerolls",
+      "pass": true
+    },
+    {
+      "name": "legacy migrated original troop bonus remains removed",
+      "pass": true
+    },
+    {
+      "name": "migration does not reroll an already acquired result",
+      "pass": true
+    },
+    {
+      "name": "safe RC3 to RC4 migration creates separate file and preserves legacy bytes",
+      "pass": true
+    },
+    {
+      "name": "identical native and companion snapshots may be saved again",
+      "pass": true
+    },
+    {
+      "name": "R40: same-digest metadata collision never overwrites the old companion and never blocks the native save",
+      "pass": true
+    },
+    {
+      "name": "collision does not mutate current pending roll",
+      "pass": true
+    },
+    {
+      "name": "distinct native digest has independent companion snapshot",
+      "pass": true
+    },
+    {
+      "name": "R40: sidecar write failure never blocks the native save (companion skipped, logged)",
+      "pass": true
+    },
+    {
+      "name": "R40: sidecar flush failure never blocks the native save (companion skipped, logged)",
+      "pass": true
+    },
+    {
+      "name": "R40: sidecar rename failure never blocks the native save (companion skipped, logged)",
+      "pass": true
+    },
+    {
+      "name": "failed sidecar writes leave no temporary file",
+      "pass": true
+    },
+    {
+      "name": "failed save cannot change active-save diagnostic identity",
+      "pass": true
+    },
+    {
+      "name": "overlapping saves cannot replace in-flight snapshot",
+      "pass": true
+    },
+    {
+      "name": "native save end releases single-save guard",
+      "pass": true
+    },
+    {
+      "name": "failed native save preparation releases guard",
+      "pass": true
+    },
+    {
+      "name": "new scenario does not inherit prior save hash in logs",
+      "pass": true
+    },
+    {
+      "name": "R40: checksum-valid file with NaN cost -> only that officer starts fresh, no module fault",
+      "pass": true
+    },
+    {
+      "name": "R40: checksum-valid file with reroll mismatch -> only that officer starts fresh, no module fault",
+      "pass": true
+    },
+    {
+      "name": "R40: contradicting award bit -> that officer starts fresh, no module fault",
+      "pass": true
+    }
+  ]
+}

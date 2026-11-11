@@ -1,0 +1,68 @@
+이 파일부터 읽고 RC4 R3 증분 수정 지점에서 이어가세요. 처음부터 재작성하지 마세요.
+
+현재 payload와 source/build는 R2를 이어 수정·재빌드한 R3 설치 후보입니다.
+R2 인계 원문은 references/r2_handoff, 더 이전 인계는 references/incoming_handoff,
+추가수정지시서는 references/proposals에 따로 보존했습니다. 기존 제안서와 합치지 않았습니다.
+검증결과.md → analysis/hover_x_contract.md → source/README_SOURCE.txt 순으로 읽으세요.
+현재 DLL assertion329개 / 패키지 정적 assertion115개 통과. Windows 실게임은 미검증.
+
+최종 능력치 규칙 — 이전 편집 능력치 반영 요청보다 우선
+공식 대상과 교사 모두 DB 원본 능력치 분포를 비교합니다. 조광 ID619 = 65/68/53/51/60.
+편집·성장한 실제 게임 능력치는 절대 되돌리지 않습니다. 비교 입력만 원본을 씁니다.
+제안서의 앞4축을 유사도에 쓰고 근거에는5축을 표시합니다. 합계 기준이 아닙니다.
+원본 DB 없는 신무장만 현재 기본값 fallback. 현재 개성·고유전법·부모는 live 유지.
+
+R3에서 완료한 코드
+- G_MISS 별도 결과. 초기 기본 확률5%, g_params 한 곳에서 조정. 실제 개성 ID 위조 금지.
+- 세 번째 물리 보상칸, 시간순 마지막 기회, 열정 적용 기회는 꽝0%.
+- 별도 확정 후 원래 하단 결정이 성공해야 X와 열정이 함께 반영됩니다.
+- 빈 실제 위치의 X를 sidecar x_mask로만 저장. 실제 개성 배열은 그대로 둡니다.
+- 수용량은 실제 개성+X. 효과·상충·교사·6단계 평가에서는 X/꽝을 제외합니다.
+- 실제9/9는 기존 개성 유지, 결과만 꽝, 열정 부여. 외부 실제 개성이 X 자리를 채우면 X만 제거.
+- 열정은 무장별, 다음 시간순 기회에 적용. 적합도>=0.5 가중치1.35배, 황금1.5배.
+  재추첨·취소·저장/로드 동안 유지, 실제 개성 최종 반영 때만 소모. 기존 열기와 별개.
+- 각 무장마다 평생3기회에서 개인 재추첨권 총5개. 페이지/장수 사이 공용 아님.
+  정상 취소로 사용한 재추첨권을 돌려주지 않음. 세이브스컴 방지 기능은 추가하지 않음.
+- 꽝 안내는 연출1200ms 완료 다음 안전tick에 기존 native 위젯으로 생성. 닫기는 설명 확인뿐.
+- 나감/ESC는 원작 취소 버튼 이벤트를 호출. 화면 fade만으로 상태를 남기던 경로 수정.
+  재추첨 여부 무관. 모달/결과 뒤에서 대기한 하단 결정 요청은 버려 자동commit 방지.
+- 가챠 결과는 기존 Hover 엔진에 정확한 실제 개성 ID 전달. 별도 설명 DB 없음.
+  비활성 버튼의 부모가 hit target일 때도 연결. 연출·다른 모달 뒤의 설명은 차단.
+- 정확한 기존 Hover 코드 해시에 한해7개 display bridge 추가. Hover DLL 파일 자체는 동일.
+- 저장v3: GSlot64/GState232 크기는 그대로, 과거 padding 사용. 기존 두 세대 저널 유지.
+  v2는 새 필드0으로 이관하되 디스크 원본bytes/결과/저널 body hash를 바꾸지 않음.
+- MISS 로그 result_trait/evaluation/fit 등은 null. 미리보기·버림·commit·열정 부여/소모 구분.
+
+주요 변경 위치
+source/gacha.c,h / runtime_flow.inc / native_ui.inc / native_controls.inc /
+hover_x_adapter.inc / observation.inc / event_log.inc / merit_runtime.c / slot_store.inc
+tests/test_r3.py, tests/run_r3.py, tests/test_r3_package.py, tools/package_r3.py
+audit/R2_to_R3.diff가 R2 대비 소스·테스트 변경 근거입니다.
+
+미완료 / 다음 사람이 반드시 확인할 것
+1. 실제 Windows CE 한국어판에서 일반 추첨·재추첨 후 나감/ESC/하단 결정과 호버 재현 확인.
+2. X는 현재 원작 글자 렌더러의 "X"입니다. 원작 X 아이콘 리소스 ID/소유권과 실제 폰트 표시를
+   검증하지 못했습니다. 적절한 원작 X 리소스가 없다고 단정하지 마세요. 아이콘 재사용은 미완료.
+3. 기존 Hover의 공통 정보창/collector/무장·기본무장·부대 목록 경로는 연결했습니다.
+   다른 패치가 별도로 그리는 전용 화면까지 자동 연동됐다고 말하면 안 됩니다.
+   SAN14_MeritSlotDisplayV1을 제공하나 전용 UI의 호출 연결은 별도 검증·수정이 필요합니다.
+4. X Hover는 지시서가 허용한 생략 분기입니다. 실제 개성 설명을 위조해 붙이지 마세요.
+5. 모달 입력 우선순위, 모든 실화면 X 위치·스크롤·무장 전환·위젯 수명·화면 해상도를 실측해야 함.
+6. 설치/롤백/제거 PowerShell 실행, 실제 Steam 저장·로드, DirectX·음향·FPS는 미검증.
+7. 초기 확률/평가식은 최종 밸런스 인증 아님. 매핑 미확인 DLC 황금39종은 임의 후보 추가 금지.
+
+중요한 다운그레이드 제한
+R2는 R3의v3 보조 저장을 읽지 못합니다. 설치 전 세이브백업.cmd로 원본+보조정보를 함께 백업.
+R3에서 저장 후 R2로 되돌리려면 패치 롤백만 하지 말고, 대응하는 설치 전 백업도 함께 복원해야 함.
+보조정보를 지워 맞추거나 결과를 새로 뽑는 우회 금지. 모호한 저장 이력은 기존 fail-closed 유지.
+
+재빌드·검사·포장
+export MERIT_ZIG=/absolute/path/to/zig
+bash source/build.sh
+python tools/package_r3.py --stage
+python tests/run_r3.py
+python tests/simulate_rc4.py
+python tools/package_r3.py --zip /absolute/new-output-dir --baseline /absolute/extracted-R2-source
+Zig0.16.0 또는 clang/lld-link, Python3, gcc, binutils 필요. 도구 다운로드는 자동으로 하지 않습니다.
+소스ZIP에는 게임 원본 EXE, 전체 복원 이미지, 사용자 세이브를 넣지 않습니다.
+다음 수정 뒤 테스트·payload·manifest·SHA·인계ZIP을 갱신하세요. 사용자에게 INI/주소 편집을 요구하지 마세요.

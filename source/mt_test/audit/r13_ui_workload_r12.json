@@ -1,0 +1,24 @@
+{
+  "version": "R12",
+  "scope": "R12/R13 actual module + actual shipped Core logger at substituted Win32 I/O.\nCounts boundary calls, not latency, live game FPS or actual disk performance.\n",
+  "dll_sha256": "1de57229e56cfe01485bfd0bcf7e3dff691742f9d7bac1a32639b3d390e2a83d",
+  "workloads": {
+    "single_officer_commit_1000_profiles": {
+      "readable": 10023,
+      "officer_table_lookup": 2003
+    },
+    "x_free_9000_display_checks": {
+      "readable": 36000,
+      "officer_table_lookup": 9000
+    }
+  },
+  "actual_shipped_core_logger": {
+    "gameplay_io": {
+      "CreateFileW": 61,
+      "WriteFile": 61,
+      "CloseHandle": 61
+    },
+    "queued_records": 0,
+    "dropped": 0
+  }
+}

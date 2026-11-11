@@ -1,0 +1,90 @@
+{
+  "scope": "Actual Win64 DLL plus bundled Hover code with substituted OS/game endpoints; NOT Windows/live game",
+  "passed": 21,
+  "tests": [
+    {
+      "name": "wire sizes preserved; v3 consumes reserved padding only",
+      "pass": true
+    },
+    {
+      "name": "MISS is separate outcome with no synthetic trait ID/candidate list",
+      "pass": true
+    },
+    {
+      "name": "preview MISS has no slot, ability, budget, heat or buff effects",
+      "pass": true
+    },
+    {
+      "name": "MISS excluded from all six assessment grades",
+      "pass": true
+    },
+    {
+      "name": "MISS cannot delete or decline-replace an existing trait",
+      "pass": true
+    },
+    {
+      "name": "accept MISS occupies exact empty physical slot only in metadata and grants passion",
+      "pass": true
+    },
+    {
+      "name": "X counts toward capacity without becoming an effect or corrupting state",
+      "pass": true
+    },
+    {
+      "name": "passion multiplies good-fit/gold weights without changing raw DB similarities",
+      "pass": true
+    },
+    {
+      "name": "passion suppresses MISS and remains through next chance reroll 0",
+      "pass": true
+    },
+    {
+      "name": "passion suppresses MISS and remains through next chance reroll 1",
+      "pass": true
+    },
+    {
+      "name": "passion suppresses MISS and remains through next chance reroll 2",
+      "pass": true
+    },
+    {
+      "name": "passion suppresses MISS and remains through next chance reroll 3",
+      "pass": true
+    },
+    {
+      "name": "passion suppresses MISS and remains through next chance reroll 4",
+      "pass": true
+    },
+    {
+      "name": "actual next trait acceptance consumes buff once, leaves X intact",
+      "pass": true
+    },
+    {
+      "name": "external real trait edit removes overlapping X; never relocates it",
+      "pass": true
+    },
+    {
+      "name": "third physical reward tile is MISS-free even when rolled first",
+      "pass": true
+    },
+    {
+      "name": "last chronological chance is MISS-free in reverse tile order",
+      "pass": true
+    },
+    {
+      "name": "real 9/9 MISS keeps every incumbent and gives only result-X plus buff",
+      "pass": true
+    },
+    {
+      "name": "rerolling away a preview MISS spends one coupon but grants no X or buff",
+      "pass": true
+    },
+    {
+      "name": "MISS button callback does not create a nested modal",
+      "pass": true
+    },
+    {
+      "name": "MISS waits full 1200 ms; early skip cannot reveal or open notice",
+      "pass": true
+    }
+  ]
+}

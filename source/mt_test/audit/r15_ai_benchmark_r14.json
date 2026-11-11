@@ -1,0 +1,52 @@
+{
+  "version": "R14",
+  "scope": "Actual Win64 AI award callback + captured native commit, deterministic entropy.\nHost timings include Python-substituted OS/faction endpoints; NOT game FPS or\ntotal AI-turn timing. No reroll threshold, budget, RNG or native choices changed.\n",
+  "dll_sha256": "1e72c40d0b9b4f859ae17549cc8f216c5c0641150a4f0c95b115705a9d19382c",
+  "officers": 100,
+  "rulers": 10,
+  "durations_ms": [
+    128.029041,
+    117.736253,
+    127.113496,
+    126.753184,
+    138.976007
+  ],
+  "median_ms": 127.113496,
+  "outputs": [
+    {
+      "seed_trial": 0,
+      "rng_calls": 900,
+      "rerolls": 149,
+      "accepted": 300,
+      "sha256": "32dd2621ab43adcbe5febc08336956cf145612fb2a30fb10ed85319716120527"
+    },
+    {
+      "seed_trial": 1,
+      "rng_calls": 828,
+      "rerolls": 113,
+      "accepted": 300,
+      "sha256": "7086387219b4fb86fc9f487367ea64ba0ee01a9239d5d4739ce29fb2f5ffe7ee"
+    },
+    {
+      "seed_trial": 2,
+      "rng_calls": 894,
+      "rerolls": 146,
+      "accepted": 300,
+      "sha256": "23cdc5b46c298cfa6765139765a3366ebcf1dd70983084526fb26cfc43f226ff"
+    },
+    {
+      "seed_trial": 3,
+      "rng_calls": 886,
+      "rerolls": 142,
+      "accepted": 300,
+      "sha256": "99a73c41316073b3d818fcaef1d1727d25211ef141f8508d404ccdda9de815df"
+    },
+    {
+      "seed_trial": 4,
+      "rng_calls": 932,
+      "rerolls": 165,
+      "accepted": 300,
+      "sha256": "1279b3f00dc450fa0f586db42e71a7acfdda205f81298323c84ae54c579daf97"
+    }
+  ]
+}

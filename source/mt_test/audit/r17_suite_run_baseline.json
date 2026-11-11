@@ -1,0 +1,103 @@
+{
+  "version": "RC4-R17-TurnTransitionPerf",
+  "scope": "R17 full regression gate. Synthetic OS/game boundaries, not a live game.",
+  "results": [
+    {
+      "test": "test_r6.py",
+      "exit": 0,
+      "seconds": 6.418
+    },
+    {
+      "test": "test_r7.py",
+      "exit": 0,
+      "seconds": 2.603
+    },
+    {
+      "test": "test_r9.py",
+      "exit": 0,
+      "seconds": 1.09
+    },
+    {
+      "test": "test_r11_compat.py",
+      "exit": 0,
+      "seconds": 6.529
+    },
+    {
+      "test": "test_stack_probe.py",
+      "exit": 0,
+      "seconds": 1.313
+    },
+    {
+      "test": "test_r11.py",
+      "exit": 0,
+      "seconds": 2.312
+    },
+    {
+      "test": "test_r12.py",
+      "exit": 0,
+      "seconds": 1.376
+    },
+    {
+      "test": "test_r13.py",
+      "exit": 0,
+      "seconds": 3.205
+    },
+    {
+      "test": "test_r14.py",
+      "exit": 0,
+      "seconds": 0.657
+    },
+    {
+      "test": "test_r15_domestic.py",
+      "exit": 0,
+      "seconds": 1.778
+    },
+    {
+      "test": "test_r16_traits.py",
+      "exit": 0,
+      "seconds": 2.176
+    },
+    {
+      "test": "test_r16_ui.py",
+      "exit": 0,
+      "seconds": 0.825
+    },
+    {
+      "test": "test_r16_compat.py",
+      "exit": 1,
+      "seconds": 0.606
+    },
+    {
+      "test": "test_r17.py",
+      "exit": 0,
+      "seconds": 10.77
+    },
+    {
+      "test": "test_r17_performance.py",
+      "exit": 1,
+      "seconds": 0.041
+    }
+  ],
+  "dll_sha256": {
+    "SAN14_MeritTraits.dll": "91b263ebb319439a579d72de9447d2d3e82afad2d122e7fc4fead9ab0a5c5cad",
+    "SAN14_MeritResolver_CEKO.dll": "73d48b3896beed61b95538478f2ce57fcf6583e8c60f0e241ffeaaf8ca46ecfc"
+  },
+  "assertion_reports": {
+    "r6_tests.json": 149,
+    "r7_tests.json": 77,
+    "r9_tests.json": 23,
+    "r11_compat_tests.json": 259,
+    "cp03_stack_tests.json": 11,
+    "r11_tests.json": 76,
+    "r12_tests.json": 64,
+    "r13_tests.json": 94,
+    "r14_tests.json": 10,
+    "r15_domestic_tests.json": 30,
+    "r16_trait_tests.json": 14,
+    "r16_ui_tests.json": 5,
+    "r16_compat_tests.json": 12,
+    "r17_tests.json": 59,
+    "r17_performance_tests.json": 20
+  },
+  "total_passed_assertions": 903
+}

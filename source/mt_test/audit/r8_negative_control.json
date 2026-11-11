@@ -1,0 +1,29 @@
+{
+  "scope": "Compare current DLL with immutable R7 DLL when --r7 points to source root.\nThis is a reproduction of two routing defects, not a game/crash reproduction.\n",
+  "results": [
+    {
+      "dll": "/workspace/scratch/43e0191b2a1c/resume_r7/SAN14CE_MeritTraits_RC4_R7_Source/source/build/SAN14_MeritTraits.dll",
+      "sha256": "5d0a80874c2d41f928177a9e5a26a1a906326b774884a68ac29c69a6039043b8",
+      "route": "shared_code_1",
+      "incorrect_back_warning": true
+    },
+    {
+      "dll": "/workspace/scratch/43e0191b2a1c/resume_r7/SAN14CE_MeritTraits_RC4_R7_Source/source/build/SAN14_MeritTraits.dll",
+      "sha256": "5d0a80874c2d41f928177a9e5a26a1a906326b774884a68ac29c69a6039043b8",
+      "route": "bottom_group_hit",
+      "incorrect_back_warning": true
+    },
+    {
+      "dll": "/workspace/scratch/43e0191b2a1c/resume_r8/SAN14CE_MeritTraits_RC4_R8_Source/source/build/SAN14_MeritTraits.dll",
+      "sha256": "f5b189e0de4488a61f9ebcf99fcced140a33f271051f14830e8a9c6667728e26",
+      "route": "shared_code_1",
+      "incorrect_back_warning": false
+    },
+    {
+      "dll": "/workspace/scratch/43e0191b2a1c/resume_r8/SAN14CE_MeritTraits_RC4_R8_Source/source/build/SAN14_MeritTraits.dll",
+      "sha256": "f5b189e0de4488a61f9ebcf99fcced140a33f271051f14830e8a9c6667728e26",
+      "route": "bottom_group_hit",
+      "incorrect_back_warning": false
+    }
+  ]
+}

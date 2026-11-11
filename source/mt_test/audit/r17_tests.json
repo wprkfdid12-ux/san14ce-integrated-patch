@@ -1,0 +1,242 @@
+{
+  "scope": "R16/R17 exact machine-code comparisons; substituted OS/game boundaries.\nNo full-game turn, Windows scheduler, GPU or real filesystem latency claim.\n",
+  "passed": 59,
+  "tests": [
+    {
+      "name": "all 1,088 profiles, both sexes and three modes: complete distribution bytes equal R16",
+      "pass": true
+    },
+    {
+      "name": "256 custom/duplicate/out-of-range/gained-trait inputs retain exact R16 arithmetic, budgets and heat",
+      "pass": true
+    },
+    {
+      "name": "ten live rule snapshots: all 125,316 ordered pairs equal full R16 rebuild; identical refresh does no rebuild",
+      "pass": true
+    },
+    {
+      "name": "worker JSON fields, seeds, results and evaluation exactly match R16 across initial draw, five rerolls and confirm",
+      "pass": true
+    },
+    {
+      "name": "game callback enqueues bounded binary award data, not JSON text",
+      "pass": true
+    },
+    {
+      "name": "delayed formatting survives world reset without reading changed officer/state/hash/rule values",
+      "pass": true
+    },
+    {
+      "name": "actual worker drains, formats and writes the captured award after reset",
+      "pass": true
+    },
+    {
+      "name": "burst crossing queue wrap wakes the existing worker once while work remains queued",
+      "pass": true
+    },
+    {
+      "name": "worker drains wrapped queue and a new arrival during final write without losing its wake or record",
+      "pass": true
+    },
+    {
+      "name": "saturated queue returns before timestamp/snapshot work, preserving drop count and event sequence",
+      "pass": true
+    },
+    {
+      "name": "missing worker remains nonblocking and never falls back to synchronous I/O",
+      "pass": true
+    },
+    {
+      "name": "all four log paths have correct distinct suffixes",
+      "pass": true
+    },
+    {
+      "name": "full log rotates and appends to fresh file",
+      "pass": true
+    },
+    {
+      "name": "rolling log storage stays within four times two MiB",
+      "pass": true
+    },
+    {
+      "name": "failed rotation never appends past file cap",
+      "pass": true
+    },
+    {
+      "name": "failed log I/O is counted without gameplay failure",
+      "pass": true
+    },
+    {
+      "name": "full 128-event queue drops diagnostics rather than blocking gacha",
+      "pass": true
+    },
+    {
+      "name": "float rounding carry produces valid JSON numbers near integer boundaries",
+      "pass": true
+    },
+    {
+      "name": "event records identify current R17 build and log I/O failures",
+      "pass": true
+    },
+    {
+      "name": "two-MiB native save and companion complete through production journal",
+      "pass": true
+    },
+    {
+      "name": "reused digest matches independent SHA-256 and committed slot reference",
+      "pass": true
+    },
+    {
+      "name": "save/load preserves pending outcome, seed and tickets byte-for-byte",
+      "pass": true
+    },
+    {
+      "name": "failed native write cannot publish a new active digest; journal recovery protections remain",
+      "pass": true
+    },
+    {
+      "name": "Steam write route publishes the same checked prepared digest as the file route",
+      "pass": true
+    },
+    {
+      "name": "native slot save commits actual sidecar journal",
+      "pass": true
+    },
+    {
+      "name": "reference is checksummed COMMITTED not mere staging",
+      "pass": true
+    },
+    {
+      "name": "reroll changes sidecar without altering native game bytes",
+      "pass": true
+    },
+    {
+      "name": "same native bytes with changed gacha state can overwrite SAME slot safely",
+      "pass": true
+    },
+    {
+      "name": "previous and current gacha generations retained",
+      "pass": true
+    },
+    {
+      "name": "same native bytes can be stored under DIFFERENT slot binding",
+      "pass": true
+    },
+    {
+      "name": "load original slot restores latest reroll state exactly",
+      "pass": true
+    },
+    {
+      "name": "loaded pending result can spend next shared reroll",
+      "pass": true
+    },
+    {
+      "name": "third state commits despite identical native bytes",
+      "pass": true
+    },
+    {
+      "name": "other slot keeps its independent historical gacha state",
+      "pass": true
+    },
+    {
+      "name": "newer slot returns its own later state, not most recent globally",
+      "pass": true
+    },
+    {
+      "name": "idempotent native save remains available",
+      "pass": true
+    },
+    {
+      "name": "idempotent native save remains available",
+      "pass": true
+    },
+    {
+      "name": "idempotent native save remains available",
+      "pass": true
+    },
+    {
+      "name": "idempotent native save remains available",
+      "pass": true
+    },
+    {
+      "name": "idempotent native save remains available",
+      "pass": true
+    },
+    {
+      "name": "idempotent native save remains available",
+      "pass": true
+    },
+    {
+      "name": "idempotent native save remains available",
+      "pass": true
+    },
+    {
+      "name": "idempotent native save remains available",
+      "pass": true
+    },
+    {
+      "name": "bounded two generations per slot and no successful-save temp debris",
+      "pass": true
+    },
+    {
+      "name": "native write failure is propagated, never reported saved",
+      "pass": true
+    },
+    {
+      "name": "R40: failed native write preserves INTENT and both recoverable states without a fault latch",
+      "pass": true
+    },
+    {
+      "name": "actual old native bytes recover the correct old gacha generation",
+      "pass": true
+    },
+    {
+      "name": "actual new native bytes recover the new generation after interrupted write",
+      "pass": true
+    },
+    {
+      "name": "R40: native save that really wrote is reported saved; journal stays INTENT",
+      "pass": true
+    },
+    {
+      "name": "native written/metadata uncertain leaves durable INTENT",
+      "pass": true
+    },
+    {
+      "name": "R40: identical-byte interrupted state loads the last committed generation",
+      "pass": true
+    },
+    {
+      "name": "R40: both snapshots kept (reference may be committed to the older generation)",
+      "pass": true
+    },
+    {
+      "name": "unique same-account copied/renamed native save binds exact companion state",
+      "pass": true
+    },
+    {
+      "name": "R40: ambiguous copy is not guessed: fresh merit start, no fault",
+      "pass": true
+    },
+    {
+      "name": "R40: corrupt interrupted snapshot -> fresh merit start, no fault",
+      "pass": true
+    },
+    {
+      "name": "failed snapshot validation does not commit a recovery reference",
+      "pass": true
+    },
+    {
+      "name": "missing save identity blocks before native flush can truncate the file",
+      "pass": true
+    },
+    {
+      "name": "verified save identity forwards original flush",
+      "pass": true
+    },
+    {
+      "name": "unrelated game streams remain untouched by save guard",
+      "pass": true
+    }
+  ]
+}

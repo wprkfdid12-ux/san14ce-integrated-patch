@@ -1,0 +1,77 @@
+{
+  "version": "R16",
+  "scope": "Actual Win64 AI award callback + captured native commit, deterministic entropy.\nHost timings include Python-substituted OS/faction endpoints; NOT game FPS or\ntotal AI-turn timing. No reroll threshold, budget, RNG or native choices changed.\nLogger queue is enabled but not drained concurrently by the host fixture: the\n100-officer case includes saturation; the one-officer case stays below capacity.\n",
+  "dll_sha256": "9cb11101dc509364dd512240dda2beb27b6657132222b0867bc47c54f8278188",
+  "officers": 1,
+  "rulers": 1,
+  "durations_ms": [
+    0.371469,
+    0.270968,
+    0.267292,
+    0.258559,
+    0.27236
+  ],
+  "median_ms": 0.270968,
+  "outputs": [
+    {
+      "seed_trial": 0,
+      "rng_calls": 10,
+      "rerolls": 1,
+      "accepted": 3,
+      "sha256": "302822be40462a1407ca579c486bd31db5c3d0e6c8fed1d1d318161bd7a1c0a1",
+      "calculations": {
+        "distributions": 3,
+        "cache_hits": 0,
+        "anchor_builds": 0
+      }
+    },
+    {
+      "seed_trial": 1,
+      "rng_calls": 8,
+      "rerolls": 0,
+      "accepted": 3,
+      "sha256": "2ed84bb73be35cbbe977da6e0c1da56b789bd5a66b4940169a62c9245b1bf50e",
+      "calculations": {
+        "distributions": 3,
+        "cache_hits": 0,
+        "anchor_builds": 0
+      }
+    },
+    {
+      "seed_trial": 2,
+      "rng_calls": 10,
+      "rerolls": 1,
+      "accepted": 3,
+      "sha256": "6a38316f922305a2688a110ac0662e2a0e604bece7b9d4d1819e6a55fb56d26b",
+      "calculations": {
+        "distributions": 3,
+        "cache_hits": 0,
+        "anchor_builds": 0
+      }
+    },
+    {
+      "seed_trial": 3,
+      "rng_calls": 10,
+      "rerolls": 1,
+      "accepted": 3,
+      "sha256": "1c4e6a82b3505cb63c77f0b169e5c7a5024ebb149207b54c513a42f65c256b6d",
+      "calculations": {
+        "distributions": 3,
+        "cache_hits": 1,
+        "anchor_builds": 0
+      }
+    },
+    {
+      "seed_trial": 4,
+      "rng_calls": 10,
+      "rerolls": 1,
+      "accepted": 3,
+      "sha256": "d83735065bca3be2f37f6ea49ac22f307cdd90ea1d8463e7c12aa983205ec29b",
+      "calculations": {
+        "distributions": 3,
+        "cache_hits": 1,
+        "anchor_builds": 0
+      }
+    }
+  ]
+}

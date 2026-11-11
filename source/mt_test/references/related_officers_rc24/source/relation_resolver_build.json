@@ -1,0 +1,232 @@
+{
+  "normalized_windows_epilogs": 0,
+  "dll_sha256": "4e6bfb68f5f49ada3d4dededac564f0b3db98c6fd71e1b2f1a7b1580b7df59d6",
+  "size": 17920,
+  "image_base": 6442450944,
+  "functions": {
+    "rel_original_select": [
+      4096,
+      11
+    ],
+    "rel_late_bridge": [
+      4107,
+      188
+    ],
+    "rel_activate_bridge": [
+      4295,
+      41
+    ],
+    "rel_input_bridge": [
+      4336,
+      34
+    ],
+    "rel_original_dispatch": [
+      4370,
+      13
+    ],
+    "exact_unique": [
+      4384,
+      122
+    ],
+    "ri_read": [
+      4512,
+      34
+    ],
+    "in_image": [
+      4560,
+      69
+    ],
+    "install": [
+      4640,
+      671
+    ],
+    "rip": [
+      5312,
+      105
+    ],
+    "ri_contains": [
+      5424,
+      287
+    ],
+    "rel_dispatch_bridge": [
+      5712,
+      109
+    ],
+    "read_only_mode": [
+      5824,
+      242
+    ],
+    "hover_person": [
+      6080,
+      853
+    ],
+    "SAN14_RelatedResolverV1": [
+      6944,
+      3699
+    ],
+    "DllMain": [
+      10656,
+      6
+    ]
+  },
+  "imports": [
+    "GetSystemDirectoryW",
+    "LoadLibraryExW",
+    "GetProcAddress",
+    "InitOnceExecuteOnce",
+    "GetModuleHandleW",
+    "GetModuleFileNameW",
+    "VirtualProtect",
+    "FlushInstructionCache",
+    "GetCurrentProcess",
+    "CreateFileW",
+    "WriteFile",
+    "CloseHandle",
+    "GetLastError",
+    "SetLastError"
+  ],
+  "compiler": "14.2.0",
+  "compiler_flags": [
+    "-c",
+    "-mabi=ms",
+    "-maccumulate-outgoing-args",
+    "-mno-red-zone",
+    "-fshort-wchar",
+    "-fno-stack-protector",
+    "-fno-asynchronous-unwind-tables",
+    "-fno-unwind-tables",
+    "-ffreestanding",
+    "-fno-builtin",
+    "-fno-ident",
+    "-fno-zero-initialized-in-bss",
+    "-fpie",
+    "-fno-tree-vectorize",
+    "-fno-shrink-wrap",
+    "-fno-schedule-insns2",
+    "-fno-optimize-sibling-calls",
+    "-fno-merge-constants",
+    "-fcf-protection=none",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Wno-unused-function"
+  ],
+  "entry_point": 10656,
+  "iat_rva": 12288,
+  "x64_unwind_functions": 16,
+  "aslr_supported": true,
+  "no_absolute_code_relocations": true,
+  "pe_checksum_valid": true,
+  "builder": "build_portable.py (GCC/MS ABI; full GP/XMM unwind records; no Windows SDK/CRT dependency)",
+  "xmm_unwind_saves": [],
+  "globals": {
+    "relation_dispatch_continuation": [
+      28672,
+      8
+    ],
+    "win": [
+      12288,
+      120
+    ],
+    "relation_input_getter": [
+      28680,
+      8
+    ],
+    "relation_input_callback": [
+      28688,
+      8
+    ],
+    "relation_activate_callback": [
+      28696,
+      8
+    ],
+    "relation_late_callback": [
+      28704,
+      8
+    ],
+    "relation_select_continuation": [
+      28712,
+      8
+    ],
+    "installed.0": [
+      28720,
+      4
+    ],
+    "rel_row_widget": [
+      28728,
+      8
+    ],
+    "rel_row_index": [
+      28736,
+      8
+    ],
+    "rel_hover_target": [
+      28744,
+      8
+    ],
+    "rel_get_input": [
+      28752,
+      8
+    ],
+    "rel_get_app": [
+      28760,
+      8
+    ],
+    "resolved_expected": [
+      28768,
+      96
+    ],
+    "relation_pin_callback": [
+      28864,
+      8
+    ],
+    "hook_site": [
+      28896,
+      48
+    ],
+    "found": [
+      28960,
+      112
+    ],
+    "api": [
+      29088,
+      312
+    ],
+    "leaf_head.1": [
+      21022,
+      5
+    ],
+    "hook_len": [
+      21027,
+      6
+    ],
+    "ip_ROW_DISPATCH": [
+      21040,
+      17
+    ],
+    "ip_HOVER_TARGET": [
+      21072,
+      20
+    ],
+    "ip_ROW_WIDGET": [
+      21120,
+      41
+    ],
+    "ip_ROW_INDEX": [
+      21168,
+      16
+    ],
+    "ip_POST_INPUT": [
+      21184,
+      44
+    ],
+    "host": [
+      29400,
+      8
+    ],
+    "rp": [
+      21248,
+      5600
+    ]
+  }
+}

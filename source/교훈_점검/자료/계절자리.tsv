@@ -1,0 +1,8 @@
+# 계절 모드(SAN14_SeasonRules.dll)가 지금 판(0x6ad06f53)에서 고치는 게임 자리. 만든 도구: 교훈_점검/도구/계절자리_만들기.py — 계절 모드가 새 판을 내면 다시 만들 것
+# 한계: RouteCost·TileInfo 자리는 실행 때 찾아서 여기 없음.
+게임RVA	길이	모드	DLL	기록이름
+0x44e7d0	5	계절	SAN14_SeasonRules.dll	SeasonRules.Time
+0x2b2550	7	계절	SAN14_SeasonRules.dll	SeasonRules.SnowSpeed
+0x269bc0	6	계절	SAN14_SeasonRules.dll	SeasonRules.FireRate
+0x183a30	16	계절	SAN14_SeasonRules.dll	SeasonRules.RouteSearch(경로 탐색 함수 들머리 쪽, 길이 짐작)
+0x9bbbc	6	계절	SAN14_SeasonRules.dll	SeasonRules.RouteGuard(빈 경로 목록 읽기, 길이 짐작)

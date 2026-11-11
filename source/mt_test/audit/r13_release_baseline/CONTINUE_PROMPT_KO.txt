@@ -1,0 +1,11 @@
+현재 기준 RC4-R13-PreviewReroll_Perf. R12에서 이어 만든 수정본이다.
+검증결과.md, 변경내역.txt, audit/r13_suite_run.json, audit/R12_to_R13_RerollPerf.diff부터 읽는다.
+사용자 확인: R11 유비 논공과 마등 무충돌 성공. R12에도 여러 UI에서 심한 FPS 하락.
+추가 요청: 3칸 모두 미확정이면 앞의 1·2번도 리롤 가능해야 함.
+R13은 선택 칸만 재추첨/나머지 보존, 누적5회·취소 미환급·최종 결정 유지.
+성능은 활성 진단 비동기 큐, 대상 배치만 이력 검사, 검증된 콜백 내부 검사 재사용,
+X 없는 장수의 표시 조회 단축. 애니메이션이나 FPS 설정, 원작 종료를 수정하지 않았다.
+R13 실게임 FPS는 아직 확인하지 않음. 영상의 FPS를 R13 결과라고 말하지 말 것.
+변경 후 bash source/build.sh → python tools/package_r13.py --stage → python tests/run_r13.py --with-package.
+포장 python tools/package_r13.py --zip /mnt/data --baseline /path/to/exact/R12/root.
+원작 EXE와 전체 런타임 바이너리는 배포 금지. Source ZIP의 실제 DLL 검사/한계를 유지할 것.

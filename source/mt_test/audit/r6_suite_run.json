@@ -1,0 +1,30 @@
+{
+  "version": "RC4-R6-NativeChoice",
+  "scope": "Win64 DLL and original native state tick, substituted OS/game/widgets; NOT Windows/live game",
+  "results": [
+    {
+      "test": "test_r6.py",
+      "exit": 0,
+      "seconds": 3.648
+    },
+    {
+      "test": "test_r6_compat.py",
+      "exit": 0,
+      "seconds": 4.245
+    },
+    {
+      "test": "test_stack_probe.py",
+      "exit": 0,
+      "seconds": 0.568
+    },
+    {
+      "test": "test_r6_package.py",
+      "exit": 0,
+      "seconds": 0.185
+    }
+  ],
+  "dll_sha256": {
+    "SAN14_MeritResolver_CEKO.dll": "eb887fbc822d736487ad8658dd13ec9063cc234e8160cb6bbf6cb86b91859ebd",
+    "SAN14_MeritTraits.dll": "a330c03ea52e80899a1441b724425ffd91dd31b66d5793944b4a448050619c76"
+  }
+}

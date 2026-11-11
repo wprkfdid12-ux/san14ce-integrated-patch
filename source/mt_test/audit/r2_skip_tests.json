@@ -1,0 +1,18 @@
+{
+  "scope": "Win64 PE under simulated OS/game",
+  "passed": 3,
+  "tests": [
+    {
+      "name": "keyboard skip ordinary/high-tier distinction False",
+      "pass": true
+    },
+    {
+      "name": "keyboard skip ordinary/high-tier distinction True",
+      "pass": true
+    },
+    {
+      "name": "high-tier skip available at 600ms",
+      "pass": true
+    }
+  ]
+}

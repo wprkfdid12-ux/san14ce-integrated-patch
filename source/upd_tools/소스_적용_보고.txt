@@ -1,0 +1,341 @@
+적용함
+[바꾼 글자 241줄]
+auto_merit.cpp	0x277df18→0x2780f60	1곳
+auto_merit.cpp	0x3f6bc0→0x3f90e0	1곳
+auto_merit.cpp	0x32f500→0x331780	4곳
+auto_merit.cpp	0x1ec550→0x1ed8f0	5곳
+death_log.cpp	0x13a7608→0x13aa648	2곳
+death_log.cpp	0x934400→0x936980	3곳
+domestic_ai.cpp	0x277df18→0x2780f60	2곳
+domestic_ai.cpp	0x134c8f8→0x134f918	2곳
+domestic_ai.cpp	0x32f500→0x331780	2곳
+domestic_ai.cpp	0x32e910→0x330b90	2곳
+domestic_ai.cpp	0x22fce0→0x231770	2곳
+domestic_ai.cpp	0x22c810→0x22e260	3곳
+domestic_ai.cpp	0x7a1db→0x7b17b	3곳
+domestic_ai.cpp	0x7a110→0x7b0b0	3곳
+domestic_player.cpp	0x277df18→0x2780f60	2곳
+domestic_talent.cpp	0x277df18→0x2780f60	1곳
+domestic_talent.cpp	0x1b620b0→0x1b65100	1곳
+domestic_talent.cpp	0x13d63a0→0x13d9430	1곳
+execute_lock.cpp	0x66ff53→0x672623	1곳
+execute_lock.cpp	0x66ff4e→0x67261e	3곳
+hired_face.cpp	0x277df18→0x2780f60	3곳
+hired_face.cpp	0x3374c9→0x339729	4곳
+hired_face.cpp	0x3346ee→0x336a0e	4곳
+hired_face.cpp	0x32f21a→0x33149a	4곳
+hired_face.cpp	0x32f196→0x331416	4곳
+ic_guard.cpp	0x277df18→0x2780f60	1곳
+ic_guard.cpp	0x13a6840→0x13a9880	1곳
+ic_guard.cpp	0x13a6690→0x13a96d0	1곳
+ic_guard.cpp	0x32f500→0x331780	1곳
+ic_guard.cpp	0x32c130→0x32e3b0	1곳
+item_picture.cpp	0x6839e0→0x686100	6곳
+mod_settings.cpp	0x1a47b98→0x1a4ab88	1곳
+mod_settings.cpp	0x141c1e0→0x141f270	1곳
+mod_settings.cpp	0x141c1c8→0x141f258	1곳
+mod_settings.cpp	0x141c1c0→0x141f250	2곳
+mod_settings.cpp	0x141bcc8→0x141ed58	4곳
+mod_settings.cpp	0x13e7b28→0x13eabb8	2곳
+mod_settings.cpp	0x13aedc0→0x13b1e30	1곳
+mod_settings.cpp	0x13aedb8→0x13b1e28	3곳
+mod_settings.cpp	0x8a1380→0x8a35c0	1곳
+mod_settings.cpp	0x86b6f0→0x86daa0	4곳
+mod_settings.cpp	0x86b270→0x86d620	4곳
+mod_settings.cpp	0x85ce60→0x85f190	3곳
+mod_settings.cpp	0x85c8c0→0x85ebf0	2곳
+mod_settings.cpp	0x85c860→0x85eb90	1곳
+mod_settings.cpp	0x85b1b0→0x85d4e0	2곳
+mod_settings.cpp	0x85b1a0→0x85d4d0	2곳
+mod_settings.cpp	0x8542e0→0x856660	2곳
+mod_settings.cpp	0x84ed40→0x8510c0	1곳
+mod_settings.cpp	0x656d90→0x6594a0	1곳
+mod_settings.cpp	0x65676b→0x658e7b	1곳
+mod_settings.cpp	0x65675d→0x658e6d	2곳
+mod_settings.cpp	0x6566e0→0x658df0	1곳
+mod_settings.cpp	0x636398→0x638c48	3곳
+mod_settings.cpp	0x636250→0x638b00	5곳
+mod_settings.cpp	0x627379→0x629c49	1곳
+mod_settings.cpp	0x627370→0x629c40	2곳
+mod_settings.cpp	0x60c6c0→0x60ef50	2곳
+mod_settings.cpp	0x6068d0→0x609100	4곳
+mod_settings.cpp	0x5fe6b0→0x600ee0	2곳
+mod_settings.cpp	0x5b9110→0x5bba10	4곳
+mod_settings.cpp	0x465a60→0x467c70	2곳
+mod_settings.cpp	0x3efce0→0x3f2200	4곳
+mod_settings.cpp	0x3ea400→0x3ec920	4곳
+mod_settings.cpp	0x308f00→0x30af70	3곳
+mod_settings.cpp	0x308ef0→0x30af60	4곳
+mod_settings.cpp	0x2af6a0→0x2b19d0	2곳
+mod_settings.cpp	0x110e0→0x11040	2곳
+officer_names.cpp	0x1a23440→0x1a26440	1곳
+officer_names.cpp	0x13a4258→0x13a7298	2곳
+officer_names.cpp	0x92cee0→0x92f390	2곳
+officer_names.cpp	0x89b110→0x89d340	1곳
+officer_names.cpp	0x62cfc6→0x62f896	1곳
+officer_names.cpp	0x62cf10→0x62f7e0	1곳
+officer_names.cpp	0x5be4b0→0x5c0d50	1곳
+officer_names.cpp	0x30dd20→0x30fdb0	1곳
+officer_names.cpp	0x30a2f0→0x30c380	1곳
+officer_names.cpp	0x21e030→0x21fad0	3곳
+officer_names.cpp	0x21965f→0x21afaf	1곳
+officer_names.cpp	0x206310→0x207660	1곳
+officer_names.cpp	0x196b50→0x197e50	2곳
+patch27.cpp	0x368360→0x36a850	3곳
+patch27.cpp	0x32f500→0x331780	1곳
+patch27.cpp	0x32e812→0x330a92	1곳
+patch27.cpp	0x296535→0x298445	1곳
+patch27.cpp	0x295c67→0x297b77	1곳
+patch27.cpp	0x295aa0→0x2979b0	3곳
+patch27.cpp	0x232240→0x233be0	3곳
+patch27.cpp	0x231790→0x2331f0	1곳
+patch27.cpp	0x23151f→0x232f7f	1곳
+patch27.cpp	0x22dda0→0x22f830	2곳
+patch27.cpp	0x22d580→0x22efd0	1곳
+patch27.cpp	0x22aa70→0x22c4b0	1곳
+patch27.cpp	0x1ef89d→0x1f0c4d	1곳
+patch27.cpp	0x1ef7f0→0x1f0ba0	1곳
+patch27.cpp	0x1ef680→0x1f0a30	2곳
+patch27.cpp	0x1e90b0→0x1ea410	1곳
+patch27.cpp	0x1e8ce7→0x1ea047	1곳
+patch27.cpp	0x14cb00→0x14dae0	1곳
+patch27.cpp	0x14c9f0→0x14d9d0	1곳
+patch27_ui.cpp	0x92cee0→0x92f390	1곳
+patch27_ui.cpp	0x8741d0→0x876580	1곳
+patch27_ui.cpp	0x85c9c0→0x85ecf0	1곳
+patch27_ui.cpp	0x141e0→0x14140	1곳
+prisoner_return.cpp	0x277df18→0x2780f60	1곳
+prisoner_return.cpp	0x13a6bb0→0x13a9bf0	2곳
+prisoner_return.cpp	0x13a6b88→0x13a9bc8	2곳
+prisoner_return.cpp	0x13a6690→0x13a96d0	1곳
+prisoner_return.cpp	0x32c130→0x32e3b0	1곳
+prisoner_return.cpp	0x2ea6d0→0x2eca90	2곳
+prisoner_return.cpp	0x2e0cf5→0x2e3025	1곳
+prisoner_return.cpp	0x240cb0→0x242650	1곳
+prisoner_return.cpp	0x2390b0→0x23aa60	3곳
+range.cpp	0x277df18→0x2780f60	1곳
+range.cpp	0x88acf9→0x88cff9	3곳
+range.cpp	0x2ca721→0x2ccad1	3곳
+range.cpp	0x2c95c6→0x2cb976	3곳
+range.cpp	0x2c73fe→0x2c97ae	1곳
+range.cpp	0x2c73c2→0x2c9772	1곳
+range.cpp	0x2c739f→0x2c974f	2곳
+range.cpp	0x2c732c→0x2c96dc	2곳
+range.cpp	0x2c7257→0x2c9607	1곳
+range.cpp	0x2c7231→0x2c95e1	2곳
+range.cpp	0x2c70fa→0x2c94aa	2곳
+range.cpp	0x2c7074→0x2c9424	3곳
+range.cpp	0x2c6d59→0x2c9109	3곳
+range.cpp	0x2c6cd0→0x2c9080	3곳
+range.cpp	0x2b5362→0x2b76e2	3곳
+range.cpp	0x2aa850→0x2acb80	1곳
+range.cpp	0x22c850→0x22e2a0	1곳
+range.cpp	0x22b140→0x22cb80	2곳
+range.cpp	0x22b090→0x22cad0	1곳
+range.cpp	0x16f386→0x170336	3곳
+range.cpp	0x16cd64→0x16dd14	3곳
+range.cpp	0x16cd3d→0x16dced	3곳
+range.cpp	0x1f8dc→0x1f8bc	3곳
+region_officer.cpp	0x277df18→0x2780f60	1곳
+region_officer.cpp	0x92ef10→0x9314a0	2곳
+region_officer.cpp	0x32f500→0x331780	2곳
+region_officer.cpp	0x32e910→0x330b90	2곳
+region_officer.cpp	0x22c810→0x22e260	2곳
+region_officer.cpp	0x229e40→0x22b880	2곳
+region_officer.cpp	0x1a7fc5→0x1a92c5	3곳
+region_officer.cpp	0x1a7f41→0x1a9241	3곳
+scene_skip.cpp	0x277df18→0x2780f60	2곳
+scene_skip.cpp	0x1a47b98→0x1a4ab88	1곳
+scene_skip.cpp	0x934405→0x936985	1곳
+scene_skip.cpp	0x934400→0x936980	4곳
+scene_skip.cpp	0x571ef0→0x574750	4곳
+scene_skip.cpp	0x451ff0→0x4541e0	5곳
+scene_skip.cpp	0x43ff90→0x4421f0	5곳
+scene_skip.cpp	0x428b06→0x42ae26	1곳
+scene_skip.cpp	0x428b00→0x42ae20	4곳
+scene_skip.cpp	0x404a00→0x406d30	5곳
+scene_skip.cpp	0x32f500→0x331780	1곳
+scene_skip.cpp	0x32e910→0x330b90	1곳
+scene_skip.cpp	0x304640→0x306a30	4곳
+scene_skip.cpp	0x243a60→0x2454c0	4곳
+scene_skip.cpp	0x1f0ad0→0x1f1e90	6곳
+scene_skip.cpp	0x16efc0→0x16ff70	1곳
+scene_skip.cpp	0x143db→0x1433b	1곳
+scene_skip.cpp	0x143d0→0x14330	4곳
+scene_skip_b23.cpp	0x139c730→0x139f770	1곳
+scene_skip_b23.cpp	0x6c4670→0x6c6dd0	9곳
+scene_skip_b23.cpp	0x6c43b0→0x6c6b10	9곳
+scene_skip_b23.cpp	0x30dc20→0x30fcb0	2곳
+scene_skip_b23.cpp	0x30dbb0→0x30fc40	3곳
+scene_skip_b23.cpp	0x30d9d0→0x30fa60	2곳
+scene_skip_b23.cpp	0x30d8c0→0x30f950	2곳
+scene_skip_b23.cpp	0x30a2f0→0x30c380	3곳
+scene_skip_b23.cpp	0x22e970→0x230400	1곳
+scene_skip_b23.cpp	0x22d9e0→0x22f470	1곳
+scene_skip_b23.cpp	0x22ca00→0x22e450	1곳
+scene_skip_b23.cpp	0x196b50→0x197e50	2곳
+scene_skip_b23.cpp	0x195de0→0x1970e0	2곳
+scene_skip_b23.cpp	0x3f5a0→0x40060	1곳
+settings_help.cpp	0x1a23440→0x1a26440	1곳
+settings_help.cpp	0x13d2ed8→0x13d5f68	1곳
+settings_help.cpp	0x139c730→0x139f770	1곳
+settings_help.cpp	0x139c540→0x139f580	1곳
+settings_help.cpp	0x92cee0→0x92f390	1곳
+settings_help.cpp	0x92ab70→0x92d020	1곳
+settings_help.cpp	0x8fd520→0x8ff9c0	2곳
+settings_help.cpp	0x8cad90→0x8cceb0	2곳
+settings_help.cpp	0x8a5d60→0x8a7f60	1곳
+settings_help.cpp	0x8a2140→0x8a4380	1곳
+settings_help.cpp	0x8a18c0→0x8a3ac0	1곳
+settings_help.cpp	0x89c320→0x89e550	1곳
+settings_help.cpp	0x864c50→0x866fa0	1곳
+settings_help.cpp	0x83bf80→0x83e450	2곳
+settings_help.cpp	0x7229c0→0x724e40	2곳
+settings_help.cpp	0x5706c0→0x5746f0	1곳
+settings_help.cpp	0x56fe10→0x572670	2곳
+settings_help.cpp	0x421990→0x423d00	4곳
+settings_help.cpp	0x421960→0x423cd0	2곳
+settings_help.cpp	0x4218b0→0x423c20	2곳
+settings_help.cpp	0x3f7fa0→0x3fa4a0	1곳
+settings_help.cpp	0x3f6bc0→0x3f90e0	1곳
+settings_help.cpp	0x32f500→0x331780	2곳
+settings_help.cpp	0x30dd20→0x30fdb0	1곳
+settings_help.cpp	0x30dc20→0x30fcb0	1곳
+settings_help.cpp	0x30d9d0→0x30fa60	1곳
+settings_help.cpp	0x30d910→0x30f9a0	1곳
+settings_help.cpp	0x30d8c0→0x30f950	1곳
+settings_help.cpp	0x30a2f0→0x30c380	1곳
+settings_help.cpp	0x22a880→0x22c2c0	1곳
+settings_help.cpp	0x229f80→0x22b9c0	1곳
+settings_help.cpp	0x1d2a20→0x1d3bc0	1곳
+settings_help.cpp	0x196b50→0x197e50	1곳
+settings_help.cpp	0x195de0→0x1970e0	1곳
+settings_help.cpp	0x12540→0x124a0	1곳
+settings_help.cpp	0x11290→0x111f0	1곳
+settings_help.cpp	0x110e0→0x11040	1곳
+status_color.cpp	0x277df18→0x2780f60	1곳
+status_color.cpp	0x1a20000→0x1a23000	1곳
+status_color.cpp	0x1340000→0x1343000	1곳
+status_color.cpp	0x930e39→0x9333c9	4곳
+status_color.cpp	0x930e30→0x9333c0	5곳
+status_color.cpp	0x930d35→0x9332c5	3곳
+status_color.cpp	0x930d20→0x9332b0	6곳
+status_color.cpp	0x866000→0x868350	2곳
+status_color.cpp	0x85c5dc→0x85e90c	1곳
+status_color.cpp	0x85c420→0x85e750	4곳
+status_color.cpp	0x32c9f0→0x32ec70	2곳
+status_color.cpp	0x22fce0→0x231770	3곳
+status_color.cpp	0x22eee8→0x230978	2곳
+status_color.cpp	0x153edb→0x154ecb	8곳
+status_color.cpp	0x153ed0→0x154ec0	3곳
+traits9_check.cpp	0x277df18→0x2780f60	1곳
+traits9_check.cpp	0x89af80→0x89d1b0	2곳
+traits9_check.cpp	0x851160→0x8534e0	2곳
+traits9_check.cpp	0x84b150→0x84d4b0	2곳
+traits9_check.cpp	0x3f6bc0→0x3f90e0	2곳
+city_event_skip.cpp	0x29ff000/0x6a983c25 → S14_GAME_IMAGE/S14_GAME_STAMP	1곳
+hired_face.cpp	0x29ff000/0x6a983c25 → S14_GAME_IMAGE/S14_GAME_STAMP	1곳
+range.cpp	0x29ff000/0x6a983c25 → S14_GAME_IMAGE/S14_GAME_STAMP	1곳
+scene_skip.cpp	0x29ff000/0x6a983c25 → S14_GAME_IMAGE/S14_GAME_STAMP	1곳
+scene_skip_b23.cpp	0x29ff000/0x6a983c25 → S14_GAME_IMAGE/S14_GAME_STAMP	1곳
+scene_test.cpp	0x29ff000/0x6a983c25 → S14_GAME_IMAGE/S14_GAME_STAMP	1곳
+status_color.cpp	0x29ff000/0x6a983c25 → S14_GAME_IMAGE/S14_GAME_STAMP	1곳
+traits9_check.cpp	0x29ff000/0x6a983c25 → S14_GAME_IMAGE/S14_GAME_STAMP	3곳
+
+[손으로 볼 것 25건 — 자동으로 안 바꿈: 파일	줄	옛	새후보	판정]
+domestic_ai.cpp	domestic_ai.cpp:53	0xb1aa0	-	못찾음(바뀐 구간 replace)
+domestic_talent.cpp	domestic_talent.cpp:60	0x871f0	0x88220	정확+2(명령 안)
+domestic_talent.cpp	domestic_talent.cpp:60	0x871e8	0x88218	정확+2(명령 안)
+ic_guard.cpp	ic_guard.cpp:182	0x51510	0x52180	정확+1(명령 안)
+mod_settings.cpp	mod_settings.cpp:433	0xffff	0xff5f	정확+3(명령 안)
+mod_settings.cpp	mod_settings.cpp:538	0x3ea6bf	0x3ecbdf	확인필요(앞뒤 바뀜)
+mod_settings.cpp	mod_settings.cpp:539	0x3effdb	0x3f24fb	확인필요(앞뒤 바뀜)
+officer_names.cpp	officer_names.cpp:22	0x13a4220	0x13a7260	확인필요(참조 5/6)
+officer_names.cpp	officer_names.cpp:131	0x84ec80	-	못찾음(바뀐 구간 delete)
+officer_names.cpp	officer_names.cpp:131	0x2830	0x2830	정확
+patch27_ui.cpp	patch27_ui.cpp:143	0x493d0	-	상수·구조오프셋으로 보임(주소 아님)
+patch27_ui.cpp	patch27_ui.cpp:143	0x280c0	0x286b0	정확+1(명령 안)
+prisoner_return.cpp	prisoner_return.cpp:56	0x1770	0x1770	정확
+prisoner_return.cpp	prisoner_return.cpp:58	0x10000	0xff60	정확+4(명령 안)
+scene_skip.cpp	scene_skip.cpp:48	0x1394	0x1394	정확
+scene_skip.cpp	scene_skip.cpp:99	0x871e8	0x88218	정확+2(명령 안)
+scene_skip.cpp	scene_skip.cpp:154	0x403810	-	상수·구조오프셋으로 보임(주소 아님)
+settings_help.cpp	settings_help.cpp:109	0x92ad0	-	못찾음(바뀐 구간 delete)
+settings_help.cpp	settings_help.cpp:179	0x5c76	0x5c76	정확+2(명령 안)
+settings_help.cpp	settings_help.cpp:180	0x5c75	0x5c75	정확+1(명령 안)
+settings_help.cpp	settings_help.cpp:186	0x1000	0x1000	정확
+status_color.cpp	status_color.cpp:27	0x1770	0x1770	정확
+status_color.cpp	status_color.cpp:150	0x879000	0x87b3b0	정확+3(명령 안)
+status_color.cpp	status_color.cpp:177	0x154138	-	함수 못 맞춤
+traits9_check.cpp	traits9_check.cpp:76	0x1000	0x1000	정확
+
+[코드 자리 바이트 비교: 옛 자리와 새 자리 16바이트가 다른 곳 41건 — 기대 바이트 배열 손봐야 함]
+domestic_ai.cpp	domestic_ai.cpp:58	0x22c810	0x22e260	바이트 다름	0fb7413a488b0dfd1655023d0fbd0000	0fb7413a488b0df52c55023d0fbd0000
+domestic_ai.cpp	domestic_ai.cpp:58	0x32e910	0x330b90	바이트 다름	0fb6413a83f83377128bc8488b05f6f5	0fb6413a83f83377128bc8488b05be03
+mod_settings.cpp	mod_settings.cpp:330	0x85c8c0	0x85ebf0	바이트 다름	89918c010000488b89a8010000e98e4b	89918c010000488b89a8010000e9ee4d
+officer_names.cpp	officer_names.cpp:119	0x196b50	0x197e50	바이트 다름	4c894c24204881ec58080000488b052d	4c894c24204881ec58080000488b053d
+officer_names.cpp	officer_names.cpp:167	0x62cfc6	0x62f896	바이트 다름	488996e8050000488d0da467d9004889	488996e8050000488d0d646fd9004889
+patch27.cpp	patch27.cpp:42	0x22dda0	0x22f830	바이트 다름	488b0571015502482b8870e2000048c1	488b0529175502482b8870e2000048c1
+patch27.cpp	patch27.cpp:57	0x22aa70	0x22c4b0	바이트 다름	48895c2410564883ec20488b05973455	48895c2410564883ec20488b059f4a55
+patch27.cpp	patch27.cpp:65	0x368360	0x36a850	rel32만 다름	4057b800190000e8a419c900482be048	4057b800190000e8d41dc900482be048
+patch27.cpp	patch27.cpp:67	0x14cb00	0x14dae0	바이트 다름	488b056930a501c3cccccccccccccccc	488b05d950a501c3cccccccccccccccc
+patch27.cpp	patch27.cpp:68	0x14c9f0	0x14d9d0	바이트 다름	488b0511486802488b40784885c07503	488b0581686802488b40784885c07503
+patch27.cpp	patch27.cpp:92	0x1ef7f0	0x1f0ba0	바이트 다름	8bfd8bc5e9aa000000ba06000000e84d	8bfd8bc5e9aa000000ba06000000e83d
+patch27.cpp	patch27.cpp:92	0x296535	0x298445	rel32만 다름	41bf01000000498bcde8edbdf9ff85c0	41bf01000000498bcde87db8f9ff85c0
+patch27.cpp	patch27.cpp:93	0x22d580	0x22efd0	바이트 다름	48895c2408574883ec20488bd9e8ded4	48895c2408574883ec20488bd9e8ced4
+range.cpp	range.cpp:67	0x22c850	0x22e2a0	바이트 다름	40534883ec20488b1dbb165502e8de03	40534883ec20488b1db32c5502e8de03
+range.cpp	range.cpp:122	0x2c7257	0x2c9607	바이트 다름	488b05ba6c4b0281ff0fbd0000770a48	488b0552794b0281ff0fbd0000770a48
+region_officer.cpp	region_officer.cpp:40	0x32e910	0x330b90	바이트 다름	0fb6413a83f83377128bc8488b05f6f5	0fb6413a83f83377128bc8488b05be03
+region_officer.cpp	region_officer.cpp:40	0x22c810	0x22e260	바이트 다름	0fb7413a488b0dfd1655023d0fbd0000	0fb7413a488b0df52c55023d0fbd0000
+region_officer.cpp	region_officer.cpp:105	0x229e40	0x22b880	rel32만 다름	40534883ec20e8b5360000488bc8488b	40534883ec20e8c5360000488bc8488b
+scene_skip.cpp	scene_skip.cpp:45	0x16efc0	0x16ff70	바이트 다름	4883ec2865488b0425580000008b0d4d	4883ec2865488b0425580000008b0ded
+scene_skip.cpp	scene_skip.cpp:100	0x32e910	0x330b90	바이트 다름	0fb6413a83f83377128bc8488b05f6f5	0fb6413a83f83377128bc8488b05be03
+scene_skip.cpp	scene_skip.cpp:131	0x451ff0	0x4541e0	rel32만 다름	488b89b80100004533c0e9910a3f00cc	488b89b80100004533c0e9810d3f00cc
+scene_skip.cpp	scene_skip.cpp:135	0x43ff90	0x4421f0	rel32만 다름	488b89b8010000e994523f00cccccccc	488b89b8010000e914553f00cccccccc
+scene_skip.cpp	scene_skip.cpp:231	0x428b06	0x42ae26	바이트 다름	488bd933d2488b0d06543502488b89e8	488bd933d2488b0d2e613502488b89e8
+scene_skip.cpp	scene_skip.cpp:231	0x428b00	0x42ae20	바이트 다름	40534883ec20488bd933d2488b0d0654	40534883ec20488bd933d2488b0d2e61
+scene_skip_b23.cpp	scene_skip_b23.cpp:39	0x195de0	0x1970e0	바이트 다름	4883ec2865488b0425580000008b0d2d	4883ec2865488b0425580000008b0d7d
+scene_skip_b23.cpp	scene_skip_b23.cpp:40	0x196b50	0x197e50	바이트 다름	4c894c24204881ec58080000488b052d	4c894c24204881ec58080000488b053d
+scene_skip_b23.cpp	scene_skip_b23.cpp:82	0x22d9e0	0x22f470	바이트 다름	488b0531055502482b88f0ca060048b8	488b05e91a5502482b88f0ca060048b8
+scene_skip_b23.cpp	scene_skip_b23.cpp:84	0x3f5a0	0x40060	바이트 다름	0fb6413583f83377128bc8488b0566e9	0fb6413583f83377128bc8488b05ee0e
+settings_help.cpp	settings_help.cpp:140	0x8cad90	0x8cceb0	바이트 다름	40534883ec20488bd9e882eaf9ffe8fd	40534883ec20488bd9e812edf9ffe80d
+settings_help.cpp	settings_help.cpp:156	0x421960	0x423cd0	바이트 다름	4883ec28e857f6beff488bc833d2e8fd	4883ec28e847d2beff488bc833d2e83d
+settings_help.cpp	settings_help.cpp:168	0x4218b0	0x423c20	rel32만 다름	4883ec28e807f7beff488bc8ba010000	4883ec28e8f7d2beff488bc8ba010000
+settings_help.cpp	settings_help.cpp:180	0x22a880	0x22c2c0	바이트 다름	40534883ec20488b1d8b365502e82e00	40534883ec20488b1d934c5502e82e00
+settings_help.cpp	settings_help.cpp:185	0x195de0	0x1970e0	바이트 다름	4883ec2865488b0425580000008b0d2d	4883ec2865488b0425580000008b0d7d
+settings_help.cpp	settings_help.cpp:186	0x196b50	0x197e50	바이트 다름	4c894c24204881ec58080000488b052d	4c894c24204881ec58080000488b053d
+settings_help.cpp	settings_help.cpp:192	0x56fe10	0x572670	rel32만 다름	40534883ec20488bd9e8c212aaff4883	40534883ec20488bd9e8c2e9a9ff4883
+settings_help.cpp	settings_help.cpp:209	0x421990	0x423d00	rel32만 다름	40534883ec20488bd9e872e4140085c0	40534883ec20488bd9e862e9140085c0
+status_color.cpp	status_color.cpp:83	0x1340000	0x1343000	바이트 다름	dae8a10100000000b4e8a10100000000	ea1ba20100000000c41ba20100000000
+status_color.cpp	status_color.cpp:106	0x85c5dc	0x85e90c	rel32만 다름	488b8c24300800004833cce894d77900	488b8c24300800004833cce884dd7900
+status_color.cpp	status_color.cpp:150	0x866000	0x868350	rel32만 다름	e8cbca82ff488bcfe853f5fffff6c301	e86b1e0600488bcfe853f5fffff6c301
+status_color.cpp	status_color.cpp:180	0x153edb	0x154ecb	바이트 다름	0f8757020000488d1518c1eaff48899c	0f8757020000488d1528b1eaff48899c
+status_color.cpp	status_color.cpp:184	0x930e39	0x9333c9	바이트 다름	4c8bdc53564881ec38080000488b0544	4c8bdc53564881ec38080000488b05c4
+
+[2차: 대장에 안 잡힌 줄(변수 이름 p/q, 문자열, 시험 도구)까지 전체 지도로 교체]
+city_event_skip.cpp	11곳
+death_log.cpp	2곳
+domestic_player.cpp	1곳
+domestic_talent.cpp	2곳
+execute_lock.cpp	1곳
+execute_lock_bridge.S	2곳
+ic_guard.cpp	2곳
+item_picture_bridge.S	1곳
+mod_settings.cpp	5곳
+mod_settings_bridge.S	7곳
+officer_names.cpp	28곳
+patch27.cpp	24곳
+patch27_ui.cpp	1곳
+patch_tester.cpp	26곳
+prisoner_return.cpp	4곳
+range_bridge.S	14곳
+region_officer.cpp	4곳
+region_officer_bridge.S	5곳
+scene_skip.cpp	49곳
+scene_skip_b23.cpp	4곳
+scene_skip_b23_bridge.S	3곳
+scene_skip_bridge.S	4곳
+scene_test.cpp	27곳
+status_color_bridge.S	9곳
+traits9_check.cpp	3곳
+[손으로 정한 것] mod_settings ja 0x3ecbdf/0x3f24fb · status_color 에필로그 0x155128, 표 범위 끝 0x87b350 · officer_names vt 0x13a7260 · scene_skip 소리 fn 0x405b40 · domestic_ai 노드 fn 0xb2af0(바뀐 함수, 2-3 확인) · settings_help SettingsTick 원본 0x8ca1c0(새 칸 내용), vtable 칸 +0x3090 · domestic_talent 칸 0x13d9458

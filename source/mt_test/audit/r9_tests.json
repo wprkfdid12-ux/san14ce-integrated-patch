@@ -1,0 +1,98 @@
+{
+  "scope": "R9 object/context regressions. Real shipped feature + actual Hover release\nmachine code, captured original selection handler/state tick. Game allocation,\nGPU, UI input, rank/cost and widget cleanup endpoints remain substituted.\nNo claim of live crash reproduction or Windows/game verification.\n",
+  "passed": 23,
+  "tests": [
+    {
+      "name": "actual unchanged Hover DLL forwards the exact row resource context to its popup cleanup",
+      "pass": true
+    },
+    {
+      "name": "tooltip and owned toolbar receive one delete each",
+      "pass": true
+    },
+    {
+      "name": "all row/toolbar/tooltip cleanup endpoints receive native context",
+      "pass": true
+    },
+    {
+      "name": "latest supplied R8 seeds reproduce Zhao Yun 용장 and Jo Tong 붕벽",
+      "pass": true
+    },
+    {
+      "name": "native main layout owns both rows and tree; transition controller is a separate 0x198-byte object",
+      "pass": true
+    },
+    {
+      "name": "two lower rewards leave Zhao Yun only one upper choice; Jo Tong is independent",
+      "pass": true
+    },
+    {
+      "name": "Decision reaches one native commit with real-shaped ownership",
+      "pass": true
+    },
+    {
+      "name": "full starred officer with explicit no replacement retains prior decline policy",
+      "pass": true
+    },
+    {
+      "name": "Decision without replacement never shows Back discard warning",
+      "pass": true
+    },
+    {
+      "name": "latest supplied R8 seeds reproduce Zhao Yun 용장 and Jo Tong 붕벽",
+      "pass": true
+    },
+    {
+      "name": "native main layout owns both rows and tree; transition controller is a separate 0x198-byte object",
+      "pass": true
+    },
+    {
+      "name": "two lower rewards leave Zhao Yun only one upper choice; Jo Tong is independent",
+      "pass": true
+    },
+    {
+      "name": "explicit replacement requires its own named Yes/No warning",
+      "pass": true
+    },
+    {
+      "name": "replacement approval applies each officer own result in one native batch",
+      "pass": true
+    },
+    {
+      "name": "latest supplied R8 seeds reproduce Zhao Yun 용장 and Jo Tong 붕벽",
+      "pass": true
+    },
+    {
+      "name": "native main layout owns both rows and tree; transition controller is a separate 0x198-byte object",
+      "pass": true
+    },
+    {
+      "name": "two lower rewards leave Zhao Yun only one upper choice; Jo Tong is independent",
+      "pass": true
+    },
+    {
+      "name": "latest R8 reroll seeds reproduce 감지 and 산전",
+      "pass": true
+    },
+    {
+      "name": "Back No preserves both original menu selections",
+      "pass": true
+    },
+    {
+      "name": "Back Yes restores the MAIN selection tree for all officers",
+      "pass": true
+    },
+    {
+      "name": "selection cancellation never writes inside transition controller",
+      "pass": true
+    },
+    {
+      "name": "Back does not change officer traits/rank/stats or call award commit",
+      "pass": true
+    },
+    {
+      "name": "Back discards outcomes and retains separate spent reroll tickets",
+      "pass": true
+    }
+  ]
+}

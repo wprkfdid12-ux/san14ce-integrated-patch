@@ -1,0 +1,335 @@
+{
+  "version": "RC4-R10-MeritRules",
+  "scope": "Build/PE/package/script static checks; NOT Windows PowerShell or live game",
+  "passed": 81,
+  "checks": [
+    {
+      "name": "R10 package version/release flag",
+      "pass": true
+    },
+    {
+      "name": "R10 live-game limitation explicit",
+      "pass": true
+    },
+    {
+      "name": "R10 manifest section same_turn_return",
+      "pass": true
+    },
+    {
+      "name": "R10 manifest section ai_reward_policy",
+      "pass": true
+    },
+    {
+      "name": "R10 manifest section ruler_veteran",
+      "pass": true
+    },
+    {
+      "name": "R10 manifest section collaboration_candidates",
+      "pass": true
+    },
+    {
+      "name": "R10 manifest declares 39 traits / 44 collaboration teachers",
+      "pass": true
+    },
+    {
+      "name": "exact eight install targets retained",
+      "pass": true
+    },
+    {
+      "name": "payload SHA256 SAN14Mods/Core/SAN14_ModCore.dll",
+      "pass": true
+    },
+    {
+      "name": "payload SHA256 SAN14Mods/MeritTraits/SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "payload SHA256 SAN14Mods/MeritTraits/UI_Traits9_Hover.dll",
+      "pass": true
+    },
+    {
+      "name": "payload SHA256 SAN14Mods/manifests/MeritTraits.json",
+      "pass": true
+    },
+    {
+      "name": "payload SHA256 SAN14Mods/modules/MeritTraits.ini",
+      "pass": true
+    },
+    {
+      "name": "payload SHA256 SAN14Mods/resolvers/SAN14_Resolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "payload SHA256 SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "payload SHA256 dxgi.dll",
+      "pass": true
+    },
+    {
+      "name": "deterministic rebuild SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "shipped DLL equals rebuilt SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "deterministic rebuild SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "shipped DLL equals rebuilt SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "shared/support bytes unchanged dxgi.dll",
+      "pass": true
+    },
+    {
+      "name": "shared/support bytes unchanged SAN14Mods/Core/SAN14_ModCore.dll",
+      "pass": true
+    },
+    {
+      "name": "shared/support bytes unchanged SAN14Mods/resolvers/SAN14_Resolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "shared/support bytes unchanged SAN14Mods/MeritTraits/UI_Traits9_Hover.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 PE dxgi.dll",
+      "pass": true
+    },
+    {
+      "name": "no RWX dxgi.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 PE SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "no RWX SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 PE SAN14_ModCore.dll",
+      "pass": true
+    },
+    {
+      "name": "no RWX SAN14_ModCore.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 PE SAN14_Resolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "no RWX SAN14_Resolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 PE UI_Traits9_Hover.dll",
+      "pass": true
+    },
+    {
+      "name": "no RWX UI_Traits9_Hover.dll",
+      "pass": true
+    },
+    {
+      "name": "Win64 PE SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "no RWX SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "feature DLL initialization export",
+      "pass": true
+    },
+    {
+      "name": "exact R9 upgrade hash recognized SAN14_MeritTraits.dll",
+      "pass": true
+    },
+    {
+      "name": "exact R9 upgrade hash recognized SAN14Mods/MeritTraits/SAN14_MeritResolver_CEKO.dll",
+      "pass": true
+    },
+    {
+      "name": "exact R9 upgrade hash recognized SAN14Mods/manifests/MeritTraits.json",
+      "pass": true
+    },
+    {
+      "name": "exact R9 upgrade hash recognized SAN14Mods/modules/MeritTraits.ini",
+      "pass": true
+    },
+    {
+      "name": "collaboration source DB exact 44/39 coverage",
+      "pass": true
+    },
+    {
+      "name": "collaboration duplicate holder counts",
+      "pass": true
+    },
+    {
+      "name": "generated collaboration provenance matches source DB",
+      "pass": true
+    },
+    {
+      "name": "executed report r10_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed report r10_r8_compat_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed report r6_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed report r7_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed report r9_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed report r7_compat_tests.json",
+      "pass": true
+    },
+    {
+      "name": "executed report cp03_stack_tests.json",
+      "pass": true
+    },
+    {
+      "name": "Windows script encoding Uninstall.ps1",
+      "pass": true
+    },
+    {
+      "name": "PowerShell balance Uninstall.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows script encoding CaptureRuntime.ps1",
+      "pass": true
+    },
+    {
+      "name": "PowerShell balance CaptureRuntime.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows script encoding Install.ps1",
+      "pass": true
+    },
+    {
+      "name": "PowerShell balance Install.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows script encoding Installer.Common.ps1",
+      "pass": true
+    },
+    {
+      "name": "PowerShell balance Installer.Common.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows script encoding CollectLogs.ps1",
+      "pass": true
+    },
+    {
+      "name": "PowerShell balance CollectLogs.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows script encoding Diagnostics.Common.ps1",
+      "pass": true
+    },
+    {
+      "name": "PowerShell balance Diagnostics.Common.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows script encoding Rollback.ps1",
+      "pass": true
+    },
+    {
+      "name": "PowerShell balance Rollback.ps1",
+      "pass": true
+    },
+    {
+      "name": "Windows script encoding BackupSaves.ps1",
+      "pass": true
+    },
+    {
+      "name": "PowerShell balance BackupSaves.ps1",
+      "pass": true
+    },
+    {
+      "name": "installer protection Assert-GameClosed",
+      "pass": true
+    },
+    {
+      "name": "installer protection With-MeritLock",
+      "pass": true
+    },
+    {
+      "name": "installer protection Recover-Pending $Root",
+      "pass": true
+    },
+    {
+      "name": "installer protection RecognizedPrevious",
+      "pass": true
+    },
+    {
+      "name": "installer protection Invoke-MeritRollback",
+      "pass": true
+    },
+    {
+      "name": "installer protection Test-PrivateDllLoad",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit wrapper INSTALL.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit wrapper 가챠로그추출.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit wrapper 세이브백업.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit wrapper ROLLBACK.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit wrapper UNINSTALL.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit wrapper 실게임자료수집.cmd",
+      "pass": true
+    },
+    {
+      "name": "quoted 64-bit wrapper 문제자료모으기.cmd",
+      "pass": true
+    },
+    {
+      "name": "verification document does not claim live-game success",
+      "pass": true
+    }
+  ],
+  "dll_sha256": {
+    "SAN14_MeritTraits.dll": "77acb79b2ca68155b652d872defbc4db6234d113f5a63aa723f8792953b4189c",
+    "SAN14_MeritResolver_CEKO.dll": "23a8566717eaaf66b86576650ac1bdbde0cf7e41c4f2ad1f9682eaa774ee6686"
+  }
+}

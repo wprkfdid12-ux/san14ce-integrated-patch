@@ -1,0 +1,66 @@
+{
+  "scope": "Check recorded exact-DLL AI A/B results, randomness and measured workload cost.\nHost callback timing only; never treats this as live FPS or total-turn evidence.\n",
+  "passed": 14,
+  "tests": [
+    {
+      "name": "baseline is the exact delivered R14 binary",
+      "pass": true
+    },
+    {
+      "name": "optimized timing and outputs refer to the current compiled R15",
+      "pass": true
+    },
+    {
+      "name": "identical 100-officer/10-ruler workloads",
+      "pass": true
+    },
+    {
+      "name": "seed 0: exact final traits/states, RNG calls, accepted results and reroll counts preserved",
+      "pass": true
+    },
+    {
+      "name": "seed 0: rerolls execute with reused probabilities and no neighbour rebuild",
+      "pass": true
+    },
+    {
+      "name": "seed 1: exact final traits/states, RNG calls, accepted results and reroll counts preserved",
+      "pass": true
+    },
+    {
+      "name": "seed 1: rerolls execute with reused probabilities and no neighbour rebuild",
+      "pass": true
+    },
+    {
+      "name": "seed 2: exact final traits/states, RNG calls, accepted results and reroll counts preserved",
+      "pass": true
+    },
+    {
+      "name": "seed 2: rerolls execute with reused probabilities and no neighbour rebuild",
+      "pass": true
+    },
+    {
+      "name": "seed 3: exact final traits/states, RNG calls, accepted results and reroll counts preserved",
+      "pass": true
+    },
+    {
+      "name": "seed 3: rerolls execute with reused probabilities and no neighbour rebuild",
+      "pass": true
+    },
+    {
+      "name": "seed 4: exact final traits/states, RNG calls, accepted results and reroll counts preserved",
+      "pass": true
+    },
+    {
+      "name": "seed 4: rerolls execute with reused probabilities and no neighbour rebuild",
+      "pass": true
+    },
+    {
+      "name": "measured AI award callback median improved on this host",
+      "pass": true
+    }
+  ],
+  "baseline_median_ms": 127.113496,
+  "optimized_median_ms": 42.302573,
+  "reduction_percent": 66.72062815422841,
+  "live_game_tested": false
+}

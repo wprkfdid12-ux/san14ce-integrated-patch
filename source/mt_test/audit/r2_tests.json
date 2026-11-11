@@ -1,0 +1,22 @@
+{
+  "scope": "Actual production Win64 DLL under substituted native OS/game/widgets; not Windows or live game",
+  "passed": 4,
+  "tests": [
+    {
+      "name": "seven native widgets constructed once after removing top accept/exit",
+      "pass": true
+    },
+    {
+      "name": "all controls belong to the existing native merit layout",
+      "pass": true
+    },
+    {
+      "name": "reroll is separate; upper accept and exit widgets are not allocated",
+      "pass": true
+    },
+    {
+      "name": "reroll disabled before a result",
+      "pass": true
+    }
+  ]
+}

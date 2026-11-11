@@ -1,0 +1,125 @@
+{
+  "version": "RC4-R12-UIFastPath",
+  "scope": "Compare actual R11/R12 module query operations, not live game FPS.",
+  "passed": 29,
+  "tests": [
+    {
+      "name": "comparison uses exact user-confirmed R11 DLL",
+      "pass": true
+    },
+    {
+      "name": "R11 actual DLL workload executed; no Profile/GState/native bytes, RNG or logs changed",
+      "pass": true
+    },
+    {
+      "name": "R12 actual DLL workload executed; no Profile/GState/native bytes, RNG or logs changed",
+      "pass": true
+    },
+    {
+      "name": "comparison reports fingerprint the exact tested module DLLs",
+      "pass": true
+    },
+    {
+      "name": "identical 1,000 officers / 50 active forces / 52 slots fixture",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_eligible equal query count",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_eligible R11/R12 eligibility/rank return values identical",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_eligible native readable boundary calls reduced",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_eligible warm immutable rank table not enumerated per query",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_eligible full-force table checks 1000 -> 0",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_eligible repeated ruler record checks 50000 -> 0",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_eligible readable calls below 6% of R11 in this fixture (not FPS claim)",
+      "pass": true
+    },
+    {
+      "name": "hook_ai_visit equal query count",
+      "pass": true
+    },
+    {
+      "name": "hook_ai_visit R11/R12 eligibility/rank return values identical",
+      "pass": true
+    },
+    {
+      "name": "hook_ai_visit native readable boundary calls reduced",
+      "pass": true
+    },
+    {
+      "name": "hook_ai_visit warm immutable rank table not enumerated per query",
+      "pass": true
+    },
+    {
+      "name": "hook_ai_visit full-force table checks 1000 -> 0",
+      "pass": true
+    },
+    {
+      "name": "hook_ai_visit repeated ruler record checks 50000 -> 0",
+      "pass": true
+    },
+    {
+      "name": "hook_ai_visit readable calls below 6% of R11 in this fixture (not FPS claim)",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_current_rank equal query count",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_current_rank R11/R12 eligibility/rank return values identical",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_current_rank native readable boundary calls reduced",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_current_rank warm immutable rank table not enumerated per query",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_rank equal query count",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_rank R11/R12 eligibility/rank return values identical",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_rank native readable boundary calls reduced",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_rank warm immutable rank table not enumerated per query",
+      "pass": true
+    },
+    {
+      "name": "documented candidate readable counts reproduce exactly",
+      "pass": true
+    },
+    {
+      "name": "documented AI readable counts reproduce exactly",
+      "pass": true
+    }
+  ],
+  "baseline_dll_sha256": "3f5bf5ce433f2bf4308c96171a6224625fe06b47d02ea59898a27f16061be5de",
+  "current_dll_sha256": "1de57229e56cfe01485bfd0bcf7e3dff691742f9d7bac1a32639b3d390e2a83d"
+}

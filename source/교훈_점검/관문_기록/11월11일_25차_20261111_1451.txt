@@ -1,0 +1,145 @@
+== c01 장부 형식·교훈마다 점검 연결
+  ok   교훈 105개 전부 점검과 연결(122곳)
+  ·    교훈 105 · 제보 150 · 수정내역 55줄
+  → 통과 (항목 1, 실패 0)
+
+== c02 통합편의 해시 목록은 한 곳(common.h)만
+  ok   지금 통합편의(47a62d84…)가 known_common 에 있음(목록 8개)
+  ok   3D 쪽 registry_bridge.h 에 지금 통합편의 해시 있음
+  → 통과 (항목 2, 실패 0)
+
+== c03 우리 자리 × 통합편의 확인 구간 겹침
+  ·    이번 판 추가표(자료/우리자리_추가.tsv): 더함 7, 뺌 1
+  ok   SAN14_StatusColor.dll 0x231770(7) ⊂ 원본 확인(모델 등록 묶음) — 소스가 통합편의 확인 뒤 설치
+  ok   SAN14_WheelRegion.dll 0x232f60(5) ⊂ 전역 확인 115번 — 확인 뒤 설치(근거: 시험:wheel_ic_wait — kits/WheelRegion/dll/wr_ic_wait.h 가 통합편의 확인이 끝난 뒤에 고침)
+  ok   SAN14_HiredFace.dll 0x331416(9) ⊂ 원본 확인(모델 등록 묶음) — 소스가 통합편의 확인 뒤 설치
+  ok   SAN14_HiredFace.dll 0x33149a(7) ⊂ 원본 확인(모델 등록 묶음) — 소스가 통합편의 확인 뒤 설치
+  ok   SAN14_HiredFace.dll 0x336a0e(7) ⊂ 원본 확인(모델 등록 묶음) — 소스가 통합편의 확인 뒤 설치
+  ok   SAN14_HiredFace.dll 0x339729(8) ⊂ 원본 확인(모델 등록 묶음) — 소스가 통합편의 확인 뒤 설치
+  ok   SAN14_FPS120.dll 0x44df40(5) ⊂ 6번 진행 배속 준비 0번 — 확인 뒤 설치(근거: 시험:fps120_late — SAN14_FPS120Late.dll 이 통합편의 확인 동안 exe+0x44df40 을 원래 값으로 두고 끝난 뒤 다시 넣음)
+  ok   SAN14_StatusColor.dll 0x9332c5(11) ⊂ 전역 확인 70번 — 소스가 통합편의 확인 뒤 설치
+  ok   SAN14_StatusColor.dll 0x9333c9(12) ⊂ 전역 확인 134번 — 소스가 통합편의 확인 뒤 설치
+  ·    우리 자리 214곳 중 겹침 9곳
+  ·    한계: ModCore 를 안 거치는 모듈(26·27·28번, 30번 FastMenu 등 바이너리)의 자리는 게임 기록에 없어 못 봄 → 소스 자립 뒤 전부 소스 검사로 들어옴
+  → 통과 (항목 9, 실패 0)
+
+== c04 소스 장부(자립 진행)
+  ok   SAN14_AutoMerit.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_AutoPersonnelRepair.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_CrashLog.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_Diag.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_DomesticAI.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_DomesticPlayer.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_DomesticTalent.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_DragLearn.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_ExecuteLock.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_FPS120Late.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_HiredFace.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_ICGuard.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_ItemPicture.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_MeritResolver_CEKO.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_MeritTraits.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_ModSettings.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_Notice.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_Patch27.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_PrisonerReturn.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_Range.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_RegionOfficer.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_SceneSkip.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_SettingsHelpScenic.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_Stats200New.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_StatusColor.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_Traits9Check.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   SAN14_WheelRegion.dll 소스 있음 · 빌드 결과 = 꾸러미
+  ok   소스 없는 DLL 24개(허용 24) — 남은 자립 대상
+  ok   이번 판에서 소스로 바꾼 모듈 0개(한 판 4개까지)
+  → 통과 (항목 29, 실패 0)
+
+== c05 게임 판 기준값은 한 곳(version.h)
+  ok   version.h 0x6ad06f53 / 0x2a02000 = 06_기준값.md
+  ok   13번 리졸버(mt/src/merit_resolver.c)도 같은 값
+  → 통과 (항목 2, 실패 0)
+
+== c06 바뀐 파일마다 수정 내역
+  FAIL support/installer101/Spec.cs 가 바뀌었는데(직전 판 11월11일_24차 대비) 수정 내역(판=11월11일_25차)에 없음
+  ok   SAN14_ModSettings.dll — 수정 내역 있음
+  ok   SAN14_SceneSkip.dll — 수정 내역 있음
+  ok   SAN14_DomesticAI.dll — 수정 내역 있음
+  → 실패 (항목 4, 실패 1)
+
+== c07 제보 장부에 안 닫힌 것 없음
+  ok   닫힌 제보 150건, 안 닫힌 것 없음
+  → 통과 (항목 1, 실패 0)
+
+== c08 화면 글자에 옛 판 이름 없음
+  ok   옛 판 이름 없음(지금 R43)
+  → 통과 (항목 1, 실패 0)
+
+== c10 게임 기록의 판 구분(자리표)
+  ok   자료/우리자리.tsv: 기준: 새 판 표식 SAN14CE.Stats200New 가 처음 나온 뒤의 기록 91회(전체 1237회 중). 만든 도구: 교훈_점검/도구/자리
+  ok   판 글자로 기록을 고르는 도구 없음
+  → 통과 (항목 2, 실패 0)
+
+== c11 우리 다른 모드 자리 × 통합패치
+  ok   기색 0x231794 — SAN14_StatusColor.dll 0x231770 와 같은 함수(±0x40) → 확인됨(P204)
+  ok   기색 0x2c3032 — SAN14_RelatedOfficersTab.dll 0x2c303d 와 같은 함수(±0x40) → 확인됨(P204)
+  ok   기색 0x658df0 — SAN14_ModSettings.dll 0x658dfa 와 같은 함수(±0x40); mod_settings.cpp 가 부르는 게임 함수 0x658df0 들머리 → 확인됨(시험:settings_counts)
+  ok   기색 0x85ed10 — 통합편의 전역 확인 46번 구간 안 → 확인됨(P215)
+  ok   기색 0x9332d0 — SAN14_StatusColor.dll 0x9332c5 와 같은 함수(±0x40); 통합편의 전역 확인 70번 구간 안 → 확인됨(P215)
+  ·    다른 모드 자리 58곳 중 통합패치와 만나는 곳 5곳. 한계: ModCore 를 거치는 모드(기색)만 봄
+  → 통과 (항목 5, 실패 0)
+
+== c12 본판에 확인용 기록 없음 (L132)
+  ok   우리 소스 DLL 24개 확인
+  → 통과 (항목 1, 실패 0)
+
+== c13 Diag 가 보는 모듈마다 본판 시작 줄 (L133)
+  ok   SAN14_AutoMerit.dll 시작 줄: auto_merit.cpp
+  ok   SAN14_DomesticAI.dll 시작 줄: domestic_ai.cpp
+  ok   SAN14_DomesticPlayer.dll 시작 줄: domestic_player.cpp
+  ok   SAN14_ExecuteLock.dll 시작 줄: execute_lock.cpp
+  ok   SAN14_HiredFace.dll 시작 줄: hired_face.cpp
+  ok   SAN14_ICGuard.dll 시작 줄: ic_guard.cpp
+  ok   SAN14_ItemPicture.dll 시작 줄: item_picture.cpp
+  ok   SAN14_ModSettings.dll 시작 줄: mod_settings.cpp
+  ok   SAN14_Range.dll 시작 줄: range.cpp
+  ok   SAN14_RegionOfficer.dll 시작 줄: region_officer.cpp
+  ok   SAN14_SceneSkip.dll 시작 줄: scene_skip.cpp
+  ok   SAN14_Stats200New.dll 시작 줄: stats200_new.cpp
+  ok   SAN14_StatusColor.dll 시작 줄: status_color.cpp
+  ok   SAN14_Traits9Check.dll 시작 줄: traits9_check.cpp
+  → 통과 (항목 14, 실패 0)
+
+  ok   auto_merit
+  ok   diag
+  ok   domestic_ai
+  ok   scene_summary
+  ok   scene_wide
+  ok   ic_mapsites
+  ok   domestic_player
+  ok   ic_after_restore
+  ok   fps120_late
+  ok   patch27_icwait
+  ok   r43_conflict
+  ok   region_officer
+  ok   stats200_grow
+  ok   traits9_all
+  ok   traits9_independent
+  ok   scene_wide_sites
+  ok   icguard_cave
+  ok   ic_restore_overlap
+  ok   settings_window
+  ok   ic_self_refs
+  ok   installer_leftover
+  ok   installer_syntax
+  ok   traithover_unified
+  ok   merit_guard
+  ok   ic_wait
+  ok   settings_tabs
+  ok   ic_invest_skip
+  ok   settings_counts
+  ok   wheel_ic_wait
+
+오프라인 전체 시험 통과
+
+결과: 실패 c06_수정내역

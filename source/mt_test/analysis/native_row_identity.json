@@ -1,0 +1,47 @@
+{
+  "origin": "Read from supplied original CE KO PE RTTI .rdata; NOT from resolver constants or generated test objects.",
+  "input_sha256": "07a047826cfc316dc9e3db6bfddc72b85e8d7de99743cc73a2d7199a1ad3aa40",
+  "preferred_base": 5368709120,
+  "class_name": ".?AVCUtilCreditRankupPersonInfoLayout@@",
+  "row_vtable_rva": 21464032,
+  "col_rva": 25634576,
+  "type_descriptor_rva": 28622608,
+  "col_subobject_offset": 0,
+  "rc2_incorrect_row_vtable_rva": 21464120,
+  "rc2_value_is_method_slot_offset": 88,
+  "blocks": [
+    {
+      "rva": 21464024,
+      "bytes": "1027874101000000a0a789400100000030c7784001000000a080874001000000a026874001000000e0d9864001000000b0448a4001000000807d864001000000d08a66400100000080a38c40010000006007874001000000100a874001000000900787400100000030c7784001000000e009874001000000",
+      "relocate_u64_offsets": [
+        0,
+        8,
+        16,
+        24,
+        32,
+        40,
+        48,
+        56,
+        64,
+        72,
+        80,
+        88,
+        96,
+        104,
+        112
+      ]
+    },
+    {
+      "rva": 25634576,
+      "bytes": "01000000000000000000000010bfb4013827870110278701",
+      "relocate_u64_offsets": []
+    },
+    {
+      "rva": 28622608,
+      "bytes": "e8fb71410100000000000000000000002e3f4156435574696c43726564697452616e6b7570506572736f6e496e666f4c61796f7574404000",
+      "relocate_u64_offsets": [
+        0
+      ]
+    }
+  ]
+}

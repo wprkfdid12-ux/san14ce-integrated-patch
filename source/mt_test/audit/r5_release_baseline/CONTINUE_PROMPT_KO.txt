@@ -1,0 +1,78 @@
+이 파일부터 읽고 RC4-R5-SafeExit 지점에서 이어가세요. 처음부터 다시 만들지 마세요.
+
+최신 추가: 최종 ZIP 이름에 SafeExit_Confirm이 들어갑니다.
+뒤로/ESC를 누르자마자 확정하지 않습니다. 원작 모양의 예/아니오 경고를 먼저 띄웁니다.
+예만 마지막 결과 확정/종료. 아니오 또는 경고 안의 ESC는 결과/개인권 그대로 복귀.
+일반 확정은 원래 결정 버튼. 상단 확정/나감 없음.
+tests/test_r5_warning.py와 audit/r5_warning_tests.json이 추가 경고 검사입니다.
+
+기준은 최근 전달했던 R4입니다. 다른 채팅방 R5 소스를 기준으로 삼지 않았습니다.
+그 R5 ZIP은 설치용 정확한 이전 해시를 검증하는 데 사용했고 코드를 가져오지 않았습니다.
+이전 R4 인계/문서/해시는 audit/r4_release_baseline, R3/R2 기록은 기존 위치에 보존.
+추가 지시는 references/proposals/R5_SafeExit_추가수정지시서.txt로 분리했습니다.
+
+최신 지시 — 예전 취소/별도 확정 규칙보다 우선
+- 위쪽 확정/나감 객체와 클릭 영역 제거.
+- 추첨 후 원작 하단 결정 또는 뒤로/ESC 경고에서 예를 선택하면 마지막 결과 반영/종료.
+  뒤로는 결과를 버리는 취소가 아님. 꽝도 X/열정 반영. 안내 확인은 설명만 닫음.
+  아직 추첨하지 않은 승계 선택은 보상/비용 없이 정상 취소.
+- 장수1명당 자신의 세 번의 기회 전체에서 재추첨권 총5개. 페이지/장수 사이 공용 금지.
+  성공한 재추첨 즉시 개인권 예약 차감. 취소로 복구되지 않음.
+- 조통 추첨 후 조광 해금 입력이 계속 가능해야 함. 표시와 실제 입력을 모두 검사.
+- 계산 버튼은 정확히 '계산 근거' 한 줄 정중앙. 재추첨은 선택 기준 높이/글꼴.
+- 원본DB/확률/저장 형식/기존 Hover·다른 패치 호환 경로 유지.
+
+이번 수정
+- Preview는 무장ID별, native_owner(안쪽 목록)와 stage별 replacement 별도 보관.
+- 다른 무장으로 이동해도 pending 결과 보존. 같은 무장의 다음 기회로 넘어갈 때만
+  이전 결과를 그 무장 미리보기 안에서 수락하여 예산/열기/열정 순서 유지.
+- prepare_previews는 복사본을 먼저 검증. 실제 반영은 원작 결정 성공 후.
+- F_STATUS에 바깥 화면이 아닌 원래 row의 안쪽 부모 전달. 기존 평평한 모의 화면이
+  이 오류를 숨겼으므로 R5 검사는 실제처럼 두 객체를 나눔.
+- 뒤로 callback은 요청만 기록. 안전한 state tick에서 원작 결정 요청1을 한 번 실행.
+  같은 종료에 원작 cancel과 결정/pop을 중복하지 않음. 실패한 결정의 무한 재시도 차단.
+- unregister 전에 callback 세대 무효화. 해제 중 재진입/재등록 차단.
+  원본 row refresh/destruct 전에 연출 포인터 복원. visible 목록에서 먼저 제거.
+  원작 resource_context를 보존하며 소유 버튼을 한 번씩 해제.
+- unregister와 실제 resource destroy를 혼동하지 말 것.
+- 이벤트/활성화 로그를 RC4-R5-SafeExit로 표시. 종료 단계별 runtime 기록 추가.
+- 경고는 안전 tick에 생성/해제. 원작 패널/버튼 스킨과 선택 글꼴 사용.
+  본문은 패널 고유 글자색을 보존해 버튼의 짙은 글자가 어두운 배경에 묻히지 않게 함.
+  누르고 있던 입력은 동의가 아님. 경고 뒤 결정/선택 요청 제거, 가로챈 ESC 입력 소비.
+  경고 세대별 callback 검증, 첫 예/아니오만 처리. 아니오에서 연출 시간도 보존.
+  생성 실패는 절대 예로 처리하지 않음. 결과/권수 유지, 새 뒤로 요청으로 재시도 가능.
+  원작 결정은 별도로 가능. 위젯별 등록 상태를 추적해 일부 생성 실패/해제 중 중복 방지.
+
+자료와 검증
+analysis/user_video_log_review.md: 뒤로→페이드→지도→게임 종료가 영상으로 확인됨.
+최근 로그는 조통 일심→장구 재추첨까지. 충돌 주소/스택 없음.
+사용자 Windows에서 튕김 해소가 확인됐다고 말하면 안 됩니다.
+영상의 개인 바탕화면/파일 내용을 배포 소스에 넣지 않았습니다.
+현재 gate: tests/run_r5.py --with-package. audit/r5_suite_run.json,
+audit/r5_tests.json, audit/r5_package_tests.json, 검증결과.md가 현재 결과.
+production Win64 DLL과 캡처 원작 state tick 기계코드를 실행하지만
+OS/위젯/비용/대사 접점은 대체됨. Windows/실게임/DirectX/FPS 인증 아님.
+accept_preview는 예전 엔진 거래 검사의 내부 helper. 실제 상단 버튼 없음.
+다음 작업: 실게임확인.txt에 따라 사용자 환경에서 종료/재입장/개인권/호버/배치 확인.
+
+지켜야 할 기존 조건
+- 공식 대상/비교 무장 모두 DB 원본 능력치 분포. 편집/성장한 실제 능력치는 되돌리지 않음.
+  조광ID619 통65/무68/지53/정51/매60. 비교4축, 근거5축. 원본 없는 신무장만 현재값 fallback.
+- 꽝 기본5%, 세 번째 물리칸/시간순 마지막/열정 기회는 꽝 없음. X는 가짜 개성ID 아님.
+- 실제9칸 꽝은 기존 개성 유지. 스타9칸의 교체 대상 미선택은 기존 획득 포기 규칙 유지.
+  뒤로 확정한다고 기존 개성을 임의로 지우면 안 됨.
+- v3 GSlot64/GState232, 두 세대 저널, v2 이관 및 불명확한 이력의 안전 거부 유지.
+- 원작 X 아이콘 재사용은 미완료. 현재 원작 글자 렌더러의 X.
+- 정확한 제공 Hover/출진 프리셋 RC25 연결 유지. 모든 독자 패치 화면 자동 호환 주장 금지.
+- 강제 world/layout 해제는 정상 뒤로와 다름. 소멸 중 강제 commit하지 않고 사용 권수만 보존.
+
+재빌드/검사/포장 (패키지 루트)
+export MERIT_ZIG=/absolute/path/to/zig
+bash source/build.sh
+python tools/package_r5.py --stage
+python tests/run_r5.py --with-package
+python tests/simulate_rc4.py
+python tools/package_r5.py --zip /absolute/new-output-dir --baseline /absolute/R4-source
+Zig0.16.0 또는 clang/lld-link, Python3, gcc, binutils 필요. 자동 다운로드 없음.
+소스ZIP에 원본 게임 EXE/전체 복원 이미지/사용자 세이브를 넣지 마세요.
+수정 뒤 DLL/payload/검사/manifest/SHA/인계ZIP을 함께 갱신하세요.

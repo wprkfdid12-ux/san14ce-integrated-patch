@@ -1,0 +1,34 @@
+{
+  "scope": "R10 regressions for handoff NEXT-001..NEXT-005.\nExecutes the rebuilt production Win64 DLL on Linux through the existing\nMicrosoft-x64 test bridge with synthetic game/OS boundaries. It does NOT claim\nWindows/GPU/live SAN14 CE verification.\n",
+  "passed": 7,
+  "tests": [
+    {
+      "name": "fixture has a finalized historical upper reward",
+      "pass": true
+    },
+    {
+      "name": "finalized historical reward saves before status transition",
+      "pass": true
+    },
+    {
+      "name": "lower current native upper count does not invalidate finalized historical metadata",
+      "pass": true
+    },
+    {
+      "name": "finalized trait result and award history survive status transition",
+      "pass": true
+    },
+    {
+      "name": "personal reroll budget remains coherent after status transition load",
+      "pass": true
+    },
+    {
+      "name": "status transition with finalized historical metadata does not block later saves",
+      "pass": true
+    },
+    {
+      "name": "NEXT-001 preview decision still commits the selected trait exactly once",
+      "pass": true
+    }
+  ]
+}

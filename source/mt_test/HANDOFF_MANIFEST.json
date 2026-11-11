@@ -1,0 +1,120 @@
+{
+  "checkpoint": "RC4-R17-TurnTransitionPerf",
+  "baseline": "R16 Compatibility-TraitRules",
+  "live_game_tested": false,
+  "dll_sha256": {
+    "SAN14_MeritResolver_CEKO.dll": "73d48b3896beed61b95538478f2ce57fcf6583e8c60f0e241ffeaaf8ca46ecfc",
+    "SAN14_MeritTraits.dll": "8bf7b662c232ae5d0f73b4f0d5020aad0289731dd7d3bdbd677c5d42e6459920"
+  },
+  "suite": {
+    "version": "RC4-R17-TurnTransitionPerf",
+    "scope": "R17 full regression gate. Synthetic OS/game boundaries, not a live game.",
+    "results": [
+      {
+        "test": "test_r6.py",
+        "exit": 0,
+        "seconds": 3.285
+      },
+      {
+        "test": "test_r7.py",
+        "exit": 0,
+        "seconds": 1.659
+      },
+      {
+        "test": "test_r9.py",
+        "exit": 0,
+        "seconds": 0.679
+      },
+      {
+        "test": "test_r11_compat.py",
+        "exit": 0,
+        "seconds": 4.105
+      },
+      {
+        "test": "test_stack_probe.py",
+        "exit": 0,
+        "seconds": 0.385
+      },
+      {
+        "test": "test_r11.py",
+        "exit": 0,
+        "seconds": 1.572
+      },
+      {
+        "test": "test_r12.py",
+        "exit": 0,
+        "seconds": 0.955
+      },
+      {
+        "test": "test_r13.py",
+        "exit": 0,
+        "seconds": 2.19
+      },
+      {
+        "test": "test_r14.py",
+        "exit": 0,
+        "seconds": 0.378
+      },
+      {
+        "test": "test_r15_domestic.py",
+        "exit": 0,
+        "seconds": 0.968
+      },
+      {
+        "test": "test_r16_traits.py",
+        "exit": 0,
+        "seconds": 1.302
+      },
+      {
+        "test": "test_r16_ui.py",
+        "exit": 0,
+        "seconds": 0.444
+      },
+      {
+        "test": "test_r16_compat.py",
+        "exit": 0,
+        "seconds": 0.365
+      },
+      {
+        "test": "test_r17.py",
+        "exit": 0,
+        "seconds": 6.315
+      },
+      {
+        "test": "test_r17_performance.py",
+        "exit": 0,
+        "seconds": 0.026
+      },
+      {
+        "test": "test_r17_package.py",
+        "exit": 0,
+        "seconds": 2.237
+      }
+    ],
+    "dll_sha256": {
+      "SAN14_MeritResolver_CEKO.dll": "73d48b3896beed61b95538478f2ce57fcf6583e8c60f0e241ffeaaf8ca46ecfc",
+      "SAN14_MeritTraits.dll": "8bf7b662c232ae5d0f73b4f0d5020aad0289731dd7d3bdbd677c5d42e6459920"
+    },
+    "assertion_reports": {
+      "r6_tests.json": 149,
+      "r7_tests.json": 77,
+      "r9_tests.json": 23,
+      "r11_compat_tests.json": 259,
+      "cp03_stack_tests.json": 11,
+      "r11_tests.json": 76,
+      "r12_tests.json": 64,
+      "r13_tests.json": 94,
+      "r14_tests.json": 10,
+      "r15_domestic_tests.json": 30,
+      "r16_trait_tests.json": 14,
+      "r16_ui_tests.json": 5,
+      "r16_compat_tests.json": 12,
+      "r17_tests.json": 59,
+      "r17_performance_tests.json": 20,
+      "r17_package_tests.json": 69
+    },
+    "total_passed_assertions": 972
+  },
+  "installer_assertions": 42,
+  "scope": "Compiled Win64 code and PowerShell filesystem fixtures; native Windows loading/game graphics untested."
+}

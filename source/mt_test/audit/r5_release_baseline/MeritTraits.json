@@ -1,0 +1,767 @@
+{
+  "id": "SAN14CE.MeritTraits",
+  "version": "RC4-R5-SafeExit",
+  "release_ready": true,
+  "feature": "논공 개성 가챠 — R4 이어 작업, 무장별 입력·뒤로 확정·종료 수명 수정 후보",
+  "abi": 65536,
+  "shared_dependencies": [
+    "dxgi.dll",
+    "SAN14Mods/Core/SAN14_ModCore.dll",
+    "SAN14Mods/resolvers/SAN14_Resolver_CEKO.dll"
+  ],
+  "private_files": [
+    "SAN14_MeritTraits.dll",
+    "SAN14Mods/MeritTraits/SAN14_MeritResolver_CEKO.dll",
+    "SAN14Mods/MeritTraits/UI_Traits9_Hover.dll"
+  ],
+  "uses_native_9_trait_slots": true,
+  "game_version": {
+    "timestamp": "0x6a6d9f72",
+    "image_size": "0x29ff000",
+    "language": "KO",
+    "officer_count": 6000,
+    "trait_count": 355
+  },
+  "hooks": [
+    {
+      "rva": 3391377,
+      "kind": "H_SAFE_FLUSH",
+      "target": 4156832,
+      "length": 5,
+      "vtable": false,
+      "expected": "e80aae0b00"
+    },
+    {
+      "rva": 182589,
+      "kind": "H_AI_VISIT",
+      "target": 272176,
+      "length": 5,
+      "vtable": false,
+      "expected": "e8ee5d0100"
+    },
+    {
+      "rva": 21464072,
+      "kind": "H_ROW_DESTROY",
+      "target": 9061552,
+      "length": 8,
+      "vtable": true,
+      "expected": "b0448a4001000000"
+    },
+    {
+      "rva": 21467968,
+      "kind": "H_BUTTON_EVENT",
+      "target": 9066064,
+      "length": 8,
+      "vtable": true,
+      "expected": "50568a4001000000"
+    },
+    {
+      "rva": 7125628,
+      "kind": "H_COMMIT_PLAYER",
+      "target": 2014368,
+      "length": 5,
+      "vtable": false,
+      "expected": "e81f02b2ff"
+    },
+    {
+      "rva": 182886,
+      "kind": "H_COMMIT_AI",
+      "target": 2014368,
+      "length": 5,
+      "vtable": false,
+      "expected": "e835f21b00"
+    },
+    {
+      "rva": 2496250,
+      "kind": "H_BONUS",
+      "target": 2789392,
+      "length": 5,
+      "vtable": false,
+      "expected": "e811790400"
+    },
+    {
+      "rva": 2497328,
+      "kind": "H_BONUS",
+      "target": 2789392,
+      "length": 5,
+      "vtable": false,
+      "expected": "e8db740400"
+    },
+    {
+      "rva": 2498882,
+      "kind": "H_BONUS",
+      "target": 2789392,
+      "length": 5,
+      "vtable": false,
+      "expected": "e8c96e0400"
+    },
+    {
+      "rva": 2500723,
+      "kind": "H_BONUS",
+      "target": 2789392,
+      "length": 5,
+      "vtable": false,
+      "expected": "e898670400"
+    },
+    {
+      "rva": 2501442,
+      "kind": "H_BONUS",
+      "target": 2789392,
+      "length": 5,
+      "vtable": false,
+      "expected": "e8c9640400"
+    },
+    {
+      "rva": 2789902,
+      "kind": "H_BONUS",
+      "target": 2789392,
+      "length": 5,
+      "vtable": false,
+      "expected": "e9fdfdffff"
+    },
+    {
+      "rva": 9030042,
+      "kind": "H_ROW_REFRESH",
+      "target": 9055312,
+      "length": 5,
+      "vtable": false,
+      "expected": "e8b1620000"
+    },
+    {
+      "rva": 9049767,
+      "kind": "H_ROW_REFRESH",
+      "target": 9055312,
+      "length": 5,
+      "vtable": false,
+      "expected": "e9a4150000"
+    },
+    {
+      "rva": 21464128,
+      "kind": "H_ROW_TICK",
+      "target": 7915312,
+      "length": 8,
+      "vtable": true,
+      "expected": "30c7784001000000"
+    },
+    {
+      "rva": 21265616,
+      "kind": "H_UI_EXIT",
+      "target": 7096704,
+      "length": 8,
+      "vtable": true,
+      "expected": "80496c4001000000"
+    },
+    {
+      "rva": 7548864,
+      "kind": "H_UI_CONFIRM",
+      "target": 7124624,
+      "length": 5,
+      "vtable": false,
+      "expected": "e8cb86f9ff"
+    },
+    {
+      "rva": 9056110,
+      "kind": "H_STATUS",
+      "target": 7180528,
+      "length": 5,
+      "vtable": false,
+      "expected": "e87d61e3ff"
+    },
+    {
+      "rva": 5695463,
+      "kind": "H_LOAD",
+      "target": 3311536,
+      "length": 5,
+      "vtable": false,
+      "expected": "e8c49fdbff"
+    },
+    {
+      "rva": 5285153,
+      "kind": "H_NEWGAME",
+      "target": 3363552,
+      "length": 5,
+      "vtable": false,
+      "expected": "e8baade2ff"
+    },
+    {
+      "rva": 5695515,
+      "kind": "H_NEWGAME",
+      "target": 3363552,
+      "length": 5,
+      "vtable": false,
+      "expected": "e8c06adcff"
+    },
+    {
+      "rva": 6277288,
+      "kind": "H_NEWGAME",
+      "target": 3363552,
+      "length": 5,
+      "vtable": false,
+      "expected": "e8338ad3ff"
+    },
+    {
+      "rva": 6277655,
+      "kind": "H_NEWGAME",
+      "target": 3363552,
+      "length": 5,
+      "vtable": false,
+      "expected": "e8c488d3ff"
+    },
+    {
+      "rva": 6327159,
+      "kind": "H_NEWGAME",
+      "target": 3363552,
+      "length": 5,
+      "vtable": false,
+      "expected": "e864c7d2ff"
+    },
+    {
+      "rva": 6339009,
+      "kind": "H_NEWGAME",
+      "target": 3363552,
+      "length": 5,
+      "vtable": false,
+      "expected": "e81a99d2ff"
+    },
+    {
+      "rva": 6500855,
+      "kind": "H_NEWGAME",
+      "target": 3363552,
+      "length": 5,
+      "vtable": false,
+      "expected": "e8e420d0ff"
+    },
+    {
+      "rva": 5695812,
+      "kind": "H_SAVE_PREP",
+      "target": 3312208,
+      "length": 5,
+      "vtable": false,
+      "expected": "e807a1dbff"
+    },
+    {
+      "rva": 5695832,
+      "kind": "H_SAVE_END",
+      "target": 3391312,
+      "length": 5,
+      "vtable": false,
+      "expected": "e8f3d5dcff"
+    },
+    {
+      "rva": 3361449,
+      "kind": "H_STREAM_OPEN",
+      "target": 4166736,
+      "length": 5,
+      "vtable": false,
+      "expected": "e8a2490c00"
+    },
+    {
+      "rva": 4156994,
+      "kind": "H_WRITE_STEAM",
+      "target": 0,
+      "length": 7,
+      "vtable": false,
+      "expected": "ff1048837b1810"
+    },
+    {
+      "rva": 4157086,
+      "kind": "H_WRITE_FILE",
+      "target": 0,
+      "length": 5,
+      "vtable": false,
+      "expected": "ff505885c0"
+    },
+    {
+      "rva": 21265464,
+      "kind": "H_STATE_TICK",
+      "target": 7548752,
+      "length": 8,
+      "vtable": true,
+      "expected": "502f734001000000"
+    },
+    {
+      "rva": 21265952,
+      "kind": "H_CLOSE",
+      "target": 7071824,
+      "length": 8,
+      "vtable": true,
+      "expected": "50e86b4001000000"
+    },
+    {
+      "rva": 7125694,
+      "kind": "H_PRESENT_GATE",
+      "target": 0,
+      "length": 7,
+      "vtable": false,
+      "expected": "488b86c8040000"
+    }
+  ],
+  "function_guards": [
+    {
+      "rva": 2014368,
+      "expected_first16": "41564883ec3048837908004c8bf17709"
+    },
+    {
+      "rva": 2789392,
+      "expected_first16": "48895c24084889742410574883ec208b"
+    },
+    {
+      "rva": 9055312,
+      "expected_first16": "48896c24184889742420574156415748"
+    },
+    {
+      "rva": 7180528,
+      "expected_first16": "40565741574883ec2048b80300000003"
+    },
+    {
+      "rva": 7124624,
+      "expected_first16": "48894c24085553565741544155415641"
+    },
+    {
+      "rva": 4166736,
+      "expected_first16": "48895c2418565741564883ec3048896c"
+    },
+    {
+      "rva": 3311536,
+      "expected_first16": "405556574154415541564157488d6c24"
+    },
+    {
+      "rva": 3363552,
+      "expected_first16": "4055565741564157488d6c24c94881ec"
+    },
+    {
+      "rva": 3312208,
+      "expected_first16": "4057415641574883ec4048c7442420fe"
+    },
+    {
+      "rva": 3391312,
+      "expected_first16": "48895c240848896c2410488974241848"
+    },
+    {
+      "rva": 3335360,
+      "expected_first16": "4883ec284885c97414488b01ff501885"
+    },
+    {
+      "rva": 9627200,
+      "expected_first16": "4885c97466534881ec90000000488b05"
+    },
+    {
+      "rva": 9626576,
+      "expected_first16": "48895c240848896c2410488974241857"
+    },
+    {
+      "rva": 7096704,
+      "expected_first16": "40534883ec20488bd9e872471a00488b"
+    },
+    {
+      "rva": 2026768,
+      "expected_first16": "40534883ec20488bd9e8a2f7130085c0"
+    },
+    {
+      "rva": 7548752,
+      "expected_first16": "40534883ec20488b81c8040000488bd9"
+    },
+    {
+      "rva": 7071824,
+      "expected_first16": "488bc1488b89d801000083b978010000"
+    },
+    {
+      "rva": 7125701,
+      "expected_first16": "33d2488b88d8010000e83da71800488b"
+    },
+    {
+      "rva": 7126737,
+      "expected_first16": "488b8ec8040000488b01bafdffff7fff"
+    },
+    {
+      "rva": 9066064,
+      "expected_first16": "488b12488b4908e924aaecffcccccccc"
+    },
+    {
+      "rva": 9061552,
+      "expected_first16": "40574883ec3048c7442420feffffff48"
+    }
+  ],
+  "traits9_instruction_patches": [
+    "0x4a6213",
+    "0x4a6833",
+    "0x224aef",
+    "0x22fb7a",
+    "0x2322c7"
+  ],
+  "storage": {
+    "schema": "S14MT001 v3 snapshot + MT4SLOT1 v1 reference; same wire sizes, former padding holds MISS/X/passion",
+    "path": "%LOCALAPPDATA%/SAN14CE_MeritTraits/CEKO_6a6d9f72/",
+    "binding": "SHA256(domain + verified native Steam ID + complete exact native filename), with native content/body checksums",
+    "files": "<slot-key>.mt4ref + <slot-key>.slot0.mt4dat + <slot-key>.slot1.mt4dat",
+    "legacy": ".mtdat and digest-named .mt4dat read/migration retained",
+    "transaction": "inactive snapshot -> durable INTENT -> native flush/write -> durable COMMITTED; two bounded generations per slot",
+    "ambiguous_interruption": "retain both generations, do not guess; disable further gacha/save until matching metadata is recovered",
+    "copied_save": "adopt only unambiguous exact native hash within same account; conflicting histories are not guessed",
+    "steam_cloud": "mod companions are LOCAL, not automatically synced with Steam Cloud",
+    "uncommitted_preview": "memory only, save blocked until original bottom decision",
+    "migration": "v1 retained; v2 new fields default to zero in memory, pinned file bytes and acquired results preserved",
+    "downgrade": "R2 cannot read v3 snapshots; rollback requires matching pre-R3 native save and companion backup",
+    "officer_state": "officer_id keyed rerolls_used, cancelled_rerolls, x_mask, passion"
+  },
+  "update_policy": "verified build only; separate resolver; reject unknown build/bytes; parameters requiring migration must not change under same state schema",
+  "presentation": {
+    "duration_ms": 1200,
+    "gold_minimum_skip_ms": 600,
+    "same_three_opportunities": true,
+    "guaranteed_third_gold": false,
+    "rerolls_shared": 5,
+    "reroll_scope": "PER OFFICER, five total across that officer's three opportunities; never shared across officers/pages",
+    "location": "original three reward tiles; native reroll beside Selection; no upper accept/exit widgets; calculation foldout in left gutter",
+    "calculation_button": "계산 근거",
+    "reroll_alignment": "native Selection baseline, height and font",
+    "implemented": [
+      "constant-speed text cycling",
+      "native radio input",
+      "shared original numeric Hover",
+      "native officer-specific gratitude",
+      "native UI sample reuse",
+      "100ms 1.045 text scale punch with exact restoration",
+      "native button-resource RGBA emphasis with late high-tier hint and exact restoration",
+      "immediate available-tile preview",
+      "no gratitude on completed-tile clicks",
+      "bottom decision or Back/ESC accepts last result through one original decision chain",
+      "native row cleanup preserves the resource-context argument",
+      "separate native toolbar widgets",
+      "cached calculation foldout with internal scroll",
+      "deterministic relative six-level evaluation v1",
+      "MISS notice scheduled on safe tick after complete 1200 ms reveal; no evaluation for MISS",
+      "Back/ESC queues last-result acceptance; before any draw only, native cancel dispatch",
+      "result Hover refresh on layout ticks, including disabled-button parent hit targets"
+    ],
+    "background_animation": false,
+    "new_popups": "MISS only, native widgets with guarded lifecycle; no nested OS modal",
+    "new_tooltip": false,
+    "new_particle_layer": false,
+    "sound_listening_tested": false,
+    "auto_gratitude_on_input_release": false,
+    "esc": "show Yes/No warning; only Yes accepts last result including MISS and exits; No retains result/tickets; no-roll inheritance cancels normally"
+  },
+  "exit_contract": {
+    "back_after_roll": "accept_last_result",
+    "back_before_roll": "native_cancel_without_reward",
+    "refund_rerolls": false,
+    "commit_route": "one original decision state-tick chain",
+    "separate_top_accept": false,
+    "separate_top_exit": false,
+    "back_warning": {
+      "buttons": ["예", "아니오"],
+      "yes": "accept_and_exit",
+      "no": "retain_current_result_and_tickets",
+      "esc_inside_warning": "No after opening keys are released",
+      "enter": "never implicit Yes",
+      "allocation_failure": "no implicit consent; retain result/tickets, allow explicit original decision",
+      "input": "clear native queued decision/select; consume intercepted Escape; per-warning callback generation",
+      "skin": "native panel and button assets; Selection font metrics; panel retains native contrast palette"
+    },
+    "officer_state": "ID-keyed previews and per-stage replacement choice; another row remains operable after reveal",
+    "ticket_charge": "reserve successful personal reroll immediately; final commit reconciles once",
+    "full_star_without_choice": "keep incumbents; decline new trait until replacement chosen, never guess a deletion",
+    "forced_detach": "emergency path does not commit from destructor; retain spent tickets, discard speculative traits",
+    "teardown": "invalidate callbacks before unregister; restore FX before row resources; preserve native resource context"
+  },
+  "logging": {
+    "format": "JSONL",
+    "records_per_queue": 128,
+    "bytes_per_file": 2097152,
+    "files": 4,
+    "clock": "QueryPerformanceCounter when available",
+    "event_only": true,
+    "one_click": "가챠로그추출.cmd"
+  },
+  "live_game_tested": false,
+  "native_function_guards": [
+    {
+      "name": "radio_enable",
+      "rva": 8275376,
+      "expected_first16": "4053488b41084533c9418bd84c8bd948",
+      "guard_length": 16
+    },
+    {
+      "name": "text_reset",
+      "rva": 3183296,
+      "expected_first16": "4883ec084533c9488d91b0120000418b",
+      "guard_length": 16
+    },
+    {
+      "name": "speaker",
+      "rva": 3197824,
+      "expected_first16": "4183f80a730a418bc0899481d81c0000",
+      "guard_length": 16
+    },
+    {
+      "name": "talk",
+      "rva": 2031952,
+      "expected_first16": "488bc4574881ec8000000048c74098fe",
+      "guard_length": 16
+    },
+    {
+      "name": "app",
+      "rva": 69120,
+      "expected_first16": "40534883ec3048c7442420feffffff8b",
+      "guard_length": 16
+    },
+    {
+      "name": "input",
+      "rva": 69840,
+      "expected_first16": "40534883ec3048c7442420feffffff8b",
+      "guard_length": 16
+    },
+    {
+      "name": "target",
+      "rva": 8826000,
+      "expected_first16": "83b98c01000000740333c0c3488b8170",
+      "guard_length": 16
+    },
+    {
+      "name": "stream_seal",
+      "rva": 4164272,
+      "expected_first16": "40554883ec6080b98d00000000488be9",
+      "guard_length": 16
+    },
+    {
+      "name": "stream_flush",
+      "rva": 4156832,
+      "expected_first16": "40534883ec204883791000488bd9750f",
+      "guard_length": 16
+    },
+    {
+      "name": "ai_eligible",
+      "rva": 272176,
+      "expected_first16": "48895c24084889742410574883ec20ba",
+      "guard_length": 16
+    },
+    {
+      "name": "sound",
+      "rva": 4204896,
+      "expected_first16": "4881c1a0020000e9d4010000cccccccc",
+      "guard_length": 16
+    },
+    {
+      "name": "text_font",
+      "rva": 9635600,
+      "expected_first16": "4885c90f84b200000048895c24105748",
+      "guard_length": 16
+    },
+    {
+      "name": "person_serialize",
+      "rva": 2328032,
+      "expected_first16": "405556574154415541564157488dac24",
+      "guard_length": 16
+    },
+    {
+      "name": "color_get",
+      "rva": 11321888,
+      "expected_first16": "8bc28b848180010000c3cccccccccccc",
+      "guard_length": 16
+    },
+    {
+      "name": "color_set",
+      "rva": 11330160,
+      "expected_first16": "8bc24489848180010000c3cccccccccc",
+      "guard_length": 16
+    },
+    {
+      "name": "alloc",
+      "rva": 4152240,
+      "expected_first16": "48895c240848896c2410488974241857",
+      "guard_length": 16
+    },
+    {
+      "name": "free",
+      "rva": 4152384,
+      "expected_first16": "40574883ec3048c7442420feffffff48",
+      "guard_length": 16
+    },
+    {
+      "name": "button_ctor",
+      "rva": 8692624,
+      "expected_first16": "48894c2408534883ec3048c7442420fe",
+      "guard_length": 16
+    },
+    {
+      "name": "button_init",
+      "rva": 8713056,
+      "expected_first16": "48895c240848896c2410488974241857",
+      "guard_length": 16
+    },
+    {
+      "name": "button_text",
+      "rva": 8766032,
+      "expected_first16": "4c8bc2488bd1488b89880100004885c9",
+      "guard_length": 16
+    },
+    {
+      "name": "bind_action",
+      "rva": 1716992,
+      "expected_first16": "4c8bdc4d894318574883ec7049c743a8",
+      "guard_length": 16
+    },
+    {
+      "name": "callback_type",
+      "rva": 8392832,
+      "expected_first16": "488d05b9823301c3cccccccccccccccc",
+      "guard_length": 16
+    },
+    {
+      "name": "dynamic_text",
+      "rva": 8843776,
+      "expected_first16": "48895c24185556574883ec304883b998",
+      "guard_length": 16
+    },
+    {
+      "name": "primitive_text",
+      "rva": 9634544,
+      "expected_first16": "4885c90f84ec0000004c8bdc53564881",
+      "guard_length": 16
+    },
+    {
+      "name": "primitive_size",
+      "rva": 9631856,
+      "expected_first16": "4885c90f84cc00000048895c24105748",
+      "guard_length": 16
+    },
+    {
+      "name": "primitive_position",
+      "rva": 9631344,
+      "expected_first16": "4885c90f84ac01000048896c24184889",
+      "guard_length": 16
+    },
+    {
+      "name": "text_align",
+      "rva": 9635008,
+      "expected_first16": "48895c2408488974241048897c241841",
+      "guard_length": 16
+    }
+  ],
+  "native_offsets": [
+    432,
+    27407424,
+    1200,
+    57136,
+    51,
+    16,
+    27552856,
+    20187944,
+    22976,
+    23776,
+    208232,
+    4096,
+    23288,
+    229376,
+    304,
+    10,
+    180,
+    182,
+    41756360
+  ],
+  "native_hover_text_hash": "2b68ba30397e1e03aa35e31735ffde860221273f365bc01aa217a7e9a0821d94",
+  "known_limitations": [
+    "Windows installer, live SAN14, DirectX, 60FPS and real listening were not executed here.",
+    "Native toolbar geometry and widget lifetime require verification in an actual game; unsupported margins disable the new toolbar and draws.",
+    "Balance and six-level evaluation v1 remain initial tuning, not statistically certified final balance.",
+    "39 DLC golden traits have no verified official owner mapping in supplied decoded data and are not invented as candidates.",
+    "Official targets and comparison officers both use original DB ability vectors. Only custom targets absent from that DB use current native base abilities.",
+    "Current owned traits, unique tactics and valid parent links are read from the game. Names in logs use the official DB name when available.",
+    "UI previews remain in memory until original bottom decision or Back/ESC accepts them; saving is blocked while uncommitted. Forced world/layout detach retains spent tickets but never commits traits from a destructor.",
+    "Detailed calculation snapshots are per-session. Old saved pending rolls retain their result and show a summary without recalculating candidates.",
+    "Unsupported build or unknown conflicting module bytes are refused without overwriting the conflicting mod.",
+    "X currently uses the existing native text renderer. No verified X icon asset or live font-render validation was supplied; original X resource substitution remains open.",
+    "Display bridges cover the exact bundled Hover's collector, information panel and officer/base/unit list paths, plus the supplied exact SortiePresets RC25 panel. Other independent custom mod panels need their own verified integration with SAN14_MeritSlotDisplayV1.",
+    "X tooltip is intentionally suppressed; real traits reuse the existing shared description renderer.",
+    "User video confirms exit-after-fade process termination in prior build; supplied logs contain no exception address or stack. SafeExit has not been run in that live game."
+  ],
+  "ability_comparison": {
+    "target_official": "original official DB, ignoring edits and growth for comparison only",
+    "teachers": "original official DB",
+    "game_abilities": "never overwritten",
+    "custom_without_db": "current native base fallback",
+    "axes": [
+      "leadership",
+      "war",
+      "intelligence",
+      "politics"
+    ],
+    "displayed_axes": [
+      "leadership",
+      "war",
+      "intelligence",
+      "politics",
+      "charisma"
+    ]
+  },
+  "evaluation": {
+    "version": 1,
+    "labels": [
+      "평범",
+      "무난",
+      "의외",
+      "대박",
+      "파격",
+      "충격"
+    ],
+    "thresholds": [
+      25,
+      45,
+      65,
+      82,
+      95
+    ],
+    "observation_only": true,
+    "miss": "no grade or score; audit evaluation is null"
+  },
+  "gacha_algorithm": 5,
+  "miss": {
+    "outcome": "separate G_MISS, never a fake trait ID",
+    "initial_probability": 0.05,
+    "tuning_location": "source/gacha.c:g_params",
+    "excluded": ["third physical tile", "last chronological remaining opportunity", "passion opportunity"],
+    "apply": "successful original decision chain from bottom decision or explicit Yes in Back/ESC warning; notice confirmation only dismisses explanation",
+    "capacity": "real traits + X; native trait array unchanged by MISS",
+    "full": "no incumbent deletion/replacement, result-X only plus passion",
+    "external_edit": "real trait wins at the exact physical slot; remove that X, never relocate"
+  },
+  "passion": {
+    "scope": "per officer, separate from heat",
+    "fit_threshold": 0.5,
+    "fit_weight_multiplier": 1.35,
+    "gold_weight_multiplier": 1.5,
+    "lifetime": "next chronological opportunity, retained through rerolls/cancel/save-load until real trait final commit",
+    "balance_certified": false
+  },
+  "hover_x_extension": {
+    "site_count": 7,
+    "core_game_site_count": 1,
+    "owned_dll_call_count": 6,
+    "registration": "ModCore remains game-image-only; six exact-hash Hover calls use bounded DLL-local display transaction, one game site uses original Core",
+    "collector_call_rvas": [10048, 10659, 11897, 17237],
+    "column_call_rvas": [14731, 21484],
+    "info_bridge_game_rva": 4789665,
+    "hover_text_sha256": "2b68ba30397e1e03aa35e31735ffde860221273f365bc01aa217a7e9a0821d94",
+    "description": "real trait IDs forwarded to existing Hover; no separate description DB or native effect getter changes",
+    "export": "SAN14_MeritSlotDisplayV1",
+    "export_lifetime": "before initialization, no world, invalid metadata or invalid input returns 0 with cleared outputs; caller must retain native fallback",
+    "all_native_colors": "information overlay preserves all real native traits including red; gacha eligibility remains blue/gold only",
+    "failure": "guard mismatch prevents activation; partial new hooks are rolled back"
+  },
+  "sortie_presets_x_extension": {
+    "optional": true,
+    "module": "SAN14_SortiePresets.dll",
+    "version": "supplied RC25 Groups AutoSave developer binary only",
+    "dll_sha256": "617b4eaf0ce7633ab94c1a3fbeb4eff301a748e2ca3395fdbed7055c44fb75a4",
+    "text_sha256": "8aa48b5ad80a49ca598181db90731c73c846c5a4431c2855f2d000eba2ebb556",
+    "image_size": 643072,
+    "site_count": 13,
+    "original_refresh_rva": 66176,
+    "call_rvas": [69659,69730,70006,72097,76307,78301,79381,80218,80349,80413,80467,80720,81989],
+    "scope": "runtime display-only call bridges; original real-trait rendering, tooltip IDs, input and module file preserved",
+    "registration": "initializer plus successful new-game/load boundaries; owned DLL-local display transaction, never DLL addresses in game-only Core; no polling worker",
+    "failure": "unknown module unchanged; optional failure never disables gacha; bounded allocation and owned-byte rollback",
+    "live_game_tested": false
+  }
+}

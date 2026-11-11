@@ -1,0 +1,89 @@
+{
+  "version": "RC4-R14-MainMenuQueryPerf",
+  "scope": "Exact shipped R13 negative control vs rebuilt R14; operation counts, NOT FPS.",
+  "passed": 20,
+  "tests": [
+    {
+      "name": "negative control matches the user-supplied R13 installer DLL",
+      "pass": true
+    },
+    {
+      "name": "R13 actual Win64 DLL finishes identical 1000-officer/50-ruler workload",
+      "pass": true
+    },
+    {
+      "name": "R14 actual Win64 DLL finishes identical 1000-officer/50-ruler workload",
+      "pass": true
+    },
+    {
+      "name": "both operation reports identify exact tested DLL hashes",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_eligible same calls and byte-identical native results",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_eligible redundant Core readable checks 3000 -> 0",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_eligible original native validity checks preserved",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_eligible no repeated rank/force table scan",
+      "pass": true
+    },
+    {
+      "name": "hook_ai_visit same calls and byte-identical native results",
+      "pass": true
+    },
+    {
+      "name": "hook_ai_visit redundant Core readable checks 2050 -> 0",
+      "pass": true
+    },
+    {
+      "name": "hook_ai_visit original native validity checks preserved",
+      "pass": true
+    },
+    {
+      "name": "hook_ai_visit no repeated rank/force table scan",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_current_rank same calls and byte-identical native results",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_current_rank redundant Core readable checks 1050 -> 0",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_current_rank original native validity checks preserved",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_current_rank no repeated rank/force table scan",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_rank same calls and byte-identical native results",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_rank redundant Core readable checks 1050 -> 0",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_rank original native validity checks preserved",
+      "pass": true
+    },
+    {
+      "name": "hook_merit_rank no repeated rank/force table scan",
+      "pass": true
+    }
+  ],
+  "baseline_dll_sha256": "4c88b9de8ce71b10c40632b01eb44b30c38d2b218165668ca28250c3dadb88e9",
+  "current_dll_sha256": "d7e60aace2c66791ff3a65340b698e64c1052ba248244529eccf918b7b24dbc9"
+}
