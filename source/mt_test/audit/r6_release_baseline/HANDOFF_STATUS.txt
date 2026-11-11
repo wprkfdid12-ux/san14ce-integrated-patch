@@ -1,6 +1,0 @@
-최신 작업: RC4-R6-NativeChoice. 우리 R5-SafeExit_Confirm 이어 수정.
-시작 파일: CONTINUE_PROMPT_KO.txt.
-현재 기준: 최신 뒤로 예=미확정 결과 초기화/리롤 비복구, 확정=하단 결정만.
-원작 두 줄 공유 선택 한도/각 줄 좌→우, 선택색/교체 경고/입력 수명 보완 완료.
-검사와 DLL/패키지 해시는 audit/r6_suite_run.json, 검증결과.md, SHA256.json.
-실제 게임 실행은 미검증. 다음 단계는 실게임확인.txt에 따른 R6 피드백 확인.

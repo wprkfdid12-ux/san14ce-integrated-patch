@@ -1,7 +1,0 @@
-RC4 R4 — 최신 R3에서 이어 수정한 설치 후보. DLL411 / 패키지 정적135 통과. Windows 실게임 미검증.
-R2 유지: 원본 DB 비교, 실제 편집·성장 능력치 보존, 개인 재추첨권5개, 원래 하단 결정 transaction.
-꽝/X/열정/저장v3 이관, 추첨·재추첨 후 원작 취소 동작, 기존 Hover 설명 연결 구현.
-R4: 붉은 개성 표시 보존, 초기화 전 표시API 안전성, 정확한 출진 프리셋 RC25 전용9칸 X 연결.
-중요: 게임 주소 전용 Core에 Hover DLL 주소를 넘겨 초기화가 거절되던 R3 연결 방식 수정. 실제 Core로 검사.
-R3 엔진/저장/입력 규칙과 공용 DLL 동일. 원작 X 아이콘·실게임·그 외 독자 UI 검증은 미완료.
-CONTINUE_PROMPT_KO.txt → 검증결과.md → analysis/hover_x_contract.md → analysis/presets_x_contract.md 순서로 이어가세요.

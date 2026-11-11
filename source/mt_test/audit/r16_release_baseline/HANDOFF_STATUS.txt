@@ -1,2 +1,0 @@
-R16 Compatibility-TraitRules. See 검증결과.md and audit/r16_suite_run.json for the current build and evidence.
-Live game unverified. Preserve AI rerolls, upper-row-only tickets, ordinary merit gating and R15 ruler domestic behavior.

@@ -1,4 +1,0 @@
-# 소스에 icw::run_after_restore 가 없는데도 '통합편의 확인 뒤 설치'로 인정하는 DLL(바이너리 앞에 지연 부품을 둔 경우 등). 근거(시험 이름)를 꼭 적는다.
-DLL	근거
-SAN14_FPS120.dll	시험:fps120_late — SAN14_FPS120Late.dll 이 통합편의 확인 동안 exe+0x44df40 을 원래 값으로 두고 끝난 뒤 다시 넣음
-SAN14_WheelRegion.dll	시험:wheel_ic_wait — kits/WheelRegion/dll/wr_ic_wait.h 가 통합편의 확인이 끝난 뒤에 고침

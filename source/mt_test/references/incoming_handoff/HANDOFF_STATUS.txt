@@ -1,4 +1,0 @@
-이 체크포인트에서 R1 이후 실제 코드 변경은 아직 없습니다.
-방금까지 한 일은 사용자 실게임 버그/UX 요구 분석과 다음 수정 항목 확정입니다.
-따라서 source/는 R1 기준 소스이며, CONTINUE_PROMPT_KO.txt의 R2 요구사항부터 구현하면 됩니다.
-기준 설치본은 baseline/SAN14CE_MeritTraits_RC4_R1_Install.zip 입니다.
